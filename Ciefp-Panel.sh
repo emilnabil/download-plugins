@@ -80,11 +80,15 @@ fi
 cd /tmp
    wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Ciefp-Panel.tar.gz
 sleep 1
-   tar -xzf /tmp/Ciefp-Panel.tar.gz -C /
+   tar -xzf Ciefp-Panel.tar.gz
+   cp -r 'Ciefp-Panel/usr' '/'
 set +e
 cd
 sleep 2
-rm -f /tmp/Ciefp-Panel.tar.gz
+cd /tmp
+rm -rf * > /dev/null 2>&1
+sleep 1
+cd 
 sync
 echo ""
 echo ""
