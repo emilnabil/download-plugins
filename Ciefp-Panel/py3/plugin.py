@@ -1,5 +1,3 @@
-import os
-import urllib.request
 from Plugins.Plugin import PluginDescriptor
 from Screens.Screen import Screen
 from Components.ActionMap import ActionMap
@@ -12,9 +10,6 @@ PLUGIN_VERSION = "2.0"
 PLUGIN_NAME = "CiefpsettingsPanel"
 ICON_PIXMAP = "/usr/lib/enigma2/python/Plugins/Extensions/CiefpsettingsPanel/icon1.png"
 ICON_PATH = "/usr/lib/enigma2/python/Plugins/Extensions/CiefpsettingsPanel/icon.png"
-
-PLUGIN_FILE_URL = "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Ciefp-Panel/py3/plugin.py"
-LOCAL_PLUGIN_FILE_PATH = "/usr/lib/enigma2/python/Plugins/Extensions/CiefpsettingsPanel/plugin.py"
 
 PLUGINS_LIST = {
     "############ ( PANELS ) ############": "", 
@@ -167,30 +162,6 @@ class CiefpsettingsPanel(Screen):
 
         self.container = eConsoleAppContainer()
         self.container.appClosed.append(self.command_finished)
-
-        self.update_plugin()
-
-    def update_plugin(self):
-        try:
-     
-            urllib.request.urlretrieve(PLUGIN_FILE_URL, "/tmp/plugin.py")
-            
-            if not self.files_are_identical("/tmp/plugin.py", LOCAL_PLUGIN_FILE_PATH):
-  
-                os.rename("/tmp/plugin.py", LOCAL_PLUGIN_FILE_PATH)
-                self["status"].setText("Plugin updated successfully!")
-            else:
-                self["status"].setText("Plugin is up to date.")
-        except Exception as e:
-            self["status"].setText(f"Failed to update plugin: {e}")
-
-    def files_are_identical(self, file1, file2):
-       
-        try:
-            with open(file1, "rb") as f1, open(file2, "rb") as f2:
-                return f1.read() == f2.read()
-        except FileNotFoundError:
-            return False
 
     def install_plugin(self):
         selected = self["menu"].getCurrent()
