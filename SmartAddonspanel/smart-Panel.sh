@@ -1,5 +1,5 @@
 #!/bin/bash
-##setup command=wget https://github.com/emil237/download-plugins/raw/refs/heads/main/SmartAddonspanel/smart-Panel.sh -O - | /bin/sh
+##setup command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SmartAddonspanel/smart-Panel.sh -O - | /bin/sh
 
 ######### Only This 2 lines to edit with new version ######
 version='2.0'
@@ -47,7 +47,7 @@ echo "# Your image is OE2.5/2.6 #"
 else
 echo "# Your image is OE2.0 #"
 fi
-PLUGIN_URL="https://github.com/emil237/download-plugins/raw/refs/heads/main/SmartAddonspanel"
+PLUGIN_URL="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SmartAddonspanel"
 if [ "$PYTHON" = "PY3" ]; then
 wget "$PLUGIN_URL/py3/SmartAddonspanel.tar.gz"
 else
@@ -75,6 +75,7 @@ echo "#########################################################"
 sleep 5
 $RESTART_CMD
 exit 0
+
 
 
 
