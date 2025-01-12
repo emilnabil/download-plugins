@@ -6,11 +6,48 @@ from Components.ActionMap import ActionMap
 from Components.Label import Label
 from Components.MenuList import MenuList
 from Components.Button import Button
-from Screens.MessageBox import MessageBox
 from enigma import eConsoleAppContainer
+from Screens.MessageBox import MessageBox
 
 PLUGIN_ICON = "icon.png"
-PLUGIN_VERSION = "2.0.0"
+PLUGIN_VERSION = "2.0.1"
+
+class InstallProgressScreen(Screen):
+    skin = """
+    <screen name="InstallProgressScreen" position="center,center" size="700,150" title="Installing...">
+        <widget name="status" position="10,10" size="680,130" font="Regular;24" valign="center" halign="center" />
+    </screen>
+    """
+
+    def __init__(self, session, command, title):
+        self.session = session
+        Screen.__init__(self, session)
+        self.command = command
+        self.title = title
+        self.container = eConsoleAppContainer()
+        self.container.appClosed.append(self.command_finished)
+        self.container.dataAvail.append(self.command_output)
+        self["status"] = Label(f"Installing: {self.title}...")
+        self.run_command()
+
+    def run_command(self):
+        if self.container.execute(self.command):
+            self["status"].setText(f"Failed to execute: {self.command}")
+
+    def command_output(self, data):
+        pass  # يمكن تحسين عرض البيانات هنا إذا لزم الأمر
+
+    def command_finished(self, retval):
+        self.session.openWithCallback(
+            self.on_close_messagebox,
+            MessageBox,
+            f"{self.title} installation completed.",
+            MessageBox.TYPE_INFO,
+            timeout=5,
+        )
+
+    def on_close_messagebox(self, result):
+        self.close()
 
 class SmartAddonspanel(Screen):
     skin = """
@@ -356,27 +393,21 @@ class SmartAddonspanel(Screen):
             self["sub_menu"].down()
 
     def execute_item(self):
-        try:
-            if self.focus == "sub_menu":
-                selected = self["sub_menu"].getCurrent()
-                if selected:
-                    for item in self.sub_menus[self["main_menu"].getCurrent()]:
-                        if item[0] == selected:
-                            command = item[1]
-                            self.session.open(InstallProgressScreen, command, selected)
-                            break
-        except Exception as e:
-            print(f"Error executing item: {e}")
+        if self.focus == "sub_menu":
+            selected = self["sub_menu"].getCurrent()
+            if selected:
+                for item in self.sub_menus.get(self["main_menu"].getCurrent(), []):
+                    if item[0] == selected:
+                        command = item[1]
+                        self.session.open(InstallProgressScreen, command, selected)
+                        break
 
     def update_plugin(self):
-        update_command = "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SmartAddonspanel/smart-Panel.sh -O - | /bin/sh"
+        update_command = "wget https://example.com/update_script.sh -O - | /bin/sh"
         self.session.open(InstallProgressScreen, update_command, "Update Plugin")
 
     def restart_enigma2(self):
-        try:
-            os.system("killall -9 enigma2")
-        except Exception as e:
-            print(f"Error restarting Enigma2: {e}")
+        os.system("killall -9 enigma2")
 
     def get_router_ip(self):
         try:
@@ -401,3 +432,6 @@ def Plugins(**kwargs):
             fnc=lambda session, **kwargs: session.open(SmartAddonspanel),
         ),
     ]
+
+
+
