@@ -1,3 +1,5 @@
+import socket
+import os
 from Plugins.Plugin import PluginDescriptor
 from Screens.Screen import Screen
 from Components.ActionMap import ActionMap
@@ -5,63 +7,22 @@ from Components.Label import Label
 from Components.MenuList import MenuList
 from Components.Button import Button
 from enigma import eConsoleAppContainer
-from time import sleep
 
 PLUGIN_ICON = "icon.png"
-
-class InstallProgressScreen(Screen):
-    skin = """
-    <screen name="InstallProgressScreen" position="center,center" size="600,300" title="Installation Progress">
-        <widget name="status" position="50,50" size="500,50" font="Regular;24" halign="center" />
-        <widget name="progress" position="50,120" size="500,50" font="Regular;24" halign="center" backgroundColor="#505050" />
-        <widget name="key_red" position="200,200" size="200,50" font="Regular;24" halign="center" backgroundColor="#9F1313" />
-    </screen>
-    """
-
-    def __init__(self, session, command, title):
-        self.session = session
-        Screen.__init__(self, session)
-        self.command = command
-        self["status"] = Label(f"Installing: {title}")
-        self["progress"] = Label("In Progress...")  # Reverting back to Label
-        self["key_red"] = Button("Cancel")
-
-        self["actions"] = ActionMap(
-            ["SetupActions", "OkCancelActions"],
-            {
-                "cancel": self.close,
-            },
-            -1,
-        )
-
-        self.container = eConsoleAppContainer()
-        self.container.appClosed.append(self.command_finished)
-        self.container.execute(self.command)
-
-    def command_finished(self, retval):
-        if retval == 0:
-            self["progress"].setText("Installation Successful!")
-        else:
-            self["progress"].setText("Installation Failed!")
-        self.close_timer()
-
-    def close_timer(self):
-        from enigma import eTimer
-        self.timer = eTimer()
-        self.timer.timeout.get().append(self.close)
-        self.timer.start(3000, True)
-
+PLUGIN_VERSION = "2.0.0"
 
 class SmartAddonspanel(Screen):
     skin = """
-     <screen name="SmartAddonspanel" position="left,top" size="1140,1080" title="Smart Addons Panel By Emil Nabil V2">
-        <widget name="main_menu" position="50,50" size="500,850" scrollbarMode="showOnDemand" itemHeight="70" font="Regular;40" />
-        <widget name="sub_menu" position="600,50" size="500,850" scrollbarMode="showOnDemand" itemHeight="70" font="Regular;40" />
-        <widget name="status" position="50,880" size="1040,40" font="Regular;28" halign="center" />
-        <widget name="key_red" position="50,990" size="250,60" font="Regular;28" halign="center" backgroundColor="#9F1313" />
-        <widget name="key_green" position="300,990" size="250,60" font="Regular;28" halign="center" backgroundColor="#1F771F" />
-        <widget name="key_yellow" position="550,990" size="250,60" font="Regular;28" halign="center" backgroundColor="#FFC000" />
-        <widget name="key_blue" position="800,990" size="250,60" font="Regular;28" halign="center" backgroundColor="#13389F" />
+    <screen name="SmartAddonspanel" position="left,center" size="1140,900" title="Smart Addons Panel By Emil Nabil">
+        <widget name="main_menu" position="30,50" size="500,750" scrollbarMode="showOnDemand" itemHeight="60" font="Regular;40" />
+        <widget name="sub_menu" position="610,50" size="500,750" scrollbarMode="showOnDemand" itemHeight="60" font="Regular;40" />
+        <widget name="status" position="30,820" size="1080,30" font="Regular;26" halign="center" backgroundColor="#303030" />
+        <widget name="key_red" position="30,860" size="260,40" font="Regular;22" halign="center" backgroundColor="#9F1313" />
+        <widget name="key_green" position="310,860" size="260,40" font="Regular;22" halign="center" backgroundColor="#1F771F" />
+        <widget name="key_yellow" position="590,860" size="260,40" font="Regular;22" halign="center" backgroundColor="#FFC000" />
+        <widget name="key_blue" position="870,860" size="260,40" font="Regular;22" halign="center" backgroundColor="#13389F" />
+        <widget name="ip_address" position="30,800" size="260,30" font="Regular;22" halign="left" foregroundColor="#FFFFFF" />
+        <widget name="python_version" position="870,800" size="260,30" font="Regular;22" halign="right" foregroundColor="#FFFFFF" />
     </screen>
     """
 
@@ -69,7 +30,7 @@ class SmartAddonspanel(Screen):
         self.session = session
         Screen.__init__(self, session)
 
-        self.main_menu = ["Panels", "Plugins", "Media", "Tools", "Images", "Picons", "Emu_Cam", "Channels", "Key-Plugins", "Multiboot-Plugins", "Skins", "BootlogosSwapper"]
+        self.main_menu = ["Panels", "Plugins", "Media", "Tools", "Images", "Picons", "Emu", "Channels", "Key Plugins", "Multiboot Plugins", "Skins", "Bootlogo"]
         self.sub_menus = {
             "Panels": [
                 ("Ajpanel", "wget https://github.com/AMAJamry/AJPanel/raw/main/installer.sh -O - | /bin/sh"),
@@ -256,7 +217,7 @@ class SmartAddonspanel(Screen):
         ("picons-other", "wget https://raw.githubusercontent.com/emil237/picon-other/main/installer.sh -O - | /bin/sh"),
         ("Chocholousek-Picons", "wget https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup -O - | /bin/sh"),
     ],
-    "Emu_Cam": [
+    "Emu": [
         ("Cccam", "wget https://dreambox4u.com/emilnabil237/emu/installer-cccam.sh  -O - | /bin/sh"),
         ("gosatplus-ncam", "wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-ncam.sh  -O - | /bin/sh"),
         ("gosatplus-oscam", "wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-oscam.sh  -O - | /bin/sh"),
@@ -291,12 +252,12 @@ class SmartAddonspanel(Screen):
         ("Mohamed Os", "wget https://gitlab.com/MOHAMED_OS/dz_store/-/raw/main/Settings_Enigma2/online-setup | bash"),
         ("Tarek Ashry", "wget https://raw.githubusercontent.com/emilnabil/channel-tarek-ashry/main/installer.sh -qO - | /bin/sh"),
     ],
-    "Key-Plugins": [
+    "Key Plugins": [
         ("BissFeedAutoKey", "wget https://raw.githubusercontent.com/emilnabil/bissfeed-autokey/main/installer.sh  -O - | /bin/sh"),
         ("feeds-finder", "wget https://dreambox4u.com/emilnabil237/plugins/feeds-finder/installer.sh  -O - | /bin/sh"),
         ("KeyAdder", "wget https://raw.githubusercontent.com/fairbird/KeyAdder/main/installer.sh -O - | /bin/sh"),
     ],
-    "Multiboot-Plugins": [
+    "Multiboot Plugins": [
         ("EgamiBoot_10.5", "wget https://raw.githubusercontent.com/emil237/egamiboot/refs/heads/main/installer.sh  -O - | /bin/sh"),
         ("EgamiBoot_10.6", "wget https://raw.githubusercontent.com/emil237/egamiboot/refs/heads/main/egamiboot-10.6.sh -O - | /bin/sh"),
         ("Neoboot_9.65", "wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.65/iNB.sh  -O - | /bin/sh"),
@@ -312,7 +273,7 @@ class SmartAddonspanel(Screen):
         ("Aglare-FHD for Pli-OBH-Vix", "wget https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd-pli.sh -O - | /bin/sh"),
         ("XDreamy-FHD", "wget https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh"),
     ],
-    "BootlogosSwapper": [
+    "Bootlogo": [
         ("BootlogoSwapper Atv", "wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-Atv.sh  -O - | /bin/sh"),
         ("Bootlogo-PURE2", "wget http://dreambox4u.com/emilnabil237/script/bootLogoswapper-Pure2.sh  -O - | /bin/sh"),
         ("BootlogoSwapper Christmas", "wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-christmas.sh -O - | /bin/sh"),
@@ -327,7 +288,6 @@ class SmartAddonspanel(Screen):
         ("BootlogoSwapper V2.3", "wget http://dreambox4u.com/emilnabil237/script/BootlogoSwapper_v2.3.sh  -O - | /bin/sh"),
     ],
 }
-
         self.current_sub_menu = []
         self.focus = "main_menu"
 
@@ -338,6 +298,8 @@ class SmartAddonspanel(Screen):
         self["key_green"] = Button("Select")
         self["key_yellow"] = Button("Update Plugin")
         self["key_blue"] = Button("Restart Enigma2")
+        self["ip_address"] = Label(self.get_router_ip())
+        self["python_version"] = Label(self.get_python_version())
 
         self["actions"] = ActionMap(
             ["OkCancelActions", "DirectionActions", "ColorActions"],
@@ -407,6 +369,19 @@ class SmartAddonspanel(Screen):
     def restart_enigma2(self):
         self.container.execute("killall -9 enigma2")
 
+    def get_router_ip(self):
+        try:
+            s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+            s.connect(("8.8.8.8", 80))
+            ip = s.getsockname()[0]
+            s.close()
+            return ip
+        except socket.error:
+            return "IP not available"
+
+    def get_python_version(self):
+        return f"Python {os.sys.version.split()[0]}"
+
 def Plugins(**kwargs):
     return [
         PluginDescriptor(
@@ -417,8 +392,6 @@ def Plugins(**kwargs):
             fnc=lambda session, **kwargs: session.open(SmartAddonspanel),
         ),
     ]
-
-
 
 
 
