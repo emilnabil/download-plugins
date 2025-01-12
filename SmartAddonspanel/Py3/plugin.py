@@ -6,6 +6,7 @@ from Components.ActionMap import ActionMap
 from Components.Label import Label
 from Components.MenuList import MenuList
 from Components.Button import Button
+from Screens.MessageBox import MessageBox
 from enigma import eConsoleAppContainer
 
 PLUGIN_ICON = "icon.png"
@@ -317,8 +318,6 @@ class SmartAddonspanel(Screen):
             -1,
         )
 
-        self.container = eConsoleAppContainer()
-
     def focus_main_menu(self):
         self.focus = "main_menu"
         self["main_menu"].selectionEnabled(1)
@@ -341,6 +340,7 @@ class SmartAddonspanel(Screen):
         if selected and selected in self.sub_menus:
             self.current_sub_menu = [item[0] for item in self.sub_menus[selected]]
             self["sub_menu"].setList(self.current_sub_menu)
+            self["status"].setText(f"Selected category: {selected}")
             self.focus_sub_menu()
 
     def navigate_up(self):
@@ -356,18 +356,27 @@ class SmartAddonspanel(Screen):
             self["sub_menu"].down()
 
     def execute_item(self):
-        if self.focus == "sub_menu":
-            selected = self["sub_menu"].getCurrent()
-            if selected:
-                command = dict(self.sub_menus[self["main_menu"].getCurrent()])[selected]
-                self.session.open(InstallProgressScreen, command, selected)
+        try:
+            if self.focus == "sub_menu":
+                selected = self["sub_menu"].getCurrent()
+                if selected:
+                    for item in self.sub_menus[self["main_menu"].getCurrent()]:
+                        if item[0] == selected:
+                            command = item[1]
+                            self.session.open(InstallProgressScreen, command, selected)
+                            break
+        except Exception as e:
+            print(f"Error executing item: {e}")
 
     def update_plugin(self):
         update_command = "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SmartAddonspanel/smart-Panel.sh -O - | /bin/sh"
         self.session.open(InstallProgressScreen, update_command, "Update Plugin")
 
     def restart_enigma2(self):
-        self.container.execute("killall -9 enigma2")
+        try:
+            os.system("killall -9 enigma2")
+        except Exception as e:
+            print(f"Error restarting Enigma2: {e}")
 
     def get_router_ip(self):
         try:
@@ -392,6 +401,3 @@ def Plugins(**kwargs):
             fnc=lambda session, **kwargs: session.open(SmartAddonspanel),
         ),
     ]
-
-
-
