@@ -35,7 +35,7 @@ class InstallProgressScreen(Screen):
             self["status"].setText(f"Failed to execute: {self.command}")
 
     def command_output(self, data):
-        pass  # يمكن تحسين عرض البيانات هنا إذا لزم الأمر
+        pass  
 
     def command_finished(self, retval):
         self.session.openWithCallback(
@@ -53,7 +53,9 @@ class SmartAddonspanel(Screen):
     skin = """
     <screen name="SmartAddonspanel" position="left,center" size="1140,900" title="Smart Addons Panel By Emil Nabil">
         <widget name="main_menu" position="30,50" size="500,750" scrollbarMode="showOnDemand" itemHeight="60" font="Regular;40" />
-        <widget name="sub_menu" position="610,50" size="500,750" scrollbarMode="showOnDemand" itemHeight="60" font="Regular;40" />
+        <widget name="sub_menu" position="610,50" size="500,750" scrollbarMode="showOnDemand" itemHeight="60" 
+backgroundColor="#505050"
+font="Regular;40" />
         <widget name="status" position="30,820" size="1080,30" font="Regular;26" halign="center" backgroundColor="#303030" />
         <widget name="key_red" position="30,860" size="260,40" font="Regular;22" halign="center" backgroundColor="#9F1313" />
         <widget name="key_green" position="310,860" size="260,40" font="Regular;22" halign="center" backgroundColor="#1F771F" />
@@ -403,7 +405,7 @@ class SmartAddonspanel(Screen):
                         break
 
     def update_plugin(self):
-        update_command = "wget https://example.com/update_script.sh -O - | /bin/sh"
+        update_command = "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SmartAddonspanel/smart-Panel.sh -O - | /bin/sh"
         self.session.open(InstallProgressScreen, update_command, "Update Plugin")
 
     def restart_enigma2(self):
@@ -432,6 +434,9 @@ def Plugins(**kwargs):
             fnc=lambda session, **kwargs: session.open(SmartAddonspanel),
         ),
     ]
+
+
+
 
 
 
