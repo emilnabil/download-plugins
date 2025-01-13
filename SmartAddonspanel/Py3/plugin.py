@@ -35,7 +35,7 @@ class InstallProgressScreen(Screen):
             self["status"].setText(f"Failed to execute: {self.command}")
 
     def command_output(self, data):
-        pass  
+        pass
 
     def command_finished(self, retval):
         self.session.openWithCallback(
@@ -357,6 +357,8 @@ font="Regular;40" />
             -1,
         )
 
+        self["main_menu"].onSelectionChanged.append(self.on_main_menu_selection_changed)
+
     def focus_main_menu(self):
         self.focus = "main_menu"
         self["main_menu"].selectionEnabled(1)
@@ -382,6 +384,17 @@ font="Regular;40" />
             self["status"].setText(f"Selected category: {selected}")
             self.focus_sub_menu()
 
+    def on_main_menu_selection_changed(self):
+        selected = self["main_menu"].getCurrent()
+        if selected and selected in self.sub_menus:
+            self.current_sub_menu = [item[0] for item in self.sub_menus[selected]]
+            self["sub_menu"].setList(self.current_sub_menu)
+            self["status"].setText(f"Showing items for: {selected}")
+        else:
+            self.current_sub_menu = []
+            self["sub_menu"].setList(self.current_sub_menu)
+            self["status"].setText("No items available for this category")
+
     def navigate_up(self):
         if self.focus == "main_menu":
             self["main_menu"].up()
@@ -405,7 +418,7 @@ font="Regular;40" />
                         break
 
     def update_plugin(self):
-        update_command = "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SmartAddonspanel/smart-Panel.sh -O - | /bin/sh"
+        update_command = "wget https://example.com/update_script.sh -O - | /bin/sh"
         self.session.open(InstallProgressScreen, update_command, "Update Plugin")
 
     def restart_enigma2(self):
@@ -434,7 +447,6 @@ def Plugins(**kwargs):
             fnc=lambda session, **kwargs: session.open(SmartAddonspanel),
         ),
     ]
-
 
 
 
