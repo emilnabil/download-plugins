@@ -10,7 +10,7 @@ from enigma import eConsoleAppContainer
 from Screens.MessageBox import MessageBox
 
 PLUGIN_ICON = "icon.png"
-PLUGIN_VERSION = "2.0.1"
+PLUGIN_VERSION = "2.0.0"
 
 class InstallProgressScreen(Screen):
     skin = """
@@ -418,7 +418,7 @@ font="Regular;40" />
                         break
 
     def update_plugin(self):
-        update_command = "wget https://example.com/update_script.sh -O - | /bin/sh"
+        update_command = "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SmartAddonspanel/smart-Panel.sh -O - | /bin/sh"
         self.session.open(InstallProgressScreen, update_command, "Update Plugin")
 
     def restart_enigma2(self):
@@ -447,8 +447,6 @@ def Plugins(**kwargs):
             fnc=lambda session, **kwargs: session.open(SmartAddonspanel),
         ),
     ]
-
-
 
 
 
