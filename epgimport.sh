@@ -6,7 +6,7 @@ PLUGIN_FILE="/tmp/${PLUGIN_NAME}_1.0.ipk"
 
 echo "Removing old plugin version..."
 opkg remove "$PLUGIN_NAME"
-rm -rf "/usr/lib/enigma2/python/Plugins/Extensions/ChocholousekPicons"
+rm -rf "/usr/lib/enigma2/python/Plugins/Extensions/EPGImport"
 
 sleep 1
 echo "Downloading new version of $PLUGIN_NAME..."
@@ -34,6 +34,7 @@ rm -f "$PLUGIN_FILE"
 
 echo "Done!"
 exit 0
+
 
 
 
