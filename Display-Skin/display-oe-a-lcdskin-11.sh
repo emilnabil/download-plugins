@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-PLUGIN_NAME="enigma2-plugin-display-oe-a-lcdskin-1"
+PLUGIN_NAME="enigma2-plugin-display-oe-a-lcdskin-11"
 PLUGIN_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Display-Skin/${PLUGIN_NAME}.ipk"
 PLUGIN_FILE="/tmp/${PLUGIN_NAME}.ipk"
 
@@ -25,5 +25,6 @@ fi
 rm -f "$PLUGIN_FILE"
 echo "Done!"
 exit 0
+
 
 
