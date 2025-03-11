@@ -17,7 +17,7 @@ if ! curl -k -L -o "$PLUGIN_FILE" "$PLUGIN_URL"; then
 fi
 
 echo "Installing $PLUGIN_NAME..."
-opkg install --force-reinstall "$PLUGIN_FILE"
+opkg install --force-reinstall --force-depends "$PLUGIN_FILE"
 
 if [ $? -eq 0 ]; then
     echo "Installation completed successfully!"
@@ -30,6 +30,7 @@ rm -f "$PLUGIN_FILE"
 
 echo "Done!"
 exit 0
+
 
 
 

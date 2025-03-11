@@ -14,7 +14,7 @@ curl -k -L -o "$PLUGIN_FILE" "$PLUGIN_URL" || wget -O "$PLUGIN_FILE" "$PLUGIN_UR
 }
 
 echo "Installing $PLUGIN_NAME..."
-if opkg install --force-reinstall "$PLUGIN_FILE"; then
+if opkg install --force-reinstall --force-depends "$PLUGIN_FILE"; then
     echo "Installation completed successfully!"
 else
     echo "Installation failed!"
@@ -25,5 +25,6 @@ fi
 rm -f "$PLUGIN_FILE"
 echo "Done!"
 exit 0
+
 
 
