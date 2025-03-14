@@ -1,7 +1,8 @@
 #!/bin/sh
-
+## Command=wget ## Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cacheflush/cacheflush.sh -O - | /bin/sh
+##
 plugin="cacheflush"
-git_url="https://gitlab.com/eliesat/extensions/-/raw/main/cacheflush"
+git_url="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/cacheflush"
 plugin_path="/usr/lib/enigma2/python/Plugins/Extensions/CacheFlush"
 package="enigma2-plugin-extensions-$plugin"
 targz_file="$plugin.tar.gz"
@@ -63,4 +64,6 @@ download_and_install_package() {
     fi
 }
 download_and_install_package
+
+
 
