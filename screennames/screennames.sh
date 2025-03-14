@@ -1,8 +1,9 @@
 #!/bin/sh
-
+# Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screennames/screennames.sh -O - | /bin/sh
+##
 plugin="screennames"
 version="latest"
-url="https://gitlab.com/eliesat/extensions/-/raw/main/screennames"
+url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screennames"
 plugin_path="/usr/lib/enigma2/python/Plugins/Extensions/ScreenNames"
 package="enigma2-plugin-extensions-$plugin"
 targz_file="$plugin.tar.gz"
@@ -63,4 +64,5 @@ download_and_install_package() {
 download_and_install_package
 
 exit
+
 
