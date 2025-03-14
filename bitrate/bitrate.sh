@@ -1,5 +1,6 @@
 #!/bin/sh
-
+## Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/bitrate/bitrate.sh -O - | /bin/sh
+##
 PLUGIN_DIR="/usr/lib/enigma2/python/Plugins/Extensions/Bitrate"
 STATUS_FILE="/var/lib/opkg/status"
 TMP_DIR="/var/volatile/tmp"
@@ -51,5 +52,6 @@ else
 fi
 
 exit 0
+
 
 
