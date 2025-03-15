@@ -3,7 +3,7 @@
 
 PLUGIN_PATH="/usr/lib/enigma2/python/Plugins/Extensions/freearhey"
 TMP_FILE="/tmp/freearhey.tar.gz"
-PLUGIN_URL="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/freearhey/freearhey.tar.gz"
+PLUGIN_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/freearhey/freearhey.tar.gz"
 
 if [ -d "$PLUGIN_PATH" ]; then
     echo "> Removing old version, please wait..."
@@ -31,5 +31,6 @@ else
 fi
 
 exit 0
+
 
 
