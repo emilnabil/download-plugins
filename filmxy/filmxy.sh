@@ -1,33 +1,34 @@
 #!/bin/sh
+## Command=wget ## Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/filmxy/filmxy.sh -O - | /bin/sh
+##
+PLUGIN="filmxy"
+GIT_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/filmxy/filmxy"
+VERSION=""
+PLUGIN_PATH="/usr/lib/enigma2/python/Plugins/Extensions/$PLUGIN"
+PACKAGE="enigma2-plugin-extensions-$PLUGIN"
+TAR_GZ_FILE="$PLUGIN.tar.gz"
+URL="$GIT_URL/$TAR_GZ_FILE"
+TEMP_DIR="/tmp"
 
-plugin="filmxy"
-git_url="https://gitlab.com/eliesat/extensions/-/raw/main/filmxy"
-version=""
-plugin_path="/usr/lib/enigma2/python/Plugins/Extensions/$plugin"
-package="enigma2-plugin-extensions-$plugin"
-targz_file="$plugin.tar.gz"
-url="$git_url/$targz_file"
-temp_dir="/tmp"
-
-if command -v dpkg &> /dev/null; then
-    package_manager="apt"
-    status_file="/var/lib/dpkg/status"
-    uninstall_command="apt-get purge --auto-remove -y"
+if command -v dpkg >/dev/null 2>&1; then
+    PACKAGE_MANAGER="apt"
+    STATUS_FILE="/var/lib/dpkg/status"
+    UNINSTALL_CMD="apt-get purge --auto-remove -y"
 else
-    package_manager="opkg"
-    status_file="/var/lib/opkg/status"
-    uninstall_command="opkg remove --force-depends"
+    PACKAGE_MANAGER="opkg"
+    STATUS_FILE="/var/lib/opkg/status"
+    UNINSTALL_CMD="opkg remove --force-depends"
 fi
 
-check_and_remove_package() {
-    if [ -d "$plugin_path" ]; then
-        echo "> Removing old version of $plugin, please wait..."
+remove_old_package() {
+    if [ -d "$PLUGIN_PATH" ]; then
+        echo "> Removing old version of $PLUGIN, please wait..."
         sleep 3
-        rm -rf "$plugin_path" > /dev/null 2>&1
+        rm -rf "$PLUGIN_PATH" >/dev/null 2>&1
 
-        if grep -q "$package" "$status_file"; then
-            echo "> Removing existing $package package, please wait..."
-            $uninstall_command "$package" > /dev/null 2>&1
+        if grep -q "$PACKAGE" "$STATUS_FILE"; then
+            echo "> Removing existing $PACKAGE package, please wait..."
+            $UNINSTALL_CMD "$PACKAGE" >/dev/null 2>&1
         fi
 
         echo "*******************************************"
@@ -37,20 +38,19 @@ check_and_remove_package() {
         echo ""
     fi
 }
-check_and_remove_package
 
 download_and_install_package() {
-    echo "> Downloading $plugin-$version package, please wait..."
+    echo "> Downloading $PLUGIN-$VERSION package, please wait..."
     sleep 1
-    wget --show-progress -qO "$temp_dir/$targz_file" --no-check-certificate "$url"
+    wget --show-progress -q -O "$TEMP_DIR/$TAR_GZ_FILE" --no-check-certificate "$URL"
     
     if [ $? -eq 0 ]; then
-        tar -xzf "$temp_dir/$targz_file" -C / > /dev/null 2>&1
-        extract=$?
-        rm -rf "$temp_dir/$targz_file" > /dev/null 2>&1
+        tar -xzf "$TEMP_DIR/$TAR_GZ_FILE" -C / >/dev/null 2>&1
+        EXTRACT_STATUS=$?
+        rm -rf "$TEMP_DIR/$TAR_GZ_FILE" >/dev/null 2>&1
 
-        if [ $extract -eq 0 ]; then
-            echo "> $plugin-$version package installed successfully"
+        if [ $EXTRACT_STATUS -eq 0 ]; then
+            echo "> $PLUGIN-$VERSION package installed successfully"
         else
             echo "> Extraction failed"
         fi
@@ -60,9 +60,14 @@ download_and_install_package() {
     sleep 2
     echo ""
 }
-download_and_install_package
 
 print_message() {
     echo "> [$(date +'%Y-%m-%d')] $1"
 }
-exit
+
+remove_old_package
+download_and_install_package
+
+exit 0
+
+
