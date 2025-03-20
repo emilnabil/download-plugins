@@ -1,8 +1,8 @@
 #!/bin/sh
-## Command=wget ## Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccaminfo/cccaminfo_py2.sh -O - | /bin/sh
+## Command=wget ## Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccaminfo/cccaminfo_py3.sh -O - | /bin/sh
 ##
-PLUGIN_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/cccaminfo/cccaminfo_py2.ipk"
-PLUGIN_FILE="cccaminfo_py2.ipk"
+PLUGIN_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/cccaminfo/enigma2-plugin-extensions-cccaminfo_1.6-py3_all.ipk"
+PLUGIN_FILE="enigma2-plugin-extensions-cccaminfo_1.6-py3_all.ipk"
 
 echo "Installing plugin..."
 cd /tmp || exit 1
@@ -28,7 +28,6 @@ else
 fi
 
 exit 0
-
 
 
 
