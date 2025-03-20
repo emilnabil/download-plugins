@@ -17,6 +17,9 @@ opkg remove enigma2-plugin-extensions-screenrecorder
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/ScreenRecorder
 
 echo ">>> Downloading and Installing Plugin..."
+opkg update
+opkg install mpg123 
+opkg install alsa-utils
 
 cd /tmp || exit 1
 set -e
@@ -36,6 +39,7 @@ fi
 
 echo ">>> Uploaded by: EMIL_NABIL"
 exit 0
+
 
 
 
