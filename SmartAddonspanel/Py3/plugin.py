@@ -10,7 +10,7 @@ from enigma import eConsoleAppContainer, eTimer
 from Screens.MessageBox import MessageBox
 
 PLUGIN_ICON = "icon.png"
-PLUGIN_VERSION = "3.0.3"
+PLUGIN_VERSION = "4.0.1"
 VERSION_URL = "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SmartAddonspanel/Py3/version.txt"
 UPDATE_SCRIPT_URL = "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SmartAddonspanel/smart-Panel.sh"
 
@@ -62,32 +62,37 @@ class SmartAddonspanel(Screen):
     skin = """
     <screen name="SmartAddonspanel" position="left,center" size="1920,1080" title="Smart Addons Panel By Emil Nabil">
         <ePixmap position="0,0" size="1920,1080" pixmap="icons/background.png" zPosition="-1" />
-        <widget name="main_menu" position="30,60" size="500,900" scrollbarMode="showOnDemand" itemHeight="70" backgroundColor="#000000" font="Bold;40" halign="left" />
-        <widget name="sub_menu" position="560,50" size="650,900" scrollbarMode="showOnDemand" itemHeight="70" backgroundColor="#505050" font="Regular;40" halign="center" />
+        <widget name="main_menu" position="30,60" size="500,900" scrollbarMode="showOnDemand" itemHeight="70" backgroundColor="#000000" 
+foregroundColor="#FFD700"
+font="Bold;40" halign="left" />
+        <widget name="sub_menu" position="560,50" size="650,900" scrollbarMode="showOnDemand" itemHeight="70"
+foregroundColor="#FFFFFF"
+backgroundColor="#505050" font="Regular;40" halign="center" />
         <widget name="status" position="30,965" size="1080,40" font="Regular;30" halign="center" backgroundColor="#303030" />
         <widget name="key_green" position="30,1010" size="376,55" font="Bold;28" halign="center" backgroundColor="#1F771F" />
         <widget name="key_yellow" position="427,1010" size="376,55" font="Bold;28" halign="center" backgroundColor="#FFC000" />
         <widget name="key_blue" position="824,1010" size="376,55" font="Bold;28" halign="center" backgroundColor="#13389F" />
-        <widget name="key_exit" position="870,1010" size="260,55" font="Regular;26" halign="center" backgroundColor="#9F1313" />
-        <widget name="ip_address" position="30,970" size="260,30" font="Bold;28" halign="left" foregroundColor="#FFFFFF" />
-        <widget name="python_version" position="870,970" size="260,30" font="Bold;28" halign="right" foregroundColor="#FFFFFF" />
+        <widget name="python_version" position="1300,960" size="600,50" font="Bold;40" halign="center"
+backgroundColor="#008B8B" foregroundColor="#FFFFFF" />
         <widget source="session.VideoPicture" render="Pig" position="1280,60" size="600,350" zPosition="1" backgroundColor="#ff000000" />
-        <widget name="receiver_model" position="1300,420" size="600,50" font="Bold;50" halign="center" backgroundColor="#ff000000" foregroundColor="#FFFFFF" />
+        <widget name="receiver_model" position="1300,420" size="600,50" font="Bold;50" halign="center" backgroundColor="#990011" foregroundColor="#FFFFFF" />
         <widget name="image_type" position="1300,480" size="600,50" font="Bold;40" halign="center" backgroundColor="#423C3D" foregroundColor="#FFFFFF" />
         <widget name="image_version" position="1300,540" size="600,50" font="Bold;40" halign="center" backgroundColor="#008000" foregroundColor="#FFFFFF" />
         <widget name="cpu_info" position="1300,600" size="600,50" font="Bold;40" halign="center" backgroundColor="#19184D" foregroundColor="#FFFFFF" />
         <widget name="memory_info" position="1300,660" size="600,50" font="Bold;40" halign="center" backgroundColor="#808000" foregroundColor="#FFFFFF" />
         <widget name="storage_info" position="1300,720" size="600,50" font="Bold;40" halign="center" backgroundColor="#990011" foregroundColor="#FFFFFF" />
         <widget name="mount_info" position="1300,780" size="600,50" font="Bold;40" halign="center" backgroundColor="#20B2AA" foregroundColor="#FFFFFF" />
-        <widget name="current_time" position="1300,840" size="600,50" backgroundColor="#8B4513" font="Bold;40" halign="center" />
-        <widget name="internet_status" position="1300,900" size="600,50" backgroundColor="#800080" font="Bold;40" />
+        <widget name="ip_address" position="1300,840" size="600,55" backgroundColor="#8B4513" font="Bold;40" halign="center" />
+        <widget name="internet_status" position="1300,900" size="600,50"
+halign="center"
+backgroundColor="#800080" font="Bold;40" />
     </screen>
     """
 
     def __init__(self, session):
         self.session = session
         Screen.__init__(self, session)
-        self.main_menu = ["Panels", "Plugins", "System Plugins", "Media", "Tools", "Images", "Picons", "Emu", "Channels", "Key Plugins", "Multiboot Plugins", "Bootlogo", "Display-Skin", "Skins Other", "Skins TeamNitro", "Skins Atv", "Skins Egami", "Skins Open BlackHole", "Skins OpenPli Py3", "Skins OpenVix", "Skins OpenSpa", "Skins OpenPli Py2", "Skins BlackHole", "Skins Vti"]
+        self.main_menu = ["Panels", "Plugins", "System Plugins", "DNS Resolver Network", "Media", "Tools", "Images", "Picons", "Emu", "Channels", "Key Plugins", "Multiboot Plugins", "Bootlogo", "Display-Skin", "Backup-Settengs-Menu", "Restore-Settengs-Menu", "Skins Other", "Skins TeamNitro", "Skins Atv", "Skins Egami", "Skins Open BlackHole", "Skins OpenPli Py3", "Skins OpenVix", "Skins OpenSpa", "Skins OpenPli Py2", "Skins BlackHole", "Skins Vti"]
         self.sub_menus = {
             "Panels": [
                 ("Ajpanel", "wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer1.sh -O - | /bin/sh"),
@@ -108,13 +113,23 @@ class SmartAddonspanel(Screen):
     ],
             "Plugins": [
                 ("ArabicSavior", "wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh -O - | /bin/sh"),
-                ("Alajre", "wget https://dreambox4u.com/emilnabil237/plugins/alajre/installer.sh -O - | /bin/sh"),
+          ("Acherone", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/acherone/installer.sh -O - | /bin/sh"),   
+            ("Alajre", "wget https://dreambox4u.com/emilnabil237/plugins/alajre/installer.sh -O - | /bin/sh"),
        ("Ansite", "wget https://raw.githubusercontent.com/MOHAMED19OS/Download/main/Ansite/installer.sh -O - | /bin/sh"),
+       ("Apod", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/apod/installer.sh -O - | /bin/sh"), 
+         ("Astronomy", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/astronomy/installer.sh -O - | /bin/sh"),    
        ("Athan Times", "wget https://dreambox4u.com/emilnabil237/plugins/athantimes/installer.sh -O - | /bin/sh"), 
         ("Atilehd", "wget https://dreambox4u.com/emilnabil237/plugins/atilehd/installer.sh -O - | /bin/sh"),
          ("automatic-fullbackup", "wget https://dreambox4u.com/emilnabil237/plugins/automatic-fullbackup/installer.sh -O - | /bin/sh"), 
          ("Azkar Almuslim", "wget https://dreambox4u.com/emilnabil237/plugins/azkar-almuslim/installer.sh -O - | /bin/sh"), 
-         ("CFG_ZOOM_FINAL", "wget https://dreambox4u.com/emilnabil237/plugins/cfg_Zoom_Final_FIX7x/installer.sh -O - | /bin/sh"), 
+        ("Bitrate", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/bitrate/bitrate.sh -O - | /bin/sh"),
+        ("Bitrate-mod-ariad", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/bitrate/bitrate-mod-ariad.sh -O - | /bin/sh"),  
+        ("Bundesliga-Permanent-Clock", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/bundesliga-permanent-clock/bundesliga-permanent-clock.sh -O - | /bin/sh"),
+       ("CacheFlush", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cacheflush/cacheflush.sh -O - | /bin/sh"), 
+       ("CCcaminfo-py2", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccaminfo/cccaminfo_py2.sh -O - | /bin/sh"),
+       ("CCcaminfo-py3", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccaminfo/cccaminfo_py3.sh -O - | /bin/sh"),
+      ("CrondManager", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/crondmanager/installer.sh -O - | /bin/sh"), 
+       ("CFG_ZOOM_FINAL", "wget https://dreambox4u.com/emilnabil237/plugins/cfg_Zoom_Final_FIX7x/installer.sh -O - | /bin/sh"), 
          ("CiefpSettingsDownloader", "wget https://raw.githubusercontent.com/ciefp/CiefpSettingsDownloader/main/installer.sh -O - | /bin/sh"),
     ("CiefpsettingsMotor", "wget https://raw.githubusercontent.com/ciefp/CiefpsettingsMotor/main/installer.sh -O - | /bin/sh"), 
     ("CiefpSelectSatellite", "wget https://raw.githubusercontent.com/ciefp/CiefpSelectSatellite/main/installer.sh -O - | /bin/sh"), 
@@ -124,16 +139,26 @@ class SmartAddonspanel(Screen):
 ("CiefpSettingsStreamrela_PY2", "wget https://raw.githubusercontent.com/ciefp/CiefpSettingsStreamrelayPY2/main/installer.sh -O - | /bin/sh"),
 ("CiefpSettingsT2miAbertis", "wget https://raw.githubusercontent.com/ciefp/CiefpSettingsT2miAbertis/main/installer.sh -O - | /bin/sh"),
 ("CiefpSettingsT2miAbertisOpenPLi", "wget https://raw.githubusercontent.com/ciefp/CiefpSettingsT2miAbertisOpenPLi/main/installer.sh -O - | /bin/sh"),
+("chocholousek-picons", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/chocholousek-picons.sh -O - | /bin/sh"),
  ("CHLogoChanger", "wget https://dreambox4u.com/emilnabil237/plugins/CHLogoChanger/ChLogoChanger.sh -O - | /bin/sh"),
                 ("CrashLogoViewer", "wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/install-CrashLogViewer.sh -O - | /bin/sh"),
        ("CrondManger", "wget https://github.com/emil237/download-plugins/raw/main/cronmanager.sh -O - | /bin/sh"),
+       ("enigma2readeradder", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/enigma2readeradder.sh -O - | /bin/sh"), 
        ("Epg Grabber", "wget https://dreambox4u.com/emilnabil237/plugins/Epg-Grabber/installer.sh -O - | /bin/sh"), 
+       ("EPGImport", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/epgimport.sh -O - | /bin/sh"), 
+       ("EPGImport-99", "wget https://raw.githubusercontent.com/Belfagor2005/EPGImport-99/main/installer.sh -O - | /bin/sh"), 
+       ("EPGTranslator", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/epgtranslator.sh -O - | /bin/sh"),
+      ("Filmxy", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/filmxy/filmxy.sh -O - | /bin/sh"), 
         ("Footonsat", "wget https://dreambox4u.com/emilnabil237/plugins/FootOnsat/installer.sh -O - | /bin/sh"),
+       ("Freearhey", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/freearhey/freearhey.sh -O - | /bin/sh"), 
  ("FreeCCcamServer", "wget https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh -O - | /bin/sh"), 
        ("hardwareinfo", "wget https://dreambox4u.com/emilnabil237/plugins/hardwareinfo/installer.sh -O - | /bin/sh"),  
          ("HasBahCa", "wget https://dreambox4u.com/emilnabil237/plugins/HasBahCa/installer.sh -O - | /bin/sh"), 
          ("HistoryZapSelector", "wget https://dreambox4u.com/emilnabil237/plugins/historyzap/installer1.sh -O - | /bin/sh"),
          ("horoscope", "wget https://raw.githubusercontent.com/emilnabil/horoscope/refs/heads/main/horoscope.sh -O - | /bin/sh"), 
+       ("HolidayCountdown", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/HolidayCountdown/installer.sh -O - | /bin/sh"),  
+      ("Internet-Speedtest", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/internet-speedtest.sh -O - | /bin/sh"),
+      ("iptvdream", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/iptvdream/iptvdream.sh -O - | /bin/sh"),
          ("MoviesManager", "wget http://dreambox4u.com/emilnabil237/plugins/Transmission/MoviesManager.sh -O - | /bin/sh"),
     ("MyCam-Plugin", "wget https://dreambox4u.com/emilnabil237/plugins/mycam/installer.sh -O - | /bin/sh"),
      ("MultiCamAdder", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiCamAdder/installer.sh -O - | /bin/sh"),
@@ -141,13 +166,20 @@ class SmartAddonspanel(Screen):
     ("NewVirtualkeyBoard", "wget https://dreambox4u.com/emilnabil237/plugins/NewVirtualKeyBoard/installer1.sh -O - | /bin/sh"),
  ("ONEupdater", "wget https://raw.githubusercontent.com/Sat-Club/ONEupdaterE2/main/installer.sh -O - | /bin/sh"),
     ("Ozeta-Skins-Setup", "wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/PLUGIN_Skin-ozeta.sh -O - | /bin/sh"), 
+    ("Plutotv", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/plutotv/plutotv.sh -O - | /bin/sh"),
 ("Quran-karem", "wget https://dreambox4u.com/emilnabil237/plugins/quran/installer.sh -O - | /bin/sh"),
-                ("RaedQuickSignal", "wget https://dreambox4u.com/emilnabil237/plugins/RaedQuickSignal/installer.sh -O - | /bin/sh"),
+("Quran-karem_v2.2", "wget https://raw.githubusercontent.com/emil237/quran/main/installer.sh -O - | /bin/sh"),
+("Radio-80-s", "wget https://raw.githubusercontent.com/Belfagor2005/Radio-80-s/main/installer.sh -O - | /bin/sh"),  
+     ("Radiom", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/radiom/radiom.sh -O - | /bin/sh"),
+     ("Rakutentv", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/rakutentv/rakutentv.sh -O - | /bin/sh"),
+      ("RaedQuickSignal", "wget https://dreambox4u.com/emilnabil237/plugins/RaedQuickSignal/installer.sh -O - | /bin/sh"),
        ("pluginmover", "wget http://dreambox4u.com/emilnabil237/plugins/pluginmover/installer.sh -O - | /bin/sh"),
        ("pluginskinmover", "wget http://dreambox4u.com/emilnabil237/plugins/pluginskinmover/installer.sh -O - | /bin/sh"), 
+       ("ScreenNames", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screennames/screennames.sh -O - | /bin/sh"),
+       ("Screen-Recorder", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screenrecorder/installer.sh -O - | /bin/sh"),
+       ("SetPicon", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/setpicon/installer.sh -O - | /bin/sh"),
         ("scriptexecuter", "wget http://dreambox4u.com/emilnabil237/plugins/scriptexecuter/installer.sh -O - | /bin/sh"),
-         ("servicescanupdates", "wget https://dreambox4u.com/emilnabil237/plugins/servicescanupdates/servicescanupdates.sh -O - | /bin/sh"),
-         ("Sherlockmod", "wget https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh -O - | /bin/sh"), 
+     ("Sherlockmod", "wget https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh -O - | /bin/sh"), 
          ("Simple-Zoom-Panel", "wget https://dreambox4u.com/emilnabil237/plugins/simple-zoom-panel/installer.sh -O - | /bin/sh"), 
          ("SubsSupport_1.5.8-r9", "wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer1.sh -O - | /bin/sh"), 
          ("SubsSupport_2.1", "wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/subssupport_2.1.sh -O - | /bin/sh"),
@@ -158,7 +190,9 @@ class SmartAddonspanel(Screen):
                 ("xtraevent_4.5", "wget https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_4.5.sh -O - | /bin/sh"),
        ("Xtraevent_4.6", "wget https://github.com/emil237/download-plugins/raw/main/Xtraevent-v4.6.sh -O - | /bin/sh"),
        ("xtraevent_6.798", "wget https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent_6.798.sh -O - | /bin/sh"), 
-       ("xtraevent_6.805", "wget https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent-6.805.sh -O - | /bin/sh"), 
+       ("xtraevent_6.805", "wget https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent-6.805.sh -O - | /bin/sh"),
+        ("xtraevent_6.820_All-Python", "wget https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent-6.820.sh -O - | /bin/sh"),
+     ("WorldCam", "wget https://raw.githubusercontent.com/Belfagor2005/WorldCam/main/installer.sh -O - | /bin/sh"),   
         ("Zoom_1.1.2-Py3", "wget https://dreambox4u.com/emilnabil237/plugins/zoom/installer.sh -O - | /bin/sh"),
             ],
     "System Plugins": [
@@ -172,8 +206,20 @@ class SmartAddonspanel(Screen):
  ("Ts-Sateditor", "wget https://dreambox4u.com/emilnabil237/plugins/ts-sateditor/ts-sateditor.sh -O - | /bin/sh"),
  ("Xmlupdate", "wget https://dreambox4u.com/emilnabil237/plugins/xmlupdate/xmlupdate.sh -O - | /bin/sh"),
             ],
+          "DNS Resolver Network": [
+    ("Google DNS", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-google.sh -O - | /bin/sh"),
+    ("Cloudflare DNS", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-cloudflare.sh -O - | /bin/sh"),
+    ("CleanBrowsing DNS", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-cleanbrowsing.sh -O - | /bin/sh"),
+    ("Quad9 DNS", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-quad9.sh -O - | /bin/sh"),
+    ("Open-Home DNS", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-openhome.sh -O - | /bin/sh"),
+    ("Comodo DNS", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-comodo.sh -O - | /bin/sh"),
+    ("Alternate DNS", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-alternate.sh -O - | /bin/sh"),
+    ("AdGuard DNS", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-adguard.sh -O - | /bin/sh"),
+    ("Control DNS", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-control.sh -O - | /bin/sh"),
+],
     "Media": [
         ("BouquetMakerXtream", "wget http://dreambox4u.com/emilnabil237/plugins/BouquetMakerXtream/installer.sh -O - | /bin/sh"),
+        ("E2m3u2Bouquet", "wget https://dreambox4u.com/emilnabil237/plugins/e2m3u2bouquet/installer.sh -O - | /bin/sh"),
         ("E2Player-MOHAMED-Os", "wget https://mohamed_os.gitlab.io/e2iplayer/online-setup  -O - | /bin/sh"),
   ("E2Player-MAXBAMBY", "wget https://gitlab.com/maxbambi/e2iplayer/-/raw/master/install-e2iplayer.sh  -O - | /bin/sh"),
   ("E2Player-ZADMARIO", "wget https://gitlab.com/zadmario/e2iplayer/-/raw/master/install-e2iplayer.sh  -O - | /bin/sh"),
@@ -197,6 +243,9 @@ class SmartAddonspanel(Screen):
 ("Curl", "opkg install curl"),
 ("Update Enigma2 All Python", "wget https://raw.githubusercontent.com/emil237/updates-enigma/main/update-all-python.sh  -O - | /bin/sh"),
 ("Super Script", "wget https://dreambox4u.com/emilnabil237/script/Super_Script.sh  -O - | /bin/sh"),
+("Delete the password", "passwd -d root"),
+("Change-Password-To-root", 'printf "root\nroot\n" | passwd')
+,
 ("CAM-abertis-astra-sm", "wget https://dreambox4u.com/emilnabil237/script/CAM-abertis-astra.sh  -O - | /bin/sh"),
         ("FORMAT_HDD_TO-Ext4", "wget https://raw.githubusercontent.com/emil237/scripts/refs/heads/main/format-hdd.sh  -O - | /bin/sh"),
         ("Repair-Inodes-From-Hdd", "wget https://raw.githubusercontent.com/emil237/scripts/refs/heads/main/repair-hdd.sh  -O - | /bin/sh"),
@@ -374,6 +423,42 @@ class SmartAddonspanel(Screen):
         ("display-oe-a-lcdskin-7", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-7.sh -O - | /bin/sh"),
         ("display-oe-a-lcdskin-8", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-8.sh -O - | /bin/sh"),
         ("display-oe-a-lcdskin-9", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-9.sh -O - | /bin/sh"),
+     ("display-oe-a-lcdskin-10", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/display-oe-a-lcdskin-10.sh -O - | /bin/sh"), 
+     ("display-oe-a-lcdskin-11", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/display-oe-a-lcdskin-11.sh -O - | /bin/sh"), 
+       ("display-oe-a-lcdskin-12", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/display-oe-a-lcdskin-12.sh -O - | /bin/sh"), 
+       ("display-oe-a-lcdskin-13", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/display-oe-a-lcdskin-13.sh -O - | /bin/sh"), 
+    ],
+    "Backup-Settengs-Menu": [
+          ("Backup-my-shannels", "wget http://dreambox4u.com/emilnabil237/script/Create-My-backup-shannels.sh -O - | /bin/sh"),   
+         ("Backup-hotkey", "wget http://dreambox4u.com/emilnabil237/script/backup-hotkey.sh -O - | /bin/sh"),
+         ("Backup-network", "wget http://dreambox4u.com/emilnabil237/script/backup-network.sh -O - | /bin/sh"),
+         ("Backup-softcams", "wget http://dreambox4u.com/emilnabil237/script/backup-softcams.sh -O - | /bin/sh"),
+        ("Backup-tuner", "wget http://dreambox4u.com/emilnabil237/script/backup-tuner.sh -O - | /bin/sh"),
+        ("Backup-my-bouquetmakerxtream", "wget http://dreambox4u.com/emilnabil237/script/backup-my-bouquetmakerxtream.sh -O - | /bin/sh"),
+        ("Backup-my-ip2sat-server", "wget http://dreambox4u.com/emilnabil237/script/backup-my-ip2sat-server.sh -O - | /bin/sh"),
+("Backup-my-ipaudio-server", "wget http://dreambox4u.com/emilnabil237/script/backup-my-ipaudio-server.sh -O - | /bin/sh"),
+("Backup-my-ipaudiopro-server", "wget http://dreambox4u.com/emilnabil237/script/backup-my-ipaudiopro-server.sh -O - | /bin/sh"),
+        ("Backup-my-jediplaylists", "wget http://dreambox4u.com/emilnabil237/script/backup-my-jediplaylists.sh -O - | /bin/sh"),
+        ("Backup-my-multistalkerpro", "wget http://dreambox4u.com/emilnabil237/script/backup-my-multistalkerpro.sh -O - | /bin/sh"),
+        ("Backup-my-Subtitle-Setting", "wget http://dreambox4u.com/emilnabil237/script/backup_my-subtitle-setting.sh -O - | /bin/sh"),
+        ("Backup-my-xstreamity-servers", "wget http://dreambox4u.com/emilnabil237/script/backup-my-xstreamity-servers.sh -O - | /bin/sh"),
+        ("Backup-sittings-xtraevent", "wget http://dreambox4u.com/emilnabil237/script/backup-sittings-xtraevent.sh -O - | /bin/sh"),
+    ],
+     "Restore-Settengs-Menu": [
+          ("Restore-my-shannels", "wget http://dreambox4u.com/emilnabil237/script/Restore-My-backup-shannels.sh -O - | /bin/sh"),   
+         ("Restore-hotkey", "wget http://dreambox4u.com/emilnabil237/script/resore-hotkey.sh -O - | /bin/sh"),
+         ("Restore-network", "wget http://dreambox4u.com/emilnabil237/script/restore-network.sh -O - | /bin/sh"),
+         ("Restore-softcams", "wget http://dreambox4u.com/emilnabil237/script/restore-softcams.sh -O - | /bin/sh"),
+        ("Restore-tuner", "wget http://dreambox4u.com/emilnabil237/script/restore-tuner.sh -O - | /bin/sh"),
+        ("Restore-my-bouquetmakerxtream", "wget http://dreambox4u.com/emilnabil237/script/restore-my-bouquetmakerxtream.sh -O - | /bin/sh"),
+        ("Restore-my-ip2sat-server", "wget http://dreambox4u.com/emilnabil237/script/restore-my-ip2sat-server.sh -O - | /bin/sh"),
+  ("Restore-my-ipaudio-server", "wget http://dreambox4u.com/emilnabil237/script/restore-my-ipaudio-server.sh -O - | /bin/sh"),
+("Restore-my-ipaudiopro-server", "wget http://dreambox4u.com/emilnabil237/script/restore-my-ipaudiopro-server.sh -O - | /bin/sh"),
+        ("Restore-my-jediplaylists", "wget http://dreambox4u.com/emilnabil237/script/restore-my-jediplaylists.sh -O - | /bin/sh"),
+        ("Restore-my-multistalkerpro", "wget http://dreambox4u.com/emilnabil237/script/restore-my-multistalkerpro.sh -O - | /bin/sh"),
+        ("Restore-My-Subtitle-Setting", "wget http://dreambox4u.com/emilnabil237/script/Restore_my-subtitle-setting.sh -O - | /bin/sh"),
+        ("Restore-my-xstreamity-servers", "wget http://dreambox4u.com/emilnabil237/script/restore-my-xstreamity-servers.sh -O - | /bin/sh"),
+        ("Restore-sittings-xtraevent", "wget http://dreambox4u.com/emilnabil237/script/restore-sittings-xtraevent.sh -O - | /bin/sh"),
     ],
     "Skins Other": [
         ("Aglare-FHD for Atv-Spa-Egami", "wget https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglareatv/installer.sh -O - | /bin/sh"),
@@ -415,6 +500,7 @@ class SmartAddonspanel(Screen):
         ("MX_Sline-Blue", "wget https://dreambox4u.com/emilnabil237/skins/obh/MX_Sline-Blue_OBH_5.4_py3.12_py3.12.sh -O - | /bin/sh"),
         ("MX_Sline-Red_X2", "wget https://dreambox4u.com/emilnabil237/skins/obh/MX_Sline-Red_X2_py3.12.sh -O - | /bin/sh"),
    ("XDreamy-FHD", "wget https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh"),
+ ("Youchie-OBH-FHD", "wget https://raw.githubusercontent.com/emilnabil/skins-obh/refs/heads/main/skin-Youchie-OBH-FHD.sh -O - | /bin/sh"),  
     ],
  "Skins OpenPli Py3": [
                 ("Aglare-fhd", "wget https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglarepli/installer.sh -O - | /bin/sh"),
@@ -423,6 +509,7 @@ class SmartAddonspanel(Screen):
         ("malek-fhd", "wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/Skin-malek-fhd_1.2.sh -O - | /bin/sh"),
         ("Ozeta-Xtra", "wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-ozeta-xtra.sh -O - | /bin/sh"),
    ("XDreamy-FHD", "wget https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh"),
+   ("Youchie-PLI-FHD", "wget https://raw.githubusercontent.com/emilnabil/skins-openpli-9x/refs/heads/main/skin-Youchie-PLI-FHD.sh -O - | /bin/sh"),
   ],
     "Skins OpenVix": [
         ("Aglare-FHD", "wget https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglarepli/installer.sh -O - | /bin/sh"),
@@ -475,7 +562,7 @@ class SmartAddonspanel(Screen):
         self["key_green"] = Button("Install")
         self["key_yellow"] = Button("Update Plugin")
         self["key_blue"] = Button("Restart Enigma2")
-        self["key_cancel"] = Button("Exit")
+        self["key_exit"] = Button("Exit")
         self["ip_address"] = Label(self.get_router_ip())
         self["python_version"] = Label(self.get_python_version())
         self["receiver_model"] = Label(self.get_receiver_model())
@@ -486,7 +573,6 @@ class SmartAddonspanel(Screen):
         self["storage_info"] = Label(self.get_storage_info())
         self["mount_info"] = Label(self.get_mount_info())
         self["internet_status"] = Label(self.get_internet_status())
-        self["current_time"] = Label("")
         self["actions"] = ActionMap(
             ["OkCancelActions", "DirectionActions", "ColorActions"],
             {
@@ -515,7 +601,7 @@ class SmartAddonspanel(Screen):
     def update_time(self):
         import time
         current_time = time.strftime("%H:%M:%S")
-        self["current_time"].setText(current_time)
+        # تمت إزالة self["current_time"] لأنها لم تعد موجودة في الواجهة
 
     def get_router_ip(self):
         try:
@@ -523,7 +609,7 @@ class SmartAddonspanel(Screen):
             s.connect(("8.8.8.8", 80))
             ip = s.getsockname()[0]
             s.close()
-            return ip
+            return f"ip = {ip}"
         except socket.error:
             return "IP not available"
 
@@ -555,7 +641,9 @@ class SmartAddonspanel(Screen):
         try:
             with open("/proc/cpuinfo") as f:
                 for line in f:
-                    if "model name" in line:
+                    if "Processor" in line:
+                        return line.split(":")[1].strip()
+                    elif "Model Name" in line:
                         return line.split(":")[1].strip()
         except:
             return "Unknown CPU"
@@ -681,7 +769,7 @@ class SmartAddonspanel(Screen):
         if retval != 0:
             self["status"].setText("Failed to check updates")
             return
-            
+
         try:
             remote_version = self.version_buffer.decode().strip()
             if not all(c.isdigit() or c == '.' for c in remote_version):
