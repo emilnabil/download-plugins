@@ -51,4 +51,5 @@ if [ $install_needed -eq 1 ]; then
 fi
 
 echo ">>> Uploaded by: EMIL_NABIL"
+killall -9 enigma2 
 exit 0
