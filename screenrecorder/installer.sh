@@ -1,55 +1,49 @@
-#!/bin/bash
-######################################################################################
-## Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screenrecorder/installer.sh -O - | /bin/sh
+#!/bin/sh
+### Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screenrecorder/installer.sh -O - | /bin/sh
 ##
-###########################################
+########################
 
-# My config script #
-PLUGIN_IPK="enigma2-plugin-extensions-screenrecorder_4.1.0_all.ipk"
-MY_URL="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screenrecorder"
+plugin="ScreenRecorder"
+plugin_path="/usr/lib/enigma2/python/Plugins/Extensions/$plugin"
+package="enigma2-plugin-extensions-screenrecorder"
+targz_file="$plugin.tar.gz"
+url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screenrecorder/$targz_file"
+temp_dir="/tmp"
 
-######################################################################################
-
-echo ">>> Removing old version..."
-opkg remove enigma2-plugin-extensions-screenrecorder 
-rm -rf /usr/lib/enigma2/python/Plugins/Extensions/ScreenRecorder
-sync
-
-echo ">>> Downloading and Installing Plugin..."
-cd /tmp || { echo "Failed to change directory to /tmp"; exit 1; }
-set -e 
-if wget "$MY_URL/$PLUGIN_IPK"; then
-    opkg install --force-reinstall --force-depends "/tmp/$PLUGIN_IPK" && install_status=0 || install_status=1
+if command -v python3 >/dev/null 2>&1; then
+    echo "> Installing dependencies..."
+    opkg install --force-reinstall python3 alsa-utils enigma2 ffmpeg mpg123 
 else
-    echo ">>>> DOWNLOAD FAILED <<<<"
+    echo "> Your image is not supported (Python 3 required)..."
     exit 1
 fi
 
-rm -f "/tmp/$PLUGIN_IPK"
-set +e  
-if [ $install_status -eq 0 ]; then
-    echo ">>>> SUCCESSFULLY INSTALLED <<<<"
-else
-    echo ">>>> INSTALLATION FAILED <<<<"
-    exit 1
+if [ -d "$plugin_path" ]; then
+    echo "> Removing old package version, please wait..."
+    sleep 2
+    opkg remove --force-depends "$package"
+    rm -rf "$plugin_path" >/dev/null 2>&1
 fi
 
-PACKAGES="mpg123 alsa-utils python3 ffmpeg enigma2"
-install_needed=0
-
-for pkg in $PACKAGES; do
-    if ! opkg status "$pkg" | grep -q "Status: install"; then
-        install_needed=1
-        opkg install "$pkg"
+echo "> Downloading $plugin package, please wait..."
+sleep 1
+if wget --show-progress -qO "$temp_dir/$targz_file" --no-check-certificate "$url"; then
+    echo "> Extracting package..."
+    if tar -xzf "$temp_dir/$targz_file" -C / >/dev/null 2>&1; then
+        echo "> $plugin package installed successfully"
     else
-        echo "$pkg is already installed."
+        echo "> Extraction failed!"
+        exit 1
     fi
-done
-
-if [ $install_needed -eq 1 ]; then
-    opkg update
+else
+    echo "> Download failed!"
+    exit 1
 fi
 
+rm -rf "$temp_dir/$targz_file" >/dev/null 2>&1
 echo ">>> Uploaded by: EMIL_NABIL"
 killall -9 enigma2 
+sleep 3
 exit 0
+
+
