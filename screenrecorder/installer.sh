@@ -5,7 +5,7 @@
 ###########################################
 
 # My config script #
-PLUGIN_IPK="enigma2-plugin-extensions-screenrecorder_4.0.0_all.ipk"
+PLUGIN_IPK="enigma2-plugin-extensions-screenrecorder_4.1.0_all.ipk"
 MY_URL="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screenrecorder"
 
 ######################################################################################
