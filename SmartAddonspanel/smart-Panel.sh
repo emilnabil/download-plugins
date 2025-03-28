@@ -1,3 +1,101 @@
-z="
-";Uz='p/Sm';sBz='OSTY';yz='pane';wz='rtAd';AFz='anel';Vz='artA';YDz='stal';Sz='ATH=';xEz='tAdd';dz='s://';jCz='PY2"';PDz='p -q';Yz='el"';mEz='tar ';VBz='mart';Mz='date';wBz='/opk';uDz='[ -d';xCz=' $Pa';fBz='ugin';pEz='mp/S';jBz='fi';iCz='n2 i';SBz='Exte';Cz=''\''2.0';LDz='all ';Hz='nFix';mFz='" /t';xFz='ESTA';RCz='PYTH';SEz=' "Do';Iz=' lit';Jz='tle ';ZFz='ma2"';GGz='exit';iDz='s" ]';Pz=' Lis';eCz='hon3';PBz='hon/';hz='erco';VCz='ages';ACz='n --';BGz='slee';JDz='pkg ';HDz='ate ';yFz='RT n';Qz='t'\''';RFz='  #"';sFz='  Yo';XFz=' -9 ';aCz='ager';dBz='ytho';lDz='upda';yCz='ckag';bCz='eque';Dz=''\''';YCz='on3-';IFz=' Add';TEz='wnlo';sDz=' -y';SCz='ON="';ECz='rep ';kDz='get ';DBz='d /u';vz='/Sma';GBz=' ]; ';Tz='"/tm';jDz='apt-';lFz='PATH';QDz='s "P';vDz=' "$T';OFz='ESSF';tCz='! gr';YFz='enig';hFz='|| e';oEz=' "/t';TCz='PY3"';KCz='en';Xz='span';qEz='nel.';yEz='onsp';bDz='ques';UFz='CMD=';gz='ubus';lBz='/var';KFz='l IN';HFz='   S';Kz='bugs';tEz='cp -';nFz='gz >';CEz='"$TM';FGz='_CMD';UDz='kage';vEz='tmp/';MCz=' "Yo';Fz='gelo';PEz='TH"';GEz='NPAT';qFz='ll 2';CGz='p 5';bEz='el..';rz='/ref';WFz='lall';JCz='; th';TFz='ART_';yBz='if p';DGz='$RES';Nz='d Pi';hCz='s"';vCz='qs "';JEz='rf "';bz='RL="';fDz='E" =';wEz='Smar';UEz='adin';uCz='ep -';QEz='cd /';EDz='n';wDz='MPPA';VEz='g Py';eBz='n/Pl';TBz='nsio';MBz='/eni';nz='down';aEz='f Sm';cBz='a2/p';lCz='requ';NFz='SUCC';kEz=' 2 v';Bz='ion=';DEz='PPAT';LEz='GINP';lEz='2/Sm';KBz='/usr';nBz='g/st';Gz='g='\''\';MEz='ATH"';cDz='ts"';WBz='Addo';AGz='ow  ';qDz='l "$';oz='load';gDz=' "Dr';xDz='TH" ';fFz='a2"';kz='m/em';ADz='esix';GDz=' upd';cz='http';NCz='u ha';bFz='temc';ABz='l"';pFz='v/nu';FEz='LUGI';ICz='3\.'\''';CCz='2>&1';HGz=' 0';Zz='PLUG';QFz='    ';DFz=' "##';nDz='& ap';dDz=' "$O';BEz='-rf ';aBz='64/e';IEz='rm -';EGz='TART';iBz='ions';iFz='xit ';pCz='N" =';jz='t.co';gFz='tmp ';EEz='H"';Oz='cons';nCz=' "$P';az='IN_U';Rz='TMPP';WDz='ed t';UBz='ns/S';ZCz='six"';pz='-plu';tFz='ur d';oDz='t-ge';fz='gith';FDz='opkg';Lz='\nUp';kFz='$TMP';kCz='hon-';AEz=' rm ';pDz='t in';fCz='-req';BCz='ion ';eDz='STYP';eEz='N_UR';YBz='nel"';tBz='PE="';hEz='el.t';ez='raw.';cCz='sts=';WEz='thon';HBz='then';aFz='"sys';PFz='ULLY';EBz='sr/l';sCz=' && ';uBz='Drea';HCz='hon ';LBz='/lib';oCz='YTHO';hDz='eamO';mz='bil/';REz='tmp';RDz='acka';FBz='ib64';ZEz='on o';VDz=' "Ne';tDz='ereq';ZBz='else';oBz='atus';aDz='gere';hBz='tens';GCz='^Pyt';wFz='ll R';iz='nten';MDz='"$Pa';uEz='r "/';jEz='z"';NEz='mkdi';mBz='/dpk';CBz=' ! -';Az='vers';dFz='esta';JFz='ons ';FCz='-q '\''';BBz='if [';BFz='" "/';Ez='chan';NBz='gma2';rEz='tar.';LCz='echo';OEz='r -p';UCz='Pack';tz='ads/';FFz='###"';VFz='"kil';BDz='" "$';SFz='REST';rFz='>&1';LFz='STAL';XEz=' 3 v';IDz='&& o';EFz='####';CDz='US";';sEz='gz"';vBz='mOs"';KDz='inst';pBz='STAT';wCz='age:';GFz=' "# ';NDz='if !';oFz=' /de';eFz='rt e';RBz='ins/';vFz='e wi';rDz='sts"';ZDz='l $P';sz='s/he';XBz='nspa';QBz='Plug';qCz=' "PY';rBz='"';lz='ilna';PCz='n3 i';DDz=' the';jFz='1';gBz='s/Ex';OCz='ve P';iEz='ar.g';bBz='nigm';DCz=' | g';dCz='"pyt';gEz='3/Sm';xz='dons';mCz='ests';CFz='sync';IBz='INPA';OBz='/pyt';YEz='ersi';gCz='uest';WCz='ix="';qBz='US="';kBz=' -f ';cFz='tl r';QCz='mage';fEz='L/Py';dEz='wget';JBz='TH="';uFz='evic';XCz='pyth';qz='gins';cEz='."';rCz='3" ]';yDz='] &&';TDz='$Pac';uz='main';HEz='H" ]';mDz='te &';SDz='ge: ';XDz='o in';xBz='m"';ODz=' gre';KEz='$PLU';MFz='LED ';Wz='ddon';nEz='-xzf';
-eval "$Az$Bz$Cz$Dz$z$Ez$Fz$Gz$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Oz$Pz$Qz$z$Rz$Sz$Tz$Uz$Vz$Wz$Xz$Yz$z$Zz$az$bz$cz$dz$ez$fz$gz$hz$iz$jz$kz$lz$mz$nz$oz$pz$qz$rz$sz$tz$uz$vz$wz$xz$yz$ABz$z$BBz$CBz$DBz$EBz$FBz$GBz$HBz$z$Zz$IBz$JBz$KBz$LBz$MBz$NBz$OBz$PBz$QBz$RBz$SBz$TBz$UBz$VBz$WBz$XBz$YBz$z$ZBz$z$Zz$IBz$JBz$KBz$LBz$aBz$bBz$cBz$dBz$eBz$fBz$gBz$hBz$iBz$vz$wz$xz$yz$ABz$z$jBz$z$BBz$kBz$lBz$LBz$mBz$nBz$oBz$GBz$HBz$z$pBz$qBz$lBz$LBz$mBz$nBz$oBz$rBz$z$sBz$tBz$uBz$vBz$z$ZBz$z$pBz$qBz$lBz$LBz$wBz$nBz$oBz$rBz$z$sBz$tBz$uBz$xBz$z$jBz$z$yBz$dBz$ACz$Az$BCz$CCz$DCz$ECz$FCz$GCz$HCz$ICz$JCz$KCz$z$LCz$MCz$NCz$OCz$dBz$PCz$QCz$rBz$z$RCz$SCz$TCz$z$UCz$VCz$WCz$XCz$YCz$ZCz$z$UCz$aCz$bCz$cCz$dCz$eCz$fCz$gCz$hCz$z$ZBz$z$LCz$MCz$NCz$OCz$dBz$iCz$QCz$rBz$z$RCz$SCz$jCz$z$UCz$aCz$bCz$cCz$dCz$kCz$lCz$mCz$rBz$z$jBz$z$BBz$nCz$oCz$pCz$qCz$rCz$sCz$tCz$uCz$vCz$UCz$wCz$xCz$yCz$ADz$BDz$pBz$CDz$DDz$EDz$z$FDz$GDz$HDz$IDz$JDz$KDz$LDz$MDz$yCz$ADz$rBz$z$jBz$z$NDz$ODz$PDz$QDz$RDz$SDz$TDz$UDz$lCz$mCz$BDz$pBz$CDz$DDz$EDz$z$LCz$VDz$WDz$XDz$YDz$ZDz$RDz$aDz$bDz$cDz$z$BBz$dDz$eDz$fDz$gDz$hDz$iDz$JCz$KCz$z$jDz$kDz$lDz$mDz$nDz$oDz$pDz$YDz$qDz$UCz$aCz$bCz$rDz$sDz$z$ZBz$z$FDz$GDz$HDz$IDz$JDz$KDz$LDz$MDz$yCz$tDz$gCz$hCz$z$jBz$z$jBz$z$uDz$vDz$wDz$xDz$yDz$AEz$BEz$CEz$DEz$EEz$z$uDz$nCz$FEz$GEz$HEz$sCz$IEz$JEz$KEz$LEz$MEz$z$NEz$OEz$vDz$wDz$PEz$z$QEz$REz$z$BBz$nCz$oCz$pCz$qCz$rCz$JCz$KCz$z$LCz$SEz$TEz$UEz$VEz$WEz$XEz$YEz$ZEz$aEz$Vz$Wz$Xz$bEz$cEz$z$dEz$nCz$FEz$eEz$fEz$gEz$Vz$Wz$Xz$hEz$iEz$jEz$z$ZBz$z$LCz$SEz$TEz$UEz$VEz$WEz$kEz$YEz$ZEz$aEz$Vz$Wz$Xz$bEz$cEz$z$dEz$nCz$FEz$eEz$fEz$lEz$Vz$Wz$Xz$hEz$iEz$jEz$z$jBz$z$mEz$nEz$oEz$pEz$VBz$WBz$XBz$qEz$rEz$sEz$z$tEz$uEz$vEz$wEz$xEz$yEz$AFz$KBz$BFz$rBz$z$CFz$z$LCz$DFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$FFz$z$LCz$GFz$HFz$VBz$IFz$JFz$yz$KFz$LFz$MFz$NFz$OFz$PFz$QFz$QFz$RFz$z$LCz$DFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$FFz$z$BBz$CBz$DBz$EBz$FBz$GBz$HBz$z$SFz$TFz$UFz$VFz$WFz$XFz$YFz$ZFz$z$ZBz$z$SFz$TFz$UFz$aFz$bFz$cFz$dFz$eFz$bBz$fFz$z$jBz$z$QEz$gFz$hFz$iFz$jFz$z$IEz$JEz$kFz$lFz$mFz$pEz$VBz$WBz$XBz$qEz$rEz$nFz$oFz$pFz$qFz$rFz$z$CFz$z$LCz$DFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$FFz$z$LCz$GFz$QFz$QFz$sFz$tFz$uFz$vFz$wFz$xFz$yFz$AGz$QFz$QFz$QFz$RFz$z$LCz$DFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$EFz$FFz$z$BGz$CGz$z$DGz$EGz$FGz$z$GGz$HGz"
+#!/bin/bash
+## Setup command:
+## wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SmartAddonspanel/smart-Panel.sh -O - | /bin/sh
+
+######### Only These 2 lines to edit with new version ######
+version='4.0.2'
+changelog='\nFix little bugs\nUpdated Picons List'
+
+TMPPATH="/tmp/SmartAddonspanel"
+PLUGIN_URL="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SmartAddonspanel"
+
+PLUGINPATH="/usr/lib/enigma2/python/Plugins/Extensions/SmartAddonspanel"
+[ -d /usr/lib64 ] && PLUGINPATH="/usr/lib64/enigma2/python/Plugins/Extensions/SmartAddonspanel"
+
+if [ -f /var/lib/dpkg/status ]; then
+    STATUS="/var/lib/dpkg/status"
+    OSTYPE="DreamOs"
+    PKG_MGR="apt-get"
+    INSTALL_CMD="install -y"
+else
+    STATUS="/var/lib/opkg/status"
+    OSTYPE="Dream"
+    PKG_MGR="opkg"
+    INSTALL_CMD="install"
+fi
+
+PYTHON=""
+Packagesix=""
+Packagerequests=""
+PLUGIN_SUBDIR=""
+
+if command -v python3 >/dev/null 2>&1 && python3 --version 2>&1 | grep -q '^Python 3\.'; then
+    echo "You have Python3 image"
+    PYTHON="PY3"
+    Packagesix="python3-six"
+    Packagerequests="python3-requests"
+    PLUGIN_SUBDIR="Py3"
+elif command -v python >/dev/null 2>&1; then
+    if python --version 2>&1 | grep -q '^Python 3\.'; then
+        echo "You have Python3 image"
+        PYTHON="PY3"
+        Packagesix="python3-six"
+        Packagerequests="python3-requests"
+        PLUGIN_SUBDIR="Py3"
+    else
+        echo "You have Python2 image"
+        PYTHON="PY2"
+        Packagerequests="python-requests"
+        PLUGIN_SUBDIR="Py2"
+    fi
+else
+    echo "Python is not installed!"
+    exit 1
+fi
+
+if [ "$PYTHON" = "PY3" ] && ! grep -qs "Package: $Packagesix" "$STATUS"; then
+    echo "Installing $Packagesix..."
+    $PKG_MGR update && $PKG_MGR $INSTALL_CMD "$Packagesix"
+fi
+
+if ! grep -qs "Package: $Packagerequests" "$STATUS"; then
+    echo "Installing $Packagerequests..."
+    $PKG_MGR update && $PKG_MGR $INSTALL_CMD "$Packagerequests"
+fi
+
+rm -rf "$TMPPATH" "$PLUGINPATH"
+mkdir -p "$TMPPATH"
+
+echo "Downloading $PYTHON version of SmartAddonspanel..."
+wget -q "$PLUGIN_URL/$PLUGIN_SUBDIR/SmartAddonspanel.tar.gz" -O "/tmp/SmartAddonspanel.tar.gz"
+
+if [ -f "/tmp/SmartAddonspanel.tar.gz" ]; then
+    tar -xzf "/tmp/SmartAddonspanel.tar.gz" -C "/tmp"
+    cp -r "/tmp/SmartAddonspanel/usr" "/"
+    sync
+
+    echo "#########################################################"
+    echo "#    Smart Addons panel INSTALLED SUCCESSFULLY          #"
+    echo "#                  Moded by Emil Nabil                  #"
+    echo "#########################################################"
+else
+    echo "Failed to download SmartAddonspanel.tar.gz!"
+    exit 1
+fi
+
+RESTART_CMD="systemctl restart enigma2"
+[ ! -d /usr/lib64 ] && RESTART_CMD="killall -9 enigma2"
+
+rm -rf "$TMPPATH" "/tmp/SmartAddonspanel.tar.gz"
+sync
+
+echo "#########################################################"
+echo "#           Your device will RESTART now                #"
+echo "#########################################################"
+sleep 5
+$RESTART_CMD
+
+exit 0
+
+
+
