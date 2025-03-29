@@ -40,13 +40,14 @@ else
     exit 1
 fi
 
-chmod -R 755 /usr/lib/enigma2/python/Plugins/Extensions/Zip2IPK
+chmod -R 755 /usr/lib/enigma2/python/Plugins/Extensions/Zip2Pkg
 
 rm -rf "$temp_dir/$targz_file" >/dev/null 2>&1
 echo ">>> Uploaded by: EMIL_NABIL"
 killall -9 enigma2 
 sleep 3
 exit 0
+
 
 
 
