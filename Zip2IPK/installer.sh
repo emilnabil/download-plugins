@@ -3,10 +3,10 @@
 ##
 ########################
 
-plugin="zip2ipk"
-plugin_path="/usr/lib/enigma2/python/Plugins/Extensions/Zip2IPK"
+plugin="zip2pkg"
+plugin_path="/usr/lib/enigma2/python/Plugins/Extensions/Zip2Pkg"
 package="enigma2-plugin-extensions-zip2ipk"
-targz_file="Zip2IPK.tar.gz"
+targz_file="Zip2Pkg.tar.gz"
 url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Zip2IPK/$targz_file"
 temp_dir="/tmp"
 
@@ -47,6 +47,8 @@ echo ">>> Uploaded by: EMIL_NABIL"
 killall -9 enigma2 
 sleep 3
 exit 0
+
+
 
 
 
