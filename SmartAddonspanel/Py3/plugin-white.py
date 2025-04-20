@@ -9,7 +9,7 @@ from Components.MenuList import MenuList
 from Components.Button import Button
 from Components.Sources.List import List
 from Components.ProgressBar import ProgressBar
-from Components.config import config, ConfigSubsection, ConfigSelection
+from Components.config import config, ConfigSubsection
 from enigma import eConsoleAppContainer, eTimer, ePixmap, eListboxPythonMultiContent, gFont, RT_HALIGN_LEFT, RT_VALIGN_CENTER
 from Tools.Directories import resolveFilename, SCOPE_PLUGINS
 from Tools.LoadPixmap import LoadPixmap
@@ -17,7 +17,6 @@ from Screens.MessageBox import MessageBox
 from Screens.Standby import TryQuitMainloop
 
 config.plugins.smartaddons = ConfigSubsection()
-config.plugins.smartaddons.theme = ConfigSelection(default="light", choices=["light", "dark"])
 
 PLUGIN_ICON = "icon.png"
 PLUGIN_VERSION = "4.0.9"
@@ -101,12 +100,13 @@ class InstallProgressScreen(Screen):
 class SmartAddonspanel(Screen):
     skin = """
     <screen name="SmartAddonspanel" position="left,center" size="1920,1080" title="Smart Addons Panel By Emil Nabil">
+        <ePixmap position="0,0" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/SmartAddonspanel/icons/background.png" zPosition="-1" />
         <widget name="main_menu" position="30,60" size="500,900" scrollbarMode="showOnDemand" itemHeight="70" 
-  backgroundColor="#423C3D"      
-  foregroundColor="#FFD700" font="Bold;40" flags="RT_HALIGN_LEFT" />
-        <widget source="sub_menu" render="Listbox" position="560,50" size="650,900" scrollbarMode="showOnDemand" 
-  backgroundColor="#423C3D"
-  transparent="0">
+backgroundColor="#423C3D"
+foregroundColor="#FFD700" font="Bold;40" flags="RT_HALIGN_LEFT" />
+        <widget source="sub_menu" render="Listbox" position="560,50" size="650,900" scrollbarMode="showOnDemand"
+backgroundColor="#423C3D"
+transparent="0">
             <convert type="TemplatedMultiContent">
                 {"template": [
                     MultiContentEntryPixmapAlphaBlend(pos=(5,10), size=(50,50), png=2),
@@ -605,7 +605,6 @@ class SmartAddonspanel(Screen):
         ("Dark", "wget -O /usr/lib/enigma2/python/Plugins/Extensions/SmartAddonspanel/plugin.py https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SmartAddonspanel/Py3/plugin-dark.py")
     ]
 }
-            
         self.selected_plugins = []
         self.focus = "main_menu"
 
@@ -660,10 +659,7 @@ class SmartAddonspanel(Screen):
         if sel in self.sub_menus:
             for entry in self.sub_menus[sel]:
                 name, cmd = entry
-                if sel == "Themes":
-                    icon = self.checked_icon if config.plugins.smartaddons.theme.value == name.lower() else self.unchecked_icon
-                else:
-                    icon = self.checked_icon if any(p[0] == name for p in self.selected_plugins) else self.unchecked_icon
+                icon = self.checked_icon if any(p[0] == name for p in self.selected_plugins) else self.unchecked_icon
                 items.append((name, name, icon))
         self["sub_menu"].setList(items)
 
@@ -777,19 +773,13 @@ class SmartAddonspanel(Screen):
         if not entry:
             return
         name = entry[0]
-        if category == "Themes":
-            choice = name.lower()
-            config.plugins.smartaddons.theme.value = choice
-            config.plugins.smartaddons.theme.save()
+        cmd = next((c for n, c in self.sub_menus[category] if n == name), None)
+        if cmd:
+            if any(p[0] == name for p in self.selected_plugins):
+                self.selected_plugins = [p for p in self.selected_plugins if p[0] != name]
+            else:
+                self.selected_plugins.append((name, cmd))
             self.update_sub_menu_list()
-        else:
-            cmd = next((c for n, c in self.sub_menus[category] if n == name), None)
-            if cmd:
-                if any(p[0] == name for p in self.selected_plugins):
-                    self.selected_plugins = [p for p in self.selected_plugins if p[0] != name]
-                else:
-                    self.selected_plugins.append((name, cmd))
-                self.update_sub_menu_list()
 
     def execute_all_selected_plugins(self):
         if self.selected_plugins:
@@ -870,8 +860,6 @@ def Plugins(**kwargs):
         icon=PLUGIN_ICON,
         fnc=lambda session: session.open(SmartAddonspanel)
     )]
-
-
-
+    
 
 
