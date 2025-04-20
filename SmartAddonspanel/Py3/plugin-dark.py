@@ -598,8 +598,8 @@ class SmartAddonspanel(Screen):
         ("Zflatgyrfhd_Sharp987", "wget https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-zflatgyrfhd_sharp987_vti-r1.01.sh -O - | /bin/sh")
     ],
     "Themes": [
-        ("Light", "none"),
-        ("Dark", "none")
+        ("Light", "wget -O /usr/lib/enigma2/python/Plugins/Extensions/SmartAddonspanel/plugin.py https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SmartAddonspanel/Py3/plugin-white.py"),
+        ("Dark", "wget -O /usr/lib/enigma2/python/Plugins/Extensions/SmartAddonspanel/plugin.py https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SmartAddonspanel/Py3/plugin-dark.py")
     ]
 }
             
