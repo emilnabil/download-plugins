@@ -729,11 +729,14 @@ class SmartAddonspanel(Screen):
     def get_storage_info(self):
         try:
             st = os.statvfs("/")
-            total = (st.f_blocks * st.f_frsize) // (1024**2)
-            free = (st.f_bfree * st.f_frsize) // (1024**2)
-            return f"HDD: {total}MB Free: {free}MB"
+            total = st.f_blocks * st.f_frsize
+            free = st.f_bfree * st.f_frsize
+            total_gb = total / (1024 ** 3)
+            free_gb = free / (1024 ** 3)
+            used_gb = total_gb - free_gb
+            return f"HDD: {used_gb:.2f}GB/{total_gb:.2f}GB"
         except:
-            return "Unknown Storage"
+            return "HDD: N/A"
 
     def get_mount_info(self):
         return "Mount: /media/hdd" if os.path.ismount("/media/hdd") else "Mount: Not Found"
@@ -857,5 +860,6 @@ def Plugins(**kwargs):
         icon=PLUGIN_ICON,
         fnc=lambda session: session.open(SmartAddonspanel)
     )]
-    
+
+
 

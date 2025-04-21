@@ -105,7 +105,7 @@ class SmartAddonspanel(Screen):
 backgroundColor="#19184D"
 foregroundColor="#FFD700" font="Bold;40" flags="RT_HALIGN_LEFT" />
         <widget source="sub_menu" render="Listbox" position="560,50" size="650,900" scrollbarMode="showOnDemand"
-backgroundColor="#2B3443"
+backgroundColor="#19184D"
 transparent="0">
             <convert type="TemplatedMultiContent">
                 {"template": [
@@ -733,11 +733,14 @@ transparent="0">
     def get_storage_info(self):
         try:
             st = os.statvfs("/")
-            total = (st.f_blocks * st.f_frsize) // (1024**2)
-            free = (st.f_bfree * st.f_frsize) // (1024**2)
-            return f"HDD: {total}MB Free: {free}MB"
+            total = st.f_blocks * st.f_frsize
+            free = st.f_bfree * st.f_frsize
+            total_gb = total / (1024 ** 3)
+            free_gb = free / (1024 ** 3)
+            used_gb = total_gb - free_gb
+            return f"HDD: {used_gb:.2f}GB/{total_gb:.2f}GB"
         except:
-            return "Unknown Storage"
+            return "HDD: N/A"
 
     def get_mount_info(self):
         return "Mount: /media/hdd" if os.path.ismount("/media/hdd") else "Mount: Not Found"
@@ -861,8 +864,5 @@ def Plugins(**kwargs):
         icon=PLUGIN_ICON,
         fnc=lambda session: session.open(SmartAddonspanel)
     )]
-    
-
-
 
 
