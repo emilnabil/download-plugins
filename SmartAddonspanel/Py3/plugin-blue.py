@@ -101,8 +101,12 @@ class SmartAddonspanel(Screen):
     skin = """
     <screen name="SmartAddonspanel" position="left,center" size="1920,1080" title="Smart Addons Panel By Emil Nabil">
         <ePixmap position="0,0" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/SmartAddonspanel/icons/background.png" zPosition="-1" />
-        <widget name="main_menu" position="30,60" size="500,900" scrollbarMode="showOnDemand" itemHeight="70" foregroundColor="#FFD700" font="Bold;40" flags="RT_HALIGN_LEFT" />
-        <widget source="sub_menu" render="Listbox" position="560,50" size="650,900" scrollbarMode="showOnDemand" transparent="0">
+        <widget name="main_menu" position="30,60" size="500,900" scrollbarMode="showOnDemand" itemHeight="70" 
+backgroundColor="#19184D"
+foregroundColor="#FFD700" font="Bold;40" flags="RT_HALIGN_LEFT" />
+        <widget source="sub_menu" render="Listbox" position="560,50" size="650,900" scrollbarMode="showOnDemand"
+backgroundColor="#2B3443"
+transparent="0">
             <convert type="TemplatedMultiContent">
                 {"template": [
                     MultiContentEntryPixmapAlphaBlend(pos=(5,10), size=(50,50), png=2),
@@ -858,4 +862,7 @@ def Plugins(**kwargs):
         fnc=lambda session: session.open(SmartAddonspanel)
     )]
     
+
+
+
 

@@ -602,7 +602,8 @@ transparent="0">
     ],
     "Themes": [
         ("Light", "wget -O /usr/lib/enigma2/python/Plugins/Extensions/SmartAddonspanel/plugin.py https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SmartAddonspanel/Py3/plugin-white.py"),
-        ("Dark", "wget -O /usr/lib/enigma2/python/Plugins/Extensions/SmartAddonspanel/plugin.py https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SmartAddonspanel/Py3/plugin-dark.py")
+        ("Dark", "wget -O /usr/lib/enigma2/python/Plugins/Extensions/SmartAddonspanel/plugin.py https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SmartAddonspanel/Py3/plugin-dark.py"),
+        ("Indigo Blue", "wget -O /usr/lib/enigma2/python/Plugins/Extensions/SmartAddonspanel/plugin.py https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SmartAddonspanel/Py3/plugin-blue.py")
     ]
 }
         self.selected_plugins = []
