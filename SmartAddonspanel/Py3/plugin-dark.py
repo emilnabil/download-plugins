@@ -202,6 +202,7 @@ class SmartAddonspanel(Screen):
          ("horoscope", "wget https://raw.githubusercontent.com/emilnabil/horoscope/refs/heads/main/horoscope.sh -O - | /bin/sh"), 
        ("HolidayCountdown", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/HolidayCountdown/installer.sh -O - | /bin/sh"),  
       ("Internet-Speedtest", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/internet-speedtest.sh -O - | /bin/sh"),
+("Iptv-Org-Playlists", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/iptv-org-playlists/iptv-org-playlists.sh -O - | /bin/sh"),
       ("iptvdream", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/iptvdream/iptvdream.sh -O - | /bin/sh"),
          ("MoviesManager", "wget http://dreambox4u.com/emilnabil237/plugins/Transmission/MoviesManager.sh -O - | /bin/sh"),
     ("MyCam-Plugin", "wget https://dreambox4u.com/emilnabil237/plugins/mycam/installer.sh -O - | /bin/sh"),
@@ -862,5 +863,6 @@ def Plugins(**kwargs):
         icon=PLUGIN_ICON,
         fnc=lambda session: session.open(SmartAddonspanel)
     )]
+
 
 
