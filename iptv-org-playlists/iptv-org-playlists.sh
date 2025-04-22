@@ -1,6 +1,6 @@
 echo ""
 opkg install curl
-sleep 2;
+sleep 2
 cd /tmp
 curl  -k -Lbk -m 55532 -m 555104 "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/iptv-org-playlists/iptv-org-playlists.tar.gz" > /tmp/iptv-org-playlists.tar.gz
 sleep 1
