@@ -428,7 +428,9 @@ class SmartAddonspanel(Screen):
         ("Tarek Ashry", "wget https://raw.githubusercontent.com/emilnabil/channel-tarek-ashry/main/installer.sh -qO - | /bin/sh"),
     ],
     "Key Plugins": [
-        ("BissFeedAutoKey", "wget https://raw.githubusercontent.com/emilnabil/bissfeed-autokey/main/installer.sh  -O - | /bin/sh"),
+        
+("Auto-Dcw-Key-Add", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/auto-dcw-key-add/auto-dcw-key-add.sh -O - | /bin/sh"),
+("BissFeedAutoKey", "wget https://raw.githubusercontent.com/emilnabil/bissfeed-autokey/main/installer.sh -O - | /bin/sh"),
         ("feeds-finder", "wget https://dreambox4u.com/emilnabil237/plugins/feeds-finder/installer.sh  -O - | /bin/sh"),
         ("KeyAdder", "wget https://dreambox4u.com/emilnabil237/plugins/KeyAdder/installer.sh -O - | /bin/sh"),
     ],
