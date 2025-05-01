@@ -54,11 +54,6 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-# Clean up old settings
-echo "Cleaning old settings..."
-rm -rf /etc/enigma2/*.tv
-rm -rf /etc/enigma2/*.radio
-
 # Extract and copy the new settings
 extract_dir="/tmp/extracted_settings"
 mkdir -p "$extract_dir"
@@ -96,6 +91,7 @@ else
 fi
 
 exit 0
+
 
 
 
