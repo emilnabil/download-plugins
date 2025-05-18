@@ -1,3 +1,2 @@
-printf \"root\nroot\n\" | passwd
-
+echo "root:root" | chpasswd
 exit
