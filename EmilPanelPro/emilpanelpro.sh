@@ -59,21 +59,11 @@ mkdir -p "$TMPPATH"
 ####################
 cd "$TMPPATH" || exit 1
 
-if [ "$PYTHON" = "PY3" ]; then
-    echo "Downloading Python 3 version of EmilPanel..."
+
     wget "$PLUGIN_URL/EmilPanelPro.tar.gz" -O EmilPanelPro.tar.gz
     if [ -f EmilPanelPro.tar.gz ]; then
         tar -xzf EmilPanelPro.tar.gz -C /
-        sync
-    else
-        echo "Failed to download plugin archive."
-        exit 1
-    fi
-else
-    echo "Python 2 is not supported for this plugin."
-    sleep 2
-    exit 1
-fi
+     
 
 echo "#########################################################"
 echo "#    Emil Panel INSTALLED SUCCESSFULLY                  #"
@@ -96,6 +86,7 @@ sleep 5
 $RESTART_CMD
 
 exit 0
+
 
 
 
