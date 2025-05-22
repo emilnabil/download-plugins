@@ -56,38 +56,40 @@ opkg install opkg
 [ -d "$TMPPATH" ] && rm -rf "$TMPPATH"
 [ -d "$PLUGINPATH" ] && rm -rf "$PLUGINPATH"
 mkdir -p "$TMPPATH"
-####################
+
 cd "$TMPPATH" || exit 1
 
+wget "$PLUGIN_URL/EmilPanelPro.tar.gz" -O EmilPanelPro.tar.gz
 
-    wget "$PLUGIN_URL/EmilPanelPro.tar.gz" -O EmilPanelPro.tar.gz
-    if [ -f EmilPanelPro.tar.gz ]; then
-        tar -xzf EmilPanelPro.tar.gz -C /
-     
+if [ -f EmilPanelPro.tar.gz ]; then
+    tar -xzf EmilPanelPro.tar.gz -C /
 
-echo "#########################################################"
-echo "#    Emil Panel INSTALLED SUCCESSFULLY                  #"
-echo "#########################################################"
+    echo "#########################################################"
+    echo "#    Emil Panel INSTALLED SUCCESSFULLY                  #"
+    echo "#########################################################"
 
-if [ ! -d /usr/lib64 ]; then
-    RESTART_CMD="killall -9 enigma2"
+    if [ ! -d /usr/lib64 ]; then
+        RESTART_CMD="killall -9 enigma2"
+    else
+        RESTART_CMD="systemctl restart enigma2"
+    fi
+
+    cd /tmp || exit 1
+    rm -rf "$TMPPATH" /tmp/EmilPanelPro.tar.gz > /dev/null 2>&1
+    sync
+
+    echo "#########################################################"
+    echo "#           Your device will RESTART now                #"
+    echo "#########################################################"
+    sleep 5
+    $RESTART_CMD
+
+    exit 0
 else
-    RESTART_CMD="systemctl restart enigma2"
+    echo "#########################################################"
+    echo "#    ERROR: Failed to download EmilPanelPro.tar.gz      #"
+    echo "#########################################################"
+    rm -rf "$TMPPATH"
+    exit 1
 fi
-
-cd /tmp || exit 1
-rm -rf "$TMPPATH" /tmp/EmilPanelPro.tar.gz > /dev/null 2>&1
-sync
-
-echo "#########################################################"
-echo "#           Your device will RESTART now                #"
-echo "#########################################################"
-sleep 5
-$RESTART_CMD
-
-exit 0
-
-
-
-
 
