@@ -101,15 +101,19 @@ class SmartAddonspanel(Screen):
     skin = """
     <screen name="SmartAddonspanel" position="left,center" size="1920,1080" title="Smart Addons Panel By Emil Nabil">
         <ePixmap position="0,0" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/SmartAddonspanel/icons/background.png" zPosition="-1" />
-        <widget name="main_menu" position="30,60" size="500,900" scrollbarMode="showOnDemand" itemHeight="70" foregroundColor="#FFD700" font="Bold;40" flags="RT_HALIGN_LEFT" />
-        <widget source="sub_menu" render="Listbox" position="560,50" size="650,900" scrollbarMode="showOnDemand" transparent="0">
+        <widget name="main_menu" position="30,60" size="500,900" scrollbarMode="showOnDemand" itemHeight="70" backgroundColor="#000000"
+foregroundColor="#FFD700" font="Bold;40" flags="RT_HALIGN_LEFT" />
+        <widget source="sub_menu" render="Listbox" position="560,50" size="650,900" scrollbarMode="showOnDemand"
+backgroundColor="#000000"
+transparent="0">
             <convert type="TemplatedMultiContent">
                 {"template": [
                     MultiContentEntryPixmapAlphaBlend(pos=(5,10), size=(50,50), png=2),
-                    MultiContentEntryText(pos=(60,0), size=(580,70), font=0, flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER, text=1),
+                    MultiContentEntryText(pos=(60,0), size=(580,35), font=0, flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER, text=0),
+                    MultiContentEntryText(pos=(60,35), size=(580,35), font=0, flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER, text=1),
                 ],
-                "fonts": [gFont("Bold",36)],
-                "itemHeight": 70
+                "fonts": [gFont("Regular",24)],
+                "itemHeight": 90
                 }
             </convert>
         </widget>
@@ -134,7 +138,10 @@ class SmartAddonspanel(Screen):
     def __init__(self, session):
         Screen.__init__(self, session)
         self.session = session
-        self.main_menu = ["Panels", "Plugins", "System Plugins", "DNS Resolver Network", "Media", "Tools", "Images", "Picons", "Emu", "Channels", "Key Plugins", "Multiboot Plugins", "Bootlogo", "Display-Skin", "Backup-Settengs-Menu", "Restore-Settengs-Menu", "Skins Other", "Skins TeamNitro", "Skins Atv", "Skins Egami", "Skins Open BlackHole", "Skins OpenPli Py3", "Skins OpenVix", "Skins OpenSpa", "Skins OpenPli Py2", "Skins BlackHole", "Skins Vti", "Themes"]
+        self.main_menu = ["Panels", "Plugins", "System Plugins", "DNS Resolver Network", "Media", "Tools", "Images", "Picons", "Emu", "Channels-other", "Channels_Siefp_E2", 
+  "Channels-Vanenbal",
+  "Channels-morpheus883",
+  "Key Plugins", "Multiboot Plugins", "Bootlogo", "Display-Skin", "Backup-Settengs-Menu", "Restore-Settengs-Menu", "Skins Other", "Skins TeamNitro", "Skins Atv", "Skins Egami", "Skins Open BlackHole", "Skins OpenPli Py3", "Skins OpenVix", "Skins OpenSpa", "Skins OpenPli Py2", "Skins BlackHole", "Skins Vti", "Themes"]
         self.sub_menus = {
             "Panels": [
                 ("Ajpanel", "wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer1.sh -O - | /bin/sh"),
@@ -174,10 +181,12 @@ class SmartAddonspanel(Screen):
       ("CrondManager", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/crondmanager/installer.sh -O - | /bin/sh"), 
        ("CFG_ZOOM_FINAL", "wget https://dreambox4u.com/emilnabil237/plugins/cfg_Zoom_Final_FIX7x/installer.sh -O - | /bin/sh"), 
         ("CiefpBouquetUpdater", "wget https://raw.githubusercontent.com/ciefp/CiefpBouquetUpdater/main/installer.sh -O - | /bin/sh"),
-        ("CiefpIPTVBouquets", "wget https://raw.githubusercontent.com/ciefp/CiefpIPTVBouquets/main/installer.sh -O - | /bin/sh"), ("CiefpSettingsDownloader", "wget https://raw.githubusercontent.com/ciefp/CiefpSettingsDownloader/main/installer.sh -O - | /bin/sh"),
+        ("CiefpIPTVBouquets", "wget https://raw.githubusercontent.com/ciefp/CiefpIPTVBouquets/main/installer.sh -O - | /bin/sh"), ("CiefpSatelliteXmlEditor", "wget https://raw.githubusercontent.com/ciefp/CiefpSatelliteXmlEditor/main/installer.sh -O - | /bin/sh"),
+("CiefpSettingsDownloader", "wget https://raw.githubusercontent.com/ciefp/CiefpSettingsDownloader/main/installer.sh -O - | /bin/sh"),
     ("CiefpsettingsMotor", "wget https://raw.githubusercontent.com/ciefp/CiefpsettingsMotor/main/installer.sh -O - | /bin/sh"), 
     ("CiefpSelectSatellite", "wget https://raw.githubusercontent.com/ciefp/CiefpSelectSatellite/main/installer.sh -O - | /bin/sh"), 
     ("CiefpE2Converter", "wget https://raw.githubusercontent.com/ciefp/CiefpE2Converter/main/installer.sh -O - | /bin/sh"),
+    ("Ciefp-Plugins", "wget https://raw.githubusercontent.com/ciefp/CiefpPlugins/main/installer.sh -O - | /bin/sh"),
  ("CiefpWhitelistStreamrelay", "wget https://raw.githubusercontent.com/ciefp/CiefpWhitelistStreamrelay/main/installer.sh -O - | /bin/sh"),
 ("CiefpSettingsStreamrela_PY3", "wget https://raw.githubusercontent.com/ciefp/CiefpSettingsStreamrelay/main/installer.sh -O - | /bin/sh"),
 ("CiefpSettingsStreamrela_PY2", "wget https://raw.githubusercontent.com/ciefp/CiefpSettingsStreamrelayPY2/main/installer.sh -O - | /bin/sh"),
@@ -196,6 +205,7 @@ class SmartAddonspanel(Screen):
         ("Footonsat", "wget https://dreambox4u.com/emilnabil237/plugins/FootOnsat/installer.sh -O - | /bin/sh"),
        ("Freearhey", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/freearhey/freearhey.sh -O - | /bin/sh"), 
  ("FreeCCcamServer", "wget https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh -O - | /bin/sh"), 
+("gioppygio", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/gioppygio/gioppygio.sh -O - | /bin/sh"),
        ("hardwareinfo", "wget https://dreambox4u.com/emilnabil237/plugins/hardwareinfo/installer.sh -O - | /bin/sh"),  
          ("HasBahCa", "wget https://dreambox4u.com/emilnabil237/plugins/HasBahCa/installer.sh -O - | /bin/sh"), 
          ("HistoryZapSelector", "wget https://dreambox4u.com/emilnabil237/plugins/historyzap/installer1.sh -O - | /bin/sh"),
@@ -224,6 +234,7 @@ class SmartAddonspanel(Screen):
        ("Screen-Recorder", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screenrecorder/installer.sh -O - | /bin/sh"),
        ("SetPicon", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/setpicon/installer.sh -O - | /bin/sh"),
         ("scriptexecuter", "wget http://dreambox4u.com/emilnabil237/plugins/scriptexecuter/installer.sh -O - | /bin/sh"),
+        ("showclock", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/showclock/showclock.sh -O - | /bin/sh"),
      ("Sherlockmod", "wget https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh -O - | /bin/sh"), 
          ("Simple-Zoom-Panel", "wget https://dreambox4u.com/emilnabil237/plugins/simple-zoom-panel/installer.sh -O - | /bin/sh"), 
          ("SubsSupport_1.5.8-r9", "wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer1.sh -O - | /bin/sh"), 
@@ -273,13 +284,13 @@ class SmartAddonspanel(Screen):
         ("IpAudio_6.7_py2", "wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/installer.sh -O - | /bin/sh"),
         ("IpAudio_7.4_py3", "wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh"),
         ("IpAudioPro", "wget https://dreambox4u.com/emilnabil237/plugins/ipaudiopro/installer.sh  -O - | /bin/sh"),
-        ("JediEpgExtream", "wget https://dreambox4u.com/emilnabil237/plugins/jediepgextream/installer.sh  -O - | /bin/sh"),
-        ("jedimakerxtream", "wget https://dreambox4u.com/emilnabil237/plugins/jedimakerxtream/installer.sh  -O - | /bin/sh"),
+        ("JediEpgExtream", "wget https://dreambox4u.com/emilnabil237/plugins/jediepgextream/installer.sh -O - | /bin/sh"),
+        ("jedimakerxtream", "wget https://dreambox4u.com/emilnabil237/plugins/jedimakerxtream/installer.sh -O - | /bin/sh"),
         ("multistalker", "wget https://dreambox4u.com/emilnabil237/plugins/multistalker/installer.sh -O - | /bin/sh"),
         ("MultiStalkerPro", "wget https://raw.githubusercontent.com/emilnabil/multi-stalkerpro/main/installer.sh -O - | /bin/sh"),
         ("Quarter pounder", "wget http://dreambox4u.com/emilnabil237/script/quarterpounder.sh -O - | /bin/sh"),
         ("Suptv", "wget https://raw.githubusercontent.com/emil237/suptv/main/installer.sh -O - | /bin/sh"),
-        ("YouTube", "wget https://dreambox4u.com/emilnabil237/plugins/YouTube/installer.sh  -O - | /bin/sh"),
+        ("YouTube", "wget https://dreambox4u.com/emilnabil237/plugins/YouTube/installer.sh -O - | /bin/sh"),
         ("xklass-iptv", "wget https://dreambox4u.com/emilnabil237/plugins/xklass/installer.sh -O - | /bin/sh"),
         ("Xtreamty", "wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh -O - | /bin/sh"),
         ("Xcpluginforever", "wget https://raw.githubusercontent.com/Belfagor2005/xc_plugin_forever/main/installer.sh -O - | /bin/sh"),
@@ -287,19 +298,19 @@ class SmartAddonspanel(Screen):
     "Tools": [   
 ("Wget", "opkg install wget"),
 ("Curl", "opkg install curl"),
-("Update Enigma2 All Python", "wget https://raw.githubusercontent.com/emil237/updates-enigma/main/update-all-python.sh  -O - | /bin/sh"),
+("Update Enigma2 All Python", "wget https://raw.githubusercontent.com/emil237/updates-enigma/main/update-all-python.sh -O - | /bin/sh"),
 ("Opkg", "wget http://dreambox4u.com/emilnabil237/script/opkg.sh -qO - | /bin/sh"),
-("Super Script", "wget https://dreambox4u.com/emilnabil237/script/Super_Script.sh  -O - | /bin/sh"),
+("Super Script", "wget https://dreambox4u.com/emilnabil237/script/Super_Script.sh -O - | /bin/sh"),
 ("Delete the password", "passwd -d root"),
 ("Change-Password-To-root", 'printf "root\nroot\n" | passwd')
 ,
-("CAM-abertis-astra-sm", "wget https://dreambox4u.com/emilnabil237/script/CAM-abertis-astra.sh  -O - | /bin/sh"),
-        ("FORMAT_HDD_TO-Ext4", "wget https://raw.githubusercontent.com/emil237/scripts/refs/heads/main/format-hdd.sh  -O - | /bin/sh"),
-        ("Repair-Inodes-From-Hdd", "wget https://raw.githubusercontent.com/emil237/scripts/refs/heads/main/repair-hdd.sh  -O - | /bin/sh"),
+("CAM-abertis-astra-sm", "wget https://dreambox4u.com/emilnabil237/script/CAM-abertis-astra.sh -O - | /bin/sh"),
+        ("FORMAT_HDD_TO-Ext4", "wget https://raw.githubusercontent.com/emil237/scripts/refs/heads/main/format-hdd.sh -O - | /bin/sh"),
+        ("Repair-Inodes-From-Hdd", "wget https://raw.githubusercontent.com/emil237/scripts/refs/heads/main/repair-hdd.sh -O - | /bin/sh"),
         ("FIX-ipk-package-installation", "wget https://dreambox4u.com/emilnabil237/script/fix-ipk-package-installation.sh -O - | /bin/sh"),
-        ("Set_Time_NTP-Google", "wget https://dreambox4u.com/emilnabil237/script/set_time.sh  -O - | /bin/sh"),
-        ("Fix Softcam Atv", "wget http://updates.mynonpublic.com/oea/feed  -O - | /bin/sh"),
-        ("Fix Softcam OpenPli", "wget https://raw.githubusercontent.com/emil237/download-plugins/main/softcam-support-pli.sh  -O - | /bin/sh"),
+        ("Set_Time_NTP-Google", "wget https://dreambox4u.com/emilnabil237/script/set_time.sh -O - | /bin/sh"),
+        ("Fix Softcam Atv", "wget http://updates.mynonpublic.com/oea/feed -O - | /bin/sh"),
+        ("Fix Softcam OpenPli", "wget https://raw.githubusercontent.com/emil237/download-plugins/main/softcam-support-pli.sh -O - | /bin/sh"),
         ("Wget package Vti", "wget https://raw.githubusercontent.com/emil237/download-plugins/refs/heads/main/tool_vti-wget_1.16.3.sh  -O - | /bin/sh"),
         ("Feed OpenPicons", "wget https://dreambox4u.com/emilnabil237/script/openpicons-feed.sh -O - | /bin/sh"),
         ("Zip2ipk", "wget http://dreambox4u.com/emilnabil237/script/zip2ipk.sh -qO - | /bin/sh"),
@@ -323,7 +334,7 @@ class SmartAddonspanel(Screen):
         ("OpenBlackHole-5.3", "wget https://dreambox4u.com/emilnabil237/images/openblackhole-5.3.sh -O - | /bin/sh"),
         ("OpenBlackHole-5.4", "wget https://dreambox4u.com/emilnabil237/images/openblackhole-5.4.sh -O - | /bin/sh"),
         ("OpenBlackHole-5.5.1", "wget https://dreambox4u.com/emilnabil237/images/openblackhole-5.5.1.sh -O - | /bin/sh"),
-        ("OpenDroid-7.1", "wget https://dreambox4u.com/emilnabil237/images/opendroid-7.1.sh -O - | /bin/sh"),
+        ("OpenDroid", "wget https://dreambox4u.com/emilnabil237/images/opendroid.sh -O - | /bin/sh"),
         ("Openpli-7.3", "wget https://dreambox4u.com/emilnabil237/images/openpli-7.3.sh -O - | /bin/sh"),
         ("OpenPli-8.3", "wget https://dreambox4u.com/emilnabil237/images/openpli-8.3.sh -O - | /bin/sh"),
         ("OpenPli-8.3-Time-Shift", "wget https://dreambox4u.com/emilnabil237/images/openpli-8.3-py2-TimeShift.sh -O - | /bin/sh"),
@@ -393,39 +404,112 @@ class SmartAddonspanel(Screen):
         ("Chocholousek-Picons", "wget https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup -O - | /bin/sh"),
     ],
     "Emu": [
-        ("Cccam", "wget https://dreambox4u.com/emilnabil237/emu/installer-cccam.sh  -O - | /bin/sh"),
-        ("gosatplus-ncam", "wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-ncam.sh  -O - | /bin/sh"),
-        ("gosatplus-oscam", "wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-oscam.sh  -O - | /bin/sh"),
-        ("gosatplus_v3_arm", "wget http://e2.gosatplus.com/Plugin/V3/arm-openpli-installer_py3_v3.sh  -O - | /bin/sh"),
-        ("gosatplus_v3_mips", "wget http://e2.gosatplus.com/Plugin/V3/mips-openpli-installer_py3_v3.sh  -O - | /bin/sh"),
-        ("gosatplus_v3_Fix", "wget http://e2.gosatplus.com/Plugin/V3/GosatPlusPluginFixPy.sh  -O - | /bin/sh"),
+        ("Cccam", "wget https://dreambox4u.com/emilnabil237/emu/installer-cccam.sh -O - | /bin/sh"),
+        ("gosatplus-ncam", "wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-ncam.sh -O - | /bin/sh"),
+        ("gosatplus-oscam", "wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-oscam.sh -O - | /bin/sh"),
+        ("gosatplus_v3_arm", "wget http://e2.gosatplus.com/Plugin/V3/arm-openpli-installer_py3_v3.sh -O - | /bin/sh"),
+        ("gosatplus_v3_mips", "wget http://e2.gosatplus.com/Plugin/V3/mips-openpli-installer_py3_v3.sh -O - | /bin/sh"),
+        ("gosatplus_v3_Fix", "wget http://e2.gosatplus.com/Plugin/V3/GosatPlusPluginFixPy.sh -O - | /bin/sh"),
         ("Hold-flag-ncam", "opkg flag hold enigma2-plugin-softcams-ncam"),
         ("Hold-flag-Oscam", "opkg flag hold enigma2-plugin-softcams-oscam"),
         ("Ncam", "wget https://dreambox4u.com/emilnabil237/emu/installer-ncam.sh -O - | /bin/sh"),
-        ("Oscam", "wget https://dreambox4u.com/emilnabil237/emu/installer-oscam.sh  -O - | /bin/sh"),
-        ("Oscam-11.726-by-lenuxsat", "wget https://dreambox4u.com/emilnabil237/emu/oscam-by-lenuxsat/installer.sh  -O - | /bin/sh"),
-        ("oscamicam", "wget https://dreambox4u.com/emilnabil237/emu/installer-oscamicam.sh  -O - | /bin/sh"),
-        ("powercam_v2-icam-arm", "wget https://dreambox4u.com/emilnabil237/emu/powercam/installer.sh  -O - | /bin/sh"),
-        ("powercam-Ncam", "wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-ncam.sh  -O - | /bin/sh"),
-        ("powercam-Oscam", "wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-oscam.sh  -O - | /bin/sh"),
+        ("Oscam", "wget https://dreambox4u.com/emilnabil237/emu/installer-oscam.sh -O - | /bin/sh"),
+        ("Oscam-11.726-by-lenuxsat", "wget https://dreambox4u.com/emilnabil237/emu/oscam-by-lenuxsat/installer.sh -O - | /bin/sh"),
+        ("oscamicam", "wget https://dreambox4u.com/emilnabil237/emu/installer-oscamicam.sh -O - | /bin/sh"),
+        ("powercam_v2-icam-arm", "wget https://dreambox4u.com/emilnabil237/emu/powercam/installer.sh -O - | /bin/sh"),
+        ("powercam-Ncam", "wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-ncam.sh -O - | /bin/sh"),
+        ("powercam-Oscam", "wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-oscam.sh -O - | /bin/sh"),
         ("Restore-flag-ncam", "opkg flag user enigma2-plugin-softcams-ncam"),
         ("Restore-flag-oscam", "opkg flag user enigma2-plugin-softcams-oscam"),
-        ("Revcam-Ncam", "wget https://dreambox4u.com/emilnabil237/emu/installer-revcam-ncam.sh  -O - | /bin/sh"),
+        ("Revcam-Ncam", "wget https://dreambox4u.com/emilnabil237/emu/installer-revcam-ncam.sh -O - | /bin/sh"),
         ("Revcam-Oscam", "wget https://dreambox4u.com/emilnabil237/emu/installer-revcam-oscam.sh  -O - | /bin/sh"),
-        ("Revcam", "wget https://dreambox4u.com/emilnabil237/emu/installer-revcam.sh  -O - | /bin/sh"),
-        ("Supcam-Ncam", "wget https://dreambox4u.com/emilnabil237/emu/installer-supcam-ncam.sh  -O - | /bin/sh"),
+        ("Revcam", "wget https://dreambox4u.com/emilnabil237/emu/installer-revcam.sh -O - | /bin/sh"),
+        ("Supcam-Ncam", "wget https://dreambox4u.com/emilnabil237/emu/installer-supcam-ncam.sh -O - | /bin/sh"),
         ("Supcam-Oscam", "wget https://dreambox4u.com/emilnabil237/emu/installer-supcam-oscam.sh  -O - | /bin/sh"),
-        ("Ultracam-Ncam", "wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-ncam.sh  -O - | /bin/sh"),
-        ("Ultracam-Oscam", "wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-oscam.sh  -O - | /bin/sh"),
-        ("Ultracam", "wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam.sh  -O - | /bin/sh"),
+        ("Ultracam-Ncam", "wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-ncam.sh -O - | /bin/sh"),
+        ("Ultracam-Oscam", "wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-oscam.sh -O - | /bin/sh"),
+        ("Ultracam", "wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam.sh -O - | /bin/sh"),
     ],
-    "Channels": [
+    "Channels-other": [
         ("Elsafty-Tv-Radio-Steaming", "wget https://dreambox4u.com/emilnabil237/settings/elsafty/installer.sh -O - | /bin/sh"),
         ("Khaled Ali", "wget https://raw.githubusercontent.com/emilnabil/channel-khaled/main/installer.sh -qO - | /bin/sh"),
         ("Mohamed Goda", "wget https://raw.githubusercontent.com/emilnabil/channel-mohamed-goda/main/installer.sh  -O - | /bin/sh"),
         ("Emil Nabil", "wget https://raw.githubusercontent.com/emilnabil/channel-emil-nabil/main/installer.sh -O - | /bin/sh"),
         ("Mohamed Os", "wget https://gitlab.com/MOHAMED_OS/dz_store/-/raw/main/Settings_Enigma2/online-setup | bash"),
         ("Tarek Ashry", "wget https://raw.githubusercontent.com/emilnabil/channel-tarek-ashry/main/installer.sh -qO - | /bin/sh"),
+    ],
+    "Channels_Siefp_E2": [
+        ("ciefp-channels-e2-75e-34w", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-channels-e2-75e-34w.sh -O - | /bin/sh"),
+        ("ciefp-E2-1sat-19E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-1sat-19E.sh -qO - | /bin/sh"),
+        ("ciefp-E2-2satA-19E-13E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-2satA-19E-13E.sh -O - | /bin/sh"),
+        ("ciefp-E2-2satB-19E-16E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-2satB-19E-16E.sh -O - | /bin/sh"),
+        ("ciefp-E2-3satA-9E-10E-13E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-3satA-9E-10E-13E.sh -O - | /bin/sh"),
+        ("ciefp-E2-3satB-19E-16E-13E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-3satB-19E-16E-13E.sh -O - | /bin/sh"),
+        ("ciefp-E2-4satA-28E-19E-13E-30W", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-4satA-28E-19E-13E-30W.sh -O - | /bin/sh"),
+        ("ciefp-E2-4satB-19E-16E-13E-0.8W", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-4satB-19E-16E-13E-0.8W.sh -O - | /bin/sh"),
+        ("ciefp-E2-5sat-19E-16E-13E-1.9E-0.8W", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-5sat-19E-16E-13E-1.9E-0.8W.sh -O - | /bin/sh"),
+        ("ciefp-E2-6sat-23E-19E-16E-13E-1.9E-0.8W", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-6sat-23E-19E-16E-13E-1.9E-0.8W.sh -O - | /bin/sh"),
+        ("ciefp-E2-7sat-23E-19E-16E-13E-4.8E-1.9E-0.8W", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-7sat-23E-19E-16E-13E-4.8E-1.9E-0.8W.sh -O - | /bin/sh"),
+        ("ciefp-E2-8sat-28E-23E-19E-16E-13E-4.8E-1.9E-0.8W", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-8sat-28E-23E-19E-16E-13E-4.8E-1.9E-0.8W.sh -O - | /bin/sh"),
+        ("ciefp-E2-9sat-28E-23E-19E-16E-13E-9E-1.9E-0.8W-5W", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-9sat-28E-23E-19E-16E-13E-9E-1.9E-0.8W-5W.sh -O - | /bin/sh"),
+        ("ciefp-E2-10sat-39E-28E-23E-19E-16E-13E-9E-4.8E-1.9E-0.8W", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-10sat.sh -O - | /bin/sh"),
+        ("ciefp-E2-13sat-42E-39E-28E-23E-19E-16E-13E-9E-7E-4.8E-1.9E-0.8w-5w", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-13sat.sh -O - | /bin/sh"),
+        ("ciefp-E2-16sat-42E-39E-28E-26E-23E-19E-16E-13E-10E-9E-7E-4.8E-1.9E-0.8w-4W-5w", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-16sat.sh -O - | /bin/sh"),
+        ("ciefp-E2-18sat-42E-39E-36E-33E-28E-26E-23E-19E-16E-13E-10E-9E-7E-4.8E-1.9E-0.8w-4W-5w", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-18sat.sh -O - | /bin/sh"),
+    ],    
+    "Channels-Vanenbal": [
+        ("Vhannibal-Dual-13-19E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Dual-13-19E.sh -O - | /bin/sh"),
+        ("Vhannibal-Dual-DTT-Campania", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Dual-DTT-Campania.sh -qO - | /bin/sh"),
+        ("Vhannibal-Dual-DTT-Italia", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Dual-DTT-Italia.sh -O - | /bin/sh"),
+        ("Vhannibal-Dual-DTT-Lazio", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Dual-DTT-Lazio.sh -O - | /bin/sh"),
+        ("Vhannibal-Dual-DTT-Lombardia", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Dual-DTT-Lombardia.sh -O - | /bin/sh"),
+        ("Vhannibal-Dual-DTT-Piemonte", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Dual-DTT-Piemonte.sh -O - | /bin/sh"),
+        ("Vhannibal-HotBird-13E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-HotBird-13E.sh -O - | /bin/sh"),
+        ("Vhannibal-HotBird-DTT-Campania", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-HotBird-DTT-Campania.sh -O - | /bin/sh"),
+        ("Vhannibal-HotBird-DTT-Italia", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-HotBird-DTT-Italia.sh -O - | /bin/sh"),
+        ("Vhannibal-HotBird-DTT-Lazio", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-HotBird-DTT-Lazio.sh -O - | /bin/sh"),
+        ("Vhannibal-HotBird-DTT-Lombardia", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-HotBird-DTT-Lombardia.sh -O - | /bin/sh"),
+        ("Vhannibal-HotBird-DTT-Piemonte", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-HotBird-DTT-Piemonte.sh -O - | /bin/sh"),
+        ("Vhannibal-Motor-70E-45W", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Motor-70E-45W.sh -O - | /bin/sh"),
+        ("Vhannibal-Motor-DTT-Campania", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Motor-DTT-Campania.sh -O - | /bin/sh"),
+        ("Vhannibal-Motor-DTT-Italia", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Motor-DTT-Italia.sh -O - | /bin/sh"),
+        ("Vhannibal-Motor-DTT-Lazio", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Motor-DTT-Lazio.sh -O - | /bin/sh"),
+        ("Vhannibal-Motor-DTT-Lombardia", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Motor-DTT-Lombardia.sh -O - | /bin/sh"),
+        ("Vhannibal-Motor-DTT-Piemonte", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Motor-DTT-Piemonte.sh -O - | /bin/sh"),
+        ("Vhannibal-Motor-DTT-Romagna", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Motor-DTT-Romagna.sh -O - | /bin/sh"),
+        ("Vhannibal-Motor-DTT-Sardegna", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Motor-DTT-Sardegna.sh -O - | /bin/sh"),
+        ("Vhannibal-Motor-DTT-Sicilia", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Motor-DTT-Sicilia.sh -O - | /bin/sh"),
+        ("Vhannibal-Quadri-9-13-16-19-23E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Quadri-9-13-16-19-23E.sh -O - | /bin/sh"),
+        ("Vhannibal-Quadri-13-19-5E-1W", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Quadri-13-19-5E-1W.sh -O - | /bin/sh"),
+        ("Vhannibal-Quadri-13-19-9E-5W", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Quadri-13-19-9E-5W.sh -O - | /bin/sh"),
+        ("Vhannibal-Quadri-13-19-23-28E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Quadri-13-19-23-28E.sh -O - | /bin/sh"),
+        ("Vhannibal-Trial-13-19E-5W", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Trial-13-19E-5W.sh -O - | /bin/sh"),
+       ("Vhannibal-Trial-13-19E-30W", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Trial-13-19E-30W.sh -O - | /bin/sh"), 
+    ],
+    "Channels-morpheus883": [
+        ("Morph883_0.8W-4.8E-13E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_0.8W-4.8E-13E.sh -O - | /bin/sh"),
+        ("Morph883_0.8W-13E-19.2E-28.2E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_0.8W-13E-19.2E-28.2E.sh -qO - | /bin/sh"),
+        ("Morph883_0.8W-13E-19.2E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_0.8W-13E-19.2E.sh -O - | /bin/sh"),
+        ("Morph883_0.8W-13E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_0.8W-13E.sh -O - | /bin/sh"),
+        ("Morph883_4.8E-13E-19.2E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_4.8E-13E-19.2E.sh -O - | /bin/sh"),
+        ("Morph883_4.8E-13E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_4.8E-13E.sh -O - | /bin/sh"),
+        ("Morph883_9E-13E-19.2E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_9E-13E-19.2E.sh -O - | /bin/sh"),
+        ("Morph883_9E-13E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_9E-13E.sh -O - | /bin/sh"),
+        ("Morph883_13E-16E-19.2E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_13E-16E-19.2E.sh -O - | /bin/sh"),
+        ("Morph883_13E-16E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_13E-16E.sh -O - | /bin/sh"),
+        ("Morph883_13E-19.2E-23.5E-28.2E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_13E-19.2E-23.5E-28.2E.sh -O - | /bin/sh"),
+        ("Morph883_13E-19.2E-23.5E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_13E-19.2E-23.5E.sh -O - | /bin/sh"),
+        ("Morph883_13E-19.2E-28.2E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_13E-19.2E-28.2E.sh -O - | /bin/sh"),
+        ("Morph883_13E-19.2E-42E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_13E-19.2E-42E.sh -O - | /bin/sh"),
+        ("Morph883_13E-19.2E.sh", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_13E-19.2E.sh -O - | /bin/sh"),
+        ("Morph883_13E-23.5E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_13E-23.5E.sh -O - | /bin/sh"),
+        ("Morph883_13E-28.2E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_13E-28.2E.sh -O - | /bin/sh"),
+        ("Morph883_13E-42E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_13E-42E.sh -O - | /bin/sh"),
+        ("Morph883_13E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_13E.sh -O - | /bin/sh"),
+        ("Morph883_30W-13E-19.2E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_30W-13E-19.2E.sh -O - | /bin/sh"),
+        ("Morph883_30W-13E", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_30W-13E.sh -O - | /bin/sh"),
+        ("Morph883_Motor", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_Motor.sh -O - | /bin/sh"),
+        ("Morph883_Settings", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_Settings.sh -O - | /bin/sh"),
     ],
     "Key Plugins": [
         
@@ -514,10 +598,10 @@ class SmartAddonspanel(Screen):
     ],
     "Skins TeamNitro": [
         ("TeamNitro Control", "wget https://gitlab.com/emilnabil1/teamnitro/-/raw/main/SKIN-teamnitro.sh -O - | /bin/sh"),
-        ("Al Ayam FHD", "wget https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerAL.sh -O - | /bin/sh"),
+        ("AlAyam-FHD", "wget https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerAL.sh -O - | /bin/sh"),
         ("Desert-FHD", "wget https://gitlab.com/emilnabil1/teamnitro/-/raw/main/installer-skin-desert.sh -O - | /bin/sh"),
-   ("BoHLALA FHD", "wget https://gitlab.com/emilnabil1/teamnitro/-/raw/main/installer.sh -O - | /bin/sh"),
-        ("Dragon FHD", "wget https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerD.sh -O - | /bin/sh"),
+   ("BoHLALA-FHD", "wget https://gitlab.com/emilnabil1/teamnitro/-/raw/main/installer.sh -O - | /bin/sh"),
+        ("Dragon-FHD", "wget https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerD.sh -O - | /bin/sh"),
         ("NitroAdvance-FHD", "wget https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerN.sh -O - | /bin/sh"),
     ("Klll-Pro-FHD", "wget https://raw.githubusercontent.com/biko-73/zelda77/main/installer.sh -O - | /bin/sh"),
     ],
@@ -655,14 +739,22 @@ class SmartAddonspanel(Screen):
         self.version_check_in_progress = False
         self.check_for_updates()
 
+    def split_name(self, name):
+        parts = name.split('-')
+        if len(parts) <= 1:
+            return (name, '')
+        mid = len(parts) // 2
+        return ('-'.join(parts[:mid]), '-'.join(parts[mid:]))
+
     def update_sub_menu_list(self):
         sel = self["main_menu"].getCurrent()
         items = []
         if sel in self.sub_menus:
             for entry in self.sub_menus[sel]:
                 name, cmd = entry
+                line1, line2 = self.split_name(name)
                 icon = self.checked_icon if any(p[0] == name for p in self.selected_plugins) else self.unchecked_icon
-                items.append((name, name, icon))
+                items.append((line1, line2, icon, name))
         self["sub_menu"].setList(items)
 
     def load_sub_menu(self):
@@ -777,13 +869,13 @@ class SmartAddonspanel(Screen):
         entry = self["sub_menu"].getCurrent()
         if not entry:
             return
-        name = entry[0]
-        cmd = next((c for n, c in self.sub_menus[category] if n == name), None)
+        original_name = entry[3]
+        cmd = next((c for n, c in self.sub_menus[category] if n == original_name), None)
         if cmd:
-            if any(p[0] == name for p in self.selected_plugins):
-                self.selected_plugins = [p for p in self.selected_plugins if p[0] != name]
+            if any(p[0] == original_name for p in self.selected_plugins):
+                self.selected_plugins = [p for p in self.selected_plugins if p[0] != original_name]
             else:
-                self.selected_plugins.append((name, cmd))
+                self.selected_plugins.append((original_name, cmd))
             self.update_sub_menu_list()
 
     def execute_all_selected_plugins(self):
@@ -865,6 +957,7 @@ def Plugins(**kwargs):
         icon=PLUGIN_ICON,
         fnc=lambda session: session.open(SmartAddonspanel)
     )]
+
 
 
 
