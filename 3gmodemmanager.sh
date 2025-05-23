@@ -24,8 +24,10 @@ sleep 1;
 if [ "$PYTHON_VERSION" = 3 ]; then
 opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 ppp usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams
 enigma2-plugin-systemplugins-3gmodemmanager
+
 else
-opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 ppp usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams
+
+opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams
 enigma2-plugin-systemplugins-3gmodemmanager
 
 fi
