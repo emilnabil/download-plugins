@@ -254,7 +254,7 @@ transparent="0">
         ("Zoom_1.1.2-Py3", "wget https://dreambox4u.com/emilnabil237/plugins/zoom/installer.sh -O - | /bin/sh"),
             ],
     "System Plugins": [
-                ("3gmodemmanager", "wget https://dreambox4u.com/emilnabil237/plugins/3gmodemmanager/3gmodemmanager.sh -O - | /bin/sh"),
+                ("3gmodemmanager", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/3gmodemmanager.sh -O - | /bin/sh"),
  ("devicemanager", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/devicemanager.sh -O - | /bin/sh"),
  ("mountmanager", "wget https://dreambox4u.com/emilnabil237/plugins/muntmanger/installer.sh -O - | /bin/sh"),
  ("servicescanupdates", "wget https://dreambox4u.com/emilnabil237/plugins/servicescanupdates/servicescanupdates.sh -O - | /bin/sh"),
@@ -262,7 +262,7 @@ transparent="0">
  ("Signalfinder", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/signalfinder.sh -O - | /bin/sh"),
  ("softwaremanager", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/softwaremanager.sh -O - | /bin/sh"),
  ("Ts-Sateditor", "wget https://dreambox4u.com/emilnabil237/plugins/ts-sateditor/ts-sateditor.sh -O - | /bin/sh"),
- ("Xmlupdate", "wget https://dreambox4u.com/emilnabil237/plugins/xmlupdate/xmlupdate.sh -O - | /bin/sh"),
+ ("Xmlupdate", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/xmlupdate.sh -O - | /bin/sh"),
             ],
           "DNS Resolver Network": [
     ("Google DNS", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-google.sh -O - | /bin/sh"),
