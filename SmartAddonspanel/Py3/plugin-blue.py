@@ -608,6 +608,7 @@ transparent="0">
     "Skins Atv": [
         ("Aglare-FHD", "wget https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglareatv/installer.sh -O - | /bin/sh"),
         ("Areadeltasat_fhd", "wget https://github.com/emil237/skins-enigma2/raw/refs/heads/main/ATV/skins_areadeltasat_fhd_dragon_1_9_Poster_Backdrop.sh -O - | /bin/sh"),
+("Fury-FHD", "wget https://raw.githubusercontent.com/islam-2412/IPKS/refs/heads/main/fury/installer.sh -O - | /bin/sh"),
         ("Maxy-FHD", "wget https://raw.githubusercontent.com/popking159/skins/refs/heads/main/maxyatv/installer.sh -O - | /bin/sh"),
         ("Full HD Glass17", "wget http://dreambox4u.com/emilnabil237/skins/skin-fullhdglass17/installer.sh -O - | /bin/sh"),
    ("MyMetrixLiteBackup", "wget -O /etc/enigma2/MyMetrixLiteBackup.dat https://dreambox4u.com/emilnabil237/plugins/metrix-fhd/khaled_metrix/MyMetrixLiteBackup.dat"),
@@ -619,6 +620,7 @@ transparent="0">
     ],
       "Skins Egami": [
         ("Aglare-FHD", "wget https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglareatv/installer.sh -O - | /bin/sh"),
+("Fury-FHD", "wget https://raw.githubusercontent.com/islam-2412/IPKS/refs/heads/main/fury/installer.sh -O - | /bin/sh"),
         ("Premium-Fhd", "wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium-fhd-py3.sh -O - | /bin/sh"),
         ("Premium-Black-Fhd", "wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--black-fhd-py3.sh -O - | /bin/sh"),
         ("Premium-Blue-Fhd", "wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--blue-fhd-py3.sh -O - | /bin/sh"),
@@ -626,6 +628,7 @@ transparent="0">
      ],
 "Skins Open BlackHole": [
                 ("Aglare-fhd", "wget https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglarepli/installer.sh -O - | /bin/sh"),
+("Fury-FHD", "wget https://raw.githubusercontent.com/islam-2412/IPKS/refs/heads/main/fury/installer.sh -O - | /bin/sh"),
         ("MX_BlackSea", "wget https://dreambox4u.com/emilnabil237/skins/obh/skins-MX_BlackSea.sh -O - | /bin/sh"),
         ("MX-Sline-Black-Red-Gradient", "wget https://dreambox4u.com/emilnabil237/skins/obh/mx-sline-black-red-gradient_py3.12.sh -O - | /bin/sh"),
         ("MX_Sline-Blue", "wget https://dreambox4u.com/emilnabil237/skins/obh/MX_Sline-Blue_OBH_5.4_py3.12_py3.12.sh -O - | /bin/sh"),
@@ -645,11 +648,12 @@ transparent="0">
   ],
     "Skins OpenVix": [
         ("Aglare-FHD", "wget https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglarepli/installer.sh -O - | /bin/sh"),
+("Fury-FHD", "wget https://raw.githubusercontent.com/islam-2412/IPKS/refs/heads/main/fury/installer.sh -O - | /bin/sh"),
         ("XDreamy-FHD", "wget https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -qO - | /bin/sh"),
     ],
       "Skins OpenSpa": [
         ("Aglare-FHD", "wget https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglareatv/installer.sh -O - | /bin/sh"),
-        ("estuary-1080-FHD", "wget https://gitlab.com/elbrins/skins/-/raw/main/Spa/Skin-estuary-1080.sh -qO - | /bin/sh"),
+("Fury-FHD", "wget https://raw.githubusercontent.com/islam-2412/IPKS/refs/heads/main/fury/installer.sh -O - | /bin/sh"),        ("estuary-1080-FHD", "wget https://gitlab.com/elbrins/skins/-/raw/main/Spa/Skin-estuary-1080.sh -qO - | /bin/sh"),
     ],
     "Skins OpenPli Py2": [
         ("Bluemetal-FHD", "wget https://raw.githubusercontent.com/emil237/skins-enigma2/refs/heads/main/pli/Skin-bluemetal-fhd.sh -O - | /bin/sh"),
