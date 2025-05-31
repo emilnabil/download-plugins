@@ -163,7 +163,8 @@ transparent="0">
     ],
             "Plugins": [
                 ("ArabicSavior", "wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh -O - | /bin/sh"),
-          ("Acherone", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/acherone/installer.sh -O - | /bin/sh"),   
+          ("Acherone", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/acherone/installer.sh -O - | /bin/sh"),
+("Advanced-Screen-Shot", "wget https://raw.githubusercontent.com/Belfagor2005/AdvancedScreenshot/main/installer.sh -O - | /bin/sh"),   
             ("Alajre", "wget https://dreambox4u.com/emilnabil237/plugins/alajre/installer.sh -O - | /bin/sh"),
        ("Ansite", "wget https://raw.githubusercontent.com/emil237/ansite/refs/heads/main/installer.sh -O - | /bin/sh"),
        ("Apod", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/apod/installer.sh -O - | /bin/sh"), 
@@ -214,6 +215,8 @@ transparent="0">
       ("Internet-Speedtest", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/internet-speedtest.sh -O - | /bin/sh"),
 ("Iptv-Org-Playlists", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/iptv-org-playlists/iptv-org-playlists.sh -O - | /bin/sh"),
       ("iptvdream", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/iptvdream/iptvdream.sh -O - | /bin/sh"),
+("levi45-settings", "wget https://dreambox4u.com/emilnabil237/plugins/levi45-settings/levi45-settings.sh -O - | /bin/sh"),
+      ("m3uconverter", "wget https://raw.githubusercontent.com/Belfagor2005/Archimede-M3UConverter/main/installer.sh -O - | /bin/sh"),
          ("MoviesManager", "wget http://dreambox4u.com/emilnabil237/plugins/Transmission/MoviesManager.sh -O - | /bin/sh"),
     ("MyCam-Plugin", "wget https://dreambox4u.com/emilnabil237/plugins/mycam/installer.sh -O - | /bin/sh"),
      ("MultiCamAdder", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiCamAdder/installer.sh -O - | /bin/sh"),
@@ -224,7 +227,8 @@ transparent="0">
     ("Plutotv", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/plutotv/plutotv.sh -O - | /bin/sh"),
 ("Quran-karem", "wget https://dreambox4u.com/emilnabil237/plugins/quran/installer.sh -O - | /bin/sh"),
 ("Quran-karem_v2.2", "wget https://raw.githubusercontent.com/emil237/quran/main/installer.sh -O - | /bin/sh"),
-("Radio-80-s", "wget https://raw.githubusercontent.com/Belfagor2005/Radio-80-s/main/installer.sh -O - | /bin/sh"),  
+("Radio-80-s", "wget https://raw.githubusercontent.com/Belfagor2005/Radio-80-s/main/installer.sh -O - | /bin/sh"),
+("RadioGit", "wget https://dreambox4u.com/emilnabil237/plugins/radiogit/radiogit.sh -O - | /bin/sh"),  
      ("Radiom", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/radiom/radiom.sh -O - | /bin/sh"),
      ("Rakutentv", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/rakutentv/rakutentv.sh -O - | /bin/sh"),
       ("RaedQuickSignal", "wget https://dreambox4u.com/emilnabil237/plugins/RaedQuickSignal/installer.sh -O - | /bin/sh"),
@@ -695,6 +699,7 @@ transparent="0">
         ("Indigo Blue", "wget -O /usr/lib/enigma2/python/Plugins/Extensions/SmartAddonspanel/plugin.py https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SmartAddonspanel/Py3/plugin-blue.py")
     ]
 }
+
         self.selected_plugins = []
         self.focus = "main_menu"
 
