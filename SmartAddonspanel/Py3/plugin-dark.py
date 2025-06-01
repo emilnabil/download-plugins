@@ -101,11 +101,8 @@ class SmartAddonspanel(Screen):
     skin = """
     <screen name="SmartAddonspanel" position="left,center" size="1920,1080" title="Smart Addons Panel By Emil Nabil">
         <ePixmap position="0,0" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/SmartAddonspanel/icons/background.png" zPosition="-1" />
-        <widget name="main_menu" position="30,60" size="500,900" scrollbarMode="showOnDemand" itemHeight="70" backgroundColor="#000000"
-foregroundColor="#FFD700" font="Bold;40" flags="RT_HALIGN_LEFT" />
-        <widget source="sub_menu" render="Listbox" position="560,50" size="650,900" scrollbarMode="showOnDemand"
-backgroundColor="#000000"
-transparent="0">
+        <widget name="main_menu" position="30,60" size="500,900" scrollbarMode="showOnDemand" itemHeight="70" foregroundColor="#FFD700" font="Bold;40" flags="RT_HALIGN_LEFT" />
+        <widget source="sub_menu" render="Listbox" position="560,50" size="650,900" scrollbarMode="showOnDemand" transparent="0">
             <convert type="TemplatedMultiContent">
                 {"template": [
                     MultiContentEntryPixmapAlphaBlend(pos=(5,10), size=(50,50), png=2),
@@ -197,6 +194,7 @@ transparent="0">
  ("CHLogoChanger", "wget https://dreambox4u.com/emilnabil237/plugins/CHLogoChanger/ChLogoChanger.sh -O - | /bin/sh"),
                 ("CrashLogoViewer", "wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/install-CrashLogViewer.sh -O - | /bin/sh"),
        ("CrondManger", "wget https://github.com/emil237/download-plugins/raw/main/cronmanager.sh -O - | /bin/sh"),
+("Easy-Cccam", "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/easy-cccam/easy-cccam.sh -O - | /bin/sh"),
        ("enigma2readeradder", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/enigma2readeradder.sh -O - | /bin/sh"), 
        ("Epg Grabber", "wget https://dreambox4u.com/emilnabil237/plugins/Epg-Grabber/installer.sh -O - | /bin/sh"), 
        ("EPGImport", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/epgimport.sh -O - | /bin/sh"), 
@@ -215,6 +213,7 @@ transparent="0">
       ("Internet-Speedtest", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/internet-speedtest.sh -O - | /bin/sh"),
 ("Iptv-Org-Playlists", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/iptv-org-playlists/iptv-org-playlists.sh -O - | /bin/sh"),
       ("iptvdream", "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/iptvdream/iptvdream.sh -O - | /bin/sh"),
+("levi45-freeserver", "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/levi45-freeserver/levi45-freeserver.sh -O - | /bin/sh"),
 ("levi45-settings", "wget https://dreambox4u.com/emilnabil237/plugins/levi45-settings/levi45-settings.sh -O - | /bin/sh"),
       ("m3uconverter", "wget https://raw.githubusercontent.com/Belfagor2005/Archimede-M3UConverter/main/installer.sh -O - | /bin/sh"),
          ("MoviesManager", "wget http://dreambox4u.com/emilnabil237/plugins/Transmission/MoviesManager.sh -O - | /bin/sh"),
@@ -966,7 +965,5 @@ def Plugins(**kwargs):
         icon=PLUGIN_ICON,
         fnc=lambda session: session.open(SmartAddonspanel)
     )]
-
-
 
 
