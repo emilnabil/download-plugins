@@ -176,31 +176,31 @@
 
     <!-- قائمة السوفتكام -->
     <category name="Softcams">
-        <plugin name="Cccam" pic="cccam.png" url="https://dreambox4u.com/emilnabil237/emu/installer-cccam.sh"/>
-        <plugin name="gosatplus-ncam" pic="gosatplus.png" url="https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-ncam.sh"/>
-        <plugin name="gosatplus-oscam" pic="gosatplus.png" url="https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-oscam.sh"/>
-        <plugin name="gosatplus_v3_arm" pic="gosatplus.png" url="http://e2.gosatplus.com/Plugin/V3/arm-openpli-installer_py3_v3.sh"/>
-        <plugin name="gosatplus_v3_mips" pic="gosatplus.png" url="http://e2.gosatplus.com/Plugin/V3/mips-openpli-installer_py3_v3.sh"/>
-        <plugin name="gosatplus_v3_Fix" pic="gosatplus.png" url="http://e2.gosatplus.com/Plugin/V3/GosatPlusPluginFixPy.sh"/>
-        <plugin name="Hold-flag-ncam" pic="holdflag.png" url="https://dreambox4u.com/emilnabil237/script/Hold-flag-ncam.sh"/>
-        <plugin name="Hold-flag-Oscam" pic="holdflag.png" url="https://dreambox4u.com/emilnabil237/script/Hold-flag-Oscam.sh"/>
-        <plugin name="Ncam" pic="ncam.png" url="https://dreambox4u.com/emilnabil237/emu/installer-ncam.sh"/>
-        <plugin name="Oscam" pic="oscam.png" url="https://dreambox4u.com/emilnabil237/emu/installer-oscam.sh"/>
-        <plugin name="Oscam-11.726-by-lenuxsat" pic="oscam.png" url="https://dreambox4u.com/emilnabil237/emu/oscam-by-lenuxsat/installer.sh"/>
-        <plugin name="oscamicam" pic="oscamicam.png" url="https://dreambox4u.com/emilnabil237/emu/installer-oscamicam.sh"/>
-        <plugin name="powercam_v2-icam-arm" pic="powercam.png" url="https://dreambox4u.com/emilnabil237/emu/powercam/installer.sh"/>
-        <plugin name="powercam-Ncam" pic="powercam.png" url="https://dreambox4u.com/emilnabil237/emu/installer-powercam-ncam.sh"/>
-        <plugin name="powercam-Oscam" pic="powercam.png" url="https://dreambox4u.com/emilnabil237/emu/installer-powercam-oscam.sh"/>
-        <plugin name="Restore-flag-ncam" pic="restoreflag.png" url="https://dreambox4u.com/emilnabil237/script/Restore-flag-ncam.sh"/>
-        <plugin name="Restore-flag-oscam" pic="restoreflag.png" url="https://dreambox4u.com/emilnabil237/script/Restore-flag-Oscam.sh"/>
-        <plugin name="Revcam-Ncam" pic="revcam.png" url="https://dreambox4u.com/emilnabil237/emu/installer-revcam-ncam.sh"/>
-        <plugin name="Revcam-Oscam" pic="revcam.png" url="https://dreambox4u.com/emilnabil237/emu/installer-revcam-oscam.sh"/>
-        <plugin name="Revcam" pic="revcam.png" url="https://dreambox4u.com/emilnabil237/emu/installer-revcam.sh"/>
-        <plugin name="Supcam-Ncam" pic="supcam.png" url="https://dreambox4u.com/emilnabil237/emu/installer-supcam-ncam.sh"/>
-        <plugin name="Supcam-Oscam" pic="supcam.png" url="https://dreambox4u.com/emilnabil237/emu/installer-supcam-oscam.sh"/>
-        <plugin name="Ultracam-Ncam" pic="ultracam.png" url="https://dreambox4u.com/emilnabil237/emu/installer-ultracam-ncam.sh"/>
-        <plugin name="Ultracam-Oscam" pic="ultracam.png" url="https://dreambox4u.com/emilnabil237/emu/installer-ultracam-oscam.sh"/>
-        <plugin name="Ultracam" pic="ultracam.png" url="https://dreambox4u.com/emilnabil237/emu/installer-ultracam.sh"/>
+        <plugin name="Cccam" pic="link.png" url="https://dreambox4u.com/emilnabil237/emu/installer-cccam.sh"/>
+        <plugin name="gosatplus-ncam" pic="link.png" url="https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-ncam.sh"/>
+        <plugin name="gosatplus-oscam" pic="link.png" url="https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-oscam.sh"/>
+        <plugin name="gosatplus_v3_arm" pic="link.png" url="http://e2.gosatplus.com/Plugin/V3/arm-openpli-installer_py3_v3.sh"/>
+        <plugin name="gosatplus_v3_mips" pic="link.png" url="http://e2.gosatplus.com/Plugin/V3/mips-openpli-installer_py3_v3.sh"/>
+        <plugin name="gosatplus_v3_Fix" pic="link.png" url="http://e2.gosatplus.com/Plugin/V3/GosatPlusPluginFixPy.sh"/>
+        <plugin name="Hold-flag-ncam" pic="link.png" url="https://dreambox4u.com/emilnabil237/script/Hold-flag-ncam.sh"/>
+        <plugin name="Hold-flag-Oscam" pic="link.png" url="https://dreambox4u.com/emilnabil237/script/Hold-flag-Oscam.sh"/>
+        <plugin name="Ncam" pic="link.png" url="https://dreambox4u.com/emilnabil237/emu/installer-ncam.sh"/>
+        <plugin name="Oscam" pic="link.png" url="https://dreambox4u.com/emilnabil237/emu/installer-oscam.sh"/>
+        <plugin name="Oscam-11.726-by-lenuxsat" pic="link.png" url="https://dreambox4u.com/emilnabil237/emu/oscam-by-lenuxsat/installer.sh"/>
+        <plugin name="oscamicam" pic="link.png" url="https://dreambox4u.com/emilnabil237/emu/installer-oscamicam.sh"/>
+        <plugin name="powercam_v2-icam-arm" pic="link.png" url="https://dreambox4u.com/emilnabil237/emu/powercam/installer.sh"/>
+        <plugin name="powercam-Ncam" pic="link.png" url="https://dreambox4u.com/emilnabil237/emu/installer-powercam-ncam.sh"/>
+        <plugin name="powercam-Oscam" pic="link.png" url="https://dreambox4u.com/emilnabil237/emu/installer-powercam-oscam.sh"/>
+        <plugin name="Restore-flag-ncam" pic="link.png" url="https://dreambox4u.com/emilnabil237/script/Restore-flag-ncam.sh"/>
+        <plugin name="Restore-flag-oscam" pic="link.png" url="https://dreambox4u.com/emilnabil237/script/Restore-flag-Oscam.sh"/>
+        <plugin name="Revcam-Ncam" pic="link.png" url="https://dreambox4u.com/emilnabil237/emu/installer-revcam-ncam.sh"/>
+        <plugin name="Revcam-Oscam" pic="link.png" url="https://dreambox4u.com/emilnabil237/emu/installer-revcam-oscam.sh"/>
+        <plugin name="Revcam" pic="link.png" url="https://dreambox4u.com/emilnabil237/emu/installer-revcam.sh"/>
+        <plugin name="Supcam-Ncam" pic="link.png" url="https://dreambox4u.com/emilnabil237/emu/installer-supcam-ncam.sh"/>
+        <plugin name="Supcam-Oscam" pic="link.png" url="https://dreambox4u.com/emilnabil237/emu/installer-supcam-oscam.sh"/>
+        <plugin name="Ultracam-Ncam" pic="link.png" url="https://dreambox4u.com/emilnabil237/emu/installer-ultracam-ncam.sh"/>
+        <plugin name="Ultracam-Oscam" pic="link.png" url="https://dreambox4u.com/emilnabil237/emu/installer-ultracam-oscam.sh"/>
+        <plugin name="Ultracam" pic="link.png" url="https://dreambox4u.com/emilnabil237/emu/installer-ultracam.sh"/>
     </category>
 
     <!-- قائمة السكينز -->
@@ -288,269 +288,269 @@
 
     <!-- قائمة البيكونات -->
     <category name="Picons">
-        <plugin name="intelsat_31.5w" pic="intelsat.png" url="https://dreambox4u.com/emilnabil237/picons/intelsat_31.5w/installer.sh"/>
-        <plugin name="hispasat_30.0w" pic="hispasat.png" url="https://dreambox4u.com/emilnabil237/picons/hispasat_30.0w/installer.sh"/>
-        <plugin name="intelsat_27.5w" pic="intelsat.png" url="https://dreambox4u.com/emilnabil237/picons/intelsat_27.5w/installer.sh"/>
-        <plugin name="intelsat_24.5w" pic="intelsat.png" url="https://dreambox4u.com/emilnabil237/picons/intelsat_24.5w/installer.sh"/>
-        <plugin name="ses4_22.0w" pic="ses.png" url="https://dreambox4u.com/emilnabil237/picons/ses4_22.0w/installer.sh"/>
-        <plugin name="nss7_20.0w" pic="nss.png" url="https://dreambox4u.com/emilnabil237/picons/nss7_20.0w/installer.sh"/>
-        <plugin name="telstar_15.0w" pic="telstar.png" url="https://dreambox4u.com/emilnabil237/picons/telstar_15.0w/installer.sh"/>
-        <plugin name="express_14w" pic="express.png" url="https://dreambox4u.com/emilnabil237/picons/express_14w/installer.sh"/>
-        <plugin name="express_11.0w-14.0w" pic="express.png" url="https://dreambox4u.com/emilnabil237/picons/express_11.0w-14.0w/installer.sh"/>
-        <plugin name="Nilesat_7W-8W" pic="nilesat.png" url="https://dreambox4u.com/emilnabil237/picons/nilesat/installer.sh"/>
-        <plugin name="eutelsat_5.0w" pic="eutelsat.png" url="https://dreambox4u.com/emilnabil237/picons/eutelsat_5.0w/installer.sh"/>
-        <plugin name="Amos_4.0W" pic="amos.png" url="https://dreambox4u.com/emilnabil237/picons/amos_4.0w/installer.sh"/>
-        <plugin name="abs_3.0w" pic="abs.png" url="https://dreambox4u.com/emilnabil237/picons/abs_3.0w/installer.sh"/>
-        <plugin name="thor_0.8w" pic="thor.png" url="https://dreambox4u.com/emilnabil237/picons/thor_0.8w/installer.sh"/>
-        <plugin name="bulgariasat_1.9e" pic="bulgariasat.png" url="https://dreambox4u.com/emilnabil237/picons/bulgariasat_1.9e/installer.sh"/>
-        <plugin name="eutelsat_3.0e" pic="eutelsat.png" url="https://dreambox4u.com/emilnabil237/picons/eutelsat_3.0e/installer.sh"/>
-        <plugin name="astra_4.8e" pic="astra.png" url="https://dreambox4u.com/emilnabil237/picons/astra_4.8e/installer.sh"/>
-        <plugin name="eutelsat_7.0e" pic="eutelsat.png" url="https://dreambox4u.com/emilnabil237/picons/eutelsat_7.0e/installer.sh"/>
-        <plugin name="eutelsat_9.0e" pic="eutelsat.png" url="https://dreambox4u.com/emilnabil237/picons/eutelsat_9.0e/installer.sh"/>
-        <plugin name="eutelsat_10.0e" pic="eutelsat.png" url="https://dreambox4u.com/emilnabil237/picons/eutelsat_10.0e/installer.sh"/>
-        <plugin name="hotbird_13.0e" pic="hotbird.png" url="https://dreambox4u.com/emilnabil237/picons/hotbird_13.0e/installer.sh"/>
-        <plugin name="eutelsat_16.0e" pic="eutelsat.png" url="https://dreambox4u.com/emilnabil237/picons/eutelsat_16.0e/installer.sh"/>
-        <plugin name="astra_19.2e" pic="astra.png" url="https://dreambox4u.com/emilnabil237/picons/astra_19.2e/installer.sh"/>
-        <plugin name="eutelsat_21.6e" pic="eutelsat.png" url="https://dreambox4u.com/emilnabil237/picons/eutelsat_21.6e/installer.sh"/>
-        <plugin name="astra_23.5e" pic="astra.png" url="https://dreambox4u.com/emilnabil237/picons/astra_23.5e/installer.sh"/>
-        <plugin name="eshail_25.5e" pic="eshail.png" url="https://dreambox4u.com/emilnabil237/picons/eshail_25.5e/installer.sh"/>
-        <plugin name="badr_26.0e" pic="badr.png" url="https://dreambox4u.com/emilnabil237/picons/badr_26.0e/installer.sh"/>
-        <plugin name="astra_28.2e" pic="astra.png" url="https://dreambox4u.com/emilnabil237/picons/astra_28.2e/installer.sh"/>
-        <plugin name="arabsat_30.5e" pic="arabsat.png" url="https://dreambox4u.com/emilnabil237/picons/arabsat_30.5e/installer.sh"/>
-        <plugin name="astra_31.5e" pic="astra.png" url="https://dreambox4u.com/emilnabil237/picons/astra_31.5e/installer.sh"/>
-        <plugin name="intelsat_33.0e" pic="intelsat.png" url="https://dreambox4u.com/emilnabil237/picons/eutelsat-intelsat_33.0e/installer.sh"/>
-        <plugin name="eutelsat_36.0e" pic="eutelsat.png" url="https://dreambox4u.com/emilnabil237/picons/eutelsat_36.0e/installer.sh"/>
-        <plugin name="hellas-sat_39.0e" pic="hellassat.png" url="https://dreambox4u.com/emilnabil237/picons/hellas-sat_39.0e/installer.sh"/>
-        <plugin name="turksat_42.0e" pic="turksat.png" url="https://dreambox4u.com/emilnabil237/picons/turksat_42.0e/installer.sh"/>
-        <plugin name="azerspace_45.0e" pic="azerspace.png" url="https://dreambox4u.com/emilnabil237/picons/azerspace_45.0e/installer.sh"/>
-        <plugin name="azerspace_46.0e" pic="azerspace.png" url="https://dreambox4u.com/emilnabil237/picons/azerspace_46.0e/installer.sh"/>
-        <plugin name="turksat_50.0e_56.0e_57e" pic="turksat.png" url="https://dreambox4u.com/emilnabil237/picons/turksat_50.0e_56.0e_57e/installer.sh"/>
-        <plugin name="belintersat_51.5e" pic="belintersat.png" url="https://dreambox4u.com/emilnabil237/picons/belintersat_51.5e/installer.sh"/>
-        <plugin name="turkmenalem_52.0e" pic="turkmenalem.png" url="https://dreambox4u.com/emilnabil237/picons/turkmenalem_52.0e/installer.sh"/>
-        <plugin name="alyahsat_52.5e" pic="alyahsat.png" url="https://dreambox4u.com/emilnabil237/picons/alyahsat_52.5e/installer.sh"/>
-        <plugin name="express_53.0e" pic="express.png" url="https://dreambox4u.com/emilnabil237/picons/express_53.0e/installer.sh"/>
-        <plugin name="yamal_54.9e" pic="yamal.png" url="https://dreambox4u.com/emilnabil237/picons/gsat-yamal_54.9e/installer.sh"/>
-        <plugin name="intelsat_60.0e_66.0e_68.0e" pic="intelsat.png" url="https://dreambox4u.com/emilnabil237/picons/intelsat_60.0e_66.0e_68.0e/installer.sh"/>
-        <plugin name="intelsat_62.0e" pic="intelsat.png" url="https://dreambox4u.com/emilnabil237/picons/intelsat_62.0e/installer.sh"/>
-        <plugin name="eutelsat_70.0e_74.9e_75.0e" pic="eutelsat.png" url="https://dreambox4u.com/emilnabil237/picons/eutelsat_70.0e_74.9e_75.0e/installer.sh"/>
-        <plugin name="Intelsat_72.1e" pic="intelsat.png" url="https://dreambox4u.com/emilnabil237/picons/Intelsat_72.1e/installer.sh"/>
-        <plugin name="abs_75.0e" pic="abs.png" url="https://dreambox4u.com/emilnabil237/picons/abs_75.0e/installer.sh"/>
-        <plugin name="picons-other" pic="other.png" url="https://raw.githubusercontent.com/emil237/picon-other/main/installer.sh"/>
-        <plugin name="Chocholousek-Picons" pic="chocholousek.png" url="https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup"/>
+        <plugin name="intelsat_31.5w" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/intelsat_31.5w/installer.sh"/>
+        <plugin name="hispasat_30.0w" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/hispasat_30.0w/installer.sh"/>
+        <plugin name="intelsat_27.5w" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/intelsat_27.5w/installer.sh"/>
+        <plugin name="intelsat_24.5w" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/intelsat_24.5w/installer.sh"/>
+        <plugin name="ses4_22.0w" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/ses4_22.0w/installer.sh"/>
+        <plugin name="nss7_20.0w" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/nss7_20.0w/installer.sh"/>
+        <plugin name="telstar_15.0w" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/telstar_15.0w/installer.sh"/>
+        <plugin name="express_14w" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/express_14w/installer.sh"/>
+        <plugin name="express_11.0w-14.0w" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/express_11.0w-14.0w/installer.sh"/>
+        <plugin name="Nilesat_7W-8W" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/nilesat/installer.sh"/>
+        <plugin name="eutelsat_5.0w" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/eutelsat_5.0w/installer.sh"/>
+        <plugin name="Amos_4.0W" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/amos_4.0w/installer.sh"/>
+        <plugin name="link.png" pic="abs.png" url="https://dreambox4u.com/emilnabil237/picons/abs_3.0w/installer.sh"/>
+        <plugin name="thor_0.8w" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/thor_0.8w/installer.sh"/>
+        <plugin name="bulgariasat_1.9e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/bulgariasat_1.9e/installer.sh"/>
+        <plugin name="eutelsat_3.0e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/eutelsat_3.0e/installer.sh"/>
+        <plugin name="astra_4.8e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/astra_4.8e/installer.sh"/>
+        <plugin name="eutelsat_7.0e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/eutelsat_7.0e/installer.sh"/>
+        <plugin name="eutelsat_9.0e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/eutelsat_9.0e/installer.sh"/>
+        <plugin name="eutelsat_10.0e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/eutelsat_10.0e/installer.sh"/>
+        <plugin name="hotbird_13.0e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/hotbird_13.0e/installer.sh"/>
+        <plugin name="eutelsat_16.0e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/eutelsat_16.0e/installer.sh"/>
+        <plugin name="astra_19.2e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/astra_19.2e/installer.sh"/>
+        <plugin name="eutelsat_21.6e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/eutelsat_21.6e/installer.sh"/>
+        <plugin name="astra_23.5e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/astra_23.5e/installer.sh"/>
+        <plugin name="eshail_25.5e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/eshail_25.5e/installer.sh"/>
+        <plugin name="badr_26.0e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/badr_26.0e/installer.sh"/>
+        <plugin name="astra_28.2e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/astra_28.2e/installer.sh"/>
+        <plugin name="arabsat_30.5e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/arabsat_30.5e/installer.sh"/>
+        <plugin name="astra_31.5e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/astra_31.5e/installer.sh"/>
+        <plugin name="intelsat_33.0e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/eutelsat-intelsat_33.0e/installer.sh"/>
+        <plugin name="eutelsat_36.0e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/eutelsat_36.0e/installer.sh"/>
+        <plugin name="hellas-sat_39.0e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/hellas-sat_39.0e/installer.sh"/>
+        <plugin name="turksat_42.0e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/turksat_42.0e/installer.sh"/>
+        <plugin name="azerspace_45.0e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/azerspace_45.0e/installer.sh"/>
+        <plugin name="azerspace_46.0e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/azerspace_46.0e/installer.sh"/>
+        <plugin name="turksat_50.0e_56.0e_57e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/turksat_50.0e_56.0e_57e/installer.sh"/>
+        <plugin name="belintersat_51.5e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/belintersat_51.5e/installer.sh"/>
+        <plugin name="turkmenalem_52.0e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/turkmenalem_52.0e/installer.sh"/>
+        <plugin name="alyahsat_52.5e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/alyahsat_52.5e/installer.sh"/>
+        <plugin name="express_53.0e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/express_53.0e/installer.sh"/>
+        <plugin name="yamal_54.9e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/gsat-yamal_54.9e/installer.sh"/>
+        <plugin name="intelsat_60.0e_66.0e_68.0e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/intelsat_60.0e_66.0e_68.0e/installer.sh"/>
+        <plugin name="intelsat_62.0e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/intelsat_62.0e/installer.sh"/>
+        <plugin name="eutelsat_70.0e_74.9e_75.0e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/eutelsat_70.0e_74.9e_75.0e/installer.sh"/>
+        <plugin name="Intelsat_72.1e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/Intelsat_72.1e/installer.sh"/>
+        <plugin name="abs_75.0e" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/abs_75.0e/installer.sh"/>
+        <plugin name="picons-other" pic="link.png" url="https://raw.githubusercontent.com/emil237/picon-other/main/installer.sh"/>
+        <plugin name="Chocholousek-Picons" pic="link.png" url="https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup"/>
     </category>
 
     <!-- قائمة البوت لوجو -->
     <category name="Bootlogos">
-        <plugin name="BootlogoSwapper Atv" pic="bootlogo.png" url="http://dreambox4u.com/emilnabil237/script/bootlogoswapper-Atv.sh"/>
-        <plugin name="Bootlogo-PURE2" pic="bootlogo.png" url="http://dreambox4u.com/emilnabil237/script/bootLogoswapper-Pure2.sh"/>
-        <plugin name="BootlogoSwapper Christmas" pic="bootlogo.png" url="http://dreambox4u.com/emilnabil237/script/bootlogoswapper-christmas.sh"/>
-        <plugin name="BootlogoSwapper Pli" pic="bootlogo.png" url="http://dreambox4u.com/emilnabil237/script/bootlogoswapper-pli.sh"/>
-        <plugin name="BootlogoSwapper OpenBH" pic="bootlogo.png" url="http://dreambox4u.com/emilnabil237/script/bootlogoswapper-OpenBH.sh"/>
-        <plugin name="BootlogoSwapper Egami" pic="bootlogo.png" url="http://dreambox4u.com/emilnabil237/script/bootLogoswapper-Egami.sh"/>
-        <plugin name="BootlogoSwapper OpenVix" pic="bootlogo.png" url="http://dreambox4u.com/emilnabil237/script/bootlogoswapper-OpenVix.sh"/>
-        <plugin name="BootlogoSwapper Kids" pic="bootlogo.png" url="http://dreambox4u.com/emilnabil237/script/bootlogoswapper-kids.sh"/>
-        <plugin name="BootlogoSwapper Ramadan" pic="bootlogo.png" url="http://dreambox4u.com/emilnabil237/script/bootlogo-swapper-ramadan.sh"/>
-        <plugin name="BootlogoSwapper Eid-Aldha" pic="bootlogo.png" url="http://dreambox4u.com/emilnabil237/script/bootlogoswaper-Eid-Aldha.sh"/>
-        <plugin name="BootlogoSwapper V2.1" pic="bootlogo.png" url="http://dreambox4u.com/emilnabil237/script/BootlogoSwapper_v2.1.sh"/>
-        <plugin name="BootlogoSwapper V2.3" pic="bootlogo.png" url="http://dreambox4u.com/emilnabil237/script/BootlogoSwapper_v2.3.sh"/>
+        <plugin name="BootlogoSwapper Atv" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/bootlogoswapper-Atv.sh"/>
+        <plugin name="Bootlogo-PURE2" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/bootLogoswapper-Pure2.sh"/>
+        <plugin name="BootlogoSwapper Christmas" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/bootlogoswapper-christmas.sh"/>
+        <plugin name="BootlogoSwapper Pli" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/bootlogoswapper-pli.sh"/>
+        <plugin name="BootlogoSwapper OpenBH" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/bootlogoswapper-OpenBH.sh"/>
+        <plugin name="BootlogoSwapper Egami" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/bootLogoswapper-Egami.sh"/>
+        <plugin name="BootlogoSwapper OpenVix" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/bootlogoswapper-OpenVix.sh"/>
+        <plugin name="BootlogoSwapper Kids" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/bootlogoswapper-kids.sh"/>
+        <plugin name="BootlogoSwapper Ramadan" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/bootlogo-swapper-ramadan.sh"/>
+        <plugin name="BootlogoSwapper Eid-Aldha" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/bootlogoswaper-Eid-Aldha.sh"/>
+        <plugin name="BootlogoSwapper V2.1" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/BootlogoSwapper_v2.1.sh"/>
+        <plugin name="BootlogoSwapper V2.3" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/BootlogoSwapper_v2.3.sh"/>
     </category>
 
     <!-- قائمة البانلات -->
     <category name="Panels">
-        <plugin name="Ajpanel" pic="ajpanel.png" url="http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer1.sh"/>
-        <plugin name="AjPanel Custom Menu All Panels" pic="ajpanel.png" url="https://dreambox4u.com/emilnabil237/plugins/ajpanel/emil-panel-all.sh"/>
-        <plugin name="Panel Lite By Emil Nabil" pic="emilpanel.png" url="https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/emil-panel-lite.sh"/>
-        <plugin name="Ciefp-Panel" pic="ciefp.png" url="https://github.com/ciefp/CiefpsettingsPanel/raw/main/installer.sh"/>
-        <plugin name="Ciefp-Panel mod Emil Nabil" pic="ciefp.png" url="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Ciefp-Panel/Ciefp-Panel.sh"/>
-        <plugin name="dreamosat-downloader" pic="dreamosat.png" url="https://dreambox4u.com/emilnabil237/plugins/dreamosat-downloader/installer.sh"/>
-        <plugin name="EmilPanel" pic="emilpanel.png" url="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilPanel/emilpanel.sh"/>
-        <plugin name="EmilPanelpro" pic="emilpanel.png" url="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilPanelPro/emilpanelpro.sh"/>
-        <plugin name="EliesatPanel" pic="eliesat.png" url="https://raw.githubusercontent.com/eliesat/eliesatpanel/main/installer.sh"/>
-        <plugin name="Epanel" pic="epanel.png" url="https://dreambox4u.com/emilnabil237/plugins/epanel/installer.sh"/>
-        <plugin name="linuxsat-panel" pic="linuxsat.png" url="https://raw.githubusercontent.com/Belfagor2005/LinuxsatPanel/main/installer.sh"/>
-        <plugin name="levi45-AddonsManager" pic="levi45.png" url="https://dreambox4u.com/emilnabil237/plugins/levi45-addonsmanager/installer.sh"/>
-        <plugin name="Levi45MulticamManager" pic="levi45.png" url="https://dreambox4u.com/emilnabil237/plugins/levi45multicammanager/installer.sh"/>
-        <plugin name="MagicPanel-HAMDY_AHMED" pic="magicpanel.png" url="https://gitlab.com/h-ahmed/Panel/-/raw/main/MagicPanel_install.sh"/>
-        <plugin name="SatVenusPanel" pic="satvenus.png" url="https://dreambox4u.com/emilnabil237/plugins/satvenuspanel/installer.sh"/>
-        <plugin name="Tspanel" pic="tspanel.png" url="https://dreambox4u.com/emilnabil237/plugins/tspanel/installer.sh"/>
-        <plugin name="SmartAddonspanel" pic="smartpanel.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SmartAddonspanel/smart-Panel.sh"/>
-        <plugin name="TvAddon-Panel" pic="tvaddon.png" url="https://dreambox4u.com/emilnabil237/plugins/tvaddon/installer.sh"/>
+        <plugin name="Ajpanel" pic="link.png" url="http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer1.sh"/>
+        <plugin name="AjPanel Custom Menu All Panels" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/ajpanel/emil-panel-all.sh"/>
+        <plugin name="Panel Lite By Emil Nabil" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/emil-panel-lite.sh"/>
+        <plugin name="Ciefp-Panel" pic="link.png" url="https://github.com/ciefp/CiefpsettingsPanel/raw/main/installer.sh"/>
+        <plugin name="Ciefp-Panel mod Emil Nabil" pic="link.png" url="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Ciefp-Panel/Ciefp-Panel.sh"/>
+        <plugin name="dreamosat-downloader" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/dreamosat-downloader/installer.sh"/>
+        <plugin name="EmilPanel" pic="link.png" url="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilPanel/emilpanel.sh"/>
+        <plugin name="EmilPanelpro" pic="link.png" url="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilPanelPro/emilpanelpro.sh"/>
+        <plugin name="EliesatPanel" pic="link.png" url="https://raw.githubusercontent.com/eliesat/eliesatpanel/main/installer.sh"/>
+        <plugin name="Epanel" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/epanel/installer.sh"/>
+        <plugin name="linuxsat-panel" pic="link.png" url="https://raw.githubusercontent.com/Belfagor2005/LinuxsatPanel/main/installer.sh"/>
+        <plugin name="levi45-AddonsManager" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/levi45-addonsmanager/installer.sh"/>
+        <plugin name="Levi45MulticamManager" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/levi45multicammanager/installer.sh"/>
+        <plugin name="MagicPanel-HAMDY_AHMED" pic="link.png" url="https://gitlab.com/h-ahmed/Panel/-/raw/main/MagicPanel_install.sh"/>
+        <plugin name="SatVenusPanel" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/satvenuspanel/installer.sh"/>
+        <plugin name="Tspanel" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/tspanel/installer.sh"/>
+        <plugin name="SmartAddonspanel" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SmartAddonspanel/smart-Panel.sh"/>
+        <plugin name="TvAddon-Panel" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/tvaddon/installer.sh"/>
     </category>
 
     <!-- قائمة الإضافات -->
     <category name="Plugins">
-        <plugin name="ArabicSavior" pic="arabicsavior.png" url="http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh"/>
-        <plugin name="Acherone" pic="acherone.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/acherone/installer.sh"/>
-        <plugin name="Advanced-Screen-Shot" pic="screenshot.png" url="https://raw.githubusercontent.com/Belfagor2005/AdvancedScreenshot/main/installer.sh"/>
-        <plugin name="Alajre" pic="alajre.png" url="https://dreambox4u.com/emilnabil237/plugins/alajre/installer.sh"/>
-        <plugin name="Ansite" pic="ansite.png" url="https://raw.githubusercontent.com/emil237/ansite/refs/heads/main/installer.sh"/>
-        <plugin name="Apod" pic="apod.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/apod/installer.sh"/>
-        <plugin name="Astronomy" pic="astronomy.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/astronomy/installer.sh"/>
-        <plugin name="Athan Times" pic="athan.png" url="https://dreambox4u.com/emilnabil237/plugins/athantimes/installer.sh"/>
-        <plugin name="Atilehd" pic="atilehd.png" url="https://dreambox4u.com/emilnabil237/plugins/atilehd/installer.sh"/>
-        <plugin name="automatic-fullbackup" pic="backup.png" url="https://dreambox4u.com/emilnabil237/plugins/automatic-fullbackup/installer.sh"/>
-        <plugin name="Azkar Almuslim" pic="azkar.png" url="https://dreambox4u.com/emilnabil237/plugins/azkar-almuslim/installer.sh"/>
-        <plugin name="Bitrate" pic="bitrate.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/bitrate/bitrate.sh"/>
-        <plugin name="Bitrate-mod-ariad" pic="bitrate.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/bitrate/bitrate-mod-ariad.sh"/>
-        <plugin name="Bundesliga-Permanent-Clock" pic="bundesliga.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/bundesliga-permanent-clock/bundesliga-permanent-clock.sh"/>
-        <plugin name="CacheFlush" pic="cacheflush.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cacheflush/cacheflush.sh"/>
-        <plugin name="CCcaminfo-py2" pic="cccam.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccaminfo/cccaminfo_py2.sh"/>
-        <plugin name="CCcaminfo-py3" pic="cccam.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccaminfo/cccaminfo_py3.sh"/>
-        <plugin name="CrondManager" pic="crond.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/crondmanager/installer.sh"/>
-        <plugin name="CFG_ZOOM_FINAL" pic="cfgzoom.png" url="https://dreambox4u.com/emilnabil237/plugins/cfg_Zoom_Final_FIX7x/installer.sh"/>
-        <plugin name="CiefpBouquetUpdater" pic="ciefp.png" url="https://raw.githubusercontent.com/ciefp/CiefpBouquetUpdater/main/installer.sh"/>
-        <plugin name="CiefpIPTVBouquets" pic="ciefp.png" url="https://raw.githubusercontent.com/ciefp/CiefpIPTVBouquets/main/installer.sh"/>
-        <plugin name="CiefpSatelliteXmlEditor" pic="ciefp.png" url="https://raw.githubusercontent.com/ciefp/CiefpSatelliteXmlEditor/main/installer.sh"/>
-        <plugin name="CiefpSettingsDownloader" pic="ciefp.png" url="https://raw.githubusercontent.com/ciefp/CiefpSettingsDownloader/main/installer.sh"/>
-        <plugin name="CiefpsettingsMotor" pic="ciefp.png" url="https://raw.githubusercontent.com/ciefp/CiefpsettingsMotor/main/installer.sh"/>
-        <plugin name="CiefpSelectSatellite" pic="ciefp.png" url="https://raw.githubusercontent.com/ciefp/CiefpSelectSatellite/main/installer.sh"/>
-        <plugin name="CiefpE2Converter" pic="ciefp.png" url="https://raw.githubusercontent.com/ciefp/CiefpE2Converter/main/installer.sh"/>
-        <plugin name="Ciefp-Plugins" pic="ciefp.png" url="https://raw.githubusercontent.com/ciefp/CiefpPlugins/main/installer.sh"/>
-        <plugin name="CiefpWhitelistStreamrelay" pic="ciefp.png" url="https://raw.githubusercontent.com/ciefp/CiefpWhitelistStreamrelay/main/installer.sh"/>
-        <plugin name="CiefpSettingsStreamrela_PY3" pic="ciefp.png" url="https://raw.githubusercontent.com/ciefp/CiefpSettingsStreamrelay/main/installer.sh"/>
-        <plugin name="CiefpSettingsStreamrela_PY2" pic="ciefp.png" url="https://raw.githubusercontent.com/ciefp/CiefpSettingsStreamrelayPY2/main/installer.sh"/>
-        <plugin name="CiefpSettingsT2miAbertis" pic="ciefp.png" url="https://raw.githubusercontent.com/ciefp/CiefpSettingsT2miAbertis/main/installer.sh"/>
-        <plugin name="CiefpSettingsT2miAbertisOpenPLi" pic="ciefp.png" url="https://raw.githubusercontent.com/ciefp/CiefpSettingsT2miAbertisOpenPLi/main/installer.sh"/>
-        <plugin name="chocholousek-picons" pic="chocholousek.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/chocholousek-picons.sh"/>
-        <plugin name="CHLogoChanger" pic="chlogo.png" url="https://dreambox4u.com/emilnabil237/plugins/CHLogoChanger/ChLogoChanger.sh"/>
-        <plugin name="CrashLogoViewer" pic="crashviewer.png" url="https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/install-CrashLogViewer.sh"/>
-        <plugin name="CrondManger" pic="crond.png" url="https://github.com/emil237/download-plugins/raw/main/cronmanager.sh"/>
-        <plugin name="Easy-Cccam" pic="easycccam.png" url="https://gitlab.com/eliesat/extensions/-/raw/main/easy-cccam/easy-cccam.sh"/>
-        <plugin name="enigma2readeradder" pic="readeradder.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/enigma2readeradder.sh"/>
-        <plugin name="Epg Grabber" pic="epggrabber.png" url="https://dreambox4u.com/emilnabil237/plugins/Epg-Grabber/installer.sh"/>
-        <plugin name="EPGImport" pic="epgimport.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/epgimport.sh"/>
-        <plugin name="EPGImport-99" pic="epgimport.png" url="https://raw.githubusercontent.com/Belfagor2005/EPGImport-99/main/installer.sh"/>
-        <plugin name="EPGTranslator" pic="epgtranslator.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/epgtranslator.sh"/>
-        <plugin name="Filmxy" pic="filmxy.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/filmxy/filmxy.sh"/>
-        <plugin name="Footonsat" pic="football.png" url="https://dreambox4u.com/emilnabil237/plugins/FootOnsat/installer.sh"/>
-        <plugin name="Freearhey" pic="arhey.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/freearhey/freearhey.sh"/>
-        <plugin name="FreeCCcamServer" pic="freecccam.png" url="https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh"/>
-        <plugin name="gioppygio" pic="gioppygio.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/gioppygio/gioppygio.sh"/>
-        <plugin name="hardwareinfo" pic="hardware.png" url="https://dreambox4u.com/emilnabil237/plugins/hardwareinfo/installer.sh"/>
-        <plugin name="HasBahCa" pic="hasbahca.png" url="https://dreambox4u.com/emilnabil237/plugins/HasBahCa/installer.sh"/>
-        <plugin name="HistoryZapSelector" pic="historyzap.png" url="https://dreambox4u.com/emilnabil237/plugins/historyzap/installer1.sh"/>
-        <plugin name="horoscope" pic="horoscope.png" url="https://raw.githubusercontent.com/emilnabil/horoscope/refs/heads/main/horoscope.sh"/>
-        <plugin name="HolidayCountdown" pic="holiday.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/HolidayCountdown/installer.sh"/>
-        <plugin name="Internet-Speedtest" pic="speedtest.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/internet-speedtest.sh"/>
-        <plugin name="Iptv-Org-Playlists" pic="iptv.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/iptv-org-playlists/iptv-org-playlists.sh"/>
-        <plugin name="iptvdream" pic="iptv.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/main/iptvdream/iptvdream.sh"/>
-        <plugin name="levi45-settings" pic="levi45.png" url="https://dreambox4u.com/emilnabil237/plugins/levi45-settings/levi45-settings.sh"/>
-        <plugin name="M3uConverter" pic="m3uconverter.png" url="https://raw.githubusercontent.com/Belfagor2005/Archimede-M3UConverter/main/installer.sh"/>
-        <plugin name="MoviesManager" pic="movies.png" url="http://dreambox4u.com/emilnabil237/plugins/Transmission/MoviesManager.sh"/>
-        <plugin name="MyCam-Plugin" pic="mycam.png" url="https://dreambox4u.com/emilnabil237/plugins/mycam/installer.sh"/>
-        <plugin name="MultiCamAdder" pic="multicam.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiCamAdder/installer.sh"/>
-        <plugin name="Multi-Iptv-Adder" pic="iptvadder.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiIptvAdder/installer.sh"/>
-        <plugin name="NewVirtualkeyBoard" pic="keyboard.png" url="https://dreambox4u.com/emilnabil237/plugins/NewVirtualKeyBoard/installer.sh"/>
-        <plugin name="ONEupdater" pic="oneupdater.png" url="https://raw.githubusercontent.com/Sat-Club/ONEupdaterE2/main/installer.sh"/>
-        <plugin name="Ozeta-Skins-Setup" pic="ozeta.png" url="https://raw.githubusercontent.com/emil237/skins-enigma2/main/PLUGIN_Skin-ozeta.sh"/>
-        <plugin name="Plutotv" pic="plutotv.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/main/plutotv/plutotv.sh"/>
-        <plugin name="Quran-karem" pic="quran.png" url="https://dreambox4u.com/emilnabil237/plugins/quran/installer.sh"/>
-        <plugin name="Quran-karem_v2.2" pic="quran.png" url="https://raw.githubusercontent.com/emil237/quran/main/installer.sh"/>
-        <plugin name="Radio-80-s" pic="radio80.png" url="https://raw.githubusercontent.com/Belfagor2005/Radio-80-s/main/installer.sh"/>
-        <plugin name="RadioGit" pic="radiogit.png" url="https://dreambox4u.com/emilnabil237/plugins/radiogit/radiogit.sh"/>
-        <plugin name="Radiom" pic="radiom.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/main/radiom/radiom.sh"/>
-        <plugin name="Rakutentv" pic="rakuten.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/main/rakutentv/rakutentv.sh"/>
-        <plugin name="RaedQuickSignal" pic="quicksignal.png" url="https://dreambox4u.com/emilnabil237/plugins/RaedQuickSignal/installer.sh"/>
-        <plugin name="pluginmover" pic="pluginmover.png" url="http://dreambox4u.com/emilnabil237/plugins/pluginmover/installer.sh"/>
-        <plugin name="pluginskinmover" pic="skinmover.png" url="http://dreambox4u.com/emilnabil237/plugins/pluginskinmover/installer.sh"/>
-        <plugin name="ScreenNames" pic="screennames.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screennames/screennames.sh"/>
-        <plugin name="Screen-Recorder" pic="screenrecorder.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screenrecorder/installer.sh"/>
-        <plugin name="SetPicon" pic="setpicon.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/setpicon/installer.sh"/>
-        <plugin name="scriptexecuter" pic="scriptexecuter.png" url="http://dreambox4u.com/emilnabil237/plugins/scriptexecuter/installer.sh"/>
-        <plugin name="Sherlockmod" pic="sherlock.png" url="https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh"/>
-        <plugin name="Simple-Zoom-Panel" pic="zoom.png" url="https://dreambox4u.com/emilnabil237/plugins/simple-zoom-panel/installer.sh"/>
-        <plugin name="SubsSupport_1.5.8-r9" pic="subssupport.png" url="https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer1.sh"/>
-        <plugin name="SubsSupport_by-m.nasr" pic="subssupport.png" url="https://github.com/popking159/ssupport/raw/main/subssupport-install.sh"/>
-        <plugin name="SubsSupport_2.1" pic="subssupport.png" url="https://dreambox4u.com/emilnabil237/plugins/SubsSupport/subssupport_2.1.sh"/>
-        <plugin name="uninstaller-Plugins" pic="uninstaller.png" url="http://dreambox4u.com/emilnabil237/plugins/unstaller-plugins/installer.sh"/>
-        <plugin name="vavoo_1.15" pic="vavoo.png" url="https://dreambox4u.com/emilnabil237/plugins/vavoo/installer.sh"/>
-        <plugin name="xtraevent_3.3" pic="xtraevent.png" url="https://raw.githubusercontent.com/emil237/download-plugins/main/xtraevent_3.3.sh"/>
-        <plugin name="xtraevent_4.2" pic="xtraevent.png" url="https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_4.2.sh"/>
-        <plugin name="xtraevent_4.5" pic="xtraevent.png" url="https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_4.5.sh"/>
-        <plugin name="Xtraevent_4.6" pic="xtraevent.png" url="https://github.com/emil237/download-plugins/raw/main/Xtraevent-v4.6.sh"/>
-        <plugin name="xtraevent_6.798" pic="xtraevent.png" url="https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent_6.798.sh"/>
-        <plugin name="xtraevent_6.805" pic="xtraevent.png" url="https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent-6.805.sh"/>
-        <plugin name="xtraevent_6.820_All-Python" pic="xtraevent.png" url="https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent-6.820.sh"/>
-        <plugin name="WorldCam" pic="worldcam.png" url="https://raw.githubusercontent.com/Belfagor2005/WorldCam/main/installer.sh"/>
-        <plugin name="Zip2Pkg-Converter" pic="zip2pkg.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Zip2Pkg/installer.sh"/>
-        <plugin name="Zoom_1.1.2-Py3" pic="zoom.png" url="https://dreambox4u.com/emilnabil237/plugins/zoom/installer.sh"/>
+        <plugin name="ArabicSavior" pic="link.png" url="http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh"/>
+        <plugin name="Acherone" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/acherone/installer.sh"/>
+        <plugin name="Advanced-Screen-Shot" pic="link.png" url="https://raw.githubusercontent.com/Belfagor2005/AdvancedScreenshot/main/installer.sh"/>
+        <plugin name="Alajre" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/alajre/installer.sh"/>
+        <plugin name="Ansite" pic="link.png" url="https://raw.githubusercontent.com/emil237/ansite/refs/heads/main/installer.sh"/>
+        <plugin name="Apod" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/apod/installer.sh"/>
+        <plugin name="Astronomy" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/astronomy/installer.sh"/>
+        <plugin name="Athan Times" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/athantimes/installer.sh"/>
+        <plugin name="Atilehd" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/atilehd/installer.sh"/>
+        <plugin name="automatic-fullbackup" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/automatic-fullbackup/installer.sh"/>
+        <plugin name="Azkar Almuslim" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/azkar-almuslim/installer.sh"/>
+        <plugin name="Bitrate" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/bitrate/bitrate.sh"/>
+        <plugin name="Bitrate-mod-ariad" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/bitrate/bitrate-mod-ariad.sh"/>
+        <plugin name="Bundesliga-Permanent-Clock" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/bundesliga-permanent-clock/bundesliga-permanent-clock.sh"/>
+        <plugin name="CacheFlush" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cacheflush/cacheflush.sh"/>
+        <plugin name="CCcaminfo-py2" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccaminfo/cccaminfo_py2.sh"/>
+        <plugin name="CCcaminfo-py3" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccaminfo/cccaminfo_py3.sh"/>
+        <plugin name="CrondManager" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/crondmanager/installer.sh"/>
+        <plugin name="CFG_ZOOM_FINAL" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/cfg_Zoom_Final_FIX7x/installer.sh"/>
+        <plugin name="CiefpBouquetUpdater" pic="link.png" url="https://raw.githubusercontent.com/ciefp/CiefpBouquetUpdater/main/installer.sh"/>
+        <plugin name="CiefpIPTVBouquets" pic="link.png" url="https://raw.githubusercontent.com/ciefp/CiefpIPTVBouquets/main/installer.sh"/>
+        <plugin name="CiefpSatelliteXmlEditor" pic="link.png" url="https://raw.githubusercontent.com/ciefp/CiefpSatelliteXmlEditor/main/installer.sh"/>
+        <plugin name="CiefpSettingsDownloader" pic="link.png" url="https://raw.githubusercontent.com/ciefp/CiefpSettingsDownloader/main/installer.sh"/>
+        <plugin name="CiefpsettingsMotor" pic="link.png" url="https://raw.githubusercontent.com/ciefp/CiefpsettingsMotor/main/installer.sh"/>
+        <plugin name="CiefpSelectSatellite" pic="link.png" url="https://raw.githubusercontent.com/ciefp/CiefpSelectSatellite/main/installer.sh"/>
+        <plugin name="CiefpE2Converter" pic="link.png" url="https://raw.githubusercontent.com/ciefp/CiefpE2Converter/main/installer.sh"/>
+        <plugin name="Ciefp-Plugins" pic="link.png" url="https://raw.githubusercontent.com/ciefp/CiefpPlugins/main/installer.sh"/>
+        <plugin name="CiefpWhitelistStreamrelay" pic="link.png" url="https://raw.githubusercontent.com/ciefp/CiefpWhitelistStreamrelay/main/installer.sh"/>
+        <plugin name="CiefpSettingsStreamrela_PY3" pic="link.png" url="https://raw.githubusercontent.com/ciefp/CiefpSettingsStreamrelay/main/installer.sh"/>
+        <plugin name="CiefpSettingsStreamrela_PY2" pic="link.png" url="https://raw.githubusercontent.com/ciefp/CiefpSettingsStreamrelayPY2/main/installer.sh"/>
+        <plugin name="CiefpSettingsT2miAbertis" pic="link.png" url="https://raw.githubusercontent.com/ciefp/CiefpSettingsT2miAbertis/main/installer.sh"/>
+        <plugin name="CiefpSettingsT2miAbertisOpenPLi" pic="link.png" url="https://raw.githubusercontent.com/ciefp/CiefpSettingsT2miAbertisOpenPLi/main/installer.sh"/>
+        <plugin name="chocholousek-picons" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/chocholousek-picons.sh"/>
+        <plugin name="CHLogoChanger" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/CHLogoChanger/ChLogoChanger.sh"/>
+        <plugin name="CrashLogoViewer" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/install-CrashLogViewer.sh"/>
+        <plugin name="CrondManger" pic="link.png" url="https://github.com/emil237/download-plugins/raw/main/cronmanager.sh"/>
+        <plugin name="Easy-Cccam" pic="link.png" url="https://gitlab.com/eliesat/extensions/-/raw/main/easy-cccam/easy-cccam.sh"/>
+        <plugin name="enigma2readeradder" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/enigma2readeradder.sh"/>
+        <plugin name="Epg Grabber" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/Epg-Grabber/installer.sh"/>
+        <plugin name="EPGImport" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/epgimport.sh"/>
+        <plugin name="EPGImport-99" pic="link.png" url="https://raw.githubusercontent.com/Belfagor2005/EPGImport-99/main/installer.sh"/>
+        <plugin name="EPGTranslator" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/epgtranslator.sh"/>
+        <plugin name="Filmxy" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/filmxy/filmxy.sh"/>
+        <plugin name="Footonsat" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/FootOnsat/installer.sh"/>
+        <plugin name="Freearhey" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/freearhey/freearhey.sh"/>
+        <plugin name="FreeCCcamServer" pic="link.png" url="https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh"/>
+        <plugin name="gioppygio" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/gioppygio/gioppygio.sh"/>
+        <plugin name="hardwareinfo" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/hardwareinfo/installer.sh"/>
+        <plugin name="HasBahCa" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/HasBahCa/installer.sh"/>
+        <plugin name="HistoryZapSelector" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/historyzap/installer1.sh"/>
+        <plugin name="horoscope" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/horoscope/refs/heads/main/horoscope.sh"/>
+        <plugin name="HolidayCountdown" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/HolidayCountdown/installer.sh"/>
+        <plugin name="Internet-Speedtest" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/internet-speedtest.sh"/>
+        <plugin name="Iptv-Org-Playlists" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/iptv-org-playlists/iptv-org-playlists.sh"/>
+        <plugin name="iptvdream" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/main/iptvdream/iptvdream.sh"/>
+        <plugin name="levi45-settings" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/levi45-settings/levi45-settings.sh"/>
+        <plugin name="M3uConverter" pic="link.png" url="https://raw.githubusercontent.com/Belfagor2005/Archimede-M3UConverter/main/installer.sh"/>
+        <plugin name="MoviesManager" pic="link.png" url="http://dreambox4u.com/emilnabil237/plugins/Transmission/MoviesManager.sh"/>
+        <plugin name="MyCam-Plugin" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/mycam/installer.sh"/>
+        <plugin name="MultiCamAdder" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiCamAdder/installer.sh"/>
+        <plugin name="Multi-Iptv-Adder" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiIptvAdder/installer.sh"/>
+        <plugin name="NewVirtualkeyBoard" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/NewVirtualKeyBoard/installer.sh"/>
+        <plugin name="ONEupdater" pic="link.png" url="https://raw.githubusercontent.com/Sat-Club/ONEupdaterE2/main/installer.sh"/>
+        <plugin name="Ozeta-Skins-Setup" pic="link.png" url="https://raw.githubusercontent.com/emil237/skins-enigma2/main/PLUGIN_Skin-ozeta.sh"/>
+        <plugin name="Plutotv" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/main/plutotv/plutotv.sh"/>
+        <plugin name="Quran-karem" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/quran/installer.sh"/>
+        <plugin name="Quran-karem_v2.2" pic="link.png" url="https://raw.githubusercontent.com/emil237/quran/main/installer.sh"/>
+        <plugin name="Radio-80-s" pic="link.png" url="https://raw.githubusercontent.com/Belfagor2005/Radio-80-s/main/installer.sh"/>
+        <plugin name="RadioGit" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/radiogit/radiogit.sh"/>
+        <plugin name="Radiom" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/main/radiom/radiom.sh"/>
+        <plugin name="Rakutentv" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/main/rakutentv/rakutentv.sh"/>
+        <plugin name="RaedQuickSignal" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/RaedQuickSignal/installer.sh"/>
+        <plugin name="pluginmover" pic="link.png" url="http://dreambox4u.com/emilnabil237/plugins/pluginmover/installer.sh"/>
+        <plugin name="pluginskinmover" pic="link.png" url="http://dreambox4u.com/emilnabil237/plugins/pluginskinmover/installer.sh"/>
+        <plugin name="ScreenNames" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screennames/screennames.sh"/>
+        <plugin name="Screen-Recorder" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screenrecorder/installer.sh"/>
+        <plugin name="SetPicon" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/setpicon/installer.sh"/>
+        <plugin name="scriptexecuter" pic="link.png" url="http://dreambox4u.com/emilnabil237/plugins/scriptexecuter/installer.sh"/>
+        <plugin name="Sherlockmod" pic="link.png" url="https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh"/>
+        <plugin name="Simple-Zoom-Panel" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/simple-zoom-panel/installer.sh"/>
+        <plugin name="SubsSupport_1.5.8-r9" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer1.sh"/>
+        <plugin name="SubsSupport_by-m.nasr" pic="link.png" url="https://github.com/popking159/ssupport/raw/main/subssupport-install.sh"/>
+        <plugin name="SubsSupport_2.1" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/SubsSupport/subssupport_2.1.sh"/>
+        <plugin name="uninstaller-Plugins" pic="link.png" url="http://dreambox4u.com/emilnabil237/plugins/unstaller-plugins/installer.sh"/>
+        <plugin name="vavoo_1.15" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/vavoo/installer.sh"/>
+        <plugin name="xtraevent_3.3" pic="link.png" url="https://raw.githubusercontent.com/emil237/download-plugins/main/xtraevent_3.3.sh"/>
+        <plugin name="xtraevent_4.2" pic="link.png" url="https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_4.2.sh"/>
+        <plugin name="xtraevent_4.5" pic="link.png" url="https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_4.5.sh"/>
+        <plugin name="Xtraevent_4.6" pic="link.png" url="https://github.com/emil237/download-plugins/raw/main/Xtraevent-v4.6.sh"/>
+        <plugin name="xtraevent_6.798" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent_6.798.sh"/>
+        <plugin name="xtraevent_6.805" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent-6.805.sh"/>
+        <plugin name="xtraevent_6.820_All-Python" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent-6.820.sh"/>
+        <plugin name="WorldCam" pic="link.png" url="https://raw.githubusercontent.com/Belfagor2005/WorldCam/main/installer.sh"/>
+        <plugin name="Zip2Pkg-Converter" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Zip2Pkg/installer.sh"/>
+        <plugin name="Zoom_1.1.2-Py3" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/zoom/installer.sh"/>
     </category>
 
     <!-- قائمة النسخ الإحتياطي -->
     <category name="BackupSettings">
-        <plugin name="Backup-my-shannels" pic="backup.png" url="http://dreambox4u.com/emilnabil237/script/Create-My-backup-shannels.sh"/>
-        <plugin name="Backup-hotkey" pic="backup.png" url="http://dreambox4u.com/emilnabil237/script/backup-hotkey.sh"/>
-        <plugin name="Backup-network" pic="backup.png" url="http://dreambox4u.com/emilnabil237/script/backup-network.sh"/>
-        <plugin name="Backup-softcams" pic="backup.png" url="http://dreambox4u.com/emilnabil237/script/backup-softcams.sh"/>
-        <plugin name="Backup-tuner" pic="backup.png" url="http://dreambox4u.com/emilnabil237/script/backup-tuner.sh"/>
-        <plugin name="Backup-my-bouquetmakerxtream" pic="backup.png" url="http://dreambox4u.com/emilnabil237/script/backup-my-bouquetmakerxtream.sh"/>
-        <plugin name="Backup-my-ip2sat-server" pic="backup.png" url="http://dreambox4u.com/emilnabil237/script/backup-my-ip2sat-server.sh"/>
-        <plugin name="Backup-my-ipaudio-server" pic="backup.png" url="http://dreambox4u.com/emilnabil237/script/backup-my-ipaudio-server.sh"/>
-        <plugin name="Backup-my-ipaudiopro-server" pic="backup.png" url="http://dreambox4u.com/emilnabil237/script/backup-my-ipaudiopro-server.sh"/>
-        <plugin name="Backup-my-jediplaylists" pic="backup.png" url="http://dreambox4u.com/emilnabil237/script/backup-my-jediplaylists.sh"/>
-        <plugin name="Backup-my-multistalkerpro" pic="backup.png" url="http://dreambox4u.com/emilnabil237/script/backup-my-multistalkerpro.sh"/>
-        <plugin name="Backup-my-Subtitle-Setting" pic="backup.png" url="http://dreambox4u.com/emilnabil237/script/backup_my-subtitle-setting.sh"/>
-        <plugin name="Backup-my-xstreamity-servers" pic="backup.png" url="http://dreambox4u.com/emilnabil237/script/backup-my-xstreamity-servers.sh"/>
-        <plugin name="Backup-sittings-xtraevent" pic="backup.png" url="http://dreambox4u.com/emilnabil237/script/backup-sittings-xtraevent.sh"/>
+        <plugin name="Backup-my-shannels" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/Create-My-backup-shannels.sh"/>
+        <plugin name="Backup-hotkey" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/backup-hotkey.sh"/>
+        <plugin name="Backup-network" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/backup-network.sh"/>
+        <plugin name="Backup-softcams" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/backup-softcams.sh"/>
+        <plugin name="Backup-tuner" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/backup-tuner.sh"/>
+        <plugin name="Backup-my-bouquetmakerxtream" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/backup-my-bouquetmakerxtream.sh"/>
+        <plugin name="Backup-my-ip2sat-server" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/backup-my-ip2sat-server.sh"/>
+        <plugin name="Backup-my-ipaudio-server" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/backup-my-ipaudio-server.sh"/>
+        <plugin name="Backup-my-ipaudiopro-server" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/backup-my-ipaudiopro-server.sh"/>
+        <plugin name="Backup-my-jediplaylists" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/backup-my-jediplaylists.sh"/>
+        <plugin name="Backup-my-multistalkerpro" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/backup-my-multistalkerpro.sh"/>
+        <plugin name="Backup-my-Subtitle-Setting" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/backup_my-subtitle-setting.sh"/>
+        <plugin name="Backup-my-xstreamity-servers" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/backup-my-xstreamity-servers.sh"/>
+        <plugin name="Backup-sittings-xtraevent" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/backup-sittings-xtraevent.sh"/>
     </category>
 
     <!-- قائمة استعادة الإعدادات -->
     <category name="RestoreSettings">
-        <plugin name="Restore-my-shannels" pic="restore.png" url="http://dreambox4u.com/emilnabil237/script/Restore-My-backup-shannels.sh"/>
-        <plugin name="Restore-hotkey" pic="restore.png" url="http://dreambox4u.com/emilnabil237/script/resore-hotkey.sh"/>
-        <plugin name="Restore-network" pic="restore.png" url="http://dreambox4u.com/emilnabil237/script/restore-network.sh"/>
-        <plugin name="Restore-softcams" pic="restore.png" url="http://dreambox4u.com/emilnabil237/script/restore-softcams.sh"/>
-        <plugin name="Restore-tuner" pic="restore.png" url="http://dreambox4u.com/emilnabil237/script/restore-tuner.sh"/>
-        <plugin name="Restore-my-bouquetmakerxtream" pic="restore.png" url="http://dreambox4u.com/emilnabil237/script/restore-my-bouquetmakerxtream.sh"/>
-        <plugin name="Restore-my-ip2sat-server" pic="restore.png" url="http://dreambox4u.com/emilnabil237/script/restore-my-ip2sat-server.sh"/>
-        <plugin name="Restore-my-ipaudio-server" pic="restore.png" url="http://dreambox4u.com/emilnabil237/script/restore-my-ipaudio-server.sh"/>
-        <plugin name="Restore-my-ipaudiopro-server" pic="restore.png" url="http://dreambox4u.com/emilnabil237/script/restore-my-ipaudiopro-server.sh"/>
-        <plugin name="Restore-my-jediplaylists" pic="restore.png" url="http://dreambox4u.com/emilnabil237/script/restore-my-jediplaylists.sh"/>
-        <plugin name="Restore-my-multistalkerpro" pic="restore.png" url="http://dreambox4u.com/emilnabil237/script/restore-my-multistalkerpro.sh"/>
-        <plugin name="Restore-My-Subtitle-Setting" pic="restore.png" url="http://dreambox4u.com/emilnabil237/script/Restore_my-subtitle-setting.sh"/>
-        <plugin name="Restore-my-xstreamity-servers" pic="restore.png" url="http://dreambox4u.com/emilnabil237/script/restore-my-xstreamity-servers.sh"/>
-        <plugin name="Restore-sittings-xtraevent" pic="restore.png" url="http://dreambox4u.com/emilnabil237/script/restore-sittings-xtraevent.sh"/>
+        <plugin name="Restore-my-shannels" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/Restore-My-backup-shannels.sh"/>
+        <plugin name="Restore-hotkey" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/resore-hotkey.sh"/>
+        <plugin name="Restore-network" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/restore-network.sh"/>
+        <plugin name="Restore-softcams" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/restore-softcams.sh"/>
+        <plugin name="Restore-tuner" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/restore-tuner.sh"/>
+        <plugin name="Restore-my-bouquetmakerxtream" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/restore-my-bouquetmakerxtream.sh"/>
+        <plugin name="Restore-my-ip2sat-server" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/restore-my-ip2sat-server.sh"/>
+        <plugin name="Restore-my-ipaudio-server" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/restore-my-ipaudio-server.sh"/>
+        <plugin name="Restore-my-ipaudiopro-server" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/restore-my-ipaudiopro-server.sh"/>
+        <plugin name="Restore-my-jediplaylists" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/restore-my-jediplaylists.sh"/>
+        <plugin name="Restore-my-multistalkerpro" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/restore-my-multistalkerpro.sh"/>
+        <plugin name="Restore-My-Subtitle-Setting" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/Restore_my-subtitle-setting.sh"/>
+        <plugin name="Restore-my-xstreamity-servers" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/restore-my-xstreamity-servers.sh"/>
+        <plugin name="Restore-sittings-xtraevent" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/restore-sittings-xtraevent.sh"/>
     </category>
 
     <!-- قائمة الصور -->
     <category name="Images">
-        <plugin name="BlackHole-3.1.0" pic="blackhole.png" url="https://dreambox4u.com/emilnabil237/images/BlackHole-3.1.0.sh"/>
-        <plugin name="Egami-10.4" pic="egami.png" url="https://dreambox4u.com/emilnabil237/images/egami-10.4.sh"/>
-        <plugin name="Openatv-6.4" pic="openatv.png" url="https://dreambox4u.com/emilnabil237/images/openatv-6.4.sh"/>
-        <plugin name="Openatv-7.0" pic="openatv.png" url="https://dreambox4u.com/emilnabil237/images/openatv-7.0.sh"/>
-        <plugin name="Openatv-7.1" pic="openatv.png" url="https://dreambox4u.com/emilnabil237/images/openatv-7.1.sh"/>
-        <plugin name="Openatv-7.2" pic="openatv.png" url="https://dreambox4u.com/emilnabil237/images/openatv-7.2.sh"/>
-        <plugin name="Openatv-7.3" pic="openatv.png" url="https://dreambox4u.com/emilnabil237/images/openatv-7.3.sh"/>
-        <plugin name="Openatv-7.4" pic="openatv.png" url="https://dreambox4u.com/emilnabil237/images/openatv-7.4.sh"/>
-        <plugin name="Openatv-7.5" pic="openatv.png" url="https://dreambox4u.com/emilnabil237/images/openatv-7.5.sh"/>
-        <plugin name="Openatv-7.5.1" pic="openatv.png" url="https://dreambox4u.com/emilnabil237/images/openatv-7.5.1.sh"/>
-        <plugin name="Openatv-7.6" pic="openatv.png" url="https://dreambox4u.com/emilnabil237/images/openatv-7.6.sh"/>
-        <plugin name="OpenBlackHole-4.4" pic="openblackhole.png" url="https://dreambox4u.com/emilnabil237/images/openblackhole-4.4-for-vuplus-only.sh"/>
-        <plugin name="OpenBlackHole-5.0" pic="openblackhole.png" url="https://dreambox4u.com/emilnabil237/images/openblackhole-5.0.sh"/>
-        <plugin name="OpenBlackHole-5.1" pic="openblackhole.png" url="https://dreambox4u.com/emilnabil237/images/openblackhole-5.1.sh"/>
-        <plugin name="OpenBlackHole-5.2" pic="openblackhole.png" url="https://dreambox4u.com/emilnabil237/images/openblackhole-5.2.sh"/>
-        <plugin name="OpenBlackHole-5.3" pic="openblackhole.png" url="https://dreambox4u.com/emilnabil237/images/openblackhole-5.3.sh"/>
-        <plugin name="OpenBlackHole-5.4" pic="openblackhole.png" url="https://dreambox4u.com/emilnabil237/images/openblackhole-5.4.sh"/>
-        <plugin name="OpenBlackHole-5.5.1" pic="openblackhole.png" url="https://dreambox4u.com/emilnabil237/images/openblackhole-5.5.1.sh"/>
-        <plugin name="OpenDroid-7.1" pic="opendroid.png" url="https://dreambox4u.com/emilnabil237/images/opendroid-7.1.sh"/>
-        <plugin name="Openpli-7.3" pic="openpli.png" url="https://dreambox4u.com/emilnabil237/images/openpli-7.3.sh"/>
-        <plugin name="OpenPli-8.3" pic="openpli.png" url="https://dreambox4u.com/emilnabil237/images/openpli-8.3.sh"/>
-        <plugin name="OpenPli-8.3-Time-Shift" pic="openpli.png" url="https://dreambox4u.com/emilnabil237/images/openpli-8.3-py2-TimeShift.sh"/>
-        <plugin name="OpenPli-9.0-Time-Shift" pic="openpli.png" url="https://dreambox4u.com/emilnabil237/images/openpli-9.0-py3-TimeShift.sh"/>
-        <plugin name="OpenPli-9.0" pic="openpli.png" url="https://dreambox4u.com/emilnabil237/images/openpli-9.0.sh"/>
-        <plugin name="OpenPli-9.1" pic="openpli.png" url="https://dreambox4u.com/emilnabil237/images/openpli-9.1.sh"/>
-        <plugin name="OpenPli-develop" pic="openpli.png" url="https://dreambox4u.com/emilnabil237/images/openpli-develop.sh"/>
-        <plugin name="openspa-7.5.xxx" pic="openspa.png" url="https://dreambox4u.com/emilnabil237/images/openspa-7.5.xxx.sh"/>
-        <plugin name="openspa-8.0.xxx" pic="openspa.png" url="https://dreambox4u.com/emilnabil237/images/openspa-8.0.xxx.sh"/>
-        <plugin name="openspa-8.1.xxx" pic="openspa.png" url="https://dreambox4u.com/emilnabil237/images/openspa-8.1.xxx.sh"/>
-        <plugin name="openspa-8.3.xxx" pic="openspa.png" url="https://dreambox4u.com/emilnabil237/images/openspa-8.3.xxx.sh"/>
-        <plugin name="openspa-8.4.xxx" pic="openspa.png" url="https://dreambox4u.com/emilnabil237/images/openspa-8.4.xxx.sh"/>
-        <plugin name="Openvix-6.6.004" pic="openvix.png" url="https://dreambox4u.com/emilnabil237/images/openvix-6.6.004.sh"/>
-        <plugin name="openvix_latest-version" pic="openvix.png" url="https://dreambox4u.com/emilnabil237/images/openvix_latest-version.sh"/>
-        <plugin name="OpenVision-py2-10.3-r395" pic="openvision.png" url="https://dreambox4u.com/emilnabil237/images/openvision/OpenVision-py2-10.3-r395.sh"/>
-        <plugin name="pure2-6.5" pic="pure2.png" url="https://dreambox4u.com/emilnabil237/images/pure2-6.5.sh"/>
-        <plugin name="pure2-7.3" pic="pure2.png" url="https://dreambox4u.com/emilnabil237/images/pure2-7.3.sh"/>
-        <plugin name="pure2-7.4" pic="pure2.png" url="https://dreambox4u.com/emilnabil237/images/pure2-7.4.sh"/>
-        <plugin name="VTI-15.0.02" pic="vti.png" url="https://dreambox4u.com/emilnabil237/images/vti-15.0.02.sh"/>
+        <plugin name="BlackHole-3.1.0" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/BlackHole-3.1.0.sh"/>
+        <plugin name="Egami-10.4" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/egami-10.4.sh"/>
+        <plugin name="Openatv-6.4" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openatv-6.4.sh"/>
+        <plugin name="Openatv-7.0" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openatv-7.0.sh"/>
+        <plugin name="Openatv-7.1" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openatv-7.1.sh"/>
+        <plugin name="Openatv-7.2" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openatv-7.2.sh"/>
+        <plugin name="Openatv-7.3" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openatv-7.3.sh"/>
+        <plugin name="Openatv-7.4" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openatv-7.4.sh"/>
+        <plugin name="Openatv-7.5" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openatv-7.5.sh"/>
+        <plugin name="Openatv-7.5.1" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openatv-7.5.1.sh"/>
+        <plugin name="Openatv-7.6" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openatv-7.6.sh"/>
+        <plugin name="OpenBlackHole-4.4" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openblackhole-4.4-for-vuplus-only.sh"/>
+        <plugin name="OpenBlackHole-5.0" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openblackhole-5.0.sh"/>
+        <plugin name="OpenBlackHole-5.1" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openblackhole-5.1.sh"/>
+        <plugin name="OpenBlackHole-5.2" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openblackhole-5.2.sh"/>
+        <plugin name="OpenBlackHole-5.3" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openblackhole-5.3.sh"/>
+        <plugin name="OpenBlackHole-5.4" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openblackhole-5.4.sh"/>
+        <plugin name="OpenBlackHole-5.5.1" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openblackhole-5.5.1.sh"/>
+        <plugin name="OpenDroid-7.1" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/opendroid-7.1.sh"/>
+        <plugin name="Openpli-7.3" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openpli-7.3.sh"/>
+        <plugin name="OpenPli-8.3" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openpli-8.3.sh"/>
+        <plugin name="OpenPli-8.3-Time-Shift" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openpli-8.3-py2-TimeShift.sh"/>
+        <plugin name="OpenPli-9.0-Time-Shift" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openpli-9.0-py3-TimeShift.sh"/>
+        <plugin name="OpenPli-9.0" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openpli-9.0.sh"/>
+        <plugin name="OpenPli-9.1" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openpli-9.1.sh"/>
+        <plugin name="OpenPli-develop" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openpli-develop.sh"/>
+        <plugin name="openspa-7.5.xxx" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openspa-7.5.xxx.sh"/>
+        <plugin name="openspa-8.0.xxx" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openspa-8.0.xxx.sh"/>
+        <plugin name="openspa-8.1.xxx" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openspa-8.1.xxx.sh"/>
+        <plugin name="openspa-8.3.xxx" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openspa-8.3.xxx.sh"/>
+        <plugin name="openspa-8.4.xxx" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openspa-8.4.xxx.sh"/>
+        <plugin name="Openvix-6.6.004" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openvix-6.6.004.sh"/>
+        <plugin name="openvix_latest-version" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openvix_latest-version.sh"/>
+        <plugin name="OpenVision-py2-10.3-r395" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/openvision/OpenVision-py2-10.3-r395.sh"/>
+        <plugin name="pure2-6.5" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/pure2-6.5.sh"/>
+        <plugin name="pure2-7.3" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/pure2-7.3.sh"/>
+        <plugin name="pure2-7.4" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/pure2-7.4.sh"/>
+        <plugin name="VTI-15.0.02" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/vti-15.0.02.sh"/>
     </category>
 </emilpanelpro>
