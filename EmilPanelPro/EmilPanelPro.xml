@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <emilpanelpro>
-    <!-- القائمة الرئيسية -->
+    <!-- Main Menu -->
     <category name="MainMenu">
         <item name="Panels" pic="panels.png" handler="Panels"/>
         <item name="Plugins" pic="plugins.png" handler="Plugins"/>
@@ -18,7 +18,7 @@
         <item name="Skins" pic="skins.png" handler="Skins"/>
     </category>
 
-    <!-- قائمة القنوات -->
+    <!-- Channels List -->
     <category name="Channels">
         <subcategory name="Other" icon="channels.png">
             <item name="Emil Nabil" url="https://raw.githubusercontent.com/emilnabil/channel-emil-nabil/main/installer.sh"/>
@@ -105,7 +105,7 @@
         </subcategory>
     </category>
 
-    <!-- قائمة إضافات النظام -->
+    <!-- System Plugins -->
     <category name="SystemPlugins">
         <plugin name="3gmodemmanager" pic="3gmodem.png" url="https://dreambox4u.com/emilnabil237/plugins/3gmodemmanager/3gmodemmanager.sh"/>
         <plugin name="devicemanager" pic="devicemanger.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/devicemanager.sh"/>
@@ -117,7 +117,7 @@
         <plugin name="Xmlupdate" pic="xmlupdate.png" url="https://dreambox4u.com/emilnabil237/plugins/xmlupdate/xmlupdate.sh"/>
     </category>
 
-    <!-- قائمة الأدوات -->
+    <!-- Tools List -->
     <category name="Tools">
         <plugin name="Wget" pic="wget.png" url="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/wget.sh"/>
         <plugin name="Curl" pic="curl.png" url="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/curl.sh"/>
@@ -138,7 +138,7 @@
         <plugin name="Zip2ipk" pic="zip.png" url="http://dreambox4u.com/emilnabil237/script/zip2ipk.sh"/>
     </category>
 
-    <!-- قائمة إضافات المالتى بوت -->
+    <!-- Multiboot Plugins List -->
     <category name="MultibootPlugins">
         <plugin name="EgamiBoot_10.5" pic="multiboot.png" url="https://raw.githubusercontent.com/emil237/egamiboot/refs/heads/main/installer.sh"/>
         <plugin name="EgamiBoot_10.6" pic="multiboot.png" url="https://raw.githubusercontent.com/emil237/egamiboot/refs/heads/main/egamiboot-10.6.sh"/>
@@ -152,7 +152,7 @@
         <plugin name="Multiboot-FlashOnline" pic="multiboot.png" url="https://raw.githubusercontent.com/emil237/download-plugins/main/multiboot-flashonline.sh"/>
     </category>
 
-    <!-- قائمة الوسائط -->
+    <!-- Media List -->
     <category name="Media">
         <plugin name="BouquetMakerXtream" pic="bouquetmaker.png" url="http://dreambox4u.com/emilnabil237/plugins/BouquetMakerXtream/installer.sh"/>
         <plugin name="E2m3u2Bouquet" pic="e2m3u2bouquet.png" url="https://dreambox4u.com/emilnabil237/plugins/e2m3u2bouquet/installer.sh"/>
@@ -174,7 +174,7 @@
         <plugin name="Xcpluginforever" pic="xcplugin.png" url="https://raw.githubusercontent.com/Belfagor2005/xc_plugin_forever/main/installer.sh"/>
     </category>
 
-    <!-- قائمة السوفتكام -->
+    <!-- Softcams List -->
     <category name="Softcams">
         <plugin name="Cccam" pic="link.png" url="https://dreambox4u.com/emilnabil237/emu/installer-cccam.sh"/>
         <plugin name="gosatplus-ncam" pic="link.png" url="https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-ncam.sh"/>
@@ -203,7 +203,7 @@
         <plugin name="Ultracam" pic="link.png" url="https://dreambox4u.com/emilnabil237/emu/installer-ultracam.sh"/>
     </category>
 
-    <!-- قائمة السكينز -->
+    <!-- Skins List -->
     <category name="Skins">
         <subcategory name="OpenATV" icon="openatv_icon.png">
             <item name="Aglare-FHD" url="https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglareatv/installer.sh"/>
@@ -286,7 +286,7 @@
         </subcategory>
     </category>
 
-    <!-- قائمة البيكونات -->
+    <!-- Picons List -->
     <category name="Picons">
         <plugin name="intelsat_31.5w" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/intelsat_31.5w/installer.sh"/>
         <plugin name="hispasat_30.0w" pic="link.png" url="https://dreambox4u.com/emilnabil237/picons/hispasat_30.0w/installer.sh"/>
@@ -339,7 +339,7 @@
         <plugin name="Chocholousek-Picons" pic="link.png" url="https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup"/>
     </category>
 
-    <!-- قائمة البوت لوجو -->
+    <!-- Bootlogos List -->
     <category name="Bootlogos">
         <plugin name="BootlogoSwapper Atv" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/bootlogoswapper-Atv.sh"/>
         <plugin name="Bootlogo-PURE2" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/bootLogoswapper-Pure2.sh"/>
@@ -355,7 +355,7 @@
         <plugin name="BootlogoSwapper V2.3" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/BootlogoSwapper_v2.3.sh"/>
     </category>
 
-    <!-- قائمة البانلات -->
+    <!-- Panels List -->
     <category name="Panels">
         <plugin name="Ajpanel" pic="link.png" url="http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer1.sh"/>
         <plugin name="AjPanel Custom Menu All Panels" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/ajpanel/emil-panel-all.sh"/>
@@ -377,7 +377,7 @@
         <plugin name="TvAddon-Panel" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/tvaddon/installer.sh"/>
     </category>
 
-    <!-- قائمة الإضافات -->
+    <!-- Plugins List -->
     <category name="Plugins">
         <plugin name="ArabicSavior" pic="link.png" url="http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh"/>
         <plugin name="Acherone" pic="link.png" url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/acherone/installer.sh"/>
@@ -476,7 +476,7 @@
         <plugin name="Zoom_1.1.2-Py3" pic="link.png" url="https://dreambox4u.com/emilnabil237/plugins/zoom/installer.sh"/>
     </category>
 
-    <!-- قائمة النسخ الإحتياطي -->
+    <!-- Backup Settings -->
     <category name="BackupSettings">
         <plugin name="Backup-my-shannels" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/Create-My-backup-shannels.sh"/>
         <plugin name="Backup-hotkey" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/backup-hotkey.sh"/>
@@ -494,7 +494,7 @@
         <plugin name="Backup-sittings-xtraevent" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/backup-sittings-xtraevent.sh"/>
     </category>
 
-    <!-- قائمة استعادة الإعدادات -->
+    <!-- Restore Settings -->
     <category name="RestoreSettings">
         <plugin name="Restore-my-shannels" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/Restore-My-backup-shannels.sh"/>
         <plugin name="Restore-hotkey" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/resore-hotkey.sh"/>
@@ -512,7 +512,7 @@
         <plugin name="Restore-sittings-xtraevent" pic="link.png" url="http://dreambox4u.com/emilnabil237/script/restore-sittings-xtraevent.sh"/>
     </category>
 
-    <!-- قائمة الصور -->
+    <!-- Images List -->
     <category name="Images">
         <plugin name="BlackHole-3.1.0" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/BlackHole-3.1.0.sh"/>
         <plugin name="Egami-10.4" pic="link.png" url="https://dreambox4u.com/emilnabil237/images/egami-10.4.sh"/>
