@@ -1,5 +1,6 @@
 #!/bin/bash
 ##setup command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/tmdb.sh -O - | /bin/sh
+################################################
 echo "Removing previous version of tmdb ..."
 sleep 2
 
@@ -29,6 +30,7 @@ rm -f /tmp/tmdb.tar.gz
 echo ">>>>>>>>>>>>>>>>>>>DONE<<<<<<<<<<<<<<<<<<<<<"
 sleep 2
 exit 0
+
 
 
 
