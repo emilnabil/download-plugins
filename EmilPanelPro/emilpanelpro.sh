@@ -30,12 +30,13 @@ fi
 
 if [ "$PYTHON" = "PY3" ]; then
     if ! grep -qs "Package: $Packagesix" "$STATUS"; then
+        echo "Installing $Packagesix"
         opkg update > /dev/null 2>&1 && opkg install "$Packagesix" > /dev/null 2>&1
     fi
 fi
 
 if ! grep -qs "Package: $Packagerequests" "$STATUS"; then
-    echo "Need to install $Packagerequests"
+    echo "Installing $Packagerequests"
     if [ "$OSTYPE" = "DreamOs" ]; then
         apt-get update > /dev/null 2>&1 && apt-get install "$Packagerequests" -y > /dev/null 2>&1
     else
@@ -53,9 +54,11 @@ opkg install opkg > /dev/null 2>&1
 rm -rf "$PLUGINPATH"
 cd /tmp || exit 1
 
+echo "Downloading plugin..."
 wget "$PLUGIN_URL/EmilPanelPro.tar.gz" -O EmilPanelPro.tar.gz > /dev/null 2>&1
 
 if [ -f EmilPanelPro.tar.gz ]; then
+    echo "Extracting plugin..."
     tar -xzf EmilPanelPro.tar.gz -C / > /dev/null 2>&1
 
     echo "#########################################################"
