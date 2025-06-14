@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-##setup command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-gradient-fhd.sh -O - | /bin/sh
+##setup command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/skins-gradient-fhd.sh -O - | /bin/sh
 
-PLUGIN_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main"
+PLUGIN_URL="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main"
 
 RESTART="yes"
 if [ "$1" == "--no-restart" ]; then
@@ -67,5 +67,6 @@ else
     echo "#########################################################"
     exit 1
 fi
+
 
 
