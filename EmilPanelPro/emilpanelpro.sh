@@ -1,4 +1,5 @@
 #!/bin/bash
+#
 ##setup command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilPanelPro/emilpanelpro.sh -O - | /bin/sh
 
 PLUGIN_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilPanelPro"
@@ -17,6 +18,7 @@ else
     OSTYPE="Dream"
 fi
 
+echo "Checking Python version..."
 if python --version 2>&1 | grep -q '^Python 3\.'; then
     echo "You have Python3 image"
     PYTHON="PY3"
@@ -30,17 +32,20 @@ fi
 
 if [ "$PYTHON" = "PY3" ]; then
     if ! grep -qs "Package: $Packagesix" "$STATUS"; then
-        echo "Installing $Packagesix"
-        opkg update > /dev/null 2>&1 && opkg install "$Packagesix" > /dev/null 2>&1
+        echo "Installing $Packagesix..."
+        opkg update > /dev/null 2>&1
+        opkg install "$Packagesix" > /dev/null 2>&1
     fi
 fi
 
 if ! grep -qs "Package: $Packagerequests" "$STATUS"; then
-    echo "Installing $Packagerequests"
+    echo "Installing $Packagerequests..."
     if [ "$OSTYPE" = "DreamOs" ]; then
-        apt-get update > /dev/null 2>&1 && apt-get install "$Packagerequests" -y > /dev/null 2>&1
+        apt-get update > /dev/null 2>&1
+        apt-get install "$Packagerequests" -y > /dev/null 2>&1
     else
-        opkg update > /dev/null 2>&1 && opkg install "$Packagerequests" > /dev/null 2>&1
+        opkg update > /dev/null 2>&1
+        opkg install "$Packagerequests" > /dev/null 2>&1
     fi
 fi
 
@@ -51,6 +56,7 @@ opkg install wget curl busybox tar gzip > /dev/null 2>&1
 opkg install enigma2-plugin-systemplugins-skinselector enigma2-plugin-extensions-openwebif > /dev/null 2>&1
 opkg install opkg > /dev/null 2>&1
 
+echo "Removing previous version..."
 rm -rf "$PLUGINPATH"
 cd /tmp || exit 1
 
@@ -62,28 +68,27 @@ if [ -f EmilPanelPro.tar.gz ]; then
     tar -xzf EmilPanelPro.tar.gz -C / > /dev/null 2>&1
 
     echo "#########################################################"
-    echo "#    Emil Panel INSTALLED SUCCESSFULLY                  #"
+    echo "#      Emil Panel INSTALLED SUCCESSFULLY               #"
     echo "#########################################################"
 
-    if [ -d /usr/lib64 ]; then
-        RESTART_CMD="systemctl restart enigma2"
-    else
-        RESTART_CMD="killall -9 enigma2"
-    fi
-
+    echo "Cleaning up..."
     rm -f /tmp/EmilPanelPro.tar.gz > /dev/null 2>&1
     sync
 
     echo "#########################################################"
-    echo "#           Your device will RESTART now                #"
+    echo "#         Your device will RESTART now                 #"
     echo "#########################################################"
 
     sleep 5
-    $RESTART_CMD
+    if [ -d /usr/lib64 ]; then
+        systemctl restart enigma2
+    else
+        killall -9 enigma2
+    fi
     exit 0
 else
     echo "#########################################################"
-    echo "#    ERROR: Failed to download EmilPanelPro.tar.gz      #"
+    echo "#  ERROR: Failed to download EmilPanelPro.tar.gz       #"
     echo "#########################################################"
     exit 1
 fi
