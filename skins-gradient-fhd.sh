@@ -4,6 +4,11 @@
 
 PLUGIN_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main"
 
+RESTART="yes"
+if [ "$1" == "--no-restart" ]; then
+    RESTART="no"
+fi
+
 if [ -d /usr/lib64 ]; then
     PLUGINPATH="/usr/lib64/enigma2/python/Plugins/Extensions/GradientFHD"
 else
@@ -17,8 +22,9 @@ opkg install enigma2-plugin-extensions-oaweather > /dev/null 2>&1
 
 echo ""
 echo "Cleaning previous plugin installation..."
+opkg remove enigma2-plugin-skins-gradient-fhd-4atv
 rm -rf "$PLUGINPATH"
-rm -rf /usr/share/enigma2/GradientFHD"
+rm -rf /usr/share/enigma2/GradientFHD
 cd /tmp || exit 1
 
 echo "Downloading plugin..."
@@ -33,25 +39,31 @@ if [ -f skins-gradient-fhd.tar.gz ]; then
     echo "#         INSTALLED SUCCESSFULLY                #"
     echo "#########################################################"
 
-    if [ -d /usr/lib64 ]; then
-        RESTART_CMD="systemctl restart enigma2"
-    else
-        RESTART_CMD="killall -9 enigma2"
-    fi
-
     echo "Cleaning temporary files..."
     rm -f /tmp/skins-gradient-fhd.tar.gz > /dev/null 2>&1
     sync
 
-    echo "#########################################################"
-    echo "#           Your device will RESTART now                #"
-    echo "#########################################################"
-    sleep 5
-    $RESTART_CMD
+    if [ "$RESTART" == "yes" ]; then
+        echo "#########################################################"
+        echo "#           Your device will RESTART now                #"
+        echo "#########################################################"
+        sleep 5
+
+        if [ -d /usr/lib64 ]; then
+            systemctl restart enigma2
+        else
+            killall -9 enigma2
+        fi
+    else
+        echo "#########################################################"
+        echo "#  Plugin installed. Restart skipped (--no-restart).    #"
+        echo "#########################################################"
+    fi
+
     exit 0
 else
     echo "#########################################################"
-    echo "#  ERROR: Failed to download skins-gradient-fhd.tar.gz            #"
+    echo "#  ERROR: Failed to download skins-gradient-fhd.tar.gz  #"
     echo "#########################################################"
     exit 1
 fi
