@@ -4,11 +4,6 @@
 
 PLUGIN_URL="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main"
 
-RESTART="yes"
-if [ "$1" == "--no-restart" ]; then
-    RESTART="no"
-fi
-
 if [ -d /usr/lib64 ]; then
     PLUGINPATH="/usr/lib64/enigma2/python/Plugins/Extensions/GradientFHD"
 else
@@ -36,29 +31,16 @@ if [ -f skins-gradient-fhd.tar.gz ]; then
     sync
 
     echo "#########################################################"
-    echo "#         INSTALLED SUCCESSFULLY                #"
+    echo "#         INSTALLED SUCCESSFULLY                        #"
     echo "#########################################################"
 
     echo "Cleaning temporary files..."
     rm -f /tmp/skins-gradient-fhd.tar.gz > /dev/null 2>&1
     sync
 
-    if [ "$RESTART" == "yes" ]; then
-        echo "#########################################################"
-        echo "#           Your device will RESTART now                #"
-        echo "#########################################################"
-        sleep 5
-
-        if [ -d /usr/lib64 ]; then
-            systemctl restart enigma2
-        else
-            killall -9 enigma2
-        fi
-    else
-        echo "#########################################################"
-        echo "#  Plugin installed. Restart skipped (--no-restart).    #"
-        echo "#########################################################"
-    fi
+    echo "#########################################################"
+    echo "#     Plugin installed. Restart skipped by default.     #"
+    echo "#########################################################"
 
     exit 0
 else
@@ -67,6 +49,3 @@ else
     echo "#########################################################"
     exit 1
 fi
-
-
-
