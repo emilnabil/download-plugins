@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 ##command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/gioppygio/gioppygio.sh -O - | /bin/sh ####
-echo "Removing previous version of Aglare-FHD..."
+echo "Removing previous version of gioppygio..."
 sleep 2
 
 # Check if the directory exists before removing it
@@ -28,9 +28,6 @@ sleep 1
 rm -f /tmp/gioppygio.tar.gz
 sleep 2
 exit 0
-
-
-
 
 
 
