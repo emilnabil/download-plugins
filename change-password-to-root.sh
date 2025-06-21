@@ -1,2 +1,4 @@
-echo "root:root" | chpasswd
+init 4 
+printf \"root\nroot\n\" | passwd
+init 3
 exit
