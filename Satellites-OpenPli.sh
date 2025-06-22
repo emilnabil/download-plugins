@@ -34,4 +34,3 @@ else
     echo "> ERROR: Failed to download satellites.xml"
     exit 1
 fi
-
