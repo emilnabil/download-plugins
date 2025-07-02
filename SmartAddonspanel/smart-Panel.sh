@@ -1,11 +1,10 @@
 #!/bin/bash
 ##setup command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/SmartAddonspanel/smart-Panel.sh -O - | /bin/sh
 
-########
 changelog='\nFix little bugs\nUpdated Picons List'
 
 TMPPATH="/tmp/SmartAddonspanel"
-PLUGIN_URL="https://raw.githubusercontent.com/emilnabil/download-plugins/main/SmartAddonspanel"  
+PLUGIN_URL="https://raw.githubusercontent.com/emilnabil/download-plugins/main/SmartAddonspanel"
 
 if [ ! -d /usr/lib64 ]; then
     PLUGINPATH="/usr/lib/enigma2/python/Plugins/Extensions/SmartAddonspanel"
@@ -22,26 +21,31 @@ else
 fi
 
 if python --version 2>&1 | grep -q '^Python 3\.'; then
-    echo "You have Python3 image"
+    echo "✔ Python3 image detected"
     PYTHON="PY3"
     Packagesix="python3-six"
     Packagerequests="python3-requests"
 else
-    echo "You have Python2 image"
+    echo "✔ Python2 image detected"
     PYTHON="PY2"
+    Packagesix=""
     Packagerequests="python-requests"
 fi
 
 if [ "$PYTHON" = "PY3" ] && ! grep -qs "Package: $Packagesix" "$STATUS"; then
-    opkg update && opkg install "$Packagesix"
+    echo "Installing $Packagesix ..."
+    opkg update >/dev/null 2>&1
+    opkg install "$Packagesix" >/dev/null 2>&1
 fi
 
 if ! grep -qs "Package: $Packagerequests" "$STATUS"; then
-    echo "Need to install $Packagerequests"
+    echo "Installing $Packagerequests ..."
     if [ "$OSTYPE" = "DreamOs" ]; then
-        apt-get update && apt-get install "$Packagerequests" -y
+        apt-get update >/dev/null 2>&1
+        apt-get install "$Packagerequests" -y >/dev/null 2>&1
     else
-        opkg update && opkg install "$Packagerequests"
+        opkg update >/dev/null 2>&1
+        opkg install "$Packagerequests" >/dev/null 2>&1
     fi
 fi
 
@@ -49,50 +53,39 @@ fi
 [ -d "$PLUGINPATH" ] && rm -rf "$PLUGINPATH"
 mkdir -p "$TMPPATH"
 
-cd /tmp
+cd /tmp || exit 1
 
 if [ "$PYTHON" = "PY3" ]; then
-    echo "Downloading Python 3 version of SmartAddonspanel..."
-    wget "$PLUGIN_URL/Py3/SmartAddonspanel.tar.gz" -O "/tmp/SmartAddonspanel.tar.gz"
+    echo "Downloading Python 3 version..."
+    wget -q "$PLUGIN_URL/Py3/SmartAddonspanel.tar.gz" -O "/tmp/SmartAddonspanel.tar.gz"
 else
-    echo "Downloading Python 2 version of SmartAddonspanel..."
-    wget "$PLUGIN_URL/Py2/SmartAddonspanel.tar.gz" -O "/tmp/SmartAddonspanel.tar.gz"
+    echo "Downloading Python 2 version..."
+    wget -q "$PLUGIN_URL/Py2/SmartAddonspanel.tar.gz" -O "/tmp/SmartAddonspanel.tar.gz"
 fi
 
 if [ $? -ne 0 ]; then
-    echo "Failed to download the plugin. Exiting."
+    echo "✘ Failed to download the plugin."
     exit 1
 fi
 
-tar -xzf "/tmp/SmartAddonspanel.tar.gz"
+tar -xzf "/tmp/SmartAddonspanel.tar.gz" >/dev/null 2>&1
 if [ $? -ne 0 ]; then
-    echo "Failed to extract the plugin. Exiting."
+    echo "✘ Failed to extract the plugin."
     exit 1
 fi
 
-cp -r "/tmp/SmartAddonspanel/usr" "/"
+cp -r "/tmp/SmartAddonspanel/usr" "/" >/dev/null 2>&1
 sync
 
 echo "#########################################################"
-echo "#    Smart Addons panel INSTALLED SUCCESSFULLY          #"
-echo "#                  Moded by Emil Nabil                  #"
+echo "#  ✔ SmartAddonspanel INSTALLED SUCCESSFULLY           #"
+echo "#         Modified & Uploaded by Emil Nabil            #"
 echo "#########################################################"
-
-if [ ! -d /usr/lib64 ]; then
-    RESTART_CMD="killall -9 enigma2"
-else
-    RESTART_CMD="systemctl restart enigma2"
-fi
 
 cd /tmp || exit 1
-rm -rf "$TMPPATH" /tmp/SmartAddonspanel.tar.gz > /dev/null 2>&1
+rm -rf "$TMPPATH" "/tmp/SmartAddonspanel.tar.gz" >/dev/null 2>&1
 sync
 
-echo "#########################################################"
-echo "#           Your device will RESTART now                #"
-echo "#########################################################"
-sleep 5
-$RESTART_CMD
-
 exit 0
+
 
