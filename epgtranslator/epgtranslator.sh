@@ -2,7 +2,7 @@
 #
 #command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/epgtranslator.sh -O - | /bin/sh##
 PLUGIN_NAME="EPGTranslator"
-PLUGIN_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/${PLUGIN_NAME}.tar.gz"
+PLUGIN_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/epgtranslator/EPGTranslator.tar.gz"
 PLUGIN_FILE="/tmp/${PLUGIN_NAME}.tar.gz"
 PLUGIN_DIR="/usr/lib/enigma2/python/Plugins/Extensions/${PLUGIN_NAME}"
 
@@ -41,4 +41,9 @@ fi
 rm -f "$PLUGIN_FILE"
 echo "> Done!"
 exit 0
+
+
+
+
+
 
