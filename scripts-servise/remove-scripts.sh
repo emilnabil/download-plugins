@@ -13,4 +13,3 @@ rm -rf /usr/emu_scripts/* > /dev/null 2>&1
 
 echo "> done"
 sleep 3
-exit
