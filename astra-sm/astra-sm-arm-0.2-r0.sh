@@ -5,30 +5,26 @@ plugin="astra-sm"
 version="0.2-r0"
 ipk="astra-sm.ipk"
 package="/var/volatile/tmp/${plugin}-${version}.tar.gz"
-url="https://gitlab.com/eliesat/softcams/-/raw/main/astra-sm/${plugin}-${version}.tar.gz"
-url_ipk="https://gitlab.com/eliesat/softcams/-/raw/main/astra-sm/${ipk}"
+url="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/astra-sm-0.2.tar.gz"
+url_ipk="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/astra-sm.ipk"
 status="/var/lib/opkg/status"
-install="opkg install --force-reinstall"
-
-# Cleanup unnecessary files
-rm -rf /CONTROL /control /postinst /preinst /prerm /postrm >/dev/null 2>&1
-rm -rf /tmp/*.ipk /tmp/*.tar.gz >/dev/null 2>&1
+install="opkg install --force-reinstall --force-overwrite"
 
 # Download and install
 echo "> Downloading and installing $plugin-$version, please wait..."
 sleep 2
 
 # Try to install from repository first
-opkg install $plugin >/dev/null 2>&1
+opkg install "$plugin" >/dev/null 2>&1
 
-if grep -q "$plugin" "$status"; then
-    echo "> $plugin installed successfully from repo"
+if grep -q "Package: $plugin" "$status"; then
+    echo "> $plugin installed successfully from repository"
 else
-    echo "> Installing $plugin from .ipk file"
+    echo "> Installing $plugin from .ipk file..."
     cd /tmp || exit 1
-    wget -q --no-check-certificate "$url_ipk"
-    $install "$ipk"
-    rm -f "/tmp/$ipk"
+    wget -q --no-check-certificate "$url_ipk" -O "$ipk"
+    $install "$ipk" >/dev/null 2>&1
+    rm -f "$ipk"
 fi
 
 # Download and extract .tar.gz package
@@ -41,17 +37,23 @@ else
     extract=1
 fi
 
+# Ensure scripts directory exists
+mkdir -p /etc/astra/scripts
+
 # Download architecture-specific binary
 arch=$(uname -m)
 case "$arch" in
     aarch64)
-        wget -qO /etc/astra/scripts/abertis https://gitlab.com/eliesat/softcams/-/raw/main/astra-sm/aarch/abertis
+        wget -qO /etc/astra/scripts/abertis https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/abertis-aarch64
+        chmod +x /etc/astra/scripts/abertis
         ;;
     mips)
-        wget -qO /etc/astra/scripts/abertis https://gitlab.com/eliesat/softcams/-/raw/main/astra-sm/mips/abertis
+        wget -qO /etc/astra/scripts/abertis https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/abertis-mips
+        chmod +x /etc/astra/scripts/abertis
         ;;
     sh4)
-        wget -qO /etc/astra/scripts/abertis https://gitlab.com/eliesat/softcams/-/raw/main/astra-sm/sh4/abertis
+        wget -qO /etc/astra/scripts/abertis https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/abertis-sh4
+        chmod +x /etc/astra/scripts/abertis
         ;;
     *)
         echo "> Unknown architecture: $arch"
@@ -70,5 +72,6 @@ else
     echo "> Installation of $plugin-$version failed"
     sleep 3
 fi
-exit
+exit 0
+
 
