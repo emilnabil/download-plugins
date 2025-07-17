@@ -22,7 +22,7 @@ apt-get install -y wget curl hlsdl \
 cd /tmp
 echo ""
 echo "Downloading BarryAllen MOD by RAED ..."
-curl -kL "https://dreambox4u.com/emilnabil237/dream/enigma2-plugin-extensions-barryallen_12.91-r2-MOD-RAED_all.deb" -o enigma2-plugin-extensions-barryallen.deb
+curl -kL "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/barryallen/enigma2-plugin-extensions-barryallen_12.91-r2-MOD-RAED_all.deb" -o enigma2-plugin-extensions-barryallen.deb
 
 echo ""
 echo "Installing BarryAllen MOD ..."
@@ -37,6 +37,7 @@ sleep 2
 reboot
 
 exit 0
+
 
 
 
