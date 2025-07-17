@@ -1,5 +1,6 @@
 #!/bin/sh
-
+#command=wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/barryallen/barryallen.sh -O - | /bin/sh
+##############
 echo ""
 echo "Uploaded by Emil Nabil"
 sleep 2
@@ -36,4 +37,6 @@ sleep 2
 reboot
 
 exit 0
+
+
 
