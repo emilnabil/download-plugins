@@ -1,96 +1,93 @@
 #!/bin/bash
-#
 ##setup command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilPanelPro/emilpanelpro.sh -O - | /bin/sh
 
+TMPPATH="/tmp/EmilPanelPro"
 PLUGIN_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilPanelPro"
 
-if [ -d /usr/lib64 ]; then
-    PLUGINPATH="/usr/lib64/enigma2/python/Plugins/Extensions/EmilPanelPro"
-else
+if [ ! -d /usr/lib64 ]; then
     PLUGINPATH="/usr/lib/enigma2/python/Plugins/Extensions/EmilPanelPro"
+else
+    PLUGINPATH="/usr/lib64/enigma2/python/Plugins/Extensions/EmilPanelPro"
 fi
 
 if [ -f /var/lib/dpkg/status ]; then
     STATUS="/var/lib/dpkg/status"
     OSTYPE="DreamOs"
+    INSTALLER="apt-get"
 else
     STATUS="/var/lib/opkg/status"
     OSTYPE="Dream"
+    INSTALLER="opkg"
 fi
 
-echo "Checking Python version..."
-if python --version 2>&1 | grep -q '^Python 3\.'; then
-    echo "You have Python3 image"
-    PYTHON="PY3"
+if command -v python3 >/dev/null 2>&1; then
+    PYTHON_CMD="python3"
+elif command -v python >/dev/null 2>&1; then
+    PYTHON_CMD="python"
+elif command -v python2 >/dev/null 2>&1; then
+    PYTHON_CMD="python2"
+else
+    echo "✘ Python is not installed."
+    exit 1
+fi
+
+if $PYTHON_CMD -c 'import sys; exit(0) if sys.version_info[0] == 3 else exit(1)'; then
+    echo "✔ Python3 image detected"
+    PYTHON="py3"
     Packagesix="python3-six"
     Packagerequests="python3-requests"
 else
-    echo "You have Python2 image"
-    PYTHON="PY2"
+    echo "✔ Python2 image detected"
+    PYTHON="py2"
+    Packagesix=""
     Packagerequests="python-requests"
 fi
 
-if [ "$PYTHON" = "PY3" ]; then
-    if ! grep -qs "Package: $Packagesix" "$STATUS"; then
-        echo "Installing $Packagesix..."
-        opkg update > /dev/null 2>&1
-        opkg install "$Packagesix" > /dev/null 2>&1
-    fi
+if [ "$PYTHON" = "py3" ] && ! grep -qs "Package: $Packagesix" "$STATUS"; then
+    echo "Installing $Packagesix ..."
+    opkg update >/dev/null 2>&1
+    opkg install "$Packagesix" >/dev/null 2>&1
 fi
 
 if ! grep -qs "Package: $Packagerequests" "$STATUS"; then
-    echo "Installing $Packagerequests..."
-    if [ "$OSTYPE" = "DreamOs" ]; then
-        apt-get update > /dev/null 2>&1
-        apt-get install "$Packagerequests" -y > /dev/null 2>&1
+    echo "Installing $Packagerequests ..."
+    if [ "$INSTALLER" = "apt-get" ]; then
+        apt-get update >/dev/null 2>&1
+        apt-get install "$Packagerequests" -y >/dev/null 2>&1
     else
-        opkg update > /dev/null 2>&1
-        opkg install "$Packagerequests" > /dev/null 2>&1
+        opkg update >/dev/null 2>&1
+        opkg install "$Packagerequests" >/dev/null 2>&1
     fi
 fi
 
-echo "Installing required core packages..."
-opkg update > /dev/null 2>&1
-opkg install python python-core python-json python-netclient python-codecs python-xml python-shell python-subprocess python-multiprocessing > /dev/null 2>&1
-opkg install wget curl busybox tar gzip > /dev/null 2>&1
-opkg install enigma2-plugin-systemplugins-skinselector enigma2-plugin-extensions-openwebif > /dev/null 2>&1
-opkg install opkg > /dev/null 2>&1
+rm -rf "$TMPPATH" "$PLUGINPATH"
+mkdir -p "$TMPPATH"
 
-echo "Removing previous version..."
-rm -rf "$PLUGINPATH"
 cd /tmp || exit 1
 
-echo "Downloading plugin..."
-wget "$PLUGIN_URL/EmilPanelPro.tar.gz" -O EmilPanelPro.tar.gz > /dev/null 2>&1
-
-if [ -f EmilPanelPro.tar.gz ]; then
-    echo "Extracting plugin..."
-    tar -xzf EmilPanelPro.tar.gz -C / > /dev/null 2>&1
-
-    echo "#########################################################"
-    echo "#      Emil Panel INSTALLED SUCCESSFULLY               #"
-    echo "#########################################################"
-
-    echo "Cleaning up..."
-    rm -f /tmp/EmilPanelPro.tar.gz > /dev/null 2>&1
-    sync
-
-    echo "#########################################################"
-    echo "#         Your device will RESTART now                 #"
-    echo "#########################################################"
-
-    sleep 5
-    if [ -d /usr/lib64 ]; then
-        systemctl restart enigma2
-    else
-        killall -9 enigma2
-    fi
-    exit 0
-else
-    echo "#########################################################"
-    echo "#  ERROR: Failed to download EmilPanelPro.tar.gz       #"
-    echo "#########################################################"
+echo "Downloading EmilPanelPro ($PYTHON version)..."
+wget -q "$PLUGIN_URL/${PYTHON}/EmilPanelPro.tar.gz" -O "/tmp/EmilPanelPro.tar.gz"
+if [ $? -ne 0 ]; then
+    echo "✘ Failed to download the plugin."
     exit 1
 fi
+
+tar -xzf "/tmp/EmilPanelPro.tar.gz" -C / >/dev/null 2>&1
+if [ $? -ne 0 ]; then
+    echo "✘ Failed to extract the plugin."
+    exit 1
+fi
+
+sync
+
+echo "#########################################################"
+echo "#  ✔ EmilPanelPro INSTALLED SUCCESSFULLY               #"
+echo "#         Modified & Uploaded by Emil Nabil            #"
+echo "#########################################################"
+
+rm -rf "$TMPPATH" "/tmp/EmilPanelPro.tar.gz"
+sync
+
+exit 0
 
 
