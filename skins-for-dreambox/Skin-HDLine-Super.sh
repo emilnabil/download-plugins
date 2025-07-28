@@ -8,5 +8,10 @@ wget -O /tmp/Skin-HDLine-Super.deb https://github.com/emilnabil/download-plugins
 dpkg -i /tmp/Skin-HDLine-Super.deb
 
 apt install -f -y
+sleep 2
+rm -f /tmp/Skin-HDLine-Super.deb
+
+exit 0
+
 
 
