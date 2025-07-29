@@ -3,15 +3,16 @@
 
 apt update
 
-wget -O /tmp/enigma2-skin-metrix.hd.oe2.2_v3.2_all.deb https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/enigma2-skin-metrix.hd.oe2.2_v3.2_all.deb
+wget -O /tmp/skin-metrixstylehd_13.1-r2_all.deb https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/skin-metrixstylehd_13.1-r2_all.deb
 
-dpkg -i /tmp/enigma2-skin-metrix.hd.oe2.2_v3.2_all.deb
+dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb
 
 apt install -f -y
 sleep 2
-rm -f /tmp/enigma2-skin-metrix.hd.oe2.2_v3.2_all.deb
+rm -f /tmp/skin-metrixstylehd_13.1-r2_all.deb
 
 exit 0
+
 
 
 
