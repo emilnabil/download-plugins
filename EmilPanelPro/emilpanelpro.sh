@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## setup command:
-##   wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/emilpanelpro.sh -O - | /bin/sh
+##   wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/EmilPanelPro/emilpanelpro.sh -O - | /bin/sh
 
 TMPPATH="/tmp/EmilPanelPro"
 PLUGIN_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilPanelPro/dream"
@@ -101,6 +101,7 @@ rm -rf "$TMPPATH"
 sync
 
 exit 0
+
 
 
 
