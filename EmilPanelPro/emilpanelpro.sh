@@ -4,7 +4,7 @@
 ##   wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/emilpanelpro.sh -O - | /bin/sh
 
 TMPPATH="/tmp/EmilPanelPro"
-PLUGIN_URL="https://github.com/emilnabil/dreambox/raw/refs/heads/main"
+PLUGIN_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilPanelPro/dream"
 STATUS=""
 OSTYPE=""
 INSTALLER=""
@@ -83,7 +83,7 @@ echo "Downloading EmilPanelPro ($PYTHON)..."
 if command -v dpkg >/dev/null 2>&1; then
     URL="$PLUGIN_URL/EmilPanelPro.tar.gz"
 else
-    URL="https://dreambox4u.com/emilnabil237/plugins/emilpanelpro/${PYTHON}/${PLUGIN_ARCHIVE}"
+    URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilPanelPro/${PYTHON}/${PLUGIN_ARCHIVE}"
 fi
 
 wget -q "$URL" -O "$TMPPATH/$PLUGIN_ARCHIVE"
@@ -101,6 +101,7 @@ rm -rf "$TMPPATH"
 sync
 
 exit 0
+
 
 
 
