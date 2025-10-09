@@ -162,43 +162,136 @@
     { "name": "Zip2Pkg-Converter", "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Zip2Pkg/installer.sh -O - | /bin/sh" },
     { "name": "Zoom_1.1.2-Py3", "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/zoom/installer.sh -O - | /bin/sh" }
 ], "channels": [
-    { "name": "Emil Nabil", "cmd": "wget -q https://raw.githubusercontent.com/emilnabil/channel-emil-nabil/main/installer.sh -O - | /bin/sh" },
-    { "name": "Ahmed Romeh", "cmd": "wget -q https://raw.githubusercontent.com/emilnabil/channel-romeh/main/installer.sh -O - | /bin/sh" },
-    { "name": "Hazem-Wahba", "cmd": "wget -q https://raw.githubusercontent.com/emilnabil/channel-hazem-wahba/main/installer.sh -O - | /bin/sh" },
-    { "name": "Khaled Ali", "cmd": "wget -q https://raw.githubusercontent.com/emilnabil/channel-khaled/main/installer.sh -O - | /bin/sh" },
-    { "name": "Mohamed Goda", "cmd": "wget -q https://raw.githubusercontent.com/emilnabil/channel-mohamed-goda/main/installer.sh -O - | /bin/sh" },
-    { "name": "Mohamed-Nasr", "cmd": "wget -q https://raw.githubusercontent.com/emilnabil/channel-mnasr/main/installer.sh -O - | /bin/sh" },
-    { "name": "Ahmed-Mosaad", "cmd": "wget -q https://raw.githubusercontent.com/emilnabil/Channel-Omar2025/main/installer.sh -O - | /bin/sh" },
-    { "name": "Tarek Ashry", "cmd": "wget -q https://raw.githubusercontent.com/emilnabil/channel-tarek-ashry/main/installer.sh -O - | /bin/sh" },
-    { "name": "Elsafty-Tv-Radio-Steaming", "cmd": "wget -q https://dreambox4u.com/emilnabil237/settings/elsafty/installer.sh -O - | /bin/sh" },
-    { "name": "ciefp-channels-e2-75e-34w", "cmd": "wget -q https://raw.githubusercontent.com/emilnabil/download-plugins/main/ciefp-channels-e2/ciefp-channels-e2-75e-34w.sh -O - | /bin/sh" },
-    { "name": "Vhaninbal-Motor-70E-45W", "cmd": "wget -q https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Motor-70E-45W.sh -O - | /bin/sh" },
-    { "name": "Tuner_Backup_By-Emil-Nabil", "cmd": "wget -q https://github.com/emilnabil/download-plugins/raw/refs/heads/main/restore-tuner-emil.sh -O - | /bin/sh" },
-    { "name": "Tuner_Backup_By-M-Goda", "cmd": "wget -q https://github.com/emilnabil/download-plugins/raw/refs/heads/main/restore-tuner-goda.sh -O - | /bin/sh" }
-  ], "feeds": [
-    { "name": "Feed-elite-extra_arm64", "cmd": "wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/feed-elite-extra_arm64.sh -O - | /bin/sh" },
-    { "name": "Feed-elite-extra_armhf", "cmd": "wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/feed-elite-extra_armhf.sh -O - | /bin/sh" },
-    { "name": "Feed-elite-extra_mipsel", "cmd": "wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/feed-elite-extra_mipsel.sh -O - | /bin/sh" },
-    { "name": "Feed-DreamArabia", "cmd": "wget https://github.com/emilnabil/dream/raw/refs/heads/main/dreamarabia.sh -O - | /bin/sh" },
-    { "name": "Feed Gemini for OE2.5", "cmd": "apt update && wget -O /tmp/geminilocale_all.deb http://download.blue-panel.com/geminilocale_gp42.php && dpkg -i /tmp/geminilocale_all.deb" },
-    { "name": "Feed Gemini for OE2.6", "cmd": "apt update && wget -O /tmp/geminilocale_all.deb http://download.blue-panel.com/geminilocale_gp42.php && apt install -y /tmp/geminilocale_all.deb" },
-    { "name": "feed-gutemine", "cmd": "wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/feed-gutemine.sh -O - | /bin/sh" },
-    { "name": "Feed-Merlin", "cmd": "wget https://raw.githubusercontent.com/emilnabil/dream/main/feed-merlin-dreambox.sh -O - | /bin/sh" }
+        { "title": "Other",     "section": "other_channels",    "icon": "channels.png" },
+        { "title": "Ciefp",     "section": "ciefp_channels",    "icon": "ciefp.png" },
+        { "title": "morph883",  "section": "morph883_channels", "icon": "morpheus883.png" },
+        { "title": "vaninbal",  "section": "vaninbal_channels", "icon": "vhannibal.png" }
+    ],
+
+    "other_channels": [
+        { "name": "Emil Nabil", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-emil-nabil/main/installer.sh -O - | /bin/sh" },
+        { "name": "Ahmed Romeh", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-romeh/main/installer.sh -O - | /bin/sh" },
+        { "name": "Hazem-Wahba", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-hazem-wahba/main/installer.sh -O - | /bin/sh" },
+        { "name": "Khaled Ali", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-khaled/main/installer.sh -O - | /bin/sh" },
+        { "name": "Mohamed Goda", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-mohamed-goda/main/installer.sh -O - | /bin/sh" },
+        { "name": "Mohamed-Nasr", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-mnasr/main/installer.sh -O - | /bin/sh" },
+        { "name": "Tarek Ashry", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-tarek-ashry/main/installer.sh -O - | /bin/sh" },
+        { "name": "Elsafty-Tv-Radio-Steaming", "cmd": "wget -q \"--no-check-certificate\" https://dreambox4u.com/emilnabil237/settings/elsafty/installer.sh -O - | /bin/sh" },
+        { "name": "Tuner_Backup_By-Emil-Nabil", "cmd": "wget -q \"--no-check-certificate\" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/restore-tuner-emil.sh -O - | /bin/sh" },
+        { "name": "Tuner_Backup_By-M-Goda", "cmd": "wget -q \"--no-check-certificate\" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/restore-tuner-goda.sh -O - | /bin/sh" }
+    ],
+
+    "ciefp_channels": [
+        { "name": "ciefp-channels-e2-75e-34w", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/main/ciefp-channels-e2/ciefp-channels-e2-75e-34w.sh -O - | /bin/sh" },
+        { "name": "1sat-19E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-1sat-19E.sh -O - | /bin/sh" },
+        { "name": "2satA-19E-13E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-2satA-19E-13E.sh -O - | /bin/sh" },
+        { "name": "2satB-19E-16E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-2satB-19E-16E.sh -O - | /bin/sh" },
+        { "name": "3satA-9E-10E-13E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-3satA-9E-10E-13E.sh -O - | /bin/sh" },
+        { "name": "3satB-19E-16E-13E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-3satB-19E-16E-13E.sh -O - | /bin/sh" },
+        { "name": "4satA-28E-19E-13E-30W", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-4satA-28E-19E-13E-30W.sh -O - | /bin/sh" },
+        { "name": "4satB-19E-16E-13E-0.8W", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-4satB-19E-16E-13E-0.8W.sh -O - | /bin/sh" },
+        { "name": "5sat-19E-16E-13E-1.9E-0.8W", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-5sat-19E-16E-13E-1.9E-0.8W.sh -O - | /bin/sh" },
+        { "name": "6sat-23E-19E-16E-13E-1.9E-0.8W", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-6sat-23E-19E-16E-13E-1.9E-0.8W.sh -O - | /bin/sh" },
+        { "name": "7sat-23E-19E-16E-13E-4.8E-1.9E-0.8W", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-7sat-23E-19E-16E-13E-4.8E-1.9E-0.8W.sh -O - | /bin/sh" },
+        { "name": "8sat-28E-23E-19E-16E-13E-4.8E-1.9E-0.8W", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-8sat-28E-23E-19E-16E-13E-4.8E-1.9E-0.8W.sh -O - | /bin/sh" },
+        { "name": "9sat-28E-23E-19E-16E-13E-9E-1.9E-0.8W-5W", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-9sat-28E-23E-19E-16E-13E-9E-1.9E-0.8W-5W.sh -O - | /bin/sh" },
+        { "name": "10sat-39E-28E-23E-19E-16E-13E-9E-4.8E-1.9E-0.8W", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-10sat.sh -O - | /bin/sh" },
+        { "name": "13sat-42E-39E-28E-23E-19E-16E-13E-9E-7E-4.8E-1.9E-0.8w-5w", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-13sat.sh -O - | /bin/sh" },
+        { "name": "16sat-42E-39E-28E-26E-23E-19E-16E-13E-10E-9E-7E-4.8E-1.9E-0.8w-4W-5w", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-16sat.sh -O - | /bin/sh" },
+        { "name": "18sat-42E-39E-36E-33E-28E-26E-23E-19E-16E-13E-10E-9E-7E-4.8E-1.9E-0.8w-4w-5w", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-18sat.sh -O - | /bin/sh" }
+    ],
+
+    "morph883_channels": [
+        { "name": "Morph883_0.8W-4.8E-13E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_0.8W-4.8E-13E.sh -O - | /bin/sh" },
+        { "name": "Morph883_0.8W-13E-19.2E-28.2E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_0.8W-13E-19.2E-28.2E.sh -O - | /bin/sh" },
+        { "name": "Morph883_0.8W-13E-19.2E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_0.8W-13E-19.2E.sh -O - | /bin/sh" },
+        { "name": "Morph883_0.8W-13E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_0.8W-13E.sh -O - | /bin/sh" },
+        { "name": "Morph883_4.8E-13E-19.2E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_4.8E-13E-19.2E.sh -O - | /bin/sh" },
+        { "name": "Morph883_4.8E-13E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_4.8E-13E.sh -O - | /bin/sh" },
+        { "name": "Morph883_9E-13E-19.2E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_9E-13E-19.2E.sh -O - | /bin/sh" },
+        { "name": "Morph883_9E-13E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_9E-13E.sh -O - | /bin/sh" },
+        { "name": "Morph883_13E-16E-19.2E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_13E-16E-19.2E.sh -O - | /bin/sh" },
+        { "name": "Morph883_13E-16E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_13E-16E.sh -O - | /bin/sh" },
+        { "name": "Morph883_13E-19.2E-23.5E-28.2E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_13E-19.2E-23.5E-28.2E.sh -O - | /bin/sh" },
+        { "name": "Morph883_13E-19.2E-23.5E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_13E-19.2E-23.5E.sh -O - | /bin/sh" },
+        { "name": "Morph883_13E-19.2E-28.2E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_13E-19.2E-28.2E.sh -O - | /bin/sh" },
+        { "name": "Morph883_13E-19.2E-42E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_13E-19.2E-42E.sh -O - | /bin/sh" },
+        { "name": "Morph883_13E-19.2E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_13E-19.2E.sh -O - | /bin/sh" },
+        { "name": "Morph883_13E-23.5E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_13E-23.5E.sh -O - | /bin/sh" },
+        { "name": "Morph883_13E-28.2E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_13E-28.2E.sh -O - | /bin/sh" },
+        { "name": "Morph883_13E-42E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_13E-42E.sh -O - | /bin/sh" },
+        { "name": "Morph883_13E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_13E.sh -O - | /bin/sh" },
+        { "name": "Morph883_30W-13E-19.2E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_30W-13E-19.2E.sh -O - | /bin/sh" },
+        { "name": "Morph883_30W-13E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_30W-13E.sh -O - | /bin/sh" },
+        { "name": "Morph883_Motor", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_Motor.sh -O - | /bin/sh" },
+        { "name": "Morph883_Settings", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_Settings.sh -O - | /bin/sh" }
+    ],
+
+    "vaninbal_channels": [
+        { "name": "Vhaninibal-Dual-13-19E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Dual-13-19E.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-Dual-DTT-Campania", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Dual-DTT-Campania.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-Dual-DTT-Italia", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Dual-DTT-Italia.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-Dual-DTT-Lazio", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Dual-DTT-Lazio.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-Dual-DTT-Lombardia", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Dual-DTT-Lombardia.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-Dual-DTT-Piemonte", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Dual-DTT-Piemonte.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-HotBird-13E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-HotBird-13E.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-HotBird-DTT-Campania", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-HotBird-DTT-Campania.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-HotBird-DTT-Italia", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-HotBird-DTT-Italia.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-HotBird-DTT-Lazio", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-HotBird-DTT-Lazio.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-HotBird-DTT-Lombardia", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-HotBird-DTT-Lombardia.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-HotBird-DTT-Piemonte", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-HotBird-DTT-Piemonte.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-Motor-70E-45W", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Motor-70E-45W.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-Motor-DTT-Campania", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Motor-DTT-Campania.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-Motor-DTT-Italia", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Motor-DTT-Italia.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-Motor-DTT-Lazio", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Motor-DTT-Lazio.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-Motor-DTT-Lombardia", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Motor-DTT-Lombardia.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-Motor-DTT-Piemonte", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Motor-DTT-Piemonte.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-Motor-DTT-Romagna", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Motor-DTT-Romagna.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-Motor-DTT-Sardegna", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Motor-DTT-Sardegna.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-Motor-DTT-Sicilia", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Motor-DTT-Sicilia.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-Quadri-9-13-16-19-23E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Quadri-9-13-16-19-23E.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-Quadri-13-19-5E-1W", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Quadri-13-19-5E-1W.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-Quadri-13-19-9E-5W", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Quadri-13-19-9E-5W.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-Quadri-13-19-23-28E", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Quadri-13-19-23-28E.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-Trial-13-19E-5W", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Trial-13-19E-5W.sh -O - | /bin/sh" },
+        { "name": "Vhaninbal-Trial-13-19E-30W", "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Trial-13-19E-30W.sh -O - | /bin/sh" }
+    ], "feeds": [
+    { "name": "Eliesat", "cmd": "wget https://gitlab.com/eliesat/scripts/-/raw/main/feed/eliesat-feed.sh -O - | /bin/sh" },
+    { "name": "Emil", "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/FEED-emil-feed.sh -O - | /bin/sh" },
+    { "name": "Jungle", "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/FEED-jungle-feed.sh -O - | /bin/sh" },
+    { "name": "Libraries_3.12.4", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/FEED-libraries-3.12.4.sh -O - | /bin/sh" },
+    { "name": "Libraries_3.12.6", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/FEED-libraries-3.12.sh -O - | /bin/sh" },
+    { "name": "Oe-alliance-Picons", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/FEED-oe-picons.sh -O - | /bin/sh" },
+    { "name": "Oe-alliance-Settings", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/FEED-oe-settings.sh -O - | /bin/sh" },
+    { "name": "Openatv-Deval", "cmd": "wget -O - -q https://feeds2.mynonpublic.com/devel-feed | bash" },
+    { "name": "OpenPicons", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/FEED-openpicons.sh -O - | /bin/sh" },
+    { "name": "Softcams-Feed-Openatv", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/FEED-OpenAtv-softcam-ALL-Python.sh -O - | /bin/sh" },
+    { "name": "OpenDroid-softcam", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/FEED-OpenDroid-softcam.sh -O - | /bin/sh" },
+    { "name": "OpenEight-softcam", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/FEED-OpenEight-softcam.sh -O - | /bin/sh" },
+    { "name": "TeamBlue-softcam", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/FEED-TeamBlue-softcam.sh -O - | /bin/sh" },
+    { "name": "Softcams-Feed-Pure2", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/FEED-pure2-softcam.sh -O - | /bin/sh" },
+    { "name": "Tarek-Hanfy", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/FEED-Tarek.sh -O - | /bin/sh" }
   ], "tools": [
-    { "name": "Wget", "cmd": "apt-get update -y && apt-get install -y wget" },
-    { "name": "Curl", "cmd": "apt-get install -y curl" },
+    { "name": "Wget", "cmd": "opkg install wget" },
+    { "name": "Curl", "cmd": "opkg install curl" },
     { "name": "Update Enigma2 All Python", "cmd": "wget https://raw.githubusercontent.com/emil237/updates-enigma/main/update-all-python.sh -O - | /bin/sh" },
-    { "name": "Installer plugin from-tmp", "cmd": "apt-get update && dpkg -i /tmp/*.deb && apt-get -f -y install" },
-    { "name": "Super Script", "cmd": "wget https://raw.githubusercontent.com/emilnabil/dreambox/refs/heads/main/Super_Script-dream.sh -O - | /bin/sh" },
+    { "name": "Installer plugin from-tmp", "cmd": "opkg install  /tmp/*.ipk" },
+    { "name": "Super Script", "cmd": "wget https://dreambox4u.com/emilnabil237/script/Super_Script.sh -O - | /bin/sh" },
     { "name": "Delete-password", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/scripts-servise/delete-password.sh -O - | /bin/sh" },
     { "name": "Change-Password-To-root", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/scripts-servise/change-password-to-root.sh -O - | /bin/sh" },
-    { "name": "Epg-Khaled", "cmd": "wget https://raw.githubusercontent.com/emilnabil/epg-khaled/main/EPG-khaled.sh -O - | /bin/sh" },
-    { "name": "dream-elite-panel", "cmd": "wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/dream-elite-panel.sh -O - | /bin/sh" },
+    { "name": "CAM-abertis-astra-sm", "cmd": "wget https://dreambox4u.com/emilnabil237/script/CAM-abertis-astra.sh -O - | /bin/sh" },
     { "name": "FORMAT_HDD_TO-Ext4", "cmd": "wget https://raw.githubusercontent.com/emil237/scripts/refs/heads/main/format-hdd.sh -O - | /bin/sh" },
     { "name": "Repair-Inodes-From-Hdd", "cmd": "wget https://raw.githubusercontent.com/emil237/scripts/refs/heads/main/repair-hdd.sh -O - | /bin/sh" },
+    { "name": "FIX-ipk-package-installation", "cmd": "wget https://dreambox4u.com/emilnabil237/script/fix-ipk-package-installation.sh -O - | /bin/sh" },
+    { "name": "Fix-Xtraevent-Download", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/fix-xtraevent-download.sh -O - | /bin/sh" },
+    { "name": "Fix Softcam Atv", "cmd": "wget http://updates.mynonpublic.com/oea/feed -O - | /bin/sh" },
+    { "name": "Fix Softcam OpenPli", "cmd": "wget https://raw.githubusercontent.com/emil237/download-plugins/main/softcam-support-pli.sh -O - | /bin/sh" },
+    { "name": "Picons-Convert2Snp", "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/picons-convert2snp.sh -O - | /bin/sh" },
+    { "name": "Feed OpenPicons", "cmd": "wget https://dreambox4u.com/emilnabil237/script/openpicons-feed.sh -O - | /bin/sh" },
     { "name": "Set_Time_NTP-Google", "cmd": "wget https://dreambox4u.com/emilnabil237/script/set_time.sh -O - | /bin/sh" },
     { "name": "UpdateSatellitesOealliance", "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Satellites-Oealliance.sh -O - | /bin/sh" },
-    { "name": "UpdateSatellitesOpenPli", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/satellites-openpli.sh -O - | /bin/sh" }
+    { "name": "UpdateSatellitesOpenPli", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/satellites-openpli.sh -O - | /bin/sh" },
+    { "name": "Zip2ipk", "cmd": "wget http://dreambox4u.com/emilnabil237/script/zip2ipk.sh -O - | /bin/sh" }
   ], "system": [
     { "name": "AutomaticCleanup", "cmd": "wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/AutomaticCleanup.sh -O - | /bin/sh" },
     { "name": "autoresolution_armhf", "cmd": "wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/autoresolution_armhf.sh -O - | /bin/sh" },
@@ -302,19 +395,113 @@
     { "name": "Restore-my-xstreamity-servers", "cmd": "wget http://dreambox4u.com/emilnabil237/script/restore-my-xstreamity-servers.sh -O - | /bin/sh" },
     { "name": "Restore-sittings-xtraevent", "cmd": "wget http://dreambox4u.com/emilnabil237/script/restore-sittings-xtraevent.sh -O - | /bin/sh" }
   ], "skins": [
-    { "name": "metrix-HD-oe2.2", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/metrix-hd-oe2.2.sh -O - | /bin/sh" },
-    { "name": "Brushedalu-HD", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/Brushedalu-HD.sh -O - | /bin/sh" },
-    { "name": "HoloFHD-Black", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/HoloFHD-Black.sh -O - | /bin/sh" },
-    { "name": "UltraViolet-HD", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/UltraViolet.sh -O - | /bin/sh" },
-    { "name": "Vali-HD-atlantis", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/Vali-HD-atlantis.sh -O - | /bin/sh" },
-    { "name": "Vali-HD-Nano", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/Vali-HD-Nano.sh -O - | /bin/sh" },
-    { "name": "Vali-HD-Warp", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/Vali-HD-Warp.sh -O - | /bin/sh" },
-    { "name": "YADS-HD", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/YADS-HD.sh -O - | /bin/sh" },
-    { "name": "gp4-skin-meridian-fhd", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/gp4-skin-meridian-fhd.sh -O - | /bin/sh" },
-    { "name": "hdsuisse.one4all.fhd", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/hdsuisse.one4all.fhd.sh -O - | /bin/sh" },
-    { "name": "My-Flow", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/My-Flow.sh -O - | /bin/sh" },
-    { "name": "Zombi-Shadow-FHD", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/Zombi-Shadow-FHD.sh -O - | /bin/sh" },
-    { "name": "ZSkin-FHD", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/ZSkin-FHD.sh -O - | /bin/sh" }
+    { "title": "OpenATV", "section": "openatv_skins", "icon": "openatv_icon.png" },
+    { "title": "TeamNitro", "section": "teamnitro_skins", "icon": "teamnitro.png" },
+    { "title": "OpenBH", "section": "openbh_skins", "icon": "openbh_icon.png" },
+    { "title": "Egami", "section": "egami_skins", "icon": "egami.png" },
+    { "title": "OpenPli_py3", "section": "openpli_py3_skins", "icon": "openpli.png" },
+    { "title": "OpenSpa", "section": "openspa_skins", "icon": "openspa.png" },
+    { "title": "OpenVix", "section": "openvix_skins", "icon": "openvix.png" },
+    { "title": "OpenPli_py2", "section": "openpli_py2_skins", "icon": "openpli.png" },
+    { "title": "Xtreamity", "section": "plugin-xtreamity_skins", "icon": "xstreamity.png" }
+  ],
+
+  "openatv_skins": [
+    { "name": "Aglare-FHD", "cmd": "wget https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglareatv/installer.sh -O - | /bin/sh" },
+    { "name": "Areadeltasat_fhd", "cmd": "wget https://github.com/emil237/skins-enigma2/raw/refs/heads/main/ATV/skins_areadeltasat_fhd_dragon_1_9_Poster_Backdrop.sh -O - | /bin/sh" },
+    { "name": "Barby-Black-py3-FHD", "cmd": "wget https://dreambox4u.com/emilnabil237/script/SKIN-Barby-Black-py3-fhd.sh -O - | /bin/sh" },
+    { "name": "Barby-Green-py3-FHD", "cmd": "wget https://dreambox4u.com/emilnabil237/script/SKIN-Barby-Green-py3-FHD.sh -O - | /bin/sh" },
+    { "name": "Barby-purple-py3-FHD", "cmd": "wget https://dreambox4u.com/emilnabil237/script/SKIN-Barby-purple-py3-fhd.sh -O - | /bin/sh" },
+    { "name": "Barby-py3-FHD", "cmd": "wget https://dreambox4u.com/emilnabil237/script/SKIN-Barby-py3-fhd.sh -O - | /bin/sh" },
+    { "name": "Fury-FHD", "cmd": "wget https://raw.githubusercontent.com/islam-2412/IPKS/refs/heads/main/fury/installer.sh -O - | /bin/sh" },
+    { "name": "Gradient-fhd", "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/skins-gradient-fhd.sh -O - | /bin/sh" },
+    { "name": "Maxy-FHD", "cmd": "wget https://raw.githubusercontent.com/popking159/skins/refs/heads/main/maxyatv/installer.sh -O - | /bin/sh" },
+    { "name": "Full HD Glass17", "cmd": "wget http://dreambox4u.com/emilnabil237/skins/skin-fullhdglass17/installer.sh -O - | /bin/sh" },
+    { "name": "MyMetrixLiteBackup", "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MyMetrixLiteBackup.sh -O - | /bin/sh" },
+    { "name": "MetrixFHD-Extraevent-PosterXD", "cmd": "wget https://dreambox4u.com/emilnabil237/skins/openatv/SKIN-MetrixFHD-OpenATV-Extraevent-PosterX.sh -O - | /bin/sh" },
+    { "name": "malek-fhd", "cmd": "wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/ATV/skins-malek-fhd_2.2_py3.11.2-py3.12.1.sh -O - | /bin/sh" },
+    { "name": "Nacht_1.7.3", "cmd": "wget http://dreambox4u.com/emilnabil237/script/SKIN-ATV-nacht_1.7.3.sh -O - | /bin/sh" },
+    { "name": "Op-Artkoala-FHD", "cmd": "wget https://dreambox4u.com/emilnabil237/skins/openatv/skins-op-artkoala.sh -O - | /bin/sh" },
+    { "name": "Ozeta-Xtra", "cmd": "wget http://dreambox4u.com/emilnabil237/script/SKIN-ATV-ozeta-xtra.sh -O - | /bin/sh" },
+    { "name": "XDreamy-FHD", "cmd": "wget https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh" }
+  ],
+
+  "teamnitro_skins": [
+    { "name": "TeamNitro Control", "cmd": "wget https://gitlab.com/emilnabil1/teamnitro/-/raw/main/SKIN-teamnitro.sh -O - | /bin/sh" },
+    { "name": "AlAyam-FHD", "cmd": "wget https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerAL.sh -O - | /bin/sh" },
+    { "name": "Desert-FHD", "cmd": "wget https://gitlab.com/emilnabil1/teamnitro/-/raw/main/installer-skin-desert.sh -O - | /bin/sh" },
+    { "name": "BoHLALA-FHD", "cmd": "wget https://gitlab.com/emilnabil1/teamnitro/-/raw/main/installer.sh -O - | /bin/sh" },
+    { "name": "Dragon-FHD", "cmd": "wget https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerD.sh -O - | /bin/sh" },
+    { "name": "NitroAdvance-FHD", "cmd": "wget https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerN.sh -O - | /bin/sh" },
+    { "name": "Klll-Pro-FHD", "cmd": "wget https://raw.githubusercontent.com/biko-73/zelda77/main/installer.sh -O - | /bin/sh" }
+  ],
+
+  "openbh_skins": [
+    { "name": "Aglare-fhd", "cmd": "wget https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglarepli/installer.sh -O - | /bin/sh" },
+    { "name": "Fury-FHD", "cmd": "wget https://raw.githubusercontent.com/islam-2412/IPKS/refs/heads/main/fury/installer.sh -O - | /bin/sh" },
+    { "name": "MX_BlackSea", "cmd": "wget https://dreambox4u.com/emilnabil237/skins/obh/skins-MX_BlackSea.sh -O - | /bin/sh" },
+    { "name": "MX-Sline-Black-Red-Gradient", "cmd": "wget https://dreambox4u.com/emilnabil237/skins/obh/mx-sline-black-red-gradient_py3.12.sh -O - | /bin/sh" },
+    { "name": "MX_Sline-Blue", "cmd": "wget https://dreambox4u.com/emilnabil237/skins/obh/MX_Sline-Blue_OBH_5.4_py3.12_py3.12.sh -O - | /bin/sh" },
+    { "name": "Mx-Sline-Glass-Gradient", "cmd": "wget https://github.com/emilnabil/skins-obh/raw/refs/heads/main/skins-mx-sline-glass-gradient.sh -O - | /bin/sh" },
+    { "name": "MX_Sline-Red_X2", "cmd": "wget https://dreambox4u.com/emilnabil237/skins/obh/MX_Sline-Red_X2_py3.12.sh -O - | /bin/sh" },
+    { "name": "OpenBhGreenFHD", "cmd": "wget https://dreambox4u.com/emilnabil237/skins/obh/skin_OpenBhGreenFHD.sh -O - | /bin/sh" },
+    { "name": "XDreamy-FHD", "cmd": "wget https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh" },
+    { "name": "Youchie-OBH-FHD", "cmd": "wget https://raw.githubusercontent.com/emilnabil/skins-obh/refs/heads/main/skin-Youchie-OBH-FHD.sh -O - | /bin/sh" }
+  ],
+
+  "egami_skins": [
+    { "name": "Aglare-FHD", "cmd": "wget https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglareatv/installer.sh -O - | /bin/sh" },
+    { "name": "Fury-FHD", "cmd": "wget https://raw.githubusercontent.com/islam-2412/IPKS/refs/heads/main/fury/installer.sh -O - | /bin/sh" },
+    { "name": "Premium-Fhd", "cmd": "wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium-fhd-py3.sh -O - | /bin/sh" },
+    { "name": "Premium-Black-Fhd", "cmd": "wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--black-fhd-py3.sh -O - | /bin/sh" },
+    { "name": "Premium-Blue-Fhd", "cmd": "wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--blue-fhd-py3.sh -O - | /bin/sh" },
+    { "name": "XDreamy-FHD", "cmd": "wget https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh" }
+  ],
+
+  "openpli_py3_skins": [
+    { "name": "Aglare-FHD", "cmd": "wget https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglareatv/installer.sh -O - | /bin/sh" },
+    { "name": "BARDO-FHD", "cmd": "wget https://raw.githubusercontent.com/emil237/skins-enigma2/refs/heads/main/pli/Skin-bardo-fhd_3.7.2.sh -O - | /bin/sh" },
+    { "name": "BLACKNEON-XP_Mod_M-Nasr", "cmd": "wget https://dreambox4u.com/emilnabil237/skins/pli9x/Skin-BLACKNEON-XP_mod_mnasr-pli9x.sh -O - | /bin/sh" },
+    { "name": "malek-fhd", "cmd": "wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/Skin-malek-fhd_1.2.sh -O - | /bin/sh" },
+    { "name": "Ozeta-Xtra", "cmd": "wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-ozeta-xtra.sh -O - | /bin/sh" },
+    { "name": "XDreamy-FHD", "cmd": "wget https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh" },
+    { "name": "Youchie-PLI-FHD", "cmd": "wget https://raw.githubusercontent.com/emilnabil/skins-openpli-9x/refs/heads/main/skin-Youchie-PLI-FHD.sh -O - | /bin/sh" }
+  ],
+
+  "openspa_skins": [
+    { "name": "Aglare-FHD", "cmd": "wget https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglareatv/installer.sh -O - | /bin/sh" },
+    { "name": "Fury-FHD", "cmd": "wget https://raw.githubusercontent.com/islam-2412/IPKS/refs/heads/main/fury/installer.sh -O - | /bin/sh" },
+    { "name": "estuary-1080-FHD", "cmd": "wget https://gitlab.com/elbrins/skins/-/raw/main/Spa/Skin-estuary-1080.sh -O - | /bin/sh" },
+    { "name": "Skyline", "cmd": "wget https://github.com/emilnabil/skins-spa/raw/refs/heads/main/skin-Skyline.sh -O - | /bin/sh" }
+  ],
+
+  "openvix_skins": [
+    { "name": "Aglare-FHD", "cmd": "wget https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglarepli/installer.sh -O - | /bin/sh" },
+    { "name": "E2-darkos-FHD", "cmd": "wget https://dreambox4u.com/emilnabil237/skins/openvix/skins-e2-darkos.sh -O - | /bin/sh" },
+    { "name": "Fury-FHD", "cmd": "wget https://raw.githubusercontent.com/islam-2412/IPKS/refs/heads/main/fury/installer.sh -O - | /bin/sh" },
+    { "name": "Magic-FHD", "cmd": "wget https://dreambox4u.com/emilnabil237/skins/openvix/skins-openvix-magic-fhd.sh -O - | /bin/sh" },
+    { "name": "Vixbmc-1080-Confluence-FHD", "cmd": "wget https://dreambox4u.com/emilnabil237/skins/openvix/skins-openvix-vixbmc-1080-confluence.sh -O - | /bin/sh" },
+    { "name": "XDreamy-FHD", "cmd": "wget https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh" },
+    { "name": "Youchie-OpenVix-FHD", "cmd": "wget https://raw.githubusercontent.com/emilnabil/skins-obh/refs/heads/main/skin-Youchie-OBH-FHD.sh -O - | /bin/sh" }
+  ],
+
+  "openpli_py2_skins": [
+    { "name": "Bluemetal-FHD", "cmd": "wget https://raw.githubusercontent.com/emil237/skins-enigma2/refs/heads/main/pli/Skin-bluemetal-fhd.sh -O - | /bin/sh" },
+    { "name": "CH.LEAGUE-FHD", "cmd": "wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-CH.LEAGUE-FHD.sh -O - | /bin/sh" },
+    { "name": "Maxy-FHD", "cmd": "wget https://dreambox4u.com/emilnabil237/skins/script/skins-Maxy-FHD.sh -O - | /bin/sh" },
+    { "name": "Ozeta-Xtra", "cmd": "wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-ozeta-xtra.sh -O - | /bin/sh" },
+    { "name": "QATAR-2022-V3-FHD", "cmd": "wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-QATAR-2022-V3-FHD.sh -O - | /bin/sh" },
+    { "name": "SPIDERMAN-FHD", "cmd": "wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-SPIDERMAN-FHD.sh -O - | /bin/sh" },
+    { "name": "WAR-S-FHD", "cmd": "wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-WAR-S-FHD.sh -O - | /bin/sh" },
+    { "name": "BLACKSKY-S-HD", "cmd": "wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-BLACKSKY-S-HD-MOD-By-Muaath.sh -O - | /bin/sh" },
+    { "name": "BATMAN-MP-HD", "cmd": "wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-BATMAN-MP-HD-By-Muaath.sh -O - | /bin/sh" },
+    { "name": "TOKYO2020-FHD", "cmd": "wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-TOKYO2020-FHD-By-Muaath.sh -O - | /bin/sh" }
+  ],
+
+  "plugin-xtreamity_skins": [
+    { "name": "Abstract", "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer-skin-abstract.sh -O - | /bin/sh" },
+    { "name": "qatar2022", "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer-skin-qatar.sh -O - | /bin/sh" },
+    { "name": "Toys", "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer-skin-toys.sh -O - | /bin/sh" }
   ], "images": [
     { "name": "BlackHole 3.1.0", "cmd": "wget https://dreambox4u.com/emilnabil237/images/BlackHole-3.1.0.sh -O - | /bin/sh" },
     { "name": "Egami 10.4", "cmd": "wget https://dreambox4u.com/emilnabil237/images/egami-10.4.sh -O - | /bin/sh" },
@@ -435,3 +622,4 @@
     { "name": "Remove-Tuner-Settings", "cmd": "wget https://dreambox4u.com/emilnabil237/script/remove/del-Tuner-Settings.sh -O - | /bin/sh" },
     { "name": "Remove-Xstreamity-playlists", "cmd": "wget https://dreambox4u.com/emilnabil237/script/remove/del-Xstreamity-playlists.sh -O - | /bin/sh" }
   ] }
+
