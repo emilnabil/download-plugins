@@ -1,20 +1,39 @@
-{ "main": [
-    { "title": "Panels",    "section": "panels",    "icon": "panels.png" },
-    { "title": "Plugins",   "section": "plugins",   "icon": "plugins.png" },
-    { "title": "Channels",  "section": "channels",  "icon": "channels.png" },
-    { "title": "Feeds",     "section": "feeds",     "icon": "feeds.png" },
-    { "title": "Tools",     "section": "tools",     "icon": "tools.png" },
-    { "title": "System",    "section": "system",    "icon": "system.png" },
-    { "title": "Media",     "section": "media",     "icon": "media.png" },
+{
+  "main": [
+    { "title": "Panels", "section": "panels", "icon": "panels.png" },
+    { "title": "Plugins", "section": "plugins", "icon": "plugins.png" },
+    { "title": "Channels", "section": "channels", "icon": "channels.png" },
+    { "title": "Feeds", "section": "feeds", "icon": "feeds.png" },
+    { "title": "Bootlogos", "section": "bootlogos", "icon": "bootlogo.png" },
+    { "title": "Tools", "section": "tools", "icon": "tools.png" },
+    { "title": "System", "section": "system", "icon": "system.png" },
+    { "title": "Media", "section": "media", "icon": "media.png" },
     { "title": "Multiboot", "section": "multiboot", "icon": "multiboot.png" },
-    { "title": "Softcams",  "section": "softcams",  "icon": "emu.png" },
-    { "title": "Backup",    "section": "backup",    "icon": "backup.png" },
-    { "title": "Restore",   "section": "restore",   "icon": "backup.png" },
-    { "title": "Skins",     "section": "skins",     "icon": "skins.png" },
-    { "title": "Images",    "section": "images",    "icon": "images.png" },
-    { "title": "Picons",    "section": "picons",    "icon": "picon.png" },
-    { "title": "Remove",    "section": "remove",    "icon": "remove.png" }
-  ], "panels": [
+    { "title": "Softcams", "section": "softcams", "icon": "emu.png" },
+    { "title": "Backup", "section": "backup", "icon": "backup.png" },
+    { "title": "Restore", "section": "restore", "icon": "backup.png" },
+    { "title": "Skins", "section": "skins", "icon": "skins.png" },
+    { "title": "Images", "section": "images", "icon": "images.png" },
+    { "title": "Picons", "section": "picons", "icon": "picon.png" },
+    { "title": "Remove", "section": "remove", "icon": "remove.png" }
+  ],
+  
+  "bootlogos": [
+    { "name": "Classic", "cmd": "wget -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/bootlogos/install-classic.sh | sh" },
+    { "name": "Modern", "cmd": "wget -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/bootlogos/install-modern.sh | sh" },
+    { "name": "Neon", "cmd": "wget -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/bootlogos/install-neon.sh | sh" },
+    { "name": "Abstract", "cmd": "wget -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/bootlogos/install-abstract.sh | sh" },
+    { "name": "Geometric", "cmd": "wget -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/bootlogos/install-geometric.sh | sh" },
+    { "name": "Minimalist", "cmd": "wget -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/bootlogos/install-minimalist.sh | sh" },
+    { "name": "Animated", "cmd": "wget -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/bootlogos/install-animated.sh | sh" },
+    { "name": "Retro", "cmd": "wget -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/bootlogos/install-retro.sh | sh" },
+    { "name": "Cyberpunk", "cmd": "wget -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/bootlogos/install-cyberpunk.sh | sh" },
+    { "name": "Nature", "cmd": "wget -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/bootlogos/install-nature.sh | sh" },
+    { "name": "Galaxy", "cmd": "wget -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/bootlogos/install-galaxy.sh | sh" },
+    { "name": "Corporate", "cmd": "wget -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/bootlogos/install-corporate.sh | sh" }
+  ],
+  
+  "panels": [
     { "name": "Ajpanel", "cmd": "wget -q \"--no-check-certificate\" http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh -O - | /bin/sh" },
     { "name": "AjPanel Custom Menu All Panels", "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ajpanel/emil-panel-all.sh -O - | /bin/sh" },
     { "name": "Panel Lite By Emil Nabil", "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/emil-panel-lite.sh -O - | /bin/sh" },
@@ -348,6 +367,7 @@
     { "name": "Ncam", "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-ncam.sh -O - | /bin/sh" },
     { "name": "Oscam", "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-oscam.sh -O - | /bin/sh" },
     { "name": "Oscam-11.726-by-lenuxsat", "cmd": "wget https://dreambox4u.com/emilnabil237/emu/oscam-by-lenuxsat/installer.sh -O - | /bin/sh" },
+    { "name": "Oscam By Levi45", "cmd": "wget https://raw.githubusercontent.com/levi-45/Levi45Emulator/main/installer.sh -O - | /bin/sh" },
     { "name": "oscamicam", "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-oscamicam.sh -O - | /bin/sh" },
     { "name": "powercam_v2-icam-arm", "cmd": "wget https://dreambox4u.com/emilnabil237/emu/powercam/installer.sh -O - | /bin/sh" },
     { "name": "powercam-Ncam", "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-ncam.sh -O - | /bin/sh" },
@@ -362,7 +382,7 @@
     { "name": "Ultracam-Ncam", "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-ncam.sh -O - | /bin/sh" },
     { "name": "Ultracam-Oscam", "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-oscam.sh -O - | /bin/sh" },
     { "name": "Ultracam", "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam.sh -O - | /bin/sh" }
-  ], "backup": [
+], "backup": [
     { "name": "Backup-my-Channels", "cmd": "wget http://dreambox4u.com/emilnabil237/script/Create-My-backup-shannels.sh -O - | /bin/sh" },
     { "name": "Backup-hotkey", "cmd": "wget http://dreambox4u.com/emilnabil237/script/backup-hotkey.sh -O - | /bin/sh" },
     { "name": "Backup-network", "cmd": "wget http://dreambox4u.com/emilnabil237/script/backup-network.sh -O - | /bin/sh" },
@@ -620,4 +640,5 @@
     { "name": "Remove-Tuner-Settings", "cmd": "wget https://dreambox4u.com/emilnabil237/script/remove/del-Tuner-Settings.sh -O - | /bin/sh" },
     { "name": "Remove-Xstreamity-playlists", "cmd": "wget https://dreambox4u.com/emilnabil237/script/remove/del-Xstreamity-playlists.sh -O - | /bin/sh" }
   ] }
+
 
