@@ -332,6 +332,7 @@
     { "name": "Hold-flag-Oscam", "cmd": "wget https://dreambox4u.com/emilnabil237/script/Hold-flag-Oscam.sh -O - | /bin/sh" },
     { "name": "Ncam", "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-ncam.sh -O - | /bin/sh" },
     { "name": "Oscam", "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-oscam.sh -O - | /bin/sh" },
+    { "name": "Oscam By Levi45", "cmd": "wget https://raw.githubusercontent.com/levi-45/Levi45Emulator/main/installer.sh -O - | /bin/sh" },
     { "name": "Oscam-11.726-by-lenuxsat", "cmd": "wget https://dreambox4u.com/emilnabil237/emu/oscam-by-lenuxsat/installer.sh -O - | /bin/sh" },
     { "name": "oscamicam", "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-oscamicam.sh -O - | /bin/sh" },
     { "name": "powercam_v2-icam-arm", "cmd": "wget https://dreambox4u.com/emilnabil237/emu/powercam/installer.sh -O - | /bin/sh" },
