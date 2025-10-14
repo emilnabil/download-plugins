@@ -1,20 +1,38 @@
-{ "main": [
-    { "title": "Panels",    "section": "panels",    "icon": "panels.png" },
-    { "title": "Plugins",   "section": "plugins",   "icon": "plugins.png" },
-    { "title": "Channels",  "section": "channels",  "icon": "channels.png" },
-    { "title": "Feeds",     "section": "feeds",     "icon": "feeds.png" },
-    { "title": "Tools",     "section": "tools",     "icon": "tools.png" },
-    { "title": "System",    "section": "system",    "icon": "system.png" },
-    { "title": "Media",     "section": "media",     "icon": "media.png" },
+{
+  "main": [
+    { "title": "Panels", "section": "panels", "icon": "panels.png" },
+    { "title": "Plugins", "section": "plugins", "icon": "plugins.png" },
+    { "title": "Channels", "section": "channels", "icon": "channels.png" },
+    { "title": "Feeds", "section": "feeds", "icon": "feeds.png" },
+    { "title": "Bootlogos", "section": "bootlogos", "icon": "bootlogo.png" },
+    { "title": "Tools", "section": "tools", "icon": "tools.png" },
+    { "title": "System", "section": "system", "icon": "system.png" },
+    { "title": "Media", "section": "media", "icon": "media.png" },
     { "title": "Multiboot", "section": "multiboot", "icon": "multiboot.png" },
-    { "title": "Softcams",  "section": "softcams",  "icon": "emu.png" },
-    { "title": "Backup",    "section": "backup",    "icon": "backup.png" },
-    { "title": "Restore",   "section": "restore",   "icon": "backup.png" },
-    { "title": "Skins",     "section": "skins",     "icon": "skins.png" },
-    { "title": "Images",    "section": "images",    "icon": "images.png" },
-    { "title": "Picons",    "section": "picons",    "icon": "picon.png" },
-    { "title": "Remove",    "section": "remove",    "icon": "remove.png" }
-  ], "panels": [
+    { "title": "Softcams", "section": "softcams", "icon": "emu.png" },
+    { "title": "Backup", "section": "backup", "icon": "backup.png" },
+    { "title": "Restore", "section": "restore", "icon": "backup.png" },
+    { "title": "Skins", "section": "skins", "icon": "skins.png" },
+    { "title": "Images", "section": "images", "icon": "images.png" },
+    { "title": "Picons", "section": "picons", "icon": "picon.png" },
+    { "title": "Remove", "section": "remove", "icon": "remove.png" }
+  ],
+  
+  "bootlogos": [
+    { "name": "BootlogoSwapper Atv", "cmd": "wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-Atv.sh  -O - | /bin/sh" },
+    { "name": "Bootlogo-PURE2", "cmd": "wget -O - http://dreambox4u.com/emilnabil237/script/bootLogoswapper-Pure2.sh | sh" },
+    { "name": "BootlogoSwapper Christmas", "cmd": "wget -O - http://dreambox4u.com/emilnabil237/script/bootlogoswapper-christmas.sh | sh" },
+    { "name": "BootlogoSwapper Pli", "cmd": "wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-pli.sh -O - | /bin/sh" },
+    { "name": "BootlogoSwapper OpenBH", "cmd": "wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-OpenBH.sh  -O - | /bin/sh" },
+    { "name": "BootlogoSwapper Egami", "cmd": "wget http://dreambox4u.com/emilnabil237/script/bootLogoswapper-Egami.sh -O - | /bin/sh" },
+    { "name": "BootlogoSwapper OpenVix", "cmd": "wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-OpenVix.sh  -O - | /bin/sh" },
+    { "name": "BootlogoSwapper Kids", "cmd": "wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-kids.sh -O - | /bin/sh" },
+    { "name": "BootlogoSwapper Ramadan", "cmd": "wget http://dreambox4u.com/emilnabil237/script/bootlogo-swapper-ramadan.sh  -O - | /bin/sh" },
+    { "name": "BootlogoSwapper Eid-Aldha", "cmd": "wget http://dreambox4u.com/emilnabil237/script/bootlogoswaper-Eid-Aldha.sh -O - | /bin/sh" },
+    { "name": "BootlogoSwapper V2.1", "cmd": "wget http://dreambox4u.com/emilnabil237/script/BootlogoSwapper_v2.1.sh  -O - | /bin/sh" },
+    { "name": "BootlogoSwapper V2.3", "cmd": "wget http://dreambox4u.com/emilnabil237/script/BootlogoSwapper_v2.3.sh  -O - | /bin/sh" }
+  ], 
+  "panels": [
     { "name": "Ajpanel", "cmd": "wget -q \"--no-check-certificate\" http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh -O - | /bin/sh" },
     { "name": "AjPanel Custom Menu All Panels", "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ajpanel/emil-panel-all.sh -O - | /bin/sh" },
     { "name": "Panel Lite By Emil Nabil", "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/emil-panel-lite.sh -O - | /bin/sh" },
