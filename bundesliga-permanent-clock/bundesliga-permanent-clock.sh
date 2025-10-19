@@ -9,40 +9,58 @@ PLUGIN="bundesliga-permanent-clock"
 URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/bundesliga-permanent-clock/bundesliga-permanent-clock.tar.gz"
 PACKAGE_PATH="$TMP_DIR/${PLUGIN}.tar.gz"
 
+echo ""
+echo "*******************************************"
+echo "*     Bundesliga Permanent Clock Setup    *"
+echo "*******************************************"
+echo ""
+
 if [ -d "$PLUGIN_DIR" ]; then
-    echo "> Removing package, please wait..."
+    echo "> Removing old plugin version..."
     sleep 1
     rm -rf "$PLUGIN_DIR"
 
     if opkg list-installed | grep -q "^$PACKAGE_NAME "; then
+        echo "> Removing old package..."
         opkg remove "$PACKAGE_NAME" >/dev/null 2>&1
     fi
 
     echo "*******************************************"
-    echo "*             Removal Finished            *"
+    echo "*           Removal Finished              *"
     echo "*******************************************"
     sleep 1
 fi
 
 echo "> Downloading ${PLUGIN} package, please wait..."
-sleep 2
+sleep 1
 
 if wget -q -O "$PACKAGE_PATH" --no-check-certificate "$URL"; then
     echo "> Extracting package..."
+    sleep 1
+
     if tar -xzf "$PACKAGE_PATH" -C /; then
-        echo "> ${PLUGIN} package installed successfully"
+        echo "*******************************************"
+        echo "*     ${PLUGIN} installed successfully    *"
+        echo "*******************************************"
+        rm -f "$PACKAGE_PATH"
     else
-        echo "> Package extraction failed"
+        echo "> Package extraction failed!"
         rm -f "$PACKAGE_PATH"
         exit 1
     fi
-    rm -f "$PACKAGE_PATH"
 else
-    echo "> Failed to download ${PLUGIN} package"
+    echo "> Failed to download ${PLUGIN} package!"
     exit 1
 fi
 
-exit 0
+if command -v systemctl >/dev/null 2>&1; then
+    echo "> Restarting Enigma2..."
+    systemctl restart enigma2
+else
+    echo "> Restarting Enigma2 manually..."
+    killall -9 enigma2
+fi
 
+exit 0
 
 
