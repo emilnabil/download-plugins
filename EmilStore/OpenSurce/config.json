@@ -1803,7 +1803,7 @@
   "openpli_py3_skins": [
     {
       "name": "Aglare-FHD",
-      "cmd": "wget https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglareatv/installer.sh -O - | /bin/sh"
+      "cmd": "wget https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglarepli/installer.sh -O - | /bin/sh"
     },
     {
       "name": "BARDO-FHD",
