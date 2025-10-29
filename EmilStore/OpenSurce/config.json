@@ -26,6 +26,11 @@
       "icon": "bootlogo.png"
     },
     {
+      "title": "Spinners",
+      "section": "spinners",
+      "icon": "spinner.png"
+    },
+    {
       "title": "Tools",
       "section": "tools",
       "icon": "tools.png"
@@ -100,7 +105,7 @@
     },
     {
       "name": "BootlogoSwapper OpenBH",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-OpenBH.sh  -O - | /bin/sh"
+      "cmd": "wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-OpenBH.sh -O - | /bin/sh"
     },
     {
       "name": "BootlogoSwapper Egami",
@@ -108,7 +113,7 @@
     },
     {
       "name": "BootlogoSwapper OpenVix",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-OpenVix.sh  -O - | /bin/sh"
+      "cmd": "wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-OpenVix.sh -O - | /bin/sh"
     },
     {
       "name": "BootlogoSwapper Kids",
@@ -129,6 +134,52 @@
     {
       "name": "BootlogoSwapper V2.3",
       "cmd": "wget http://dreambox4u.com/emilnabil237/script/BootlogoSwapper_v2.3.sh -O - | /bin/sh"
+    }
+  ],
+  "spinners": [
+    {
+      "name": "Spinner-Circle",
+      "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-circle.sh | /bin/sh"
+    },
+    {
+      "name": "Spinner-Circle-Brown",
+      "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-circle-brown.sh | /bin/sh"
+    },
+    {
+      "name": "Spinner-Collar",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-collar.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Colored-Rings",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-colored-Rings.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Spinner-Fan",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-fan.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Spinner-kare-dugmeler",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-kare-dugmeler.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Spinner-Kum-saati-kare",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-Kum-saati-kare.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Spinner-kupler",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-Kupler.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Spinner-Renkli-donen-cemberler",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-Renkli-donen-cemberler.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Spinner-Wheel",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-wheel.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Spinner-Window",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-window.sh -O - | /bin/sh"
     }
   ],
   "panels": [
