@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-### Command=curl -kLs https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-dart.tar.gz.sh | sh
+### Command=curl -kLs https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-dart.sh | sh
 #####################
 
 echo "Removing previous spinners ..."
@@ -37,6 +37,7 @@ sleep 2
 echo "Restarting Enigma2..."
 killall -9 enigma2 >/dev/null 2>&1
 exit 0
+
 
 
 
