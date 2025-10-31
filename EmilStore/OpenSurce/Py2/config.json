@@ -43,6 +43,22 @@
       "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-circle.sh | /bin/sh"
     },
     {
+      "name": "Spinner-MadMax",
+      "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-MadMax.sh | /bin/sh"
+    },
+    {
+      "name": "Spinner-Pigeon",
+      "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-pigeon.sh | /bin/sh"
+    },
+    {
+      "name": "Spinner-Pingu",
+      "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-Pingu.sh | /bin/sh"
+    },
+    {
+      "name": "Spinner-Revolution",
+      "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-Revolution.sh | /bin/sh"
+    },
+    {
       "name": "Spinner-Circle-Brown",
       "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-circle-brown.sh | /bin/sh"
     },
@@ -77,6 +93,62 @@
     {
       "name": "Spinner-Wheel",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-wheel.sh -O - | /bin/sh"
+    },
+    {
+    "name": "Spinner-3d",
+    "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-3D.sh | /bin/sh"
+    },
+    {
+      "name": "Spinner-Aglare",
+      "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-aglare.sh | /bin/sh"
+    },
+    {
+      "name": "Spinner-Dance",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-dance.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Spinner-Dart",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-dart.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Spinner-Echse",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-Echse.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Spinner-Girls",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-girls.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Spinner-Girls-Dance",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-girls-dance.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Spinner-Jack-Sparrow",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-Jack-Sparrow.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Spinner-Nasht",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-nasht.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Spinner-PapaSchlumpf",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-PapaSchlumpf.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Spinner-presupaci-hodiny",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-presupaci-hodiny.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Spinner-Simba",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-Simba.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Spinner-SylvesterTweety",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-SylvesterTweety.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Spinner-Vu+",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-vu+.sh -O - | /bin/sh"
     },
     {
       "name": "Spinner-Window",
