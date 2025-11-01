@@ -1,80 +1,63 @@
 #!/bin/bash
 ######################################################################################
-## Command=wget https://raw.githubusercontent.com/emil237/SpinnerSelector/main/installer.sh -O - | /bin/sh
-##
-###########################################
-###########################################
-
-# my config script #
+## Command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SpinnerSelector/spinner-selector.sh -O - | /bin/sh
+######################################################################################
 
 MY_TAR_PY2="SpinnerSelector_py2.tar.gz"
 MY_TAR_PY3="SpinnerSelector_py3.tar.gz"
-https://raw.githubusercontent.com/emil237/SpinnerSelector/main"
-PYTHON_VERSION=$(python -c 'import sys; print(sys.version_info[0])')
-
-######################################################################################
+MY_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SpinnerSelector"
+PLUGIN_PATH="/usr/lib/enigma2/python/Plugins/Extensions/SpinnerSelector"
 MY_EM='============================================================================================================'
-#  Remove Old Plugin  #
+
+PYTHON_VERSION=$(python -c 'import sys; print(sys.version_info[0])' 2>/dev/null)
+
+echo "$MY_EM"
 echo "   >>>>   Remove old version   "
+echo "$MY_EM"
 
-rm -r /usr/lib/enigma2/python/Plugins/Extensions/SpinnerSelector
+rm -rf "$PLUGIN_PATH" >/dev/null 2>&1
 
-#################################
-    
-###################
 echo "============================================================================================================================"
- echo " DOWNLOAD AND INSTALL PLUGIN "
+echo ">>> DOWNLOAD AND INSTALL PLUGIN <<<"
+echo
 
-echo "   Install Plugin please wait "
+cd /tmp || exit 1
+set -e
 
-cd /tmp 
-set -e    
-if python --version 2>&1 | grep -q '^Python 3\.'; then
-  wget "$MY_URL/$MY_TAR_PY3"
-sleep 2 
-tar -xzf $MY_TAR_PY3 -C / 
-rm -f /tmp/$MY_TAR_PY3
-	else 
-echo "   Install Plugin please wait "
-   wget "$MY_URL/$MY_TAR_PY2"
-sleep 2 
-tar -xzf $MY_TAR_PY2 -C /
-rm -f /tmp/$MY_TAR_PY2
-	fi
-echo "================================="
-set +e
-cd ..
-
-	if [ $? -eq 0 ]; then
-echo ">>>>  SUCCESSFULLY INSTALLED <<<<"
+if [ "$PYTHON_VERSION" = "3" ]; then
+    echo "Detected Python 3.x"
+    echo "Downloading $MY_TAR_PY3 ..."
+    wget -q "$MY_URL/$MY_TAR_PY3"
+    sleep 2
+    tar -xzf "$MY_TAR_PY3" -C /
+    rm -f "$MY_TAR_PY3"
+else
+    echo "Detected Python 2.x"
+    echo "Downloading $MY_TAR_PY2 ..."
+    wget -q "$MY_URL/$MY_TAR_PY2"
+    sleep 2
+    tar -xzf "$MY_TAR_PY2" -C /
+    rm -f "$MY_TAR_PY2"
 fi
-		echo "********************************************************************************"
+
+set +e
+
+echo "================================="
+echo ">>>>  SUCCESSFULLY INSTALLED <<<<"
+echo "********************************************************************************"
 echo "   UPLOADED BY  >>>>   EMIL_NABIL " 
-sleep 4;                         
-echo $MY_EM
-###################                                                                                                                  
-echo " Your Device Will RESTART Now " 
+echo "$MY_EM"
+echo
+echo " Your Device Will RESTART Now "
 echo "**********************************************************************************"
-sleep 2 
+sleep 3
+
+if command -v systemctl >/dev/null 2>&1; then
+    systemctl restart enigma2
+else
+    killall -9 enigma2
+fi
+
 exit 0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
