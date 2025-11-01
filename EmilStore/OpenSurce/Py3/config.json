@@ -166,7 +166,7 @@
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-collar.sh -O - | /bin/sh"
     },
     {
-      "name": "Colored-Rings",
+      "name": "Spinner-Colored-Rings",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-colored-Rings.sh -O - | /bin/sh"
     },
     {
@@ -184,6 +184,14 @@
     {
       "name": "Spinner-kupler",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-Kupler.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Spinner-Number-Counter",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-Number-Counter.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Spinner-Xdreamy",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-Xdreamy.sh -O - | /bin/sh"
     },
     {
       "name": "Spinner-Renkli-donen-cemberler",
@@ -312,8 +320,8 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/levi45multicammanager/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "MagicPanel-HAMDY_AHMED",
-      "cmd": "wget https://raw.githubusercontent.com/Ham-ahmed/magic/refs/heads/main/MagicPanel_install.sh -O - | /bin/sh"
+      "name": "MagicPanelPro",
+      "cmd": "wget https://raw.githubusercontent.com/Ham-ahmed/pro/refs/heads/main/MagicPanelPro_install.sh -O - | /bin/sh"
     },
     {
       "name": "SatVenusPanel",
