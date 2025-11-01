@@ -742,6 +742,10 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/simple-zoom-panel/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "Spinner-Selector-All-Pythin",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SpinnerSelector/spinner-selector.sh -O - | /bin/sh"
+    },
+    {
       "name": "StalkerPortalConverter",
       "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/StalkerPortalConverter/main/installer.sh -O - | /bin/sh"
     },
