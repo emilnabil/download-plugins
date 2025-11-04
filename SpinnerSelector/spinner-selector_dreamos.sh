@@ -1,5 +1,5 @@
 #!/bin/bash
-## Command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SpinnerSelector/spinner-selector_dreamos.sh -O - | /bin/sh
+## Command=wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SpinnerSelector/spinner-selector_dreamos.sh -O - | /bin/sh
 #############################################
 MY_EM='============================================================================================================'
 MY_TAR="SpinnerSelector_py2_fixed_dreamos_v2.tar.gz"
@@ -74,5 +74,6 @@ else
 fi
 
 exit 0
+
 
 
