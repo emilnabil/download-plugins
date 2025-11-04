@@ -3,7 +3,7 @@
 #############################################
 MY_EM='============================================================================================================'
 MY_TAR="SpinnerSelector_py2_fixed_dreamos_v2.tar.gz"
-MY_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SpinnerSelector"
+MY_URL="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SpinnerSelector"
 PLUGIN_PATH="/usr/lib/enigma2/python/Plugins/Extensions/SpinnerSelector"
 TMP_DIR="/tmp"
 
@@ -36,7 +36,7 @@ cd "$TMP_DIR" || {
 }
 
 echo "Downloading $MY_TAR ..."
-if ! wget -q "$MY_URL/$MY_TAR"; then
+if ! wget --no-check-certificate -q "$MY_URL/$MY_TAR"; then
     echo "Error: Download failed!"
     exit 1
 fi
@@ -56,7 +56,7 @@ if [ -d "$PLUGIN_PATH" ]; then
     echo "================================="
     echo ">>>>  SUCCESSFULLY INSTALLED <<<<"
     echo "********************************************************************************"
-    echo "   DEVELOPER  >>>>   EMIL_NABIL " 
+    echo "   Uploaded  >>>>   EMIL_NABIL " 
     echo "$MY_EM"
     echo
     echo "Your Device Will RESTART Now"
@@ -74,6 +74,4 @@ else
 fi
 
 exit 0
-
-
 
