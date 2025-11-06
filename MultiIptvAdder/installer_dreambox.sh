@@ -1,6 +1,6 @@
 #!/bin/bash
 ######################################################################################
-## Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiIptvAdder/installer.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiIptvAdder/installer_dreambox.sh -O - | /bin/sh
 ##
 ###########################################
 ###########################################
@@ -56,6 +56,7 @@ echo "$MY_EM"
 echo "**********************************************************************************"
 
 exit 0
+
 
 
 
