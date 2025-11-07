@@ -1,23 +1,30 @@
 #!/bin/bash
 #
+# Command:
+# curl -kLs https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openatv-image.sh | sh
 
 echo ""
 
-opkg install curl
+opkg install curl -y >/dev/null 2>&1
 sleep 2
 
-# Download and extract the package
-cd /tmp || exit
-curl -k -Lbk -m 55532 -m 555104 "https://dreambox4u.com/emilnabil237/skins/skins-aglare-fhd.tar.gz" -o /tmp/arabic-language_for-openatv-image.tar.gz
-sleep 1
-echo "Installing ...."
-tar -xzf /tmp/arabic-language_for-openatv-image.tar.gz -C /
-echo ""
-echo ""
-sleep 1
+cd /tmp || exit 1
+echo "Downloading package..."
+curl -kL "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openatv-image.tar.gz" -o arabic-language_for-openatv-image.tar.gz
+
+if [ ! -f arabic-language_for-openatv-image.tar.gz ]; then
+    echo "Download failed, please check the link."
+    exit 1
+fi
+
+echo "Installing..."
+tar -xzf arabic-language_for-openatv-image.tar.gz -C /
+
 rm -f /tmp/arabic-language_for-openatv-image.tar.gz
+echo ""
+echo "Installation completed successfully."
 sleep 2
-exit 0
 
+exit 0
 
 
