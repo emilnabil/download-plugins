@@ -153,6 +153,7 @@
     { "name": "Wget", "cmd": "apt-get update -y && apt-get install -y wget" },
     { "name": "Curl", "cmd": "apt-get install -y curl" },
     { "name": "Update Enigma2 All Python", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emil237/updates-enigma/main/update-all-python.sh -O - | /bin/sh" },
+    { "name": "arabic-language_for-dream-images", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-dream-images.sh -O - | /bin/sh" },
     { "name": "Installer plugin from-tmp", "cmd": "apt-get update && dpkg -i /tmp/*.deb && apt-get -f -y install" },
     { "name": "Super Script", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/dreambox/refs/heads/main/Super_Script-dream.sh -O - | /bin/sh" },
     { "name": "Delete-password", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/scripts-servise/delete-password.sh -O - | /bin/sh" },
@@ -169,6 +170,10 @@
     {
       "name": "Spinner-Circle",
       "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-circle.sh | /bin/sh"
+    },
+    {
+      "name": "Spinner-TS",
+      "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-ts.sh | /bin/sh"
     },
     {
       "name": "Spinner-MadMax",
