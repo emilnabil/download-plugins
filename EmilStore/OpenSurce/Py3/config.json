@@ -1264,6 +1264,30 @@
       "cmd": "wget https://raw.githubusercontent.com/emil237/updates-enigma/main/update-all-python.sh -O - | /bin/sh"
     },
     {
+      "name": "arabic-language_for-egami-image",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-egami-image.sh -O - | /bin/sh"
+    },
+    {
+      "name": "arabic-language_for-openatv-image",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openatv-image.sh -O - | /bin/sh"
+    },
+    {
+      "name": "arabic-language_for-openbh-image",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openatv-image.sh -O - | /bin/sh"
+    },
+    {
+      "name": "arabic-language_for-openhdf-image",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openatv-image.sh -O - | /bin/sh"
+    },
+    {
+      "name": "arabic-language_for-openpli-image",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openatv-image.sh -O - | /bin/sh"
+    },
+    {
+      "name": "arabic-language_for-openvix-image",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openatv-image.sh -O - | /bin/sh"
+    },
+    {
       "name": "Installer plugin from-tmp",
       "cmd": "opkg install  /tmp/*.ipk"
     },
@@ -1466,23 +1490,23 @@
       "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/emil237/egamiboot/refs/heads/main/egamiboot-10.6.sh -O - | /bin/sh"
     },
     {
-      "name": "Neoboot 9.65",
+      "name": "Neoboot 9.65 VIP",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.65/iNB.sh -O - | /bin/sh"
     },
     {
-      "name": "Neoboot 9.65 Mod-ElSafty",
+      "name": "Neoboot 9.65 Mod-ElSafty VIP",
       "cmd": "wget https://raw.githubusercontent.com/emil237/neoboot_v9.65/main/iNB_9.65_mod-elsafty.sh -O - | /bin/sh"
     },
     {
-      "name": "Neoboot 9.60",
+      "name": "Neoboot 9.60 VIP",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.60/iNB.sh -O - | /bin/sh"
     },
     {
-      "name": "Neoboot 9.58",
+      "name": "Neoboot 9.58 VIP",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.58/iNB.sh -O - | /bin/sh"
     },
     {
-      "name": "Neoboot 9.54",
+      "name": "Neoboot 9.54 VIP",
       "cmd": "wget https://raw.githubusercontent.com/emil237/neoboot_9.54/main/installer.sh -O - | /bin/sh"
     },
     {
@@ -2433,6 +2457,10 @@
     {
       "name": "Remove Feed-geminilocale",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/dreambox/refs/heads/main/remove-geminilocale.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Remove all Neoboot",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/script/DELETE_plugin-neoboot.sh -O - | /bin/sh"
     },
     {
       "name": "Remove Oscam_Supcam",
