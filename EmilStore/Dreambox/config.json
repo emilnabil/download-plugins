@@ -36,15 +36,7 @@
   ],
   "plugins": [
     { "name": "ArabicSavior", "cmd": "wget --no-check-certificate -O - http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh -O - | /bin/sh" },
-    { "name": "Alajre", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/alajre/installer.sh -O - | /bin/sh" },
-    { "name": "Ansite", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emil237/ansite/refs/heads/main/installer.sh -O - | /bin/sh" },
-    { "name": "Apod", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/apod/installer.sh -O - | /bin/sh" },
-    { "name": "Apsattv", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/Belfagor2005/Apsattv/main/installer.sh -O - | /bin/sh" },
     { "name": "Astronomy", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/astronomy/installer.sh -O - | /bin/sh" },
-    { "name": "Athan Times", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/athantimes/installer.sh -O - | /bin/sh" },
-    { "name": "Atilehd", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/atilehd/installer.sh -O - | /bin/sh" },
-    { "name": "Azkar Almuslim", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/azkar-almuslim/installer.sh -O - | /bin/sh" },
-    { "name": "Backupflashe", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/fairbird/backupflash/main/installer.sh -O - | /bin/sh" },
     { "name": "BootlogoSwap-Dreambox", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/bootlogoswaper-dreambox.sh -O - | /bin/sh" },
     { "name": "BootlogoSwap-Gemini", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/bootlogoswaper-gemini.sh -O - | /bin/sh" },
     { "name": "BootlogoSwap-Merlin", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/BootlogoSwap-Merlin.sh -O - | /bin/sh" },
@@ -122,6 +114,7 @@
     { "name": "vavoo_1.15", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/vavoo/installer.sh -O - | /bin/sh" },
     { "name": "WeatherPlugin", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/fairbird/WeatherPlugin/master/installer.sh -O - | /bin/sh" },
     { "name": "Wireguard-Vpn", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/m4dhouse/Wireguard-Vpn/refs/heads/python-3.12/WireGuard.sh -O - | /bin/sh" },
+    { "name": "Wifi-Manager", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/wifimanager/wifimanager.sh -O - | /bin/sh" },
     { "name": "WorldCam", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/Belfagor2005/WorldCam/main/installer.sh -O - | /bin/sh" }
   ],
   "channels": [
@@ -170,10 +163,6 @@
     {
       "name": "Spinner-Circle",
       "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-circle.sh | /bin/sh"
-    },
-    {
-      "name": "Spinner-TS",
-      "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-ts.sh | /bin/sh"
     },
     {
       "name": "Spinner-MadMax",
