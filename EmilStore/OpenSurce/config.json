@@ -154,6 +154,10 @@
       "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-Pingu.sh | /bin/sh"
     },
     {
+      "name": "Spinner-TS",
+      "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-ts.sh | /bin/sh"
+    },
+    {
       "name": "Spinner-Revolution",
       "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-Revolution.sh | /bin/sh"
     },
@@ -836,6 +840,10 @@
     {
       "name": "Wireguard-Vpn",
       "cmd": "wget https://raw.githubusercontent.com/m4dhouse/Wireguard-Vpn/refs/heads/python-3.12/WireGuard.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Wifi-Manager",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/wifimanager/wifimanager.sh -O - | /bin/sh"
     },
     {
       "name": "WorldCam",
