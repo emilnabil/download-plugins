@@ -1,11 +1,11 @@
 #!/bin/bash
-## setup command=wget -q --no-check-certificate https://raw.githubusercontent.com/Belfagor2005/WiFi-Manager/main/installer.sh -O - | /bin/sh
+## setup command=wget -q --no-check-certificate https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/wifimanager/wifimanager.sh -O - | /bin/sh
 
 version='1.1'
 changelog='\nInitial release'
 
 TMPPATH=/tmp/WiFiManager-install
-FILEPATH=/tmp/WiFiManager-main.tar.gz
+FILEPATH=/tmp/WiFiManager.tar.gz
 
 echo "Starting WiFiManager installation..."
 
@@ -99,7 +99,7 @@ install_pkg "$Packagerequests"
 
 # Download and extract
 echo "⬇️ Downloading WiFiManager..."
-wget --no-check-certificate 'https://github.com/Belfagor2005/WiFi-Manager/archive/refs/heads/main.tar.gz' -O "$FILEPATH"
+wget --no-check-certificate 'https://github.com/emilnabil/download-plugins/raw/refs/heads/main/wifimanager/WiFiManager.tar.gz' -O "$FILEPATH"
 if [ $? -ne 0 ]; then
     echo "❌ Failed to download WiFiManager package!"
     cleanup
@@ -107,37 +107,12 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "📦 Extracting package..."
-tar -xzf "$FILEPATH" -C "$TMPPATH"
+tar -xzf "$FILEPATH" -C /
 if [ $? -ne 0 ]; then
     echo "❌ Failed to extract WiFiManager package!"
     cleanup
     exit 1
 fi
-
-# Install plugin files
-echo "🔧 Installing plugin files..."
-mkdir -p "$PLUGINPATH"
-
-# Find the correct directory in the extracted structure
-if [ -d "$TMPPATH/WiFi-Manager-main/usr/lib/enigma2/python/Plugins/Extensions/WiFiManager" ]; then
-    cp -r "$TMPPATH/WiFi-Manager-main/usr/lib/enigma2/python/Plugins/Extensions/WiFiManager"/* "$PLUGINPATH/" 2>/dev/null
-    echo "✅ Copied from standard plugin directory"
-elif [ -d "$TMPPATH/WiFi-Manager-main/usr/lib64/enigma2/python/Plugins/Extensions/WiFiManager" ]; then
-    cp -r "$TMPPATH/WiFi-Manager-main/usr/lib64/enigma2/python/Plugins/Extensions/WiFiManager"/* "$PLUGINPATH/" 2>/dev/null
-    echo "✅ Copied from lib64 plugin directory"
-elif [ -d "$TMPPATH/WiFi-Manager-main/usr" ]; then
-    # Copy entire usr tree
-    cp -r "$TMPPATH/WiFi-Manager-main/usr"/* /usr/ 2>/dev/null
-    echo "✅ Copied entire usr structure"
-else
-    echo "❌ Could not find plugin files in extracted archive"
-    echo "📋 Available directories in tmp:"
-    find "$TMPPATH" -type d | head -10
-    cleanup
-    exit 1
-fi
-
-sync
 
 # Verify installation
 echo "🔍 Verifying installation..."
@@ -192,3 +167,4 @@ else
 fi
 
 exit 0
+
