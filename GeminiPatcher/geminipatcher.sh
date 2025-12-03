@@ -1,6 +1,6 @@
 #!/bin/bash
-##Command=wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/GeminiPatcher/geminipatcher.sh -O - | /bin/sh
-############################
+##Command=wget --no-check-certificate https://github.com/emilnabil/download-plugins/raw/refs/heads/main/GeminiPatcher/geminipatcher.sh -O - | /bin/sh
+
 echo "Removing previous version ..."
 sleep 2
 
@@ -12,32 +12,22 @@ else
 fi
 
 echo ""
+opkg update
 opkg install curl
 sleep 2
 
 cd /tmp || exit
-curl -k -L "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/GeminiPatcher/GeminiPatcher.tar.gz" -o /tmp/GeminiPatcher.tar.gz
+curl -k -L "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/GeminiPatcher/GeminiPatcher.tar.gz" -o GeminiPatcher.tar.gz
 sleep 2
 
 echo "Installing ...."
-tar -xzf /tmp/GeminiPatcher.tar.gz -C /
+tar -xzf GeminiPatcher.tar.gz -C /
 echo ""
 echo ""
 
-sleep 1
-rm -f /tmp/GeminiPatcher.tar.gz
+rm -f GeminiPatcher.tar.gz
 echo " Uploaded By Emil Nabil"
 sleep 2
 exit 0
-
-
-
-
-
-
-
-
-
-
 
 
