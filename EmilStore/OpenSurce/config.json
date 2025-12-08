@@ -2255,6 +2255,10 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/images/openblackhole-5.5.1.sh -O - | /bin/sh"
     },
     {
+      "name": "OpenBlackHole 5.6",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openblackhole-5.6.sh -O - | /bin/sh"
+    },
+    {
       "name": "OpenDroid",
       "cmd": "wget https://dreambox4u.com/emilnabil237/images/opendroid.sh -O - | /bin/sh"
     },
