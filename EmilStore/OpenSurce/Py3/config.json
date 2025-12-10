@@ -1496,6 +1496,10 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh"
     },
     {
+      "name": "IpAudio 8.0 All pythin",
+      "cmd": "wget https://github.com/emil237/ipaudio/raw/refs/heads/main/ipaudio_8.0.sh -O - | /bin/sh"
+    },
+    {
       "name": "IpAudioPro",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ipaudiopro/installer.sh -O - | /bin/sh"
     },
