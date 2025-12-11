@@ -1925,10 +1925,6 @@
       "cmd": "wget http://dreambox4u.com/emilnabil237/script/SKIN-ATV-ozeta-xtra.sh -O - | /bin/sh"
     },
     {
-      "name": "Smoo-Gemini-FHD",
-      "cmd": "wget https://github.com/emilnabil/skins-openatv/raw/refs/heads/main/skin-smoogemini-fhd.sh -O - | /bin/sh"
-    },
-    {
       "name": "XDreamy-FHD",
       "cmd": "wget https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh"
     }
@@ -1997,10 +1993,6 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/skins/obh/skin_OpenBhGreenFHD.sh -O - | /bin/sh"
     },
     {
-      "name": "Smoo-Gemini-FHD",
-      "cmd": "wget https://github.com/emilnabil/skins-openatv/raw/refs/heads/main/skin-smoogemini-fhd.sh -O - | /bin/sh"
-    },
-    {
       "name": "XDreamy-FHD",
       "cmd": "wget https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh"
     },
@@ -2031,10 +2023,6 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--blue-fhd-py3.sh -O - | /bin/sh"
     },
     {
-      "name": "Smoo-Gemini-FHD",
-      "cmd": "wget https://github.com/emilnabil/skins-openatv/raw/refs/heads/main/skin-smoogemini-fhd.sh -O - | /bin/sh"
-    },
-    {
       "name": "XDreamy-FHD",
       "cmd": "wget https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh"
     }
@@ -2059,10 +2047,6 @@
     {
       "name": "Ozeta-Xtra",
       "cmd": "wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-ozeta-xtra.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Smoo-Gemini-FHD",
-      "cmd": "wget https://github.com/emilnabil/skins-openatv/raw/refs/heads/main/skin-smoogemini-fhd.sh -O - | /bin/sh"
     },
     {
       "name": "XDreamy-FHD",
@@ -2109,10 +2093,6 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/skins/openvix/skins-openvix-magic-fhd.sh -O - | /bin/sh"
     },
     {
-      "name": "Smoo-Gemini-FHD",
-      "cmd": "wget https://github.com/emilnabil/skins-openatv/raw/refs/heads/main/skin-smoogemini-fhd.sh -O - | /bin/sh"
-    },
-    {
       "name": "Vixbmc-1080-Confluence-FHD",
       "cmd": "wget https://dreambox4u.com/emilnabil237/skins/openvix/skins-openvix-vixbmc-1080-confluence.sh -O - | /bin/sh"
     },
@@ -2145,10 +2125,6 @@
     {
       "name": "QATAR-2022-V3-FHD",
       "cmd": "wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-QATAR-2022-V3-FHD.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Smoo-Gemini-FHD",
-      "cmd": "wget https://github.com/emilnabil/skins-openatv/raw/refs/heads/main/skin-smoogemini-fhd.sh -O - | /bin/sh"
     },
     {
       "name": "SPIDERMAN-FHD",
