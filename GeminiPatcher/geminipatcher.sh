@@ -13,7 +13,8 @@ fi
 
 echo ""
 opkg update
-opkg install curl
+opkg install --force-reinstall python3-compile
+opkg install --force-reinstall curl
 sleep 2
 
 cd /tmp || exit
@@ -26,7 +27,7 @@ echo ""
 echo ""
 
 rm -f GeminiPatcher.tar.gz
-echo " Uploaded By Emil Nabil"
+echo "Uploaded By Emil Nabil"
 sleep 2
 exit 0
 
