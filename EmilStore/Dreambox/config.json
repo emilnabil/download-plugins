@@ -301,7 +301,7 @@
     { "name": "E2m3ubouquet", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/e2m3u2bouquet/installer.sh | /bin/sh" },
     { "name": "ipaudio", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/ipaudio-6.6.sh | /bin/sh" },
     {
-      "name": "IpAudio 8.02 All pythin",
+      "name": "IpAudio 8.02 All python",
       "cmd": "wget https://github.com/emil237/ipaudio/raw/refs/heads/main/ipaudio_8.0.sh -O - | /bin/sh"
     },
     { "name": "iptosat", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/iptosat/installer.sh | /bin/sh" },
