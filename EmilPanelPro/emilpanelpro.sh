@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## setup command:
-##   wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/EmilPanelPro/emilpanelpro.sh -O - | /bin/sh
+## wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/EmilPanelPro/emilpanelpro.sh -O - | /bin/sh
 
 TMPPATH="/tmp/EmilPanelPro"
 PLUGIN_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilPanelPro/dream"
@@ -24,7 +24,7 @@ fi
 # detect package system
 if [ -f /var/lib/dpkg/status ]; then
     STATUS="/var/lib/dpkg/status"
-    OSTYPE="DreamOs"
+    OSTYPE="DreamOS"
     INSTALLER="apt-get"
 elif [ -f /var/lib/opkg/status ]; then
     STATUS="/var/lib/opkg/status"
@@ -100,9 +100,13 @@ echo "#########################################################"
 rm -rf "$TMPPATH"
 sync
 
+# restart enigma2
+if [ "$OSTYPE" = "DreamOS" ]; then
+    systemctl restart enigma2
+else
+    killall -9 enigma2
+fi
+
 exit 0
-
-
-
 
 
