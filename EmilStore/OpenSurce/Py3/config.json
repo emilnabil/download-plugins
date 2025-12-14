@@ -1885,6 +1885,10 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/script/SKIN-Barby-py3-fhd.sh -O - | /bin/sh"
     },
     {
+      "name": "BLACKNEON-XP-FHD-V2_ArabicDiscription",
+      "cmd": "wget https://github.com/emilnabil/skins-openatv/raw/refs/heads/main/skin-BLACKNEON-XP-FHD-v2_arabicdiscription.sh -O - | /bin/sh"
+    },
+    {
       "name": "Fury-FHD",
       "cmd": "wget https://raw.githubusercontent.com/islam-2412/IPKS/refs/heads/main/fury/installer.sh -O - | /bin/sh"
     },
