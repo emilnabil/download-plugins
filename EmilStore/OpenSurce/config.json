@@ -1501,8 +1501,12 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh"
     },
     {
-      "name": "IpAudio 8.02 All python",
+      "name": "IpAudio 8.02 By-Mohamed Nasr All python",
       "cmd": "wget https://github.com/emil237/ipaudio/raw/refs/heads/main/ipaudio_8.0.sh -O - | /bin/sh"
+    },
+    {
+      "name": "IpAudio By-Mohamed Nasr Py3",
+      "cmd": "wget https://raw.githubusercontent.com/popking159/ipaudio/main/installer-ipaudio.sh -O - | /bin/sh"
     },
     {
       "name": "IpAudioPro",
