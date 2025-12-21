@@ -9,6 +9,11 @@
     { "title": "System", "section": "system", "icon": "system.png" },
     { "title": "Media", "section": "media", "icon": "media.png" },
     { "title": "Multiboot", "section": "multiboot", "icon": "multiboot.png" },
+    {
+      "title": "Images",
+      "section": "images",
+      "icon": "images.png"
+    },
     { "title": "Softcams", "section": "softcams", "icon": "emu.png" },
     { "title": "Backup", "section": "backup", "icon": "backup.png" },
     { "title": "Restore", "section": "restore", "icon": "backup.png" },
@@ -404,6 +409,56 @@
     { "name": "My-Flow", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/My-Flow.sh | /bin/sh" },
     { "name": "Zombi-Shadow-FHD", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/Zombi-Shadow-FHD.sh | /bin/sh" },
     { "name": "ZSkin-FHD", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/ZSkin-FHD.sh | /bin/sh" }
+  ],
+  "images": [
+    {
+      "name": "OpenATV 6.4",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-6.4.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenATV 7.0",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.0.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenATV 7.1",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.1.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenATV 7.2",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.2.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenATV 7.3",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.3.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenATV 7.4",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.4.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenATV 7.5",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.5.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenATV 7.5.1",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.5.1.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenATV 7.6",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.6.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenHdf 7.3",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openhdf-7.3.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenVIX Latest Version",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openvix_latest-version.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Pure2 7.4",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/images/pure2-7.4.sh -O - | /bin/sh"
+    }
   ],
   
   "remove": [
