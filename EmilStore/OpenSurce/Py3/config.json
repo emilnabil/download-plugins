@@ -1825,7 +1825,7 @@
     {
       "title": "OpenATV",
       "section": "openatv_skins",
-      "icon": "openatv_icon.png"
+      "icon": "openatv.png"
     },
     {
       "title": "TeamNitro",
@@ -1835,7 +1835,7 @@
     {
       "title": "OpenBH",
       "section": "openbh_skins",
-      "icon": "openbh_icon.png"
+      "icon": "openbh.png"
     },
     {
       "title": "Egami",
