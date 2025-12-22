@@ -18,6 +18,11 @@
     { "title": "Backup", "section": "backup", "icon": "backup.png" },
     { "title": "Restore", "section": "restore", "icon": "backup.png" },
     { "title": "Skins", "section": "skins", "icon": "skins.png" },
+    {
+      "title": "Picons",
+      "section": "picons",
+      "icon": "picon.png"
+    },
     { "title": "Remove", "section": "remove", "icon": "remove.png" }
   ],
   
@@ -482,6 +487,204 @@
     {
       "name": "Pure2 7.4",
       "cmd": "wget https://dreambox4u.com/emilnabil237/images/pure2-7.4.sh -O - | /bin/sh"
+    }
+  ],
+  "picons": [
+    {
+      "name": "Intelsat 31.5W",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/intelsat_31.5w/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Hispasat 30.0W",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/hispasat_30.0w/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Intelsat 27.5W",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/intelsat_27.5w/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Intelsat 24.5W",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/intelsat_24.5w/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "SES 4 22.0W",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/ses4_22.0w/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "NSS 7 20.0W",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/nss7_20.0w/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Telstar 15.0W",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/telstar_15.0w/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Express 14W",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/express_14w/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Express 11.0W-14.0W",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/express_11.0w-14.0w/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Nilesat 7W-8W",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/nilesat/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Eutelsat 5.0W",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_5.0w/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Amos 4.0W",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/amos_4.0w/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "ABS 3.0W",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/abs_3.0w/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Thor 0.8W",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/thor_0.8w/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "BulgariaSat 1.9E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/bulgariasat_1.9e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Eutelsat 3.0E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_3.0e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Astra 4.8E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/astra_4.8e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Eutelsat 7.0E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_7.0e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Eutelsat 9.0E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_9.0e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Eutelsat 10.0E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_10.0e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Hotbird 13.0E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/hotbird_13.0e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Eutelsat 16.0E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_16.0e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Astra 19.2E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/astra_19.2e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Eutelsat 21.6E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_21.6e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Astra 23.5E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/astra_23.5e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Eshail 25.5E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eshail_25.5e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Badr 26.0E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/badr_26.0e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Astra 28.2E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/astra_28.2e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Arabsat 30.5E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/arabsat_30.5e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Astra 31.5E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/astra_31.5e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Intelsat 33.0E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat-intelsat_33.0e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Eutelsat 36.0E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_36.0e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Hellas-Sat 39.0E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/hellas-sat_39.0e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Turksat 42.0E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/turksat_42.0e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "AzerSpace 45.0E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/azerspace_45.0e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "AzerSpace 46.0E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/azerspace_46.0e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Turksat 50.0E-57E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/turksat_50.0e_56.0e_57e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Belintersat 51.5E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/belintersat_51.5e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "TurkmenAlem 52.0E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/turkmenalem_52.0e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Yahsat 52.5E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/alyahsat_52.5e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Express 53.0E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/express_53.0e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Yamal 54.9E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/gsat-yamal_54.9e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Intelsat 60.0E-68.0E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/intelsat_60.0e_66.0e_68.0e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Intelsat 62.0E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/intelsat_62.0e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Eutelsat 70.0E-75.0E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_70.0e_74.9e_75.0e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Intelsat 72.1E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/Intelsat_72.1e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "ABS 75.0E",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/abs_75.0e/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Picons Other",
+      "cmd": "wget https://raw.githubusercontent.com/emil237/picon-other/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Chocholousek Picons",
+      "cmd": "wget https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup -O - | /bin/sh"
     }
   ],
   
