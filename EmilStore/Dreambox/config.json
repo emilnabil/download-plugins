@@ -412,6 +412,22 @@
   ],
   "images": [
     {
+      "name": "Dreambox-Unstable",
+      "cmd": "wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/dreambox-unstable.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Gemini 4.2",
+      "cmd": "wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/gemini-4.2.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Merlin",
+      "cmd": "wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/merlin.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Newnigma2",
+      "cmd": "wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/newnigma2.sh -O - | /bin/sh"
+    },
+    {
       "name": "OpenATV 6.4",
       "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-6.4.sh -O - | /bin/sh"
     },
