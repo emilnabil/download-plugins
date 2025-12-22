@@ -77,6 +77,14 @@
     { "name": "IptvPlayer", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emil237/iptvplayer/main/iptvinstaller.sh | /bin/sh" },
     { "name": "Iptvupdater", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/iptvupdater.sh | /bin/sh" },
     { "name": "KeyAdder", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/fairbird/KeyAdder/main/installer.sh | /bin/sh" },
+    {
+      "name": "levi45-freeserver",
+      "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/levi45-freeserver/levi45-freeserver.sh -O - | /bin/sh"
+    },
+    {
+      "name": "levi45-free-iptv",
+      "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/levi45-free-iptv/levi45-freeiptv.sh -O - | /bin/sh"
+    },
     { "name": "MerlinSkinThemes", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/merlinskinthemes.sh | /bin/sh" },
     { "name": "levi45-freeserver", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/levi45-freeserver/levi45-freeserver.sh | /bin/sh" },
     { "name": "levi45-settings", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/levi45-settings/levi45-settings.sh | /bin/sh" },
