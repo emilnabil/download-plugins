@@ -329,10 +329,6 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/levi45multicammanager/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "MagicPanelPro",
-      "cmd": "wget https://raw.githubusercontent.com/Ham-ahmed/pro/refs/heads/main/MagicPanelPro-v6.5_install.sh -O - | /bin/sh"
-    },
-    {
       "name": "SatVenusPanel",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/satvenuspanel/installer.sh -O - | /bin/sh"
     },
@@ -677,6 +673,10 @@
     {
       "name": "levi45-freeserver",
       "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/levi45-freeserver/levi45-freeserver.sh -O - | /bin/sh"
+    },
+    {
+      "name": "levi45-free-iptv",
+      "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/levi45-free-iptv/levi45-freeiptv.sh -O - | /bin/sh"
     },
     {
       "name": "levi45-settings",
