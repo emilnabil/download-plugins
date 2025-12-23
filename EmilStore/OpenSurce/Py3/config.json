@@ -289,16 +289,8 @@
       "cmd": "wget https://github.com/ciefp/CiefpsettingsPanel/raw/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Ciefp-Panel mod Emil Nabil",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Ciefp-Panel/Ciefp-Panel.sh -O - | /bin/sh"
-    },
-    {
       "name": "dreamosat-downloader",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/dreamosat-downloader/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "EliesatPanel",
-      "cmd": "wget https://raw.githubusercontent.com/eliesat/eliesatpanel/main/installer.sh -O - | /bin/sh"
     },
     {
       "name": "EmilPanel",
