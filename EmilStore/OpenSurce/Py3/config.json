@@ -343,6 +343,10 @@
       "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "AiSubtitles",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AISubtitles/AISubtitles.sh -O - | /bin/sh"
+    },
+    {
       "name": "Acherone",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/acherone/installer.sh -O - | /bin/sh"
     },
