@@ -555,6 +555,10 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/install-CrashLogViewer.sh -O - | /bin/sh"
     },
     {
+      "name": "CutsClear",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/cutsclear/cutsclear.sh -O - | /bin/sh"
+    },
+    {
       "name": "Easy-Cccam",
       "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/easy-cccam/easy-cccam.sh -O - | /bin/sh"
     },
