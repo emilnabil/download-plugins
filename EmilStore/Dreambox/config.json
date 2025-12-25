@@ -58,6 +58,10 @@
     { "name": "chocholousek-picons", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/chocholousek-picons.sh | /bin/sh" },
     { "name": "CrashLogoViewer", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/install-CrashLogViewer.sh | /bin/sh" },
     { "name": "CrondManger", "cmd": "wget --no-check-certificate -O - https://github.com/emil237/download-plugins/raw/main/cronmanager.sh | /bin/sh" },
+    {
+      "name": "CutsClear",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/cutsclear/cutsclear.sh -O - | /bin/sh"
+    },
     { "name": "DisplaySkin", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/displayskin.sh | /bin/sh" },
     { "name": "Epg Grabber", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/Epg-Grabber/installer.sh | /bin/sh" },
     { "name": "EPGImport", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/epgimport.sh | /bin/sh" },
