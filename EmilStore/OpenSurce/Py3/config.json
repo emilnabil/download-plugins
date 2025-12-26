@@ -1567,10 +1567,6 @@
       "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/emil237/egamiboot/refs/heads/main/egamiboot-10.6.sh -O - | /bin/sh"
     },
     {
-      "name": "Neoboot 9.84 VIP",
-      "cmd": "wget https://github.com/emil237/plugins/raw/refs/heads/main/neoboot/neoboot-v9.84.sh -O - | /bin/sh"
-    },
-    {
       "name": "Neoboot 9.65 VIP",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.65/iNB.sh -O - | /bin/sh"
     },
