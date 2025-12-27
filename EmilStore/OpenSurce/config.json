@@ -2259,6 +2259,10 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/images/openpli-9.1.sh -O - | /bin/sh"
     },
     {
+      "name": "OpenPLi 9.2",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openpli-9.2.sh -O - | /bin/sh"
+    },
+    {
       "name": "OpenSpa 7.5",
       "cmd": "wget https://dreambox4u.com/emilnabil237/images/openspa-7.5.xxx.sh -O - | /bin/sh"
     },
@@ -2297,6 +2301,10 @@
     {
       "name": "Pure2 7.4",
       "cmd": "wget https://dreambox4u.com/emilnabil237/images/pure2-7.4.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Pure2 7.6",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/images/pure2-7.6.sh -O - | /bin/sh"
     },
     {
       "name": "VTI 15.0.02",
