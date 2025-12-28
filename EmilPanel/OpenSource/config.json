@@ -3,7 +3,7 @@
     {
       "title": "Panels",
       "section": "panels",
-      "icon": "panel.png"
+      "icon": "panels.png"
     },
     {
       "title": "Plugins",
@@ -23,12 +23,12 @@
     {
       "title": "Bootlogos",
       "section": "bootlogos",
-      "icon": "bootlogos.png"
+      "icon": "bootlogo.png"
     },
     {
       "title": "Spinners",
       "section": "spinners",
-      "icon": "spinners.png"
+      "icon": "spinner.png"
     },
     {
       "title": "Tools",
@@ -38,7 +38,7 @@
     {
       "title": "System",
       "section": "system",
-      "icon": "systemplugins.png"
+      "icon": "system.png"
     },
     {
       "title": "Media",
@@ -78,12 +78,17 @@
     {
       "title": "Picons",
       "section": "picons",
-      "icon": "picons.png"
+      "icon": "picon.png"
     },
     {
       "title": "Remove",
       "section": "remove",
-      "icon": "removed.png"
+      "icon": "remove.png"
+    },
+    {
+      "title": "E2Images",
+      "section": "e2images",
+      "icon": "e2images.png"
     }
   ],
   "bootlogos": [
@@ -284,16 +289,8 @@
       "cmd": "wget https://github.com/ciefp/CiefpsettingsPanel/raw/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Ciefp-Panel mod Emil Nabil",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Ciefp-Panel/Ciefp-Panel.sh -O - | /bin/sh"
-    },
-    {
       "name": "dreamosat-downloader",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/dreamosat-downloader/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "EliesatPanel",
-      "cmd": "wget https://raw.githubusercontent.com/eliesat/eliesatpanel/main/installer.sh -O - | /bin/sh"
     },
     {
       "name": "EmilPanel",
@@ -324,10 +321,6 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/levi45multicammanager/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "MagicPanelPro",
-      "cmd": "wget https://raw.githubusercontent.com/Ham-ahmed/pro/refs/heads/main/MagicPanelPro_install.sh -O - | /bin/sh"
-    },
-    {
       "name": "SatVenusPanel",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/satvenuspanel/installer.sh -O - | /bin/sh"
     },
@@ -348,6 +341,10 @@
     {
       "name": "ArabicSavior",
       "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "AiSubtitles",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AISubtitles/AISubtitles.sh -O - | /bin/sh"
     },
     {
       "name": "Acherone",
@@ -562,6 +559,10 @@
       "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/easy-cccam/easy-cccam.sh -O - | /bin/sh"
     },
     {
+      "name": "E2BissKeysEditor",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/E2BissKeysEditor/E2BissKeysEditor.sh -O - | /bin/sh"
+    },
+    {
       "name": "enigma2readeradder",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/enigma2readeradder/enigma2readeradder.sh -O - | /bin/sh"
     },
@@ -614,6 +615,10 @@
       "cmd": "wget https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "GeminiPatcher",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/GeminiPatcher/geminipatcher.sh -O - | /bin/sh"
+    },
+    {
       "name": "gioppygio",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/gioppygio/gioppygio.sh -O - | /bin/sh"
     },
@@ -664,6 +669,10 @@
     {
       "name": "levi45-freeserver",
       "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/levi45-freeserver/levi45-freeserver.sh -O - | /bin/sh"
+    },
+    {
+      "name": "levi45-free-iptv",
+      "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/levi45-free-iptv/levi45-freeiptv.sh -O - | /bin/sh"
     },
     {
       "name": "levi45-settings",
@@ -756,6 +765,14 @@
     {
       "name": "pluginskinmover",
       "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/pluginskinmover/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "SatelliWebLiveFeeds_py3.12",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/satelliweblivefeeds/satelliweblivefeeds-py3.12.sh -O - | /bin/sh"
+    },
+    {
+      "name": "SatelliWebLiveFeeds_py3.13",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/satelliweblivefeeds/satelliweblivefeeds-py3.13.sh -O - | /bin/sh"
     },
     {
       "name": "ScreenNames",
@@ -906,7 +923,7 @@
     {
       "title": "Other",
       "section": "other_channels",
-      "icon": "channels.png"
+      "icon": "channel.png"
     },
     {
       "title": "Ciefp",
@@ -916,7 +933,7 @@
     {
       "title": "morph883",
       "section": "morph883_channels",
-      "icon": "morpheus.png"
+      "icon": "morpheus883.png"
     },
     {
       "title": "vaninbal",
@@ -925,10 +942,6 @@
     }
   ],
   "other_channels": [
-    {
-      "name": "Emil Nabil",
-      "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-emil-nabil/main/installer.sh -O - | /bin/sh"
-    },
     {
       "name": "Ahmed Romeh",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-romeh/main/installer.sh -O - | /bin/sh"
@@ -1476,12 +1489,20 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/e2m3u2bouquet/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "IpAudio 6.7 py2",
+      "name": "IpAudio 6.7 (py2)",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "IpAudio 7.4 py3",
+      "name": "IpAudio 7.4 (py3)",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh"
+    },
+    {
+      "name": "IpAudio 8.02 By-Mohamed Nasr (All python)",
+      "cmd": "wget https://github.com/emil237/ipaudio/raw/refs/heads/main/ipaudio_8.0.sh -O - | /bin/sh"
+    },
+    {
+      "name": "IpAudio By-Mohamed Nasr (Py3)",
+      "cmd": "wget https://raw.githubusercontent.com/popking159/ipaudio/main/installer-ipaudio.sh -O - | /bin/sh"
     },
     {
       "name": "IpAudioPro",
@@ -1800,7 +1821,7 @@
     {
       "title": "OpenATV",
       "section": "openatv_skins",
-      "icon": "openatv_icon.png"
+      "icon": "openatv.png"
     },
     {
       "title": "TeamNitro",
@@ -1810,7 +1831,7 @@
     {
       "title": "OpenBH",
       "section": "openbh_skins",
-      "icon": "openbh_icon.png"
+      "icon": "openbh.png"
     },
     {
       "title": "Egami",
@@ -1867,6 +1888,10 @@
     {
       "name": "Barby-py3-FHD",
       "cmd": "wget https://dreambox4u.com/emilnabil237/script/SKIN-Barby-py3-fhd.sh -O - | /bin/sh"
+    },
+    {
+      "name": "BLACKNEON-XP-FHD-V2_ArabicDiscription",
+      "cmd": "wget https://github.com/emilnabil/skins-openatv/raw/refs/heads/main/skin-BLACKNEON-XP-FHD-v2_arabicdiscription.sh -O - | /bin/sh"
     },
     {
       "name": "Fury-FHD",
@@ -2219,6 +2244,10 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/images/openblackhole-5.5.1.sh -O - | /bin/sh"
     },
     {
+      "name": "OpenBlackHole 5.6",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openblackhole-5.6.sh -O - | /bin/sh"
+    },
+    {
       "name": "OpenDroid",
       "cmd": "wget https://dreambox4u.com/emilnabil237/images/opendroid.sh -O - | /bin/sh"
     },
@@ -2245,6 +2274,10 @@
     {
       "name": "OpenPLi 9.1",
       "cmd": "wget https://dreambox4u.com/emilnabil237/images/openpli-9.1.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenPLi 9.2",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openpli-9.2.sh -O - | /bin/sh"
     },
     {
       "name": "OpenSpa 7.5",
@@ -2285,6 +2318,10 @@
     {
       "name": "Pure2 7.4",
       "cmd": "wget https://dreambox4u.com/emilnabil237/images/pure2-7.4.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Pure2 7.6",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/images/pure2-7.6.sh -O - | /bin/sh"
     },
     {
       "name": "VTI 15.0.02",
@@ -2487,6 +2524,80 @@
     {
       "name": "Chocholousek Picons",
       "cmd": "wget https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup -O - | /bin/sh"
+    }
+  ],
+  "e2images": [
+    {
+      "name": "OpenATV Images",
+      "cmd": "",
+      "icon": "openatv.png",
+      "url_template": "https://images.mynonpublic.com/openatv/json/{box}"
+    },
+    {
+      "name": "OpenBH Images",
+      "cmd": "",
+      "icon": "openbh.png",
+      "url_template": "https://images.openbh.net/json/{box}"
+    },
+    {
+      "name": "OpenDroid Images",
+      "cmd": "",
+      "icon": "opendroid.png",
+      "url_template": "https://opendroid.org/json.php?box={box}"
+    },
+    {
+      "name": "TeamBlue Images",
+      "cmd": "",
+      "icon": "teamblue.png",
+      "url_template": "https://images.teamblue.tech/json/{box}"
+    },
+    {
+      "name": "Pure2 Images",
+      "cmd": "",
+      "icon": "pure2.png",
+      "url_template": "https://www.pur-e2.club/OU/images/json/{box}"
+    },
+    {
+      "name": "OpenViX Images",
+      "cmd": "",
+      "icon": "openvix.png",
+      "url_template": "https://www.openvix.co.uk/json/{box}"
+    },
+    {
+      "name": "OpenPLi Images",
+      "cmd": "",
+      "icon": "openpli.png",
+      "url_template": "https://downloads.openpli.org/json/{box}"
+    },
+    {
+      "name": "OpenSPA Images",
+      "cmd": "",
+      "icon": "openspa.png",
+      "url_template": "https://openspa.webhop.info/online/json.php?box={box}"
+    },
+    {
+      "name": "OpenVision Images",
+      "cmd": "",
+      "icon": "openvision.png",
+      "url_template": "https://images.openvision.dedyn.io/json/{box}"
+    },
+    {
+      "name": "Egami Images",
+      "cmd": "",
+      "icon": "egami.png",
+      "url_template": "https://image.egami-image.com/json/{box}"
+    },
+    {
+      "name": "OpenHDF Images",
+      "cmd": "",
+      "icon": "openhdf.png",
+      "url_template": "https://flash.hdfreaks.cc/openhdf/json/{box}"
+    },
+    {
+      "name": "Novaler Images",
+      "cmd": "",
+      "icon": "novaler.png",
+      "url_template": "https://novaler.com/downloads/enigma2/{box}"
     }
   ],
   "remove": [
