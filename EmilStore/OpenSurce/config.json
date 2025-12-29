@@ -414,6 +414,10 @@
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cacheflush/cacheflush.sh -O - | /bin/sh"
     },
     {
+      "name": "Calculator-E2",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/calculator-e2/calculator-e2.sh -O - | /bin/sh"
+    },
+    {
       "name": "Cccaminfo-py2",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccaminfo/cccaminfo_py2.sh -O - | /bin/sh"
     },
@@ -548,6 +552,10 @@
     {
       "name": "CrashLogoViewer",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/install-CrashLogViewer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CutsClear",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/cutsclear/cutsclear.sh -O - | /bin/sh"
     },
     {
       "name": "Easy-Cccam",
