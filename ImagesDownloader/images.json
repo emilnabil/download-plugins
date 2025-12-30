@@ -1,0 +1,83 @@
+{
+  "main": [
+    {
+      "title": "E2Images",
+      "section": "e2images",
+      "icon": "e2images.png"
+    }
+  ],
+  "e2images": [
+    {
+      "name": "OpenATV Images",
+      "cmd": "",
+      "icon": "openatv.png",
+      "url_template": "https://images.mynonpublic.com/openatv/json/{box}"
+    },
+    {
+      "name": "OpenBH Images",
+      "cmd": "",
+      "icon": "openbh.png",
+      "url_template": "https://images.openbh.net/json/{box}"
+    },
+    {
+      "name": "OpenDroid Images",
+      "cmd": "",
+      "icon": "opendroid.png",
+      "url_template": "https://opendroid.org/json.php?box={box}"
+    },
+    {
+      "name": "TeamBlue Images",
+      "cmd": "",
+      "icon": "teamblue.png",
+      "url_template": "https://images.teamblue.tech/json/{box}"
+    },
+    {
+      "name": "Pure2 Images",
+      "cmd": "",
+      "icon": "pure2.png",
+      "url_template": "https://www.pur-e2.club/OU/images/json/{box}"
+    },
+    {
+      "name": "OpenViX Images",
+      "cmd": "",
+      "icon": "openvix.png",
+      "url_template": "https://www.openvix.co.uk/json/{box}"
+    },
+    {
+      "name": "OpenPLi Images",
+      "cmd": "",
+      "icon": "openpli.png",
+      "url_template": "https://downloads.openpli.org/json/{box}"
+    },
+    {
+      "name": "OpenSPA Images",
+      "cmd": "",
+      "icon": "openspa.png",
+      "url_template": "https://openspa.webhop.info/online/json.php?box={box}"
+    },
+    {
+      "name": "OpenVision Images",
+      "cmd": "",
+      "icon": "openvision.png",
+      "url_template": "https://images.openvision.dedyn.io/json/{box}"
+    },
+    {
+      "name": "Egami Images",
+      "cmd": "",
+      "icon": "egami.png",
+      "url_template": "https://image.egami-image.com/json/{box}"
+    },
+    {
+      "name": "OpenHDF Images",
+      "cmd": "",
+      "icon": "openhdf.png",
+      "url_template": "https://flash.hdfreaks.cc/openhdf/json/{box}"
+    },
+    {
+      "name": "Novaler Images",
+      "cmd": "",
+      "icon": "novaler.png",
+      "url_template": "https://novaler.com/downloads/enigma2/{box}"
+    }
+  ]
+}
