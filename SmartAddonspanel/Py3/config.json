@@ -136,7 +136,6 @@
       "icon": "remove.png"
     }
   ],
-  
   "bootlogos": [
     {
       "name": "BootlogoSwapper Atv",
@@ -993,7 +992,7 @@
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-romeh/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Hazem-Wahba",
+      "name": "Hazem-Wahba_03-01-2026",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-hazem-wahba/main/installer.sh -O - | /bin/sh"
     },
     {
