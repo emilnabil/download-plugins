@@ -1,32 +1,61 @@
 #!/bin/bash
+# setup command:
+## wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SimplySports/SimplySports.sh -O - | /bin/sh
+##################
 
-echo "Removing previous version ..."
+echo "===================================="
+echo "   SimplySports Plugin Installer"
+echo "===================================="
 sleep 2
 
-# Check if the directory exists before removing it
-if [ -d /usr/lib/enigma2/python/Plugins/Extensions/SimplySports ]; then
-    rm -rf /usr/lib/enigma2/python/Plugins/Extensions/SimplySports > /dev/null 2>&1
-    echo 'Package removed.'
+TARGET_DIR="/usr/lib/enigma2/python/Plugins/Extensions/SimplySports"
+DOWNLOAD_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SimplySports/SimplySports.tar.gz"
+TEMP_FILE="/tmp/SimplySports.tar.gz"
+
+echo "Removing previous version..."
+if [ -d "$TARGET_DIR" ]; then
+    rm -rf "$TARGET_DIR" >/dev/null 2>&1
+    echo "Previous version removed."
 else
-    echo "You do not have previous version"
+    echo "No previous version found."
+fi
+sleep 1
+
+if ! command -v curl >/dev/null 2>&1; then
+    echo "curl not found, installing..."
+    opkg update >/dev/null 2>&1
+    opkg install curl >/dev/null 2>&1
+    sleep 2
 fi
 
-opkg install curl
-sleep 2
+echo "Downloading package..."
+cd /tmp || exit 1
 
-# Download and extract the package
-cd /tmp || exit
-curl -k -Lbk -m 55532 -m 555104 "https://dreambox4u.com/emilnabil237/skins/skins-aglare-fhd.tar.gz" -o /tmp/SimplySports.tar.gz
-sleep 1
-echo "Installing ...."
-tar -xzf /tmp/SimplySports.tar.gz -C /
-echo ""
-echo ""
-sleep 1
-rm -f /tmp/SimplySports.tar.gz
+if curl -k -L --connect-timeout 30 --max-time 300 -o "$TEMP_FILE" "$DOWNLOAD_URL"; then
+    echo "Extracting package..."
+    tar -xzf "$TEMP_FILE" -C / >/dev/null 2>&1
+
+    if [ $? -eq 0 ]; then
+        echo "Installation completed successfully."
+    else
+        echo "Error: Extraction failed."
+        exit 1
+    fi
+else
+    echo "Error: Download failed."
+    exit 1
+fi
+
+rm -f "$TEMP_FILE" >/dev/null 2>&1
+
+echo "Restarting Enigma2..."
 sleep 2
+if command -v systemctl >/dev/null 2>&1; then
+    systemctl restart enigma2
+else
+    killall -9 enigma2 >/dev/null 2>&1
+fi
+
 exit 0
-
-
 
 
