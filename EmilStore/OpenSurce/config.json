@@ -84,6 +84,16 @@
       "title": "Remove",
       "section": "remove",
       "icon": "remove.png"
+    },
+    {
+  "title": "Levi45FreeServer",
+  "section": "levi45freeserver",
+  "icon": "levi45.png"
+    },
+    {
+  "title": "Levi45FreeIPTV",
+  "section": "levi45freeiptv",
+  "icon": "iptv.png"
     }
   ],
   "bootlogos": [
@@ -92,7 +102,7 @@
       "cmd": "wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-Atv.sh -O - | /bin/sh"
     },
     {
-      "name": "BootlogoSwapper Pure2",
+      "name": "Bootlogo-PURE2",
       "cmd": "wget -O - http://dreambox4u.com/emilnabil237/script/bootLogoswapper-Pure2.sh | /bin/sh"
     },
     {
@@ -1341,23 +1351,23 @@
     },
     {
       "name": "arabic-language_for-openbh-image",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openatv-image.sh -O - | /bin/sh"
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openbh-image.sh -O - | /bin/sh"
     },
     {
       "name": "arabic-language_for-openhdf-image",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openatv-image.sh -O - | /bin/sh"
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openhdf-image.sh -O - | /bin/sh"
     },
     {
       "name": "arabic-language_for-openpli-image",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openatv-image.sh -O - | /bin/sh"
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openpli-image.sh -O - | /bin/sh"
     },
     {
       "name": "arabic-language_for-openvix-image",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openatv-image.sh -O - | /bin/sh"
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openvix-image.sh -O - | /bin/sh"
     },
     {
       "name": "Installer plugin from-tmp",
-      "cmd": "opkg install  /tmp/*.ipk"
+      "cmd": "opkg install /tmp/*.ipk"
     },
     {
       "name": "Super Script",
@@ -1428,6 +1438,44 @@
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/satellites-openpli.sh -O - | /bin/sh"
     },
     {
+      "name":
+      "DNS Google",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-google.sh -O - | /bin/sh"
+    },
+    {
+      "name":
+      "DNS Control",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-control.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS Cloudflare",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-cloudflare.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS CleanBrowsing",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-cleanbrowsing.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS Quad9",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-quad9.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS Open-Home",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-openhome.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS Comodo",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-comodo.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS Alternate",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-alternate.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS AdGuard",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-adguard.sh -O - | /bin/sh"
+    },
+    {
       "name": "Zip2ipk",
       "cmd": "wget http://dreambox4u.com/emilnabil237/script/zip2ipk.sh -O - | /bin/sh"
     }
@@ -1493,7 +1541,7 @@
     },
     {
       "name": "IpAudio 6.7 (py2)",
-      "cmd": "wget https://dreambbox4u.com/emilnabil237/plugins/ipaudio/installer.sh -O - | /bin/sh"
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/installer.sh -O - | /bin/sh"
     },
     {
       "name": "IpAudio 7.4 (py3)",
@@ -1538,6 +1586,10 @@
     {
       "name": "Suptv",
       "cmd": "wget https://raw.githubusercontent.com/emil237/suptv/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Rakutentv",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/rakutentv/rakutentv.sh -O - | /bin/sh"
     },
     {
       "name": "Youtube",
@@ -1769,7 +1821,7 @@
     },
     {
       "name": "Restore-network",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/restore-network.sh -O - | /bin/sh"
+      "cmd": "wget http://dreambbox4u.com/emilnabil237/script/restore-network.sh -O - | /bin/sh"
     },
     {
       "name": "Restore-softcams",
@@ -1856,6 +1908,11 @@
       "title": "OpenPli_py2",
       "section": "openpli_py2_skins",
       "icon": "openpli.png"
+    },
+    {
+      "title": "Display Skins",
+      "section": "display_skins",
+      "icon": "display.png"
     },
     {
       "title": "Xtreamity",
@@ -2155,6 +2212,60 @@
       "cmd": "wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-TOKYO2020-FHD-By-Muaath.sh -O - | /bin/sh"
     }
   ],
+  "display_skins": [
+    {
+      "name": "display-oe-a-lcdskin-1",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-1.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-2",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-2.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-3",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-3.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-4",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-4.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-5",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-5.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-6",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-6.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-7",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-7.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-8",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-8.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-9",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-9.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-10",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-10.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-11",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-11.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-12",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-12.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-13",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-13.sh -O - | /bin/sh"
+    }
+  ],
   "plugin-xtreamity_skins": [
     {
       "name": "Abstract",
@@ -2406,7 +2517,7 @@
     },
     {
       "name": "Eutelsat 10.0E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_10.0e/installer.sh -O - | /bin/sh"
+      "cmd": "wget https://dreambbox4u.com/emilnabil237/picons/eutelsat_10.0e/installer.sh -O - | /bin/sh"
     },
     {
       "name": "Hotbird 13.0E",
@@ -2552,7 +2663,7 @@
     },
     {
       "name": "Remove Oscam_Supcam",
-      "cmd": "wget https://dreambbox4u.com/emilnabil237/script/remove/del-Oscam_Supcam.sh -O - | /bin/sh"
+      "cmd": "wget https://dreambox4u.com/emilnabil237/script/remove/del-Oscam_Supcam.sh -O - | /bin/sh"
     },
     {
       "name": "Remove CCcamFinder",
