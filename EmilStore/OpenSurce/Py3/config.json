@@ -617,7 +617,7 @@
     },
     {
       "name": "Footonsat",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/FootOnsat/installer.sh -O - | /bin/sh"
+      "cmd": "wget https://raw.githubusercontent.com/fairbird/FootOnsat/main/Download/install.sh -O - | /bin/sh"
     },
     {
       "name": "Freearhey",
