@@ -23,7 +23,17 @@
       "section": "picons",
       "icon": "picon.png"
     },
-    { "title": "Remove", "section": "remove", "icon": "remove.png" }
+    { "title": "Remove", "section": "remove", "icon": "remove.png" },
+    {
+  "title": "Levi45FreeServer",
+  "section": "levi45freeserver",
+  "icon": "levi45.png"
+    },
+    {
+  "title": "Levi45FreeIPTV",
+  "section": "levi45freeiptv",
+  "icon": "iptv.png"
+    }
   ],
   
   "panels": [
@@ -31,6 +41,10 @@
     { "name": "AjPanel Custom Menu All Panels", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/ajpanel/emil-panel-all.sh | /bin/sh" },
     { "name": "Panel Lite By Emil Nabil", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/emil-panel-lite.sh | /bin/sh" },
     { "name": "dreamosat-downloader", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/dreamosat-downloader/installer.sh | /bin/sh" },
+    {
+      "name": "EmilPanel",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilPanel/emilpanel.sh -O - | /bin/sh"
+    },
     { "name": "EmilPanelpro", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/EmilPanelPro/emilpanelpro.sh | /bin/sh" },
     { "name": "Epanel", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/epanel/installer.sh | /bin/sh" },
     { "name": "linuxsat-panel", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/Belfagor2005/LinuxsatPanel/main/installer.sh | /bin/sh" },
