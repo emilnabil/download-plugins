@@ -81,7 +81,7 @@
     { "name": "Feeds-Finder", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/feeds-finder/installer.sh | /bin/sh" },
     { "name": "Filebrowser", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/filebrowser.sh | /bin/sh" },
     { "name": "Filmxy", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/filmxy/filmxy.sh | /bin/sh" },
-    { "name": "Footonsat", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/FootOnsat/installer.sh | /bin/sh" },
+    { "name": "Footonsat", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/fairbird/FootOnsat/main/Download/install.sh | /bin/sh" },
     { "name": "Freearhey", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/freearhey/freearhey.sh | /bin/sh" },
     { "name": "FreeCCcamServer", "cmd": "wget --no-check-certificate -O - https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh | /bin/sh" },
     { "name": "HasBahCa", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/HasBahCa/installer.sh | /bin/sh" },
