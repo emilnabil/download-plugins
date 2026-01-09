@@ -1038,67 +1038,67 @@
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/main/ciefp-channels-e2/ciefp-channels-e2-75e-34w.sh -O - | /bin/sh"
     },
     {
-      "name": "1Sat-19E",
+      "name": "1sat-19E",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-1sat-19E.sh -O - | /bin/sh"
     },
     {
-      "name": "2SatA-19E-13E",
+      "name": "2satA-19E-13E",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-2satA-19E-13E.sh -O - | /bin/sh"
     },
     {
-      "name": "2SatB-19E-16E",
+      "name": "2satB-19E-16E",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-2satB-19E-16E.sh -O - | /bin/sh"
     },
     {
-      "name": "3SatA-9E-10E-13E",
+      "name": "3satA-9E-10E-13E",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-3satA-9E-10E-13E.sh -O - | /bin/sh"
     },
     {
-      "name": "3SatB-19E-16E-13E",
+      "name": "3satB-19E-16E-13E",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-3satB-19E-16E-13E.sh -O - | /bin/sh"
     },
     {
-      "name": "4SatA-28E-19E-13E-30W",
+      "name": "4satA-28E-19E-13E-30W",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-4satA-28E-19E-13E-30W.sh -O - | /bin/sh"
     },
     {
-      "name": "4SatB-19E-16E-13E-0.8W",
+      "name": "4satB-19E-16E-13E-0.8W",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-4satB-19E-16E-13E-0.8W.sh -O - | /bin/sh"
     },
     {
-      "name": "5Sat-19E-16E-13E-1.9E-0.8W",
+      "name": "5sat-19E-16E-13E-1.9E-0.8W",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-5sat-19E-16E-13E-1.9E-0.8W.sh -O - | /bin/sh"
     },
     {
-      "name": "6Sat-23E-19E-16E-13E-1.9E-0.8W",
+      "name": "6sat-23E-19E-16E-13E-1.9E-0.8W",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-6sat-23E-19E-16E-13E-1.9E-0.8W.sh -O - | /bin/sh"
     },
     {
-      "name": "7Sat-23E-19E-16E-13E-4.8E-1.9E-0.8W",
+      "name": "7sat-23E-19E-16E-13E-4.8E-1.9E-0.8W",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-7sat-23E-19E-16E-13E-4.8E-1.9E-0.8W.sh -O - | /bin/sh"
     },
     {
-      "name": "8Sat-28E-23E-19E-16E-13E-4.8E-1.9E-0.8W",
+      "name": "8sat-28E-23E-19E-16E-13E-4.8E-1.9E-0.8W",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-8sat-28E-23E-19E-16E-13E-4.8E-1.9E-0.8W.sh -O - | /bin/sh"
     },
     {
-      "name": "9Sat-28E-23E-19E-16E-13E-9E-1.9E-0.8W-5W",
+      "name": "9sat-28E-23E-19E-16E-13E-9E-1.9E-0.8W-5W",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-9sat-28E-23E-19E-16E-13E-9E-1.9E-0.8W-5W.sh -O - | /bin/sh"
     },
     {
-      "name": "10-Sat",
+      "name": "10sat-39E-28E-23E-19E-16E-13E-9E-4.8E-1.9E-0.8W",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-10sat.sh -O - | /bin/sh"
     },
     {
-      "name": "13-Sat",
+      "name": "13sat-42E-39E-28E-23E-19E-16E-13E-9E-7E-4.8E-1.9E-0.8w-5w",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-13sat.sh -O - | /bin/sh"
     },
     {
-      "name": "16-Sat",
+      "name": "16sat-42E-39E-28E-26E-23E-19E-16E-13E-10E-9E-7E-4.8E-1.9E-0.8w-4W-5w",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-16sat.sh -O - | /bin/sh"
     },
     {
-      "name": "18-Sat",
+      "name": "18sat-42E-39E-36E-33E-28E-26E-23E-19E-16E-13E-10E-9E-7E-4.8E-1.9E-0.8w-4w-5w",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-18sat.sh -O - | /bin/sh"
     }
   ],
@@ -1550,7 +1550,7 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh"
     },
     {
-      "name": "IpAudio 8.02 M.Nasr All Python",
+      "name": "IpAudio 8.02 By-M.Nasr All python",
       "cmd": "wget https://github.com/emil237/ipaudio/raw/refs/heads/main/ipaudio_8.0.sh -O - | /bin/sh"
     },
     {
