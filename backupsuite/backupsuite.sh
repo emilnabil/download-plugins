@@ -1,122 +1,131 @@
 #!/bin/sh
-## Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/backupsuite/backupsuite.sh -O - | /bin/sh
-##
+## Command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/backupsuite/backupsuite.sh -O - | /bin/sh
+
 PLUGIN_DIR="/usr/lib/enigma2/python/Plugins/Extensions/BackupSuite"
-STATUS_FILE="/var/lib/opkg/status"
 TMP_DIR="/var/volatile/tmp"
 PLUGIN="backupsuite"
-VERSION=""
-URL="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/backupsuite/backupsuite.tar.gz"
+URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/backupsuite/backupsuite.tar.gz"
 PACKAGE="$TMP_DIR/$PLUGIN.tar.gz"
 PACKAGE_NAME="enigma2-plugin-extensions-backupsuite"
+
+if [ "$(id -u)" -ne 0 ]; then
+    echo "This script requires root privileges."
+    exit 1
+fi
 
 if [ -d "$PLUGIN_DIR" ]; then
     echo "> Removing existing package, please wait..."
     sleep 2
-    rm -rf /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite
-
-rm -f /tmp/BackupSuite.log 2>/dev/null || true
-
+    
+    rm -rf "$PLUGIN_DIR" 2>/dev/null
+    rm -f /tmp/BackupSuite.log 2>/dev/null
+    rm -f /tmp/backup_*.log 2>/dev/null
+    
     if opkg list-installed | grep -q "^$PACKAGE_NAME "; then
+        echo "> Removing package from opkg..."
         opkg remove "$PACKAGE_NAME" >/dev/null 2>&1
     fi
-
+    
     echo "*******************************************"
     echo "*          Removal Completed              *"
     echo "*******************************************"
     sleep 1
 fi
 
+echo "> Checking dependencies..."
 for pkg in libc6 libgcc1 libstdc++6; do
     if ! opkg list-installed | grep -q "^$pkg "; then
         echo "> Installing missing dependency: $pkg"
-        rm -f /run/opkg.lock
+        rm -f /var/lock/opkg.lock 2>/dev/null
+        rm -f /run/opkg.lock 2>/dev/null
+        opkg update >/dev/null 2>&1
         opkg install "$pkg" >/dev/null 2>&1
     fi
 done
 
-echo "> Downloading $PLUGIN-$VERSION package, please wait..."
+mkdir -p "$TMP_DIR"
+
+echo "> Downloading $PLUGIN package, please wait..."
 sleep 1
 
-if wget -q -O "$PACKAGE" --no-check-certificate "$URL"; then
+if wget --no-check-certificate -q -O "$PACKAGE" "$URL"; then
     echo "> Extracting package..."
+    
+    if [ ! -f "$PACKAGE" ]; then
+        echo "> Downloaded file not found"
+        exit 1
+    fi
+    
+    FILESIZE=$(stat -c%s "$PACKAGE" 2>/dev/null || wc -c < "$PACKAGE")
+    if [ "$FILESIZE" -lt 1000 ]; then
+        echo "> Invalid file size ($FILESIZE bytes)"
+        rm -f "$PACKAGE"
+        exit 1
+    fi
+    
+    mkdir -p "/usr/lib/enigma2/python/Plugins/Extensions"
+    
     if tar -xzf "$PACKAGE" -C /; then
-        echo "> $PLUGIN-$VERSION installed successfully"
+        echo "> $PLUGIN installed successfully"
     else
         echo "> Package extraction failed"
         rm -f "$PACKAGE"
         exit 1
     fi
+    
     rm -f "$PACKAGE"
 else
-    echo "> Download failed. Please check the URL or your internet connection."
+    echo "> Download failed. Please check URL or internet connection."
     exit 1
 fi
-chmod 755 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/scripts/*.sh
 
-if [ -f "/usr/bin/ubinize" ]; then
-    chmod +x /usr/bin/ubinize
-    echo "Fixed ubinize permissions"
-fi
+echo "> Setting file permissions..."
 
-if [ -f "/usr/sbin/mkfs.ubifs" ]; then
-    chmod +x /usr/sbin/mkfs.ubifs
-    echo "Fixed mkfs.ubifs permissions"
-fi
+find "/usr/lib/enigma2/python/Plugins/Extensions/BackupSuite" -name "*.sh" -type f 2>/dev/null | while read -r script; do
+    chmod 755 "$script" 2>/dev/null
+done
 
-if [ -f "/usr/sbin/nanddump" ]; then
-    chmod +x /usr/sbin/nanddump
-    echo "Fixed nanddump permissions"
-fi
+TOOLS="
+/usr/bin/ubinize
+/usr/sbin/mkfs.ubifs
+/usr/sbin/nanddump
+/usr/bin/bzip2
+/usr/bin/bunzip2
+/usr/bin/zip
+/usr/sbin/mkfs.jffs2
+/usr/bin/buildimage
+"
 
-if [ -f "/usr/bin/bzip2" ]; then
-    chmod +x /usr/bin/bzip2
-    echo "Fixed bzip2 permissions"
-fi
+for tool in $TOOLS; do
+    if [ -f "$tool" ]; then
+        chmod +x "$tool" 2>/dev/null
+        echo "Fixed permissions: $(basename "$tool")"
+    fi
+done
 
-if [ -f "/usr/bin/bunzip2" ]; then
-    chmod +x /usr/bin/bunzip2
-    echo "Fixed bunzip2 permissions"
-fi
+find "/usr/lib/enigma2/python/Plugins/Extensions/BackupSuite" -name "*.py" -type f 2>/dev/null | while read -r pyfile; do
+    chmod 644 "$pyfile" 2>/dev/null
+done
 
-if [ -f "/usr/bin/zip" ]; then
-    chmod +x /usr/bin/zip
-    echo "Fixed zip permissions"
-fi
+find "/usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/locale" -name "*.mo" -type f 2>/dev/null | while read -r mofile; do
+    chmod 644 "$mofile" 2>/dev/null
+done
 
-if [ -f "/usr/sbin/mkfs.jffs2" ]; then
-    chmod +x /usr/sbin/mkfs.jffs2
-    echo "Fixed mkfs.jffs2 permissions"
-fi
-
-if [ -f "/usr/bin/buildimage" ]; then
-    chmod +x /usr/bin/buildimage
-    echo "Fixed buildimage permissions"
-fi
-chmod 644 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/*.py 2>/dev/null
-chmod 644 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/*.pyc 2>/dev/null
-chmod 644 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/*.pyo 2>/dev/null
-chmod 644 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/*.txt 2>/dev/null
-chmod 644 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/locale/*/LC_MESSAGES/*.mo 2>/dev/null
-
-# Fix permissions for images
-chmod 644 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/img/*.png 2>/dev/null
+find "/usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/img" -name "*.png" -type f 2>/dev/null | while read -r imgfile; do
+    chmod 644 "$imgfile" 2>/dev/null
+done
 
 echo "All BackupSuite permissions fixed successfully"
 
 echo "Restarting Enigma2..."
 init 4
-sleep 2
-killall enigma2 > /dev/null 2>&1
+sleep 3
+pkill -9 enigma2 >/dev/null 2>&1
 sleep 2
 init 3
 
+echo "*******************************************"
+echo "*  BackupSuite Installation Complete!     *"
+echo "*******************************************"
+
 exit 0
-
-
-
-
-
-
-
-
