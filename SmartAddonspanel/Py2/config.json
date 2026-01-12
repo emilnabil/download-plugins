@@ -126,6 +126,11 @@
       "icon": "openpli.png"
     },
     {
+      "title": "Display Skins",
+      "section": "display_skins",
+      "icon": "display.png"
+    },
+    {
       "title": "Skins Xtreamity",
       "section": "plugin-xtreamity_skins",
       "icon": "xstreamity.png"
@@ -442,6 +447,10 @@
     {
       "name": "Azkar Almuslim",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/azkar-almuslim/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "BackupSuite",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/backupsuite/backupsuite.sh -O - | /bin/sh"
     },
     {
       "name": "BissFeedAutoKey",
@@ -1391,23 +1400,23 @@
     },
     {
       "name": "arabic-language_for-openbh-image",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openatv-image.sh -O - | /bin/sh"
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openbh-image.sh -O - | /bin/sh"
     },
     {
       "name": "arabic-language_for-openhdf-image",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openatv-image.sh -O - | /bin/sh"
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openhdf-image.sh -O - | /bin/sh"
     },
     {
       "name": "arabic-language_for-openpli-image",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openatv-image.sh -O - | /bin/sh"
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openpli-image.sh -O - | /bin/sh"
     },
     {
       "name": "arabic-language_for-openvix-image",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openatv-image.sh -O - | /bin/sh"
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openvix-image.sh -O - | /bin/sh"
     },
     {
       "name": "Installer plugin from-tmp",
-      "cmd": "opkg install  /tmp/*.ipk"
+      "cmd": "opkg install /tmp/*.ipk"
     },
     {
       "name": "Super Script",
@@ -1476,6 +1485,42 @@
     {
       "name": "UpdateSatellitesOpenPli",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/satellites-openpli.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS Google",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-google.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS Control",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-control.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS Cloudflare",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-cloudflare.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS CleanBrowsing",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-cleanbrowsing.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS Quad9",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-quad9.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS Open-Home",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-openhome.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS Comodo",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-comodo.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS Alternate",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-alternate.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS AdGuard",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-adguard.sh -O - | /bin/sh"
     },
     {
       "name": "Zip2ipk",
@@ -1550,7 +1595,7 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh"
     },
     {
-      "name": "IpAudio 8.02 By-Mohamed Nasr (All python)",
+      "name": "IpAudio 8.02 By-M.Nasr All python",
       "cmd": "wget https://github.com/emil237/ipaudio/raw/refs/heads/main/ipaudio_8.0.sh -O - | /bin/sh"
     },
     {
@@ -1754,6 +1799,10 @@
     {
       "name": "Backup-my-Channels",
       "cmd": "wget http://dreambox4u.com/emilnabil237/script/Create-My-backup-shannels.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Backup-Image",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/fullbackup/main/fullbackup-vu4k-encrypt.sh -O - | /bin/sh"
     },
     {
       "name": "Backup-hotkey",
@@ -2203,6 +2252,60 @@
     {
       "name": "TOKYO2020-FHD",
       "cmd": "wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-TOKYO2020-FHD-By-Muaath.sh -O - | /bin/sh"
+    }
+  ],
+  "display_skins": [
+    {
+      "name": "display-oe-a-lcdskin-1",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-1.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-2",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-2.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-3",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-3.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-4",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-4.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-5",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-5.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-6",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-6.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-7",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-7.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-8",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-8.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-9",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-9.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-10",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-10.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-11",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-11.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-12",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-12.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-13",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-13.sh -O - | /bin/sh"
     }
   ],
   "plugin-xtreamity_skins": [
