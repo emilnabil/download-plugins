@@ -1801,6 +1801,10 @@
       "cmd": "wget http://dreambox4u.com/emilnabil237/script/Create-My-backup-shannels.sh -O - | /bin/sh"
     },
     {
+      "name": "Backup-Image",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/fullbackup/main/fullbackup-vu4k-encrypt.sh -O - | /bin/sh"
+    },
+    {
       "name": "Backup-hotkey",
       "cmd": "wget http://dreambox4u.com/emilnabil237/script/backup-hotkey.sh -O - | /bin/sh"
     },
