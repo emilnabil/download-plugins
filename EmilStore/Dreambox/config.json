@@ -54,6 +54,7 @@
   "plugins": [
     { "name": "ArabicSavior", "cmd": "wget --no-check-certificate -O - http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh | /bin/sh" },
     { "name": "Astronomy", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/astronomy/installer.sh | /bin/sh" },
+    { "name": "BackUpFlash", "cmd": "wget --no-check-certificate -O - https://github.com/emil237/download-plugins/raw/refs/heads/main/backupflash/backupflash.sh | /bin/sh" },
     { "name": "BootlogoSwap-Dreambox", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/bootlogoswaper-dreambox.sh | /bin/sh" },
     { "name": "BootlogoSwap-Gemini", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/bootlogoswaper-gemini.sh | /bin/sh" },
     { "name": "BootlogoSwap-Merlin", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/BootlogoSwap-Merlin.sh | /bin/sh" },
