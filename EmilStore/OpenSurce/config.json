@@ -404,6 +404,10 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/azkar-almuslim/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "BackupAndFlash",
+      "cmd": "wget https://github.com/emil237/download-plugins/raw/refs/heads/main/backupflash/backupflash.sh -O - | /bin/sh"
+    },
+    {
       "name": "BackupSuite",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/backupsuite/backupsuite.sh -O - | /bin/sh"
     },
@@ -1760,6 +1764,10 @@
     {
       "name": "Backup-my-Channels",
       "cmd": "wget http://dreambox4u.com/emilnabil237/script/Create-My-backup-shannels.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Backup-Image",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/fullbackup/main/fullbackup-vu4k-encrypt.sh -O - | /bin/sh"
     },
     {
       "name": "Backup-hotkey",
