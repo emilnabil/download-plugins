@@ -3,7 +3,7 @@
     {
       "title": "Panels",
       "section": "panels",
-      "icon": "panels.png"
+      "icon": "panel.png"
     },
     {
       "title": "Plugins",
@@ -23,12 +23,12 @@
     {
       "title": "Bootlogos",
       "section": "bootlogos",
-      "icon": "bootlogo.png"
+      "icon": "bootlogos.png"
     },
     {
       "title": "Spinners",
       "section": "spinners",
-      "icon": "spinner.png"
+      "icon": "spinners.png"
     },
     {
       "title": "Tools",
@@ -38,7 +38,7 @@
     {
       "title": "System",
       "section": "system",
-      "icon": "system.png"
+      "icon": "systemplugins.png"
     },
     {
       "title": "Media",
@@ -78,12 +78,13 @@
     {
       "title": "Picons",
       "section": "picons",
-      "icon": "picon.png"
+      "icon": "picons.png"
     },
     {
       "title": "Remove",
       "section": "remove",
-      "icon": "remove.png"
+      "icon": "removed.png"
+    }
   ],
   "bootlogos": [
     {
