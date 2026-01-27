@@ -968,11 +968,11 @@
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-romeh/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Hazem-Wahba",
+      "name": "Hazem-Wahba-02-01-2026",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-hazem-wahba/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Khaled Ali",
+      "name": "Khaled Ali-27-01-2026",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-khaled/main/installer.sh -O - | /bin/sh"
     },
     {
@@ -1766,7 +1766,7 @@
       "cmd": "wget http://dreambox4u.com/emilnabil237/script/Create-My-backup-shannels.sh -O - | /bin/sh"
     },
     {
-      "name": "Backup-Image",
+      "name": "Full-Backup-Image",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/fullbackup/main/fullbackup-vu4k-encrypt.sh -O - | /bin/sh"
     },
     {
