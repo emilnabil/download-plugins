@@ -1994,6 +1994,10 @@
       "cmd": "wget http://dreambox4u.com/emilnabil237/script/SKIN-ATV-nacht_1.7.3.sh -O - | /bin/sh"
     },
     {
+      "name": "Nacht_7.1",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/skins/openatv/nacht_7.1.sh -O - | /bin/sh"
+    },
+    {
       "name": "Op-Artkoala-FHD",
       "cmd": "wget https://dreambox4u.com/emilnabil237/skins/openatv/skins-op-artkoala.sh -O - | /bin/sh"
     },
