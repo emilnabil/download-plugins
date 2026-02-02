@@ -63,7 +63,7 @@
     {
       "title": "Restore",
       "section": "restore",
-      "icon": "backup.png"
+      "icon": "restore.png"
     },
     {
       "title": "Skins",
