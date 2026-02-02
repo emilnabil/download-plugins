@@ -63,7 +63,7 @@
     {
       "title": "Restore",
       "section": "restore",
-      "icon": "backup.png"
+      "icon": "restore.png"
     },
     {
       "title": "Skins",
@@ -1992,6 +1992,10 @@
     {
       "name": "Nacht_1.7.3",
       "cmd": "wget http://dreambox4u.com/emilnabil237/script/SKIN-ATV-nacht_1.7.3.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Nacht_7.1",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/skins/openatv/nacht_7.1.sh -O - | /bin/sh"
     },
     {
       "name": "Op-Artkoala-FHD",
