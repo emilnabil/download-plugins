@@ -16,7 +16,7 @@
     },
     { "title": "Softcams", "section": "softcams", "icon": "emu.png" },
     { "title": "Backup", "section": "backup", "icon": "backup.png" },
-    { "title": "Restore", "section": "restore", "icon": "backup.png" },
+    { "title": "Restore", "section": "restore", "icon": "restore.png" },
     { "title": "Skins", "section": "skins", "icon": "skins.png" },
     {
       "title": "Picons",
