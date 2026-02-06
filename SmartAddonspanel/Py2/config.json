@@ -147,7 +147,7 @@
       "cmd": "wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-Atv.sh -O - | /bin/sh"
     },
     {
-      "name": "BootlogoSwapper Pure2",
+      "name": "Bootlogo-PURE2",
       "cmd": "wget -O - http://dreambox4u.com/emilnabil237/script/bootLogoswapper-Pure2.sh | /bin/sh"
     },
     {
@@ -447,6 +447,10 @@
     {
       "name": "Azkar Almuslim",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/azkar-almuslim/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "BackupAndFlash",
+      "cmd": "wget https://github.com/emil237/download-plugins/raw/refs/heads/main/backupflash/backupflash.sh -O - | /bin/sh"
     },
     {
       "name": "BackupSuite",
@@ -1009,7 +1013,7 @@
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-romeh/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Hazem-Wahba_03-01-2026",
+      "name": "Hazem-Wahba",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-hazem-wahba/main/installer.sh -O - | /bin/sh"
     },
     {
@@ -1588,14 +1592,14 @@
     },
     {
       "name": "IpAudio 6.7 (py2)",
-      "cmd": "wget https://dreambbox4u.com/emilnabil237/plugins/ipaudio/installer.sh -O - | /bin/sh"
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/installer.sh -O - | /bin/sh"
     },
     {
       "name": "IpAudio 7.4 (py3)",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh"
     },
     {
-      "name": "IpAudio 8.02 By-M.Nasr All python",
+      "name": "IpAudio 8.02 By-Mohamed Nasr (All python)",
       "cmd": "wget https://github.com/emil237/ipaudio/raw/refs/heads/main/ipaudio_8.0.sh -O - | /bin/sh"
     },
     {
@@ -1633,6 +1637,10 @@
     {
       "name": "Suptv",
       "cmd": "wget https://raw.githubusercontent.com/emil237/suptv/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Rakutentv",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/rakutentv/rakutentv.sh -O - | /bin/sh"
     },
     {
       "name": "Youtube",
@@ -1868,7 +1876,7 @@
     },
     {
       "name": "Restore-network",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/restore-network.sh -O - | /bin/sh"
+      "cmd": "wget http://dreambbox4u.com/emilnabil237/script/restore-network.sh -O - | /bin/sh"
     },
     {
       "name": "Restore-softcams",
@@ -1955,6 +1963,11 @@
       "title": "OpenPli_py2",
       "section": "openpli_py2_skins",
       "icon": "openpli.png"
+    },
+    {
+      "title": "Display Skins",
+      "section": "display_skins",
+      "icon": "display.png"
     },
     {
       "title": "Xtreamity",
@@ -2559,7 +2572,7 @@
     },
     {
       "name": "Eutelsat 10.0E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_10.0e/installer.sh -O - | /bin/sh"
+      "cmd": "wget https://dreambbox4u.com/emilnabil237/picons/eutelsat_10.0e/installer.sh -O - | /bin/sh"
     },
     {
       "name": "Hotbird 13.0E",
@@ -2705,7 +2718,7 @@
     },
     {
       "name": "Remove Oscam_Supcam",
-      "cmd": "wget https://dreambbox4u.com/emilnabil237/script/remove/del-Oscam_Supcam.sh -O - | /bin/sh"
+      "cmd": "wget https://dreambox4u.com/emilnabil237/script/remove/del-Oscam_Supcam.sh -O - | /bin/sh"
     },
     {
       "name": "Remove CCcamFinder",
