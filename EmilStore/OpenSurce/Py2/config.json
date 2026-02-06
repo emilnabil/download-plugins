@@ -63,7 +63,7 @@
     {
       "title": "Restore",
       "section": "restore",
-      "icon": "backup.png"
+      "icon": "restore.png"
     },
     {
       "title": "Skins",
@@ -86,9 +86,14 @@
       "icon": "remove.png"
     },
     {
-      "title": "E2Images",
-      "section": "e2images",
-      "icon": "e2images.png"
+  "title": "Levi45FreeServer",
+  "section": "levi45freeserver",
+  "icon": "levi45.png"
+    },
+    {
+  "title": "Levi45FreeIPTV",
+  "section": "levi45freeiptv",
+  "icon": "iptv.png"
     }
   ],
   "bootlogos": [
@@ -211,8 +216,8 @@
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-wheel.sh -O - | /bin/sh"
     },
     {
-    "name": "Spinner-3d",
-    "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-3D.sh | /bin/sh"
+      "name": "Spinner-3d",
+      "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-3D.sh | /bin/sh"
     },
     {
       "name": "Spinner-Aglare",
@@ -289,16 +294,12 @@
       "cmd": "wget https://github.com/ciefp/CiefpsettingsPanel/raw/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Ciefp-Panel mod Emil Nabil",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Ciefp-Panel/Ciefp-Panel.sh -O - | /bin/sh"
+      "name": "CorvoBoys-Panel_Moded-By-Emil",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/corvoboys-panel/corvoboys-panel.sh -O - | /bin/sh"
     },
     {
       "name": "dreamosat-downloader",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/dreamosat-downloader/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "EliesatPanel",
-      "cmd": "wget https://raw.githubusercontent.com/eliesat/eliesatpanel/main/installer.sh -O - | /bin/sh"
     },
     {
       "name": "EmilPanel",
@@ -351,6 +352,10 @@
       "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "AiSubtitles",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AISubtitles/AISubtitles.sh -O - | /bin/sh"
+    },
+    {
       "name": "Acherone",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/acherone/installer.sh -O - | /bin/sh"
     },
@@ -395,12 +400,20 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/automatic-fullbackup/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Auto-Dcw-Key-Add",
+      "name": "Auto-DCW-Key-Add",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/auto-dcw-key-add/auto-dcw-key-add.sh -O - | /bin/sh"
     },
     {
       "name": "Azkar Almuslim",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/azkar-almuslim/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "BackupAndFlash",
+      "cmd": "wget https://github.com/emil237/download-plugins/raw/refs/heads/main/backupflash/backupflash.sh -O - | /bin/sh"
+    },
+    {
+      "name": "BackupSuite",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/backupsuite/backupsuite.sh -O - | /bin/sh"
     },
     {
       "name": "BissFeedAutoKey",
@@ -423,6 +436,10 @@
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cacheflush/cacheflush.sh -O - | /bin/sh"
     },
     {
+      "name": "Calculator-E2",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/calculator-e2/calculator-e2.sh -O - | /bin/sh"
+    },
+    {
       "name": "Cccaminfo-py2",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccaminfo/cccaminfo_py2.sh -O - | /bin/sh"
     },
@@ -439,112 +456,112 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/cfg_Zoom_Final_FIX7x/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "Ciefp- Plugins",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpPlugins/main/installer.sh -O - | /bin/sh"
+      "name": "Ciefp-Plugins",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpPlugins/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpBouquetUpdater",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpBouquetUpdater/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpBouquetUpdater",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpBouquetUpdater/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpChannelManager",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpChannelManager/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpChannelManager",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpChannelManager/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpE2Converter",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpE2Converter/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpE2Converter",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpE2Converter/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpEPGshare",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpEPGshare/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpEPGshare",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpEPGshare/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpIPTVBouquets",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpIPTVBouquets/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpIPTVBouquets",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpIPTVBouquets/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpMojTvEPG",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpMojTvEPG/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpMojTvEPG",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpMojTvEPG/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpOpenDirectories",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpOpenDirectories/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpOpenDirectories",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpOpenDirectories/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpOscamEditor",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpOscamEditor/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpOscamEditor",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpOscamEditor/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpSatelliteAnalyzer",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpSatelliteAnalyzer/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpSatelliteAnalyzer",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpSatelliteAnalyzer/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpSatellitesXmlEditor",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpSatelliteXmlEditor/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpSatellitesXmlEditor",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpSatelliteXmlEditor/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpScreenGrab",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpScreenGrab/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpScreenGrab",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpScreenGrab/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpSelectSatellite",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpSelectSatellite/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpSelectSatellite",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpSelectSatellite/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpSettingsDownloader",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpSettingsDownloader/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpSettingsDownloader",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpSettingsDownloader/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpSettingsStreamrela_PY2",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpSettingsStreamrelayPY2/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpSettingsStreamrela_PY2",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpSettingsStreamrelayPY2/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpSettingsStreamrela_PY3",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpSettingsStreamrelay/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpSettingsStreamrela_PY3",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpSettingsStreamrelay/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpSettingsT2miAbertis",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpSettingsT2miAbertis/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpSettingsT2miAbertis",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpSettingsT2miAbertis/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpSettingsT2miAbertisOpenPLi",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpSettingsT2miAbertisOpenPLi/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpSettingsT2miAbertisOpenPLi",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpSettingsT2miAbertisOpenPLi/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpWhitelistStreamrelay",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpWhitelistStreamrelay/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpWhitelistStreamrelay",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpWhitelistStreamrelay/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpsettingsMotor",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpsettingsMotor/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpsettingsMotor",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpsettingsMotor/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpTMDBSearch",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpTMDBSearch/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpTMDBSearch",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpTMDBSearch/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpTvProgram",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpTvProgram/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpTvProgram",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpTvProgram/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpTvProgramA1HR",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpTvProgramA1HR/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpTvProgramA1HR",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpTvProgramA1HR/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpTvProgramSBB",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpTvProgramSBB/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpTvProgramSBB",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpTvProgramSBB/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpTvProgramSK",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpTvProgramSK/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpTvProgramSK",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpTvProgramSK/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "CiefpTvTodayDE",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpTvTodayDE/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpTvTodayDE",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpTvTodayDE/main/installer.sh -O - | /bin/sh"
     },
     {
-  "name": "WebCamE2PrenjSF",
-  "cmd": "wget https://raw.githubusercontent.com/ciefp/WebCamE2PrenjSF/main/installer.sh -O - | /bin/sh"
+      "name": "WebCamE2PrenjSF",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/WebCamE2PrenjSF/main/installer.sh -O - | /bin/sh"
     },
     {
       "name": "chocholousek-picons",
@@ -557,6 +574,14 @@
     {
       "name": "CrashLogoViewer",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/install-CrashLogViewer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CutsClear",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/cutsclear/cutsclear.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Disk_And_CPU_Temperature",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/dreambox/refs/heads/main/disk_and_cpu_temperature.sh -O - | /bin/sh"
     },
     {
       "name": "Easy-Cccam",
@@ -608,7 +633,7 @@
     },
     {
       "name": "Footonsat",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/FootOnsat/installer.sh -O - | /bin/sh"
+      "cmd": "wget https://raw.githubusercontent.com/fairbird/FootOnsat/main/Download/install.sh -O - | /bin/sh"
     },
     {
       "name": "Freearhey",
@@ -751,10 +776,6 @@
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/radiom/radiom.sh -O - | /bin/sh"
     },
     {
-      "name": "Rakutentv",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/rakutentv/rakutentv.sh -O - | /bin/sh"
-    },
-    {
       "name": "RaedQuickSignal",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/RaedQuickSignal/installer.sh -O - | /bin/sh"
     },
@@ -805,6 +826,10 @@
     {
       "name": "Sherlockmod",
       "cmd": "wget https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "SimplySports",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SimplySports/SimplySports.sh -O - | /bin/sh"
     },
     {
       "name": "Simple-Zoom-Panel",
@@ -951,11 +976,11 @@
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-romeh/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Hazem-Wahba",
+      "name": "Hazem-Wahba-02-01-2026",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-hazem-wahba/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Khaled Ali",
+      "name": "Khaled Ali-27-01-2026",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-khaled/main/installer.sh -O - | /bin/sh"
     },
     {
@@ -1342,23 +1367,23 @@
     },
     {
       "name": "arabic-language_for-openbh-image",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openatv-image.sh -O - | /bin/sh"
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openbh-image.sh -O - | /bin/sh"
     },
     {
       "name": "arabic-language_for-openhdf-image",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openatv-image.sh -O - | /bin/sh"
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openhdf-image.sh -O - | /bin/sh"
     },
     {
       "name": "arabic-language_for-openpli-image",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openatv-image.sh -O - | /bin/sh"
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openpli-image.sh -O - | /bin/sh"
     },
     {
       "name": "arabic-language_for-openvix-image",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openatv-image.sh -O - | /bin/sh"
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openvix-image.sh -O - | /bin/sh"
     },
     {
       "name": "Installer plugin from-tmp",
-      "cmd": "opkg install  /tmp/*.ipk"
+      "cmd": "opkg install /tmp/*.ipk"
     },
     {
       "name": "Super Script",
@@ -1427,6 +1452,44 @@
     {
       "name": "UpdateSatellitesOpenPli",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/satellites-openpli.sh -O - | /bin/sh"
+    },
+    {
+      "name":
+      "DNS Google",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-google.sh -O - | /bin/sh"
+    },
+    {
+      "name":
+      "DNS Control",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-control.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS Cloudflare",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-cloudflare.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS CleanBrowsing",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-cleanbrowsing.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS Quad9",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-quad9.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS Open-Home",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-openhome.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS Comodo",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-comodo.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS Alternate",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-alternate.sh -O - | /bin/sh"
+    },
+    {
+      "name": "DNS AdGuard",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-adguard.sh -O - | /bin/sh"
     },
     {
       "name": "Zip2ipk",
@@ -1711,6 +1774,10 @@
       "cmd": "wget http://dreambox4u.com/emilnabil237/script/Create-My-backup-shannels.sh -O - | /bin/sh"
     },
     {
+      "name": "Full-Backup-Image",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/fullbackup/main/fullbackup-vu4k-encrypt.sh -O - | /bin/sh"
+    },
+    {
       "name": "Backup-hotkey",
       "cmd": "wget http://dreambox4u.com/emilnabil237/script/backup-hotkey.sh -O - | /bin/sh"
     },
@@ -1774,7 +1841,7 @@
     },
     {
       "name": "Restore-network",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/restore-network.sh -O - | /bin/sh"
+      "cmd": "wget http://dreambbox4u.com/emilnabil237/script/restore-network.sh -O - | /bin/sh"
     },
     {
       "name": "Restore-softcams",
@@ -1863,6 +1930,11 @@
       "icon": "openpli.png"
     },
     {
+      "title": "Display Skins",
+      "section": "display_skins",
+      "icon": "display.png"
+    },
+    {
       "title": "Xtreamity",
       "section": "plugin-xtreamity_skins",
       "icon": "xstreamity.png"
@@ -1928,6 +2000,10 @@
     {
       "name": "Nacht_1.7.3",
       "cmd": "wget http://dreambox4u.com/emilnabil237/script/SKIN-ATV-nacht_1.7.3.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Nacht_7.1",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/skins/openatv/nacht_7.1.sh -O - | /bin/sh"
     },
     {
       "name": "Op-Artkoala-FHD",
@@ -2160,6 +2236,60 @@
       "cmd": "wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-TOKYO2020-FHD-By-Muaath.sh -O - | /bin/sh"
     }
   ],
+  "display_skins": [
+    {
+      "name": "display-oe-a-lcdskin-1",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-1.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-2",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-2.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-3",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-3.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-4",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-4.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-5",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-5.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-6",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-6.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-7",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-7.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-8",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-8.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-9",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-9.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-10",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-10.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-11",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-11.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-12",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-12.sh -O - | /bin/sh"
+    },
+    {
+      "name": "display-oe-a-lcdskin-13",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-13.sh -O - | /bin/sh"
+    }
+  ],
   "plugin-xtreamity_skins": [
     {
       "name": "Abstract",
@@ -2280,6 +2410,10 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/images/openpli-9.1.sh -O - | /bin/sh"
     },
     {
+      "name": "OpenPLi 9.2",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openpli-9.2.sh -O - | /bin/sh"
+    },
+    {
       "name": "OpenSpa 7.5",
       "cmd": "wget https://dreambox4u.com/emilnabil237/images/openspa-7.5.xxx.sh -O - | /bin/sh"
     },
@@ -2318,6 +2452,10 @@
     {
       "name": "Pure2 7.4",
       "cmd": "wget https://dreambox4u.com/emilnabil237/images/pure2-7.4.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Pure2 7.6",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/images/pure2-7.6.sh -O - | /bin/sh"
     },
     {
       "name": "VTI 15.0.02",
@@ -2403,7 +2541,7 @@
     },
     {
       "name": "Eutelsat 10.0E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_10.0e/installer.sh -O - | /bin/sh"
+      "cmd": "wget https://dreambbox4u.com/emilnabil237/picons/eutelsat_10.0e/installer.sh -O - | /bin/sh"
     },
     {
       "name": "Hotbird 13.0E",
@@ -2520,80 +2658,6 @@
     {
       "name": "Chocholousek Picons",
       "cmd": "wget https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup -O - | /bin/sh"
-    }
-  ],
-  "e2images": [
-    {
-      "name": "OpenATV Images",
-      "cmd": "",
-      "icon": "openatv.png",
-      "url_template": "https://images.mynonpublic.com/openatv/json/{box}"
-    },
-    {
-      "name": "OpenBH Images",
-      "cmd": "",
-      "icon": "openbh.png",
-      "url_template": "https://images.openbh.net/json/{box}"
-    },
-    {
-      "name": "OpenDroid Images",
-      "cmd": "",
-      "icon": "opendroid.png",
-      "url_template": "https://opendroid.org/json.php?box={box}"
-    },
-    {
-      "name": "TeamBlue Images",
-      "cmd": "",
-      "icon": "teamblue.png",
-      "url_template": "https://images.teamblue.tech/json/{box}"
-    },
-    {
-      "name": "Pure2 Images",
-      "cmd": "",
-      "icon": "pure2.png",
-      "url_template": "https://www.pur-e2.club/OU/images/json/{box}"
-    },
-    {
-      "name": "OpenViX Images",
-      "cmd": "",
-      "icon": "openvix.png",
-      "url_template": "https://www.openvix.co.uk/json/{box}"
-    },
-    {
-      "name": "OpenPLi Images",
-      "cmd": "",
-      "icon": "openpli.png",
-      "url_template": "https://downloads.openpli.org/json/{box}"
-    },
-    {
-      "name": "OpenSPA Images",
-      "cmd": "",
-      "icon": "openspa.png",
-      "url_template": "https://openspa.webhop.info/online/json.php?box={box}"
-    },
-    {
-      "name": "OpenVision Images",
-      "cmd": "",
-      "icon": "openvision.png",
-      "url_template": "https://images.openvision.dedyn.io/json/{box}"
-    },
-    {
-      "name": "Egami Images",
-      "cmd": "",
-      "icon": "egami.png",
-      "url_template": "https://image.egami-image.com/json/{box}"
-    },
-    {
-      "name": "OpenHDF Images",
-      "cmd": "",
-      "icon": "openhdf.png",
-      "url_template": "https://flash.hdfreaks.cc/openhdf/json/{box}"
-    },
-    {
-      "name": "Novaler Images",
-      "cmd": "",
-      "icon": "novaler.png",
-      "url_template": "https://novaler.com/downloads/enigma2/{box}"
     }
   ],
   "remove": [
