@@ -294,6 +294,10 @@
       "cmd": "wget https://github.com/ciefp/CiefpsettingsPanel/raw/main/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "CorvoBoys-Panel_Moded-By-Emil",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/corvoboys-panel/corvoboys-panel.sh -O - | /bin/sh"
+    },
+    {
       "name": "dreamosat-downloader",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/dreamosat-downloader/installer.sh -O - | /bin/sh"
     },
@@ -574,6 +578,10 @@
     {
       "name": "CutsClear",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/cutsclear/cutsclear.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Disk_And_CPU_Temperature",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/dreambox/refs/heads/main/disk_and_cpu_temperature.sh -O - | /bin/sh"
     },
     {
       "name": "Easy-Cccam",
