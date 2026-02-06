@@ -1491,13 +1491,11 @@
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/satellites-openpli.sh -O - | /bin/sh"
     },
     {
-      "name":
-      "DNS Google",
+      "name": "DNS Google",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-google.sh -O - | /bin/sh"
     },
     {
-      "name":
-      "DNS Control",
+      "name": "DNS Control",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/dns/dns-control.sh -O - | /bin/sh"
     },
     {
