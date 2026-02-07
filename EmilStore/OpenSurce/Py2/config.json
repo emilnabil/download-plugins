@@ -584,6 +584,10 @@
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/dreambox/refs/heads/main/disk_and_cpu_temperature.sh -O - | /bin/sh"
     },
     {
+      "name": "DreamExplorer",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/dreamexplorer/dreamexplorer.sh -O - | /bin/sh"
+    },
+    {
       "name": "Easy-Cccam",
       "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/easy-cccam/easy-cccam.sh -O - | /bin/sh"
     },
@@ -1384,6 +1388,10 @@
     {
       "name": "Installer plugin from-tmp",
       "cmd": "opkg install /tmp/*.ipk"
+    },
+    {
+      "name": "Script package",
+      "cmd": "wget https://raw.githubusercontent.com/emil237/ajpanel/refs/heads/main/script.sh -O - | /bin/sh"
     },
     {
       "name": "Super Script",
