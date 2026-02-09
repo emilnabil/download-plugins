@@ -1344,6 +1344,10 @@
             "cmd": "wget https://raw.githubusercontent.com/emil237/updates-enigma/main/update-all-python.sh -O - | /bin/sh"
         },
         {
+      "name": "Opkg Tools",
+      "cmd": "wget https://github.com/emil237/plugins/raw/refs/heads/main/opkg.sh -O - | /bin/sh"
+        },
+        {
             "name": "arabic-language_for-egami-image",
             "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-egami-image.sh -O - | /bin/sh"
         },
