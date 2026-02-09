@@ -1362,6 +1362,10 @@
       "cmd": "wget https://raw.githubusercontent.com/emil237/updates-enigma/main/update-all-python.sh -O - | /bin/sh"
     },
     {
+      "name": "Opkg Tools",
+      "cmd": "wget https://github.com/emil237/plugins/raw/refs/heads/main/opkg.sh -O - | /bin/sh"
+    },
+    {
       "name": "arabic-language_for-egami-image",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-egami-image.sh -O - | /bin/sh"
     },
@@ -2022,6 +2026,18 @@
       "cmd": "wget http://dreambox4u.com/emilnabil237/script/SKIN-ATV-ozeta-xtra.sh -O - | /bin/sh"
     },
     {
+      "name": "Premium-Magenta-Fhd",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium-fhd-py3.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Premium-Black-Fhd",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--black-fhd-py3.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Premium-Blue-Fhd",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--blue-fhd-py3.sh -O - | /bin/sh"
+    },
+    {
       "name": "XDreamy-FHD",
       "cmd": "wget https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh"
     }
@@ -2108,7 +2124,7 @@
       "cmd": "wget https://raw.githubusercontent.com/islam-2412/IPKS/refs/heads/main/fury/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Premium-Fhd",
+      "name": "Premium-Magenta-Fhd",
       "cmd": "wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium-fhd-py3.sh -O - | /bin/sh"
     },
     {
