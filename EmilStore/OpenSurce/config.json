@@ -896,6 +896,10 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/vavoo/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "xmlupdate-by-iet5",
+      "cmd": "wget https://github.com/emilnabil/xmlupdatebyiet5/raw/refs/heads/main/xmlupdatebyiet5.sh -O - | /bin/sh"
+    },
+    {
       "name": "xtraevent_3.3",
       "cmd": "wget https://raw.githubusercontent.com/emil237/download-plugins/main/xtraevent_3.3.sh -O - | /bin/sh"
     },
