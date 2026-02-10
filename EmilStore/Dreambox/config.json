@@ -139,7 +139,8 @@
     { "name": "WeatherPlugin", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/fairbird/WeatherPlugin/master/installer.sh | /bin/sh" },
     { "name": "Wireguard-Vpn", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/m4dhouse/Wireguard-Vpn/refs/heads/python-3.12/WireGuard.sh | /bin/sh" },
     { "name": "Wifi-Manager", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/wifimanager/wifimanager.sh | /bin/sh" },
-    { "name": "WorldCam", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/Belfagor2005/WorldCam/main/installer.sh | /bin/sh" }
+    { "name": "WorldCam", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/Belfagor2005/WorldCam/main/installer.sh | /bin/sh" },
+    { "name": "xmlupdate-by-iet5", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/xmlupdatebyiet5/raw/refs/heads/main/xmlupdatebyiet5.sh | /bin/sh" }
   ],
   
   "channels": [
