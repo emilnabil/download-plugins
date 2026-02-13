@@ -1,5 +1,6 @@
 #!/bin/sh
-
+##Command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Neoboot/Neoboot_9.82/iNB-9.82.sh -O - | /bin/sh
+##################################
 set -e
 
 URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Neoboot/Neoboot_9.82/neoboot_9.82.tar.gz"
@@ -57,5 +58,6 @@ else
 fi
 
 exit 0
+
 
 
