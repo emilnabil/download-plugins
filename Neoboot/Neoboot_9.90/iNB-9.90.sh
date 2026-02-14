@@ -92,11 +92,6 @@ fi
 #########################
 clear
 sleep 2
-echo "   UPLOADED BY  >>>>   EMIL_NABIL " 
-sleep 2
-echo " SUPPORTED BY  >>>>  linuxsat  " 
-echo " Moded By Elsafty "
-sleep 3
 echo "***********************************************************************"
 echo " download and install plugin "
 
@@ -105,7 +100,7 @@ mkdir -p /var/volatile/tmp
 
 cd /tmp
 set -e 
-if wget -O /var/volatile/tmp/enigma2-plugin-extensions-neoboot-v9.65-by-linuxsat_mod-elsafty.tar.gz "https://github.com/emil237/download-plugins/raw/main/enigma2-plugin-extensions-neoboot-v9.65-by-linuxsat_mod-elsafty.tar.gz"; then
+if wget -O /var/volatile/tmp/neoboot_9.90.tar.gz "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Neoboot/Neoboot_9.90/neoboot_9.90.tar.gz"; then
     echo "Download successful"
 else
     echo "Download failed, trying alternative method..."
@@ -114,7 +109,7 @@ else
 fi
 
 wait
-if tar -xzf /var/volatile/tmp/enigma2-plugin-extensions-neoboot-v9.65-by-linuxsat_mod-elsafty.tar.gz -C /; then
+if tar -xzf /var/volatile/tmp/neoboot_9.90.tar.gz -C /; then
     echo "Extraction successful"
 else
     echo "Extraction failed"
@@ -122,7 +117,7 @@ else
 fi
 
 set +e
-rm -f /var/volatile/tmp/enigma2-plugin-extensions-neoboot-v9.65-by-linuxsat_mod-elsafty.tar.gz
+rm -f /var/volatile/tmp/neoboot_9.90.tar.gz
 
 #########################
 clear
@@ -155,6 +150,5 @@ else
     init 6
 fi
 exit 0
-
 
 
