@@ -1,5 +1,6 @@
 #!/bin/bash
-
+##Command install=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Neoboot/Neoboot_9.90/iNB-9.90.sh -O - | /bin/sh
+#####################
 NEOBOOT="9.90"
 VERSION="$NEOBOOT"
 
@@ -62,5 +63,6 @@ echo "Restart"
 $RESTART_CMD >/dev/null 2>&1
 
 exit 0
+
 
 
