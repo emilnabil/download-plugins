@@ -1029,7 +1029,7 @@
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-romeh/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Hazem-Wahba",
+      "name": "Hazem-Wahba-18-02-2026",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-hazem-wahba/main/installer.sh -O - | /bin/sh"
     },
     {
@@ -1645,6 +1645,10 @@
     {
       "name": "jedimakerxtream",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/jedimakerxtream/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "MixAudio py3.13",
+      "cmd": "wget https://github.com/Najar1991/MixAudio_All/raw/refs/heads/main/install.sh -O - | /bin/sh"
     },
     {
       "name": "multistalker",
