@@ -1584,6 +1584,10 @@
             "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/jedimakerxtream/installer.sh -O - | /bin/sh"
         },
         {
+      "name": "MixAudio py3.13",
+      "cmd": "wget https://github.com/Najar1991/MixAudio_All/raw/refs/heads/main/install.sh -O - | /bin/sh"
+        },
+        {
             "name": "multistalker",
             "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/multistalker/installer.sh -O - | /bin/sh"
         },
