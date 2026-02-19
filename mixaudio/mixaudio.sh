@@ -1,4 +1,6 @@
 #!/bin/bash
+##Command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/mixaudio/mixaudio.sh -O - | /bin/sh
+##################################
 
 version="1.0"
 
@@ -118,5 +120,6 @@ fi
 
 rm -rf "$tmp_dir"
 exit 0
+
 
 
