@@ -993,6 +993,10 @@
       "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/WorldCam/main/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "YoureWatching",
+      "cmd": "wget https://raw.githubusercontent.com/asdrere123-alt/YoureWatching/main/install_yourewatching.sh -O - | /bin/sh"
+    },
+    {
       "name": "Zip2Pkg-Converter",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Zip2Pkg/installer.sh -O - | /bin/sh"
     },
