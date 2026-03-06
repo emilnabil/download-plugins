@@ -23,12 +23,7 @@
       "section": "picons",
       "icon": "picon.png"
     },
-    { "title": "Remove", "section": "remove", "icon": "remove.png" },
-    {
-  "title": "Levi45FreeServer",
-  "section": "levi45freeserver",
-  "icon": "levi45.png"
-    }
+    { "title": "Remove", "section": "remove", "icon": "remove.png" }
   ],
   
   "panels": [
