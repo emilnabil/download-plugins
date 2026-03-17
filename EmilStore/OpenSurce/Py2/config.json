@@ -871,6 +871,10 @@
   ],
   "other_channels": [
     {
+      "name": "Modded By Emil Nabil",
+      "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-emil-nabil/main/installer.sh -O - | /bin/sh"
+    },
+    {
       "name": "Ahmed Romeh",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-romeh/main/installer.sh -O - | /bin/sh"
     },
