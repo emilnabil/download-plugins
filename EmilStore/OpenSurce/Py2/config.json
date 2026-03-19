@@ -759,6 +759,10 @@
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/tmdb.sh -O - | /bin/sh"
     },
     {
+      "name": "TheWeather",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/TheWeather/installer.sh -O - | /bin/sh"
+    },
+    {
       "name": "TvDream",
       "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/tvDream/main/installer.sh -O - | /bin/sh"
     },
@@ -895,7 +899,7 @@
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-mohamed-goda/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Mohamed-Nasr",
+      "name": "Mohamed-Nasr-18-03-2026",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-mnasr/main/installer.sh -O - | /bin/sh"
     },
     {
