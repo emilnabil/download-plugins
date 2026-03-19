@@ -172,7 +172,7 @@
     },
     {
       "name": "-Circle-Brown",
-      "cmd": "wget -O - https://github.com//download-plugins/raw/refs/heads/main/spinners/spinner-circle-brown.sh | /bin/sh"
+      "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-circle-brown.sh | /bin/sh"
     },
     {
       "name": "Spinner-Collar",
@@ -1908,7 +1908,7 @@
     },
     {
       "name": "Restore-network",
-      "cmd": "wget http://dreambbox4u.com/emilnabil237/script/restore-network.sh -O - | /bin/sh"
+      "cmd": "wget http://dreambox4u.com/emilnabil237/script/restore-network.sh -O - | /bin/sh"
     },
     {
       "name": "Restore-softcams",
