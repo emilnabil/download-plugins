@@ -1,7 +1,7 @@
 #!/bin/bash
-#############################################################
-###########################################
-
+#######################
+##command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/devicemanager.sh -O - | /bin/sh
+#####################################
 # my config script #
 MY_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main"
 PYTHON_VERSION=$(python -c 'import sys; print(sys.version_info[0])' 2>/dev/null || echo "0")
