@@ -2429,6 +2429,10 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.6.sh -O - | /bin/sh"
     },
     {
+      "name": "OpenATV 8.0",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-8.0.sh -O - | /bin/sh"
+    },
+    {
       "name": "OpenBlackHole 4.4",
       "cmd": "wget https://dreambox4u.com/emilnabil237/images/openblackhole-4.4-for-vuplus-only.sh -O - | /bin/sh"
     },
