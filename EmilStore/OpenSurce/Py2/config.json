@@ -151,6 +151,22 @@
       "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-circle.sh | /bin/sh"
     },
     {
+      "name": "Spinner-Barcelona",
+      "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-barcelona.sh | /bin/sh"
+    },
+    {
+      "name": "Spinner-Bayern-Munich",
+      "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-bayern-munich.sh | /bin/sh"
+    },
+    {
+      "name": "Spinner-Chelsea",
+      "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-chelsea.sh | /bin/sh"
+    },
+    {
+      "name": "Spinner-Liverpool",
+      "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-liverpool.sh | /bin/sh"
+    },
+    {
       "name": "Spinner-MadMax",
       "cmd": "wget -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-MadMax.sh | /bin/sh"
     },
