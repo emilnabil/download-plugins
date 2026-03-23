@@ -423,10 +423,6 @@
       "cmd": "wget https://github.com/emil237/download-plugins/raw/refs/heads/main/backupflash/backupflash.sh -O - | /bin/sh"
     },
     {
-      "name": "BackupSuite",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/backupsuite/backupsuite.sh -O - | /bin/sh"
-    },
-    {
       "name": "BissFeedAutoKey",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/bissfeed-autokey/main/installer.sh -O - | /bin/sh"
     },
@@ -527,28 +523,12 @@
       "cmd": "wget https://raw.githubusercontent.com/biko-73/EvgQuickSignal/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Estalker",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EStalker/EStalker.sh -O - | /bin/sh"
-    },
-    {
-      "name": "EstalkerWebControl",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EstalkerWebControl/estalkerwebcontrol.sh -O - | /bin/sh"
-    },
-    {
       "name": "Feeds-Finder",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/feeds-finder/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Filmxy",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/filmxy/filmxy.sh -O - | /bin/sh"
-    },
-    {
       "name": "Footonsat",
       "cmd": "wget https://raw.githubusercontent.com/fairbird/FootOnsat/main/Download/install.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Freearhey",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/freearhey/freearhey.sh -O - | /bin/sh"
     },
     {
       "name": "FreeCCcamServer",
@@ -565,10 +545,6 @@
     {
       "name": "hardwareinfo",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/hardwareinfo/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "HasBahCa",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/HasBahCa/installer.sh -O - | /bin/sh"
     },
     {
       "name": "HistoryZapSelector",
@@ -591,18 +567,6 @@
       "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/IP_Checker.sh -O - | /bin/sh"
     },
     {
-      "name": "Iptv-Org-Playlists",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/iptv-org-playlists/iptv-org-playlists.sh -O - | /bin/sh"
-    },
-    {
-      "name": "iptvdream",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/iptvdream/iptvdream.sh -O - | /bin/sh"
-    },
-    {
-      "name": "IptvPlayer",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/iptvplayer/main/iptvinstaller.sh -O - | /bin/sh"
-    },
-    {
       "name": "KeyAdder",
       "cmd": "wget https://raw.githubusercontent.com/fairbird/KeyAdder/main/installer.sh -O - | /bin/sh"
     },
@@ -623,16 +587,8 @@
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Mawaqit/Mawaqit.sh -O - | /bin/sh"
     },
     {
-      "name": "m3uconverter",
-      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/Archimede-M3UConverter/main/installer.sh -O - | /bin/sh"
-    },
-    {
       "name": "MmPicons",
       "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/mmPicons/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "MoviesManager",
-      "cmd": "wget http://dreambox4u.com/dreamarabia/Transmission_e2/MoviesManager.sh -O - | /bin/sh"
     },
     {
       "name": "MyCam-Plugin",
@@ -655,16 +611,8 @@
       "cmd": "wget https://raw.githubusercontent.com/Sat-Club/ONEupdaterE2/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "OrangeAudioPlugin",
-      "cmd": "wget https://raw.githubusercontent.com/popking159/OrangeAudio/refs/heads/main/installer.sh -O - | /bin/sh"
-    },
-    {
       "name": "Ozeta-Skins-Setup",
       "cmd": "wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/PLUGIN_Skin-ozeta.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Plutotv",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/plutotv/plutotv.sh -O - | /bin/sh"
     },
     {
       "name": "Quran-karem",
@@ -673,22 +621,6 @@
     {
       "name": "Quran-karem_v2.2",
       "cmd": "wget https://raw.githubusercontent.com/emil237/quran/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Radio-80-s",
-      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/Radio-80-s/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "RadioGit",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/radiogit/radiogit.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Radio-Stream-Relay",
-      "cmd": "wget https://raw.githubusercontent.com/angelheart150/RadioRelay/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Radiom",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/radiom/radiom.sh -O - | /bin/sh"
     },
     {
       "name": "RaedQuickSignal",
@@ -755,10 +687,6 @@
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SpinnerSelector/spinner-selector.sh -O - | /bin/sh"
     },
     {
-      "name": "StalkerPortalConverter",
-      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/StalkerPortalConverter/main/installer.sh -O - | /bin/sh"
-    },
-    {
       "name": "SubsSupport_1.5.8-r9",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer1.sh -O - | /bin/sh"
     },
@@ -783,20 +711,8 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/TheWeather/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "TvDream",
-      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/tvDream/main/installer.sh -O - | /bin/sh"
-    },
-    {
       "name": "TvManager",
       "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/tvManager/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "TvParsa",
-      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/tvParsa/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "TvRaiPreview",
-      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/tvRaiPreview/main/installer.sh -O - | /bin/sh"
     },
     {
       "name": "TvSettings",
@@ -805,10 +721,6 @@
     {
       "name": "uninstaller-Plugins",
       "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/unstaller-plugins/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "vavoo_1.15",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/vavoo/installer.sh -O - | /bin/sh"
     },
     {
       "name": "xmlupdate-by-iet5",
@@ -1621,10 +1533,15 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xmlupdate/xmlupdate.sh -O - | /bin/sh"
     }
   ],
+  
   "media": [
     {
       "name": "BouquetMakerXtream",
       "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/BouquetMakerXtream/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "E2m3ubouquet",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/e2m3u2bouquet/installer.sh -O - | /bin/sh"
     },
     {
       "name": "E2Player-MAXBAMBY",
@@ -1635,8 +1552,28 @@
       "cmd": "wget https://gitlab.com/zadmario/e2iplayer/-/raw/master/install-e2iplayer.sh -O - | /bin/sh"
     },
     {
-      "name": "E2m3ubouquet",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/e2m3u2bouquet/installer.sh -O - | /bin/sh"
+      "name": "Estalker",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EStalker/EStalker.sh -O - | /bin/sh"
+    },
+    {
+      "name": "EstalkerWebControl",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EstalkerWebControl/estalkerwebcontrol.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Filmxy",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/filmxy/filmxy.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Freearhey",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/freearhey/freearhey.sh -O - | /bin/sh"
+    },
+    {
+      "name": "HasBahCa",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/HasBahCa/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Ip2sat-by-mosad",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/ip2sat/ip2sat.sh -O - | /bin/sh"
     },
     {
       "name": "IpAudio 6.7 (py2)",
@@ -1655,20 +1592,28 @@
       "cmd": "wget https://raw.githubusercontent.com/popking159/ipaudio/main/installer-ipaudio.sh -O - | /bin/sh"
     },
     {
-      "name": "IpStreamer By-Mohamed Nasr (Py3)",
-      "cmd": "wget https://raw.githubusercontent.com/popking159/ipstreamer/main/installer-ipstreamer.sh -O - | /bin/sh"
-    },
-    {
       "name": "IpAudioPro",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ipaudiopro/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "iptosat_v1.8",
+      "name": "IpStreamer By-Mohamed Nasr (Py3)",
+      "cmd": "wget https://raw.githubusercontent.com/popking159/ipstreamer/main/installer-ipstreamer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Iptosat_v1.8",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/iptosat/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "ip2sat-by-mosad",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/ip2sat/ip2sat.sh -O - | /bin/sh"
+      "name": "Iptv-Org-Playlists",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/iptv-org-playlists/iptv-org-playlists.sh -O - | /bin/sh"
+    },
+    {
+      "name": "iptvdream",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/iptvdream/iptvdream.sh -O - | /bin/sh"
+    },
+    {
+      "name": "IptvPlayer",
+      "cmd": "wget https://raw.githubusercontent.com/emil237/iptvplayer/main/iptvinstaller.sh -O - | /bin/sh"
     },
     {
       "name": "JediEpgExtream",
@@ -1679,32 +1624,80 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/jedimakerxtream/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "m3uconverter",
+      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/Archimede-M3UConverter/main/installer.sh -O - | /bin/sh"
+    },
+    {
       "name": "MixAudio py3.13",
       "cmd": "wget https://github.com/Najar1991/MixAudio_All/raw/refs/heads/main/install.sh -O - | /bin/sh"
     },
     {
-      "name": "multistalker",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/multistalker/installer.sh -O - | /bin/sh"
+      "name": "MoviesManager",
+      "cmd": "wget http://dreambox4u.com/dreamarabia/Transmission_e2/MoviesManager.sh -O - | /bin/sh"
     },
     {
       "name": "MultiStalkerPro",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/multi-stalkerpro/main/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "multistalker",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/multistalker/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OrangeAudioPlugin",
+      "cmd": "wget https://raw.githubusercontent.com/popking159/OrangeAudio/refs/heads/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Plutotv",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/plutotv/plutotv.sh -O - | /bin/sh"
+    },
+    {
       "name": "Quarter pounder",
       "cmd": "wget http://dreambox4u.com/emilnabil237/script/quarterpounder.sh -O - | /bin/sh"
     },
     {
-      "name": "Suptv",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/suptv/main/installer.sh -O - | /bin/sh"
+      "name": "Radio-80-s",
+      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/Radio-80-s/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Radio-Stream-Relay",
+      "cmd": "wget https://raw.githubusercontent.com/angelheart150/RadioRelay/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "RadioGit",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/radiogit/radiogit.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Radiom",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/radiom/radiom.sh -O - | /bin/sh"
     },
     {
       "name": "Rakutentv",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/rakutentv/rakutentv.sh -O - | /bin/sh"
     },
     {
-      "name": "Youtube",
-      "cmd": "wget https://raw.githubusercontent.com/fairbird/Youtube-Opensource-DreamOS/master/installer.sh -O - | /bin/sh"
+      "name": "StalkerPortalConverter",
+      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/StalkerPortalConverter/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Suptv",
+      "cmd": "wget https://raw.githubusercontent.com/emil237/suptv/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "TvDream",
+      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/tvDream/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "TvParsa",
+      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/tvParsa/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "TvRaiPreview",
+      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/tvRaiPreview/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "vavoo_1.15",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/vavoo/installer.sh -O - | /bin/sh"
     },
     {
       "name": "Xc_Plugin_Forever",
@@ -1717,6 +1710,10 @@
     {
       "name": "Xtreamty",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Youtube",
+      "cmd": "wget https://raw.githubusercontent.com/fairbird/Youtube-Opensource-DreamOS/master/installer.sh -O - | /bin/sh"
     }
   ],
   "multiboot": [
