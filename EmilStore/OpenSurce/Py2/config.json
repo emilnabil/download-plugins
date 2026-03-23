@@ -1659,8 +1659,12 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ipaudiopro/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "iptosat",
+      "name": "iptosat_v1.8",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/iptosat/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "ip2sat-by-mosad",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/ip2sat/ip2sat.sh -O - | /bin/sh"
     },
     {
       "name": "JediEpgExtream",
