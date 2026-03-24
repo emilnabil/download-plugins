@@ -1493,7 +1493,7 @@
   ],
   "system": [
     {
-      "name": "3gmodemmanager",
+      "name": "3gmodemmanager-ALL Python",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/3gmodemmanager/3gmodemmanager.sh -O - | /bin/sh"
     },
     {
@@ -1501,7 +1501,7 @@
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/dreambox/refs/heads/main/disk_and_cpu_temperature.sh -O - | /bin/sh"
     },
     {
-      "name": "devicemanager",
+      "name": "devicemanager-All Python",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/devicemanager.sh -O - | /bin/sh"
     },
     {
@@ -1509,27 +1509,27 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/extnumberzap/extnumberzap.sh -O - | /bin/sh"
     },
     {
-      "name": "mountmanager",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/mountmanager/installer.sh -O - | /bin/sh"
+      "name": "mountmanager-All Python",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/muntmanger/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "setpasswd",
+      "name": "setpasswd-py3.12",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/setpasswd.sh -O - | /bin/sh"
     },
     {
-      "name": "Signalfinder",
+      "name": "Signalfinder-ALL Python",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/signalfinder.sh -O - | /bin/sh"
     },
     {
-      "name": "SoftwareManager",
+      "name": "SoftwareManager-ALL Python",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/softwaremanager/softwaremanager.sh -O - | /bin/sh"
     },
     {
-      "name": "Ts-SatEditor",
+      "name": "Ts-SatEditor-ALL Python",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ts-sateditor/ts-sateditor.sh -O - | /bin/sh"
     },
     {
-      "name": "Xmlupdate",
+      "name": "Xmlupdate-ALL Python",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xmlupdate/xmlupdate.sh -O - | /bin/sh"
     }
   ],
