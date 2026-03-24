@@ -1521,6 +1521,10 @@
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/signalfinder.sh -O - | /bin/sh"
     },
     {
+      "name": "SoftwareManager",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/softwaremanager/softwaremanager.sh -O - | /bin/sh"
+    },
+    {
       "name": "Ts-SatEditor",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ts-sateditor/ts-sateditor.sh -O - | /bin/sh"
     },
