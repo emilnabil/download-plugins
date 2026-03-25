@@ -1518,7 +1518,7 @@
     },
     {
       "name": "Signalfinder-ALL Python",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/signalfinder.sh -O - | /bin/sh"
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/signalfinder/signalfinder.sh -O - | /bin/sh"
     },
     {
       "name": "SoftwareManager-ALL Python",
