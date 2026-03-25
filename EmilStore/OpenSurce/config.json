@@ -1493,6 +1493,10 @@
   ],
   "system": [
     {
+      "name": "AutomaticVolumeAdjustment-ALL Python",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AutomaticVolumeAdjustment/AutomaticVolumeAdjustment.sh -O - | /bin/sh"
+    },
+    {
       "name": "3gmodemmanager-ALL Python",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/3gmodemmanager/3gmodemmanager.sh -O - | /bin/sh"
     },
