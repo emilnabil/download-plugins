@@ -764,7 +764,7 @@
     },
     {
       "name": "Wireguard-Vpn",
-      "cmd": "wget https://raw.githubusercontent.com/m4dhouse/Wireguard-Vpn/refs/heads/python-3.12/WireGuard.sh -O - | /bin/sh"
+      "cmd": "wget https://github.com/m4dhouse/Wireguard-Vpn/raw/refs/heads/python-3.13/WireGuard.sh -O - | /bin/sh"
     },
     {
       "name": "Wifi-Manager",
@@ -1517,7 +1517,7 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/muntmanger/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "setpasswd-py3.12",
+      "name": "Setpasswd-ALL Python",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/setpasswd.sh -O - | /bin/sh"
     },
     {
