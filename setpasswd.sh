@@ -1,20 +1,18 @@
 #!/bin/sh
+##command=wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/setpasswd.sh -O - | /bin/sh
+#########################################
 echo "install plugin"
 cd /tmp
-curl  -k -Lbk -m 55532 -m 555104 "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/setpasswd.ipk" > /tmp/setpasswd.ipk
+if command -v wget >/dev/null 2>&1; then
+    wget -q --no-check-certificate -O setpasswd.tar.gz "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/setpasswd.tar.gz"
+else
+    curl -k -L -o setpasswd.tar.gz "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/setpasswd.tar.gz"
+fi
 sleep 1
 echo "install plugin...."
 cd /tmp
-opkg install /tmp/setpasswd.ipk
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-sleep 1
-rm /tmp/setpasswd.ipk
+tar -xzf setpasswd.tar.gz -C /
+sleep 2
+rm -f setpasswd.tar.gz
 sleep 2
 exit
