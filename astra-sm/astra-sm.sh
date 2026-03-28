@@ -1,27 +1,20 @@
 #!/bin/sh
-##command=wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/audiomerge/audiomerge.sh -O - | /bin/sh
+##command=wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/astra-sm.sh -O - | /bin/sh
 ######################
 # config
 plugin=astra-sm
 version=0.2
-url=https://gitlab.com/eliesat/softcams/-/raw/main/astra-sm/astra-sm-0.2.tar.gz
-url1=https://gitlab.com/eliesat/softcams/-/raw/main/astra-sm/
-ipk=astra-sm.ipk
-package=/var/volatile/tmp/$plugin-$version.tar.gz
-status='/var/lib/opkg/status'
-install="opkg install --force-reinstall"
+url=https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/astra-sm-0.2.tar.gz
 
-# remove unnecessary files and folders
-if [ -d "/CONTROL" ]; then
-    rm -rf /CONTROL >/dev/null 2>&1
-fi
-rm -rf /control >/dev/null 2>&1
-rm -rf /postinst >/dev/null 2>&1
-rm -rf /preinst >/dev/null 2>&1
-rm -rf /prerm >/dev/null 2>&1
-rm -rf /postrm >/dev/null 2>&1
-rm -rf /tmp/*.ipk >/dev/null 2>&1
-rm -rf /tmp/*.tar.gz >/dev/null 2>&1
+url1=https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/
+
+ipk=astra-sm.ipk
+
+package=/var/volatile/tmp/$plugin-$version.tar.gz
+
+status='/var/lib/opkg/status'
+
+install="opkg install --force-reinstall"
 
 # download & install
 echo "> Downloading $plugin-$version package please wait ..."
@@ -38,7 +31,7 @@ else
         echo "> Failed to download $ipk"
         exit 1
     }
-    $install "$ipk" || {
+    $install "/tmp/$ipk" || {
         echo "> Failed to install $ipk"
         exit 1
     }
@@ -55,7 +48,7 @@ wget --show-progress -qO "$package" --no-check-certificate "$url" || {
 
 tar -xzf "$package" -C /
 extract=$?
-rm -rf /package >/dev/null 2>&1
+rm -rf /tmp/package >/dev/null 2>&1
 
 # Download architecture-specific file
 arch=$(uname -m)
@@ -63,16 +56,17 @@ mkdir -p /etc/astra/scripts
 
 case $arch in
     aarch64)
-        wget --show-progress -qO /etc/astra/scripts/abertis "https://gitlab.com/eliesat/softcams/-/raw/main/astra-sm/aarch/abertis" &
+        wget --show-progress -qO /etc/astra/scripts/abertis "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/aarch/abertis" &
         ;;
     mips)
-        wget --show-progress -qO /etc/astra/scripts/abertis "https://gitlab.com/eliesat/softcams/-/raw/main/astra-sm/mips/abertis" &
+        wget --show-progress -qO /etc/astra/scripts/abertis "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/mips/abertis" &
         ;;
     sh4)
-        wget --show-progress -qO /etc/astra/scripts/abertis "https://gitlab.com/eliesat/softcams/-/raw/main/astra-sm/sh4/abertis" &
+        wget --show-progress -qO /etc/astra/scripts/abertis "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/sh4/abertis" &
         ;;
     *)
         echo "> Unsupported architecture: $arch"
+        exit 1
         ;;
 esac
 
@@ -90,5 +84,5 @@ else
     exit 1
 fi
 
-
+exit 0
 
