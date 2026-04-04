@@ -577,6 +577,10 @@
       "cmd": "wget https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "FuryBissPro",
+      "cmd": "wget https://raw.githubusercontent.com/islam-2412/FuryBissPro/refs/heads/main/fury/installer.sh -O - | /bin/sh"
+    },
+    {
       "name": "GeminiPatcher",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/GeminiPatcher/geminipatcher.sh -O - | /bin/sh"
     },
@@ -643,6 +647,14 @@
     {
       "name": "Multi-Iptv-Adder",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiIptvAdder/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "my translator_by Ismail elkhooly",
+      "cmd": "wget https://raw.githubusercontent.com/islam-2412/mytrans/main/fury/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Net Usage Pro",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/netusagepro/netusagepro.sh -O - | /bin/sh"
     },
     {
       "name": "NewVirtualkeyBoard",
