@@ -1,8 +1,8 @@
 {
   "main": [
     {
-      "title": "Update Dependencies",
-      "section": "updated-dependencies",
+      "title": "Update Dependencic",
+      "section": "updated-dependencic",
       "icon": "tool.png"
     },
     {
@@ -96,7 +96,7 @@
       "icon": "remove.png"
     }
   ],
-  "updated-dependencies": [
+  "updated-dependencic": [
     {
       "name": "Updated-All-Dependencic All Python",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emil237/updates-enigma/main/update-all-python.sh -O - | /bin/sh"
