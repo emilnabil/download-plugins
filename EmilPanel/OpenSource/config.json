@@ -538,6 +538,10 @@
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/E2BissKeysEditor/E2BissKeysEditor.sh -O - | /bin/sh"
     },
     {
+      "name": "EmilRemovePackage",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilRemovePackage/EmilRemovePackage.sh -O - | /bin/sh"
+    },
+    {
       "name": "enigma2readeradder",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/enigma2readeradder/enigma2readeradder.sh -O - | /bin/sh"
     },
