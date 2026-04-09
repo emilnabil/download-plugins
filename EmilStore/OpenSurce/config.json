@@ -766,8 +766,8 @@
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/tmdb.sh -O - | /bin/sh"
     },
     {
-      "name": "TheWeather",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/TheWeather/installer.sh -O - | /bin/sh"
+      "name": "TheWeather-iet5",
+      "cmd": "wget https://raw.githubusercontent.com/Saiedf/TheWeatherIet5/main/installer_theweatheriet5_auto.sh -O - | /bin/sh"
     },
     {
       "name": "TvManager",
