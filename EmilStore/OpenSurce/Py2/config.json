@@ -454,7 +454,7 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/azkar-almuslim/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "BackupAndFlash",
+      "name": "BackupAndFlash-mod-Emil",
       "cmd": "wget https://github.com/emil237/download-plugins/raw/refs/heads/main/backupflash/backupflash.sh -O - | /bin/sh"
     },
     {
@@ -579,7 +579,7 @@
     },
     {
       "name": "FuryBissPro",
-      "cmd": "wget https://raw.githubusercontent.com/islam-2412/FuryBissPro/refs/heads/main/fury/installer.sh -O - | /bin/sh"
+      "cmd": "wget https://raw.githubusercontent.com/islam-2412/FuryBiss/main/fury/installer.sh -O - | /bin/sh"
     },
     {
       "name": "GeminiPatcher",
@@ -604,6 +604,10 @@
     {
       "name": "HolidayCountdown",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/HolidayCountdown/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "ImagesDownloader - Mod Emil Nabil",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/ImagesDownloader/ImagesDownloader.sh -O - | /bin/sh"
     },
     {
       "name": "Internet-SpeedTest",
@@ -666,20 +670,12 @@
       "cmd": "wget https://raw.githubusercontent.com/Sat-Club/ONEupdaterE2/main/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "Oaweather by iet5",
+      "cmd": "wget https://raw.githubusercontent.com/Saiedf/OAWeatheriet5/main/installer_oaweatheriet5_auto.sh -O - | /bin/sh"
+    },
+    {
       "name": "Ozeta-Skins-Setup",
       "cmd": "wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/PLUGIN_Skin-ozeta.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Quran-karem",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/quran/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Quran-karem_v2.2",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/quran/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "RaedQuickSignal",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/RaedQuickSignal/installer.sh -O - | /bin/sh"
     },
     {
       "name": "PiconMaker-by mosad",
@@ -696,6 +692,22 @@
     {
       "name": "pluginskinmover",
       "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/pluginskinmover/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Quran-karem",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/quran/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Quran-karem_v2.2",
+      "cmd": "wget https://raw.githubusercontent.com/emil237/quran/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "QuickSignal - iet5",
+      "cmd": "wget https://raw.githubusercontent.com/Saiedf/QuickSignalIet5/main/installer_quicksignaliet5_auto.sh -O - | /bin/sh"
+    },
+    {
+      "name": "RaedQuickSignal",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/RaedQuickSignal/installer.sh -O - | /bin/sh"
     },
     {
       "name": "SatelliWebLiveFeeds_py3.12",
@@ -716,6 +728,10 @@
     {
       "name": "ServiceScanUpdates",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/servicescanupdates/servicescanupdates.sh -O - | /bin/sh"
+    },
+    {
+      "name": "ServiceScanUpdates - iet5",
+      "cmd": "wget https://raw.githubusercontent.com/Saiedf/ServiceScanUpdatesIet5/main/installer_servicescanupdatesiet5_auto.sh -O - | /bin/sh"
     },
     {
       "name": "SetPicon",
@@ -782,8 +798,8 @@
       "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/unstaller-plugins/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "xmlupdate-by-iet5",
-      "cmd": "wget https://github.com/emilnabil/xmlupdatebyiet5/raw/refs/heads/main/xmlupdatebyiet5.sh -O - | /bin/sh"
+      "name": "XmlUpdate by iet5",
+      "cmd": "wget https://raw.githubusercontent.com/Saiedf/XMLUpdateByIet5/main/installer_xmlupdatebyiet5_auto.sh -O - | /bin/sh"
     },
     {
       "name": "xtraevent_3.3",
@@ -820,6 +836,10 @@
     {
       "name": "xtraevent_6.890_All-Python",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/xtraevent-6.890.sh -O - | /bin/sh"
+    },
+    {
+      "name": "xtraevent_by-m.nasr",
+      "cmd": "wget https://github.com/popking159/xtraeventplugin/raw/main/xtraevent-install.sh -O - | /bin/sh"
     },
     {
       "name": "Wireguard-Vpn",
