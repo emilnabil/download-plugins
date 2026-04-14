@@ -694,6 +694,10 @@
       "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/pluginskinmover/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "QuadPip - modded by Emil",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/QuadPip/QuadPip.sh -O - | /bin/sh"
+    },
+    {
       "name": "Quran-karem",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/quran/installer.sh -O - | /bin/sh"
     },
