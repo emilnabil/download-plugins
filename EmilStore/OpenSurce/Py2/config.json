@@ -554,6 +554,10 @@
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/epgimport.sh -O - | /bin/sh"
     },
     {
+      "name": "EPGImport-auto - iet5",
+      "cmd": "wget https://raw.githubusercontent.com/Saiedf/EPGImport/main/installer_epgimportiet5_auto.sh -O - | /bin/sh"
+    },
+    {
       "name": "EPGImport-99",
       "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/EPGImport-99/main/installer.sh -O - | /bin/sh"
     },
