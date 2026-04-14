@@ -6,6 +6,7 @@ PYTHON_VERSION=$(python -c "import platform; print('.'.join(platform.python_vers
 set -e
 
 echo "Removing old package..."
+opkg remove enigma2-skin-MX_Maestra_Black_weather
 rm -rf /usr/share/enigma2/MX_Maestra_Black_weather
 
 echo "Installing plugin..."
