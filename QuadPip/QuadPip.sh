@@ -4,7 +4,7 @@
 set -e
 
 echo "Removing old package..."
-opkg remove enigma2-plugin-extensions-quadpip
+opkg remove enigma2-plugin-extensions-quadpip || true
 
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/QuadPip
 
