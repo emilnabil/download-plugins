@@ -554,6 +554,10 @@
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/epgimport.sh -O - | /bin/sh"
     },
     {
+      "name": "EPGImport-auto - iet5",
+      "cmd": "wget https://raw.githubusercontent.com/Saiedf/EPGImport/main/installer_epgimportiet5_auto.sh -O - | /bin/sh"
+    },
+    {
       "name": "EPGImport-99",
       "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/EPGImport-99/main/installer.sh -O - | /bin/sh"
     },
@@ -692,6 +696,10 @@
     {
       "name": "pluginskinmover",
       "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/pluginskinmover/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "QuadPip - modded by Emil",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/QuadPip/QuadPip.sh -O - | /bin/sh"
     },
     {
       "name": "Quran-karem",
@@ -902,7 +910,7 @@
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-romeh/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Hazem-Wahba-27-03-2026",
+      "name": "Hazem-Wahba-18-04-2026",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-hazem-wahba/main/installer.sh -O - | /bin/sh"
     },
     {
