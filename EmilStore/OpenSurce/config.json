@@ -694,7 +694,7 @@
       "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/pluginskinmover/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "QuadPip - modded by Emil",
+      "name": "QuadPip",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/QuadPip/QuadPip.sh -O - | /bin/sh"
     },
     {
