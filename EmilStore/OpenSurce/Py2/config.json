@@ -6,6 +6,11 @@
       "icon": "tool.png"
     },
     {
+      "title": "Backup Images",
+      "section": "backupimages",
+      "icon": "b-images.png"
+    },
+    {
       "title": "Panels",
       "section": "panels",
       "icon": "panels.png"
@@ -120,6 +125,44 @@
     {
       "name": "Update-Astra-sm-Config",
       "cmd": "wget -q \"--no-check-certificate\" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/update-abertis-astra.config.sh -O - | /bin/sh"
+    }
+  ],
+  "backupimages": [
+    {
+      "name": "EGAMI",
+      "cmd": "wget -q \"--no-check-certificate\" https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-egami/backup-egami.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenATV",
+      "cmd": "wget https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-openatv/backup-openatv_7.6.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenBH",
+      "cmd": "wget https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-openbh/backup-openbh.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenPli Py3",
+      "cmd": "wget https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-openpli/backup-openpli.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenVix",
+      "cmd": "wget https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-openvix/backup-openvix.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenDroid",
+      "cmd": "wget https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-opendroid/backup-opendroid.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenSpa",
+      "cmd": "wget https://github.com/emilnabil/backup-images/raw/refs/heads/main/Backup-OpenSpa/backup-openspa.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Pure2",
+      "cmd": "wget https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-pure/backup-pure.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenPli Py2",
+      "cmd": "wget https://github.com/emilnabil/backup-images/raw/refs/heads/main/Backup-openpli-py2/backup-openpli-py2.sh -O - | /bin/sh"
     }
   ],
   "bootlogos": [
@@ -756,6 +799,10 @@
     {
       "name": "SimplySports",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SimplySports/SimplySports.sh -O - | /bin/sh"
+    },
+    {
+      "name": "SuperBackupImages_by Emil Nabil",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SuperBackupImages/SuperBackupImages.sh -O - | /bin/sh"
     },
     {
       "name": "Simple-Zoom-Panel",
