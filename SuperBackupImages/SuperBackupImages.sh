@@ -69,18 +69,22 @@ if [ ! -d /usr/lib/enigma2/python/Plugins/Extensions/SuperBackupImages ]; then
     exit 1
 fi
 
-if pgrep -x "enigma2" > /dev/null; then
+if pidof enigma2 > /dev/null 2>&1; then
     echo "Restarting Enigma2..."
-    if [ "$PKG_TYPE" = "DreamOS" ]; then
+    if command -v systemctl > /dev/null 2>&1 && systemctl status enigma2 > /dev/null 2>&1; then
         systemctl restart enigma2
+    elif [ -f /etc/init.d/enigma2 ]; then
+        /etc/init.d/enigma2 restart
     else
         killall -15 enigma2 2>/dev/null || true
         sleep 2
-        if pgrep -x "enigma2" > /dev/null; then
+        if pidof enigma2 > /dev/null 2>&1; then
             killall -9 enigma2 2>/dev/null || true
         fi
-        if ! pgrep -x "enigma2" > /dev/null; then
-            /usr/bin/enigma2 > /dev/null 2>&1 &
+        echo "Waiting for Enigma2 to auto-restart..."
+        sleep 5
+        if ! pidof enigma2 > /dev/null 2>&1; then
+            echo "⚠ Enigma2 did not restart automatically. Please restart your box manually."
         fi
     fi
 fi
