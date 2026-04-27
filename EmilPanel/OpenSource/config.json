@@ -6,6 +6,11 @@
       "icon": "tool.png"
     },
     {
+      "title": "Backup Images",
+      "section": "backupimages",
+      "icon": "b-images.png"
+    },
+    {
       "title": "Panels",
       "section": "panels",
       "icon": "panels.png"
@@ -120,6 +125,44 @@
     {
       "name": "Update-Astra-sm-Config",
       "cmd": "wget -q \"--no-check-certificate\" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/update-abertis-astra.config.sh -O - | /bin/sh"
+    }
+  ],
+  "backupimages": [
+    {
+      "name": "EGAMI",
+      "cmd": "wget -q \"--no-check-certificate\" https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-egami/backup-egami.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenATV",
+      "cmd": "wget https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-openatv/backup-openatv_7.6.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenBH",
+      "cmd": "wget https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-openbh/backup-openbh.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenPli Py3",
+      "cmd": "wget https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-openpli/backup-openpli.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenVix",
+      "cmd": "wget https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-openvix/backup-openvix.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenDroid",
+      "cmd": "wget https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-opendroid/backup-opendroid.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenSpa",
+      "cmd": "wget https://github.com/emilnabil/backup-images/raw/refs/heads/main/Backup-OpenSpa/backup-openspa.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Pure2",
+      "cmd": "wget https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-pure/backup-pure.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenPli Py2",
+      "cmd": "wget https://github.com/emilnabil/backup-images/raw/refs/heads/main/Backup-openpli-py2/backup-openpli-py2.sh -O - | /bin/sh"
     }
   ],
   "bootlogos": [
@@ -334,10 +377,6 @@
     {
       "name": "Panel Lite By Emil Nabil",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/emil-panel-lite.sh -O - | /bin/sh"
-    },
-    {
-      "name": "CorvoBoys-Panel_Moded-By-Emil",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/corvoboys-panel/corvoboys-panel.sh -O - | /bin/sh"
     },
     {
       "name": "dreamosat-downloader",
@@ -650,11 +689,11 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/mycam/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "MultiCamAdder",
+      "name": "MultiCamAdder_by-Emil",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiCamAdder/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Multi-Iptv-Adder",
+      "name": "Multi-Iptv-Adder_by-Emil",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiIptvAdder/installer.sh -O - | /bin/sh"
     },
     {
@@ -690,15 +729,15 @@
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/PiconsRename/PiconsRename.sh -O - | /bin/sh"
     },
     {
-      "name": "pluginmover",
+      "name": "PluginMover",
       "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/pluginmover/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "pluginskinmover",
+      "name": "PluginSkinMover",
       "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/pluginskinmover/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "QuadPip - modded by Emil",
+      "name": "QuadPip",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/QuadPip/QuadPip.sh -O - | /bin/sh"
     },
     {
@@ -742,7 +781,7 @@
       "cmd": "wget https://raw.githubusercontent.com/Saiedf/ServiceScanUpdatesIet5/main/installer_servicescanupdatesiet5_auto.sh -O - | /bin/sh"
     },
     {
-      "name": "SetPicon",
+      "name": "SetPicon - modded by Emil",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/setpicon/installer.sh -O - | /bin/sh"
     },
     {
@@ -760,6 +799,10 @@
     {
       "name": "SimplySports",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SimplySports/SimplySports.sh -O - | /bin/sh"
+    },
+    {
+      "name": "SuperBackupImages_by Emil Nabil",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SuperBackupImages/SuperBackupImages.sh -O - | /bin/sh"
     },
     {
       "name": "Simple-Zoom-Panel",
@@ -806,6 +849,30 @@
       "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/unstaller-plugins/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "Wireguard-Vpn",
+      "cmd": "wget https://github.com/m4dhouse/Wireguard-Vpn/raw/refs/heads/python-3.13/WireGuard.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Wifi-Manager",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/wifimanager/wifimanager.sh -O - | /bin/sh"
+    },
+    {
+      "name": "WeatherMsn",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/weathermsn/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "WeatherPlugin",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/weatherplugin/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "WeatherPlugin-Icons",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/weatherplugin-icons/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "WorldCam",
+      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/WorldCam/main/installer.sh -O - | /bin/sh"
+    },
+    {
       "name": "XmlUpdate by iet5",
       "cmd": "wget https://raw.githubusercontent.com/Saiedf/XMLUpdateByIet5/main/installer_xmlupdatebyiet5_auto.sh -O - | /bin/sh"
     },
@@ -848,18 +915,6 @@
     {
       "name": "xtraevent_by-m.nasr",
       "cmd": "wget https://github.com/popking159/xtraeventplugin/raw/main/xtraevent-install.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Wireguard-Vpn",
-      "cmd": "wget https://github.com/m4dhouse/Wireguard-Vpn/raw/refs/heads/python-3.13/WireGuard.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Wifi-Manager",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/wifimanager/wifimanager.sh -O - | /bin/sh"
-    },
-    {
-      "name": "WorldCam",
-      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/WorldCam/main/installer.sh -O - | /bin/sh"
     },
     {
       "name": "YoureWatching",
