@@ -1,14 +1,16 @@
 #!/bin/sh
 ##command=wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SuperBackupImages/SuperBackupImages.sh -O - | /bin/sh
-#############################
+
+if [ "$(id -u)" -ne 0 ]; then
+    echo "✘ This script must be run as root (use su or sudo)"
+    exit 1
+fi
 
 if [ -f /var/lib/dpkg/status ]; then
-    STATUS="/var/lib/dpkg/status"
-    OSTYPE="DreamOS"
+    PKG_TYPE="DreamOS"
     INSTALLER="apt-get"
 elif [ -f /var/lib/opkg/status ]; then
-    STATUS="/var/lib/opkg/status"
-    OSTYPE="Dream"
+    PKG_TYPE="Dream"
     INSTALLER="opkg"
 else
     echo "✘ Unsupported package system"
@@ -34,7 +36,7 @@ if ! cd /tmp; then
     exit 1
 fi
 
-if [ "$OSTYPE" = "DreamOS" ]; then
+if [ "$PKG_TYPE" = "DreamOS" ]; then
     URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SuperBackupImages/dreamos/SuperBackupImages.tar.gz"
 else
     URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SuperBackupImages/SuperBackupImages.tar.gz"
@@ -62,12 +64,24 @@ fi
 echo "Cleaning temporary files..."
 rm -f SuperBackupImages.tar.gz
 
+if [ ! -d /usr/lib/enigma2/python/Plugins/Extensions/SuperBackupImages ]; then
+    echo "✘ Installation failed: plugin directory not found."
+    exit 1
+fi
+
 if pgrep -x "enigma2" > /dev/null; then
     echo "Restarting Enigma2..."
-    if [ "$OSTYPE" = "DreamOS" ]; then
+    if [ "$PKG_TYPE" = "DreamOS" ]; then
         systemctl restart enigma2
     else
-        killall -9 enigma2
+        killall -15 enigma2 2>/dev/null || true
+        sleep 2
+        if pgrep -x "enigma2" > /dev/null; then
+            killall -9 enigma2 2>/dev/null || true
+        fi
+        if ! pgrep -x "enigma2" > /dev/null; then
+            /usr/bin/enigma2 > /dev/null 2>&1 &
+        fi
     fi
 fi
 
