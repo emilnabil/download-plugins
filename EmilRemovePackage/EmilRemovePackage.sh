@@ -1,14 +1,16 @@
 #!/bin/sh
 ##command=wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilRemovePackage/EmilRemovePackage.sh -O - | /bin/sh
-#############################
+
+if [ "$(id -u)" -ne 0 ]; then
+    echo "✘ This script must be run as root (use su or sudo)"
+    exit 1
+fi
 
 if [ -f /var/lib/dpkg/status ]; then
-    STATUS="/var/lib/dpkg/status"
-    OSTYPE="DreamOS"
+    PKG_TYPE="DreamOS"
     INSTALLER="apt-get"
 elif [ -f /var/lib/opkg/status ]; then
-    STATUS="/var/lib/opkg/status"
-    OSTYPE="Dream"
+    PKG_TYPE="Dream"
     INSTALLER="opkg"
 else
     echo "✘ Unsupported package system"
@@ -34,7 +36,7 @@ if ! cd /tmp; then
     exit 1
 fi
 
-if [ "$OSTYPE" = "DreamOS" ]; then
+if [ "$PKG_TYPE" = "DreamOS" ]; then
     URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilRemovePackage/dreamos/EmilRemovePackage.tar.gz"
 else
     URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilRemovePackage/EmilRemovePackage.tar.gz"
@@ -62,12 +64,28 @@ fi
 echo "Cleaning temporary files..."
 rm -f EmilRemovePackage.tar.gz
 
-if pgrep -x "enigma2" > /dev/null; then
+if [ ! -d /usr/lib/enigma2/python/Plugins/Extensions/EmilRemovePackage ]; then
+    echo "✘ Installation failed: plugin directory not found."
+    exit 1
+fi
+
+if pidof enigma2 > /dev/null 2>&1; then
     echo "Restarting Enigma2..."
-    if [ "$OSTYPE" = "DreamOS" ]; then
+    if command -v systemctl > /dev/null 2>&1 && systemctl status enigma2 > /dev/null 2>&1; then
         systemctl restart enigma2
+    elif [ -f /etc/init.d/enigma2 ]; then
+        /etc/init.d/enigma2 restart
     else
-        killall -9 enigma2
+        killall -15 enigma2 2>/dev/null || true
+        sleep 2
+        if pidof enigma2 > /dev/null 2>&1; then
+            killall -9 enigma2 2>/dev/null || true
+        fi
+        echo "Waiting for Enigma2 to auto-restart..."
+        sleep 5
+        if ! pidof enigma2 > /dev/null 2>&1; then
+            echo "⚠ Enigma2 did not restart automatically. Please restart your box manually."
+        fi
     fi
 fi
 
