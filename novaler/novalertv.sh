@@ -1,5 +1,6 @@
 #!/bin/sh
-
+# setup command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/novaler/novalertv.sh -O - | /bin/sh
+########################################
 echo -e ">>> \033[0;32mUpdating feeds, please wait...\033[0m"
 opkg update > /dev/null 2>&1
 
