@@ -1,5 +1,6 @@
 {
   "main": [
+    { "title": "Backup Images", "section": "backupimages", "icon": "b-images.png" },
     { "title": "Panels", "section": "panels", "icon": "panels.png" },
     { "title": "Plugins", "section": "plugins", "icon": "plugins.png" },
     { "title": "Channels", "section": "channels", "icon": "channels.png" },
@@ -24,8 +25,19 @@
       "icon": "picon.png"
     },
     { "title": "Remove", "section": "remove", "icon": "remove.png" }
-  ],
   
+  ],
+  "backupimages": [
+    { "name": "Backup-Dream-Elite", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/backup-images/backup-dream-elite.sh | /bin/sh" },
+    { "name": "Backup-Dreambox-Image", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/backup-images/backup-dreambox-images.sh | /bin/sh" },
+    { "name": "Backup-Gemini", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/backup-images/backup-gemini.sh | /bin/sh" },
+    { "name": "Backup-Merlin", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/backup-images/backup-merlin.sh | /bin/sh" },
+    {
+      "name": "Backup-Newnigma2",
+      "cmd": "wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/backup-images/backup-newnigma2.sh -O - | /bin/sh"
+    },
+    { "name": "Backup-Tsimage", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/backup-images/backup-gemini.sh | /bin/sh" }
+  ],
   "panels": [
     { "name": "Ajpanel", "cmd": "wget --no-check-certificate -O - http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer1.sh | /bin/sh" },
     { "name": "AjPanel Custom Menu All Panels", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/ajpanel/emil-panel-all.sh | /bin/sh" },
