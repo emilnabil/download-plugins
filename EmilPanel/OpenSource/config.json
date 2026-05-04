@@ -21,6 +21,11 @@
       "icon": "plugins.png"
     },
     {
+      "title": "Novaler",
+      "section": "novaler",
+      "icon": "novaler_icon.png"
+    },
+    {
       "title": "Channels",
       "section": "channels",
       "icon": "channels.png"
@@ -409,6 +414,10 @@
     {
       "name": "Levi45MulticamManager",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/levi45multicammanager/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Novaler-Store",
+      "cmd": "wget http://ipk.ath.cx/pg/novalerstor/installer.sh -O - | /bin/sh"
     },
     {
       "name": "SatVenusPanel",
@@ -929,6 +938,52 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/zoom/installer.sh -O - | /bin/sh"
     }
   ],
+  "novaler": [
+    {
+      "name": "novalerStore",
+      "cmd": "wget -q \"--no-check-certificate\" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/novaler/novalerStore.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Airnet-Fn",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/novaler/airnet-fn.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Beengo",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/novaler/beengo.sh -O - | /bin/sh"
+    },
+    {
+      "name": "ipaudioplus",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/novaler/ipaudioplus.sh -O - | /bin/sh"
+    },
+    {
+      "name": "ipsat",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/novaler/ipsat.sh -O - | /bin/sh"
+    },
+    {
+      "name": "NovaCamPro",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/novaler/novacampro.sh -O - | /bin/sh"
+    },
+    {
+      "name": "NovalerTv",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/novaler/novalertv.sh -O - | /bin/sh"
+    },
+    {
+      "name": "NovaTv",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/novaler/novatv.sh -O - | /bin/sh"
+    },
+    {
+      "name": "SupTv",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/novaler/suptv.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Total90",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/novaler/total90.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Ultracam",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/novaler/ultracam.sh -O - | /bin/sh"
+    }
+  ],
   "channels": [
     {
       "title": "Other",
@@ -965,7 +1020,7 @@
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-romeh/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Hazem-Wahba-18-04-2026",
+      "name": "Hazem-Wahba-02-05-2026",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-hazem-wahba/main/installer.sh -O - | /bin/sh"
     },
     {
