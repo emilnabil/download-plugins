@@ -2,41 +2,45 @@
 ##Command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/mixaudio/mixaudio.sh -O - | /bin/sh
 ##################################
 
-version="1.0"
+version="1.2"
+base_url="https://github.com/Najar1991/MixAudio_All/raw/refs/heads/main"
 
-ipkurl_arm="https://github.com/Najar1991/MixAudio_ARM/raw/refs/heads/main/MixAudio.ipk"
-ipkurl_mips="https://github.com/Najar1991/MixAudio_mipsel/raw/refs/heads/main/MixAudio.ipk"
-ipkurl_aarch="https://github.com/Najar1991/MixAudio_aarch64/raw/refs/heads/main/MixAudio.ipk"
+ipkurl_arm="$base_url/MixAudio_arm.ipk"
+ipkurl_mips="$base_url/MixAudio_mipsel.ipk"
+ipkurl_aarch="$base_url/MixAudio_aarch64.ipk"
 
 echo ""
 echo "MixAudio Installer v$version"
 echo "============================"
 
-if [ "$EUID" -ne 0 ]; then
+if [ "$(id -u)" -ne 0 ]; then
     echo "Error: Please run as root!"
     exit 1
 fi
 
 if ! command -v python3 >/dev/null 2>&1; then
     echo ""
-    echo "Python3 is not installed!"
-    echo "This plugin requires Python 3.13.x ONLY"
+    echo "Error: Python3 is not installed!"
+    echo "This plugin requires Python 3.13.x"
+    echo "Please upgrade your image and try again."
     echo ""
     exit 1
 fi
 
 PY_FULL=$(python3 -c "import sys; print(sys.version.split()[0])")
-PY_MAJOR_MINOR=$(python3 -c "import sys; print(f'{sys.version_info.major}.{sys.version_info.minor}')")
+PY_MAJOR_MINOR=$(python3 -c "import sys; print(str(sys.version_info.major) + '.' + str(sys.version_info.minor))")
 
 if [ "$PY_MAJOR_MINOR" != "3.13" ]; then
     echo ""
-    echo "Unsupported Python version detected: $PY_FULL"
-    echo "This plugin works ONLY with Python 3.13.x"
+    echo "Error: Unsupported Python version: $PY_FULL"
+    echo "This plugin requires Python 3.13.x ONLY"
+    echo "The plugin uses compiled .so files for Python 3.13"
+    echo "Please upgrade your Enigma2 image and try again."
     echo ""
     exit 1
 fi
 
-echo "Python $PY_FULL detected (Supported)"
+echo "Python $PY_FULL detected (OK)"
 echo ""
 
 echo "Checking for previous MixAudio..."
@@ -74,6 +78,7 @@ install_if_missing "python3-twisted"
 install_if_missing "alsa-utils"
 
 ARCH=$(uname -m)
+IPK_FILE=""
 
 tmp_dir="/tmp/mixaudio-install"
 mkdir -p "$tmp_dir"
@@ -81,15 +86,18 @@ cd "$tmp_dir" || exit 1
 
 if echo "$ARCH" | grep -qi "mips"; then
     echo "Detected architecture: MIPS"
-    wget --no-check-certificate -q --show-progress "$ipkurl_mips" -O MixAudio.ipk
-
-elif echo "$ARCH" | grep -qi "armv7l"; then
-    echo "Detected architecture: armv7l"
-    wget --no-check-certificate -q --show-progress "$ipkurl_arm" -O MixAudio.ipk
+    IPK_FILE="MixAudio_mipsel.ipk"
+    wget --no-check-certificate -q "$ipkurl_mips" -O "$IPK_FILE"
 
 elif echo "$ARCH" | grep -qi "aarch64"; then
     echo "Detected architecture: aarch64"
-    wget --no-check-certificate -q --show-progress "$ipkurl_aarch" -O MixAudio.ipk
+    IPK_FILE="MixAudio_aarch64.ipk"
+    wget --no-check-certificate -q "$ipkurl_aarch" -O "$IPK_FILE"
+
+elif echo "$ARCH" | grep -qiE "armv7l|armv8|arm"; then
+    echo "Detected architecture: ARM"
+    IPK_FILE="MixAudio_arm.ipk"
+    wget --no-check-certificate -q "$ipkurl_arm" -O "$IPK_FILE"
 
 else
     echo "Unsupported architecture: $ARCH"
@@ -97,29 +105,30 @@ else
     exit 1
 fi
 
-if [ ! -f MixAudio.ipk ] || [ ! -s MixAudio.ipk ]; then
-    echo "Download failed"
+if [ ! -f "$IPK_FILE" ] || [ ! -s "$IPK_FILE" ]; then
+    echo "Download failed - check your internet connection"
     rm -rf "$tmp_dir"
     exit 1
 fi
 
 echo "Installing MixAudio..."
-opkg install --force-overwrite ./MixAudio.ipk
+opkg install --force-overwrite "./$IPK_FILE"
+INSTALL_STATUS=$?
 
-if [ $? -eq 0 ]; then
+rm -rf "$tmp_dir"
+
+if [ "$INSTALL_STATUS" -eq 0 ]; then
     echo ""
-    echo "MixAudio v$version installed successfully"
+    echo "=============================="
+    echo "MixAudio v$version installed successfully!"
     echo "Restarting Enigma2 in 3 seconds..."
+    echo "=============================="
     sleep 3
     killall -9 enigma2
 else
     echo "Installation failed"
-    rm -rf "$tmp_dir"
     exit 1
 fi
 
-rm -rf "$tmp_dir"
 exit 0
-
-
 
