@@ -120,8 +120,12 @@
       "cmd": "opkg install curl"
     },
     {
-      "name": "Opkg Tools",
+      "name": "Opkg Tools_1.4",
       "cmd": "wget https://github.com/emil237/plugins/raw/refs/heads/main/opkg.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Opkg Tools_1.5",
+      "cmd": "wget https://github.com/emil237/plugins/raw/refs/heads/main/opkg-tools_1.5.sh -O - | /bin/sh"
     },
     {
       "name": "Update-Astra-sm Plugin",
@@ -1548,8 +1552,12 @@
       "cmd": "wget https://raw.githubusercontent.com/emil237/updates-enigma/main/update-all-python.sh -O - | /bin/sh"
     },
     {
-      "name": "Opkg Tools",
+      "name": "Opkg Tools_1.4",
       "cmd": "wget https://github.com/emil237/plugins/raw/refs/heads/main/opkg.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Opkg Tools_1.5",
+      "cmd": "wget https://github.com/emil237/plugins/raw/refs/heads/main/opkg-tools_1.5.sh -O - | /bin/sh"
     },
     {
       "name": "arabic-language_for-egami-image",
