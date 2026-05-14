@@ -931,7 +931,7 @@
     },
     {
       "name": "YoureWatching",
-      "cmd": "wget https://raw.githubusercontent.com/asdrere123-alt/YoureWatching/main/install_yourewatching.sh -O - | /bin/sh"
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/YoureWatching/YoureWatching.sh -O - | /bin/sh"
     },
     {
       "name": "Zip2Pkg-Converter",
