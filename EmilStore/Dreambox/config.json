@@ -6,6 +6,11 @@
     { "title": "Channels", "section": "channels", "icon": "channels.png" },
     { "title": "Feeds", "section": "feeds", "icon": "feeds.png" },
     { "title": "Tools", "section": "tools", "icon": "tools.png" },
+    {
+      "title": "Bootlogos",
+      "section": "bootlogos",
+      "icon": "bootlogo.png"
+    },
     { "title": "Spinners", "section": "spinners", "icon": "spinner.png" },
     { "title": "System", "section": "system", "icon": "system.png" },
     { "title": "Media", "section": "media", "icon": "media.png" },
@@ -62,12 +67,7 @@
     { "name": "ArabicSavior", "cmd": "wget --no-check-certificate -O - http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh | /bin/sh" },
     { "name": "Astronomy", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/astronomy/installer.sh | /bin/sh" },
     { "name": "BackUpFlash", "cmd": "wget --no-check-certificate -O - https://github.com/emil237/download-plugins/raw/refs/heads/main/backupflash/backupflash.sh | /bin/sh" },
-    { "name": "BootlogoSwap-Dreambox", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/bootlogoswaper-dreambox.sh | /bin/sh" },
-    { "name": "BootlogoSwap-Gemini", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/bootlogoswaper-gemini.sh | /bin/sh" },
-    { "name": "BootlogoSwap-Merlin", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/BootlogoSwap-Merlin.sh | /bin/sh" },
-    { "name": "BootlogoSwap-TS", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/bootlogoswaper-ts.sh | /bin/sh" },
     { "name": "BissFeedAutoKey", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/bissfeed-autokey/main/installer.sh | /bin/sh" },
-    { "name": "Bootvideo", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/Bootvideo.sh | /bin/sh" },
     { "name": "CacheFlush", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cacheflush/cacheflush.sh | /bin/sh" },
     { "name": "CCcaminfo", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/cccaminfo.sh | /bin/sh" },
     { "name": "channelselectionplus", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/channelselectionplus.sh | /bin/sh" },
@@ -264,6 +264,14 @@
     { "name": "Feed Gemini for OE2.6", "cmd": "apt update && wget -O /tmp/geminilocale_all.deb http://download.blue-panel.com/geminilocale_gp42.php && apt install -y /tmp/geminilocale_all.deb" },
     { "name": "feed-gutemine", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/feed-gutemine.sh | /bin/sh" },
     { "name": "Feed-Merlin", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/dream/main/feed-merlin-dreambox.sh | /bin/sh" }
+  ],
+  
+  "bootlogos": [
+    { "name": "BootlogoSwap-Dreambox", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/bootlogoswaper-dreambox.sh | /bin/sh" },
+    { "name": "BootlogoSwap-Gemini", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/bootlogoswaper-gemini.sh | /bin/sh" },
+    { "name": "BootlogoSwap-Merlin", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/BootlogoSwap-Merlin.sh | /bin/sh" },
+    { "name": "BootlogoSwap-TS", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/bootlogoswaper-ts.sh | /bin/sh" },
+    { "name": "Bootvideo", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/Bootvideo.sh | /bin/sh" }
   ],
   
   "tools": [
