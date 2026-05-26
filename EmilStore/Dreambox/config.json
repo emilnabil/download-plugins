@@ -81,6 +81,7 @@
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/cutsclear/cutsclear.sh -O - | /bin/sh"
     },
     { "name": "DisplaySkin", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/displayskin.sh | /bin/sh" },
+    { "name": "Emil Channels", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilChannels/emilchannels.sh | /bin/sh" },
     { "name": "EmilRemovePackage", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilRemovePackage/EmilRemovePackage.sh | /bin/sh" },
     { "name": "Epg Grabber", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/Epg-Grabber/installer.sh | /bin/sh" },
     { "name": "EpgImport_auto - iet5", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/Saiedf/EPGImport/main/installer_epgimportiet5_auto.sh | /bin/sh" },
