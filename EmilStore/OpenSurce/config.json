@@ -589,6 +589,7 @@
       "name": "E2BissKeysEditor",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/E2BissKeysEditor/E2BissKeysEditor.sh -O - | /bin/sh"
     },
+    { "name": "Emil Channels", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilChannels/emilchannels.sh | /bin/sh" },
     {
       "name": "EmilRemovePackage",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilRemovePackage/EmilRemovePackage.sh -O - | /bin/sh"
