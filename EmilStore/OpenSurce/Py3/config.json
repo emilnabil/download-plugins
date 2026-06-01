@@ -2407,6 +2407,18 @@
       "cmd": "wget https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglarepli/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "BlackShadow_X2P_OBH",
+      "cmd": "wget https://github.com/emilnabil/skins-obh/raw/refs/heads/main/BlackShadow_X2P_OBH_5.0.sh -O - | /bin/sh"
+    },
+    {
+      "name": "EclipseFHD_OBH",
+      "cmd": "wget https://github.com/emilnabil/skins-obh/raw/refs/heads/main/EclipseFHD_OBH_5.0.sh -O - | /bin/sh"
+    },
+    {
+      "name": "EclipseFire_OBH",
+      "cmd": "wget https://github.com/emilnabil/skins-obh/raw/refs/heads/main/EclipseFire_OBH_5.0.sh -O - | /bin/sh"
+    },
+    {
       "name": "Fury-FHD",
       "cmd": "wget https://raw.githubusercontent.com/islam-2412/IPKS/refs/heads/main/fury/installer.sh -O - | /bin/sh"
     },
@@ -2417,6 +2429,26 @@
     {
       "name": "MX-Sline-Black-Red-Gradient",
       "cmd": "wget https://dreambox4u.com/emilnabil237/skins/obh/mx-sline-black-red-gradient_py3.12.sh -O - | /bin/sh"
+    },
+    {
+      "name": "MX_GrayDots_X2B_OBH",
+      "cmd": "wget https://github.com/emilnabil/skins-obh/raw/refs/heads/main/MX_GrayDots_X2B_OBH_5.0.sh -O - | /bin/sh"
+    },
+    {
+      "name": "MX_GreenDots_OBH",
+      "cmd": "wget https://github.com/emilnabil/skins-obh/raw/refs/heads/main/MX_GreenDots_OBH_5.0.sh -O - | /bin/sh"
+    },
+    {
+      "name": "MX_HQ7_OBH",
+      "cmd": "wget https://github.com/emilnabil/skins-obh/raw/refs/heads/main/MX_HQ7_OBH_5.0.sh -O - | /bin/sh"
+    },
+    {
+      "name": "MX_Maestra_Black_OBH",
+      "cmd": "wget https://github.com/emilnabil/skins-obh/raw/refs/heads/main/MX_Maestra_Black_OBH_5.0.sh -O - | /bin/sh"
+    },
+    {
+      "name": "MX_Maestra2b_weather",
+      "cmd": "wget https://github.com/emilnabil/skins-obh/raw/refs/heads/main/MX_Maestra2b_weather_5.0.sh -O - | /bin/sh"
     },
     {
       "name": "MX_Sline-Blue",
@@ -2433,6 +2465,14 @@
     {
       "name": "OpenBhGreenFHD",
       "cmd": "wget https://dreambox4u.com/emilnabil237/skins/obh/skin_OpenBhGreenFHD.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Waves4_Fire_weather_OBH",
+      "cmd": "wget https://github.com/emilnabil/skins-obh/raw/refs/heads/main/Waves4_Fire_weather_OBH_5.0.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Waves4_weather_OBH",
+      "cmd": "wget https://github.com/emilnabil/skins-obh/raw/refs/heads/main/Waves4_weather_OBH_5.0.sh -O - | /bin/sh"
     },
     {
       "name": "XDreamy-FHD",
