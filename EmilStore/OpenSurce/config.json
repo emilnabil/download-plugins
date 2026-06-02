@@ -1017,6 +1017,10 @@
   ],
   "other_channels": [
     {
+      "name": "FIFA WORLD CUP 2026_By Hazem-Wahba",
+      "cmd": "wget -q \"--no-check-certificate\" https://dreambox4u.com/emilnabil237/channel/fifa-world/fifa-world.sh -O - | /bin/sh"
+    },
+    {
       "name": "Modded By Emil Nabil",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-emil-nabil/main/installer.sh -O - | /bin/sh"
     },
