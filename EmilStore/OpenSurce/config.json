@@ -723,6 +723,10 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/NewVirtualKeyBoard/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "NumberZapExt",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/NumberZapExt/NumberZapExt.sh -O - | /bin/sh"
+    },
+    {
       "name": "ONEupdater",
       "cmd": "wget https://raw.githubusercontent.com/Sat-Club/ONEupdaterE2/main/installer.sh -O - | /bin/sh"
     },
