@@ -847,6 +847,10 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/subssupport_2.1.sh -O - | /bin/sh"
     },
     {
+      "name": "SubsSupportPro",
+      "cmd": "wget https://github.com/popking159/SubsSupportPro/raw/main/subssupportpro-install.sh -O - | /bin/sh"
+    },
+    {
       "name": "TMBD",
       "cmd": "wget https://raw.githubusercontent.com/biko-73/TMBD/main/installer.sh -O - | /bin/sh"
     },
@@ -1850,7 +1854,7 @@
     },
     {
       "name": "IpAudioPro",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ipaudiopro/installer.sh -O - | /bin/sh"
+      "cmd": "wget https://github.com/emilnabil/ipaudiopro/raw/refs/heads/main/v1.6/ipaudiopro.sh -O - | /bin/sh"
     },
     {
       "name": "IpStreamer By-Mohamed Nasr (Py3)",
