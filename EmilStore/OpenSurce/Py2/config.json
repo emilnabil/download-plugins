@@ -1854,7 +1854,7 @@
     },
     {
       "name": "IpAudioPro",
-      "cmd": "wget https://github.com/emilnabil/ipaudiopro/raw/refs/heads/main/v1.6/ipaudiopro.sh -O - | /bin/sh"
+      "cmd": "wget https://github.com/emilnabil/ipaudiopro/raw/refs/heads/main/ipaudiopro.sh -O - | /bin/sh"
     },
     {
       "name": "IpStreamer By-Mohamed Nasr (Py3)",
