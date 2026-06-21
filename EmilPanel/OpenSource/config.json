@@ -723,6 +723,10 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/NewVirtualKeyBoard/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "NumberZapExt",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/NumberZapExt/NumberZapExt.sh -O - | /bin/sh"
+    },
+    {
       "name": "ONEupdater",
       "cmd": "wget https://raw.githubusercontent.com/Sat-Club/ONEupdaterE2/main/installer.sh -O - | /bin/sh"
     },
@@ -841,6 +845,10 @@
     {
       "name": "SubsSupport_2.1",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/subssupport_2.1.sh -O - | /bin/sh"
+    },
+    {
+      "name": "SubsSupportPro",
+      "cmd": "wget https://github.com/popking159/SubsSupportPro/raw/main/subssupportpro-install.sh -O - | /bin/sh"
     },
     {
       "name": "TMBD",
@@ -1846,7 +1854,7 @@
     },
     {
       "name": "IpAudioPro",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ipaudiopro/installer.sh -O - | /bin/sh"
+      "cmd": "wget https://github.com/emilnabil/ipaudiopro/raw/refs/heads/main/ipaudiopro.sh -O - | /bin/sh"
     },
     {
       "name": "IpStreamer By-Mohamed Nasr (Py3)",
@@ -1879,10 +1887,6 @@
     {
       "name": "m3uconverter",
       "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/Archimede-M3UConverter/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "MixAudio py3.13",
-      "cmd": "wget https://github.com/Najar1991/MixAudio_All/raw/refs/heads/main/install.sh -O - | /bin/sh"
     },
     {
       "name": "MoviesManager",
