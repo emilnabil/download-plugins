@@ -679,6 +679,10 @@
       "cmd": "wget https://raw.githubusercontent.com/fairbird/KeyAdder/main/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "LiveFeed",
+      "cmd": "wget https://live-feed.net/enigma2/installer.sh -O - | /bin/sh"
+    },
+    {
       "name": "levi45-freeserver",
       "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/levi45-freeserver/levi45-freeserver.sh -O - | /bin/sh"
     },
@@ -1591,6 +1595,10 @@
     {
       "name": "Opkg Tools_1.5",
       "cmd": "wget https://github.com/emil237/plugins/raw/refs/heads/main/opkg-tools_1.5.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Free Server Cccam",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Free_Server.sh -O - | /bin/sh"
     },
     {
       "name": "arabic-language_for-egami-image",
