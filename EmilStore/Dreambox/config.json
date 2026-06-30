@@ -374,6 +374,10 @@
     { "name": "RadioGit", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/radiogit/radiogit.sh | /bin/sh" },
     { "name": "Radiom", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/radiom/radiom.sh | /bin/sh" },
     { "name": "Rakutentv", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/rakutentv/rakutentv.sh | /bin/sh" },
+    {
+      "name": "Timeshift Delay",
+      "cmd": "wget http://dreambox4u.com/mosadpro/scripts/timeshift-delay-dreambox.sh -O - | /bin/sh"
+    },
     { "name": "Tsmedia", "cmd": "wget -O /tmp/tsmedia.deb https://github.com/emilnabil/dreambox/raw/refs/heads/main/tsmedia.deb && dpkg -i /tmp/tsmedia.deb && sleep 2 && apt-get -f -y install" },
     { "name": "Youtube", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/fairbird/Youtube-Opensource-DreamOS/master/installer.sh | /bin/sh" },
     { "name": "xklass-iptv", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/xklass/installer.sh | /bin/sh" },
