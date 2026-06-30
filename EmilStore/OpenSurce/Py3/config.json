@@ -743,7 +743,7 @@
       "cmd": "wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/PLUGIN_Skin-ozeta.sh -O - | /bin/sh"
     },
     {
-      "name": "PiconMaker-by mosad",
+      "name": "PiconMaker",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/piconmaker/piconmaker.sh -O - | /bin/sh"
     },
     {
@@ -1793,7 +1793,7 @@
       "cmd": "wget https://raw.githubusercontent.com/asdrere123-alt/ArabicPlayer/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "AudioMerge-By Mosad",
+      "name": "AudioMerge",
       "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/BouquetMakerXtream/installer.sh -O - | /bin/sh"
     },
     {
@@ -1841,7 +1841,7 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/HasBahCa/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Ip2sat-By-Mosad",
+      "name": "Ip2sat",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/ip2sat/ip2sat.sh -O - | /bin/sh"
     },
     {
@@ -1949,6 +1949,10 @@
       "cmd": "wget https://raw.githubusercontent.com/emil237/suptv/main/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "Timeshift Delay",
+      "cmd": "wget http://dreambox4u.com/mosadpro/scripts/timeshift-delay.sh -O - | /bin/sh"
+    },
+    {
       "name": "TvDream",
       "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/tvDream/main/installer.sh -O - | /bin/sh"
     },
@@ -1971,6 +1975,10 @@
     {
       "name": "xklass-iptv",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xklass/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "XPortal",
+      "cmd": "wget https://raw.githubusercontent.com/azroukarim/XPortal/refs/heads/main/install_xportal.sh -O - | /bin/sh"
     },
     {
       "name": "Xtreamty",
