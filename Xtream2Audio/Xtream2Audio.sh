@@ -55,13 +55,12 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-tar -xzf "/tmp/Xtream2Audio.tar.gz" -C "$TMPPATH" >/dev/null 2>&1
+tar -xzf "/tmp/Xtream2Audio.tar.gz" -C /
 if [ $? -ne 0 ]; then
     echo "Failed to extract the plugin."
     exit 1
 fi
 
-cp -r "$TMPPATH/usr/" "/" >/dev/null 2>&1
 sync
 
 echo "#########################################################"
