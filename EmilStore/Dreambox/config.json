@@ -381,6 +381,7 @@
     { "name": "Tsmedia", "cmd": "wget -O /tmp/tsmedia.deb https://github.com/emilnabil/dreambox/raw/refs/heads/main/tsmedia.deb && dpkg -i /tmp/tsmedia.deb && sleep 2 && apt-get -f -y install" },
     { "name": "Youtube", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/fairbird/Youtube-Opensource-DreamOS/master/installer.sh | /bin/sh" },
     { "name": "xklass-iptv", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/xklass/installer.sh | /bin/sh" },
+    { "name": "Xtream2Audio", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Xtream2Audio/Xtream2Audio-dreamos.sh | /bin/sh" },
     { "name": "Xtreamty", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh | /bin/sh" }
   ],
   
