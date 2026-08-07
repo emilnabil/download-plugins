@@ -589,6 +589,10 @@
       "name": "E2BissKeysEditor",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/E2BissKeysEditor/E2BissKeysEditor.sh -O - | /bin/sh"
     },
+    {
+      "name": "E2-Duplicate-Channels-Manager",
+      "cmd": "wget https://raw.githubusercontent.com/Saiedf/E2DuplicateChannelsManager/main/installer_duplicatechannelsmanager_auto.sh -O - | /bin/sh"
+    },
     { "name": "Emil Channels", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilChannels/emilchannels.sh | /bin/sh" },
     {
       "name": "EmilRemovePackage",
@@ -1597,6 +1601,10 @@
       "cmd": "wget https://github.com/emil237/plugins/raw/refs/heads/main/opkg-tools_1.5.sh -O - | /bin/sh"
     },
     {
+      "name": "EPG-khaled",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/epg-khaled/main/EPG-khaled.sh -O - | /bin/sh"
+    },
+    {
       "name": "Free Server Cccam",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Free_Server.sh -O - | /bin/sh"
     },
@@ -1861,8 +1869,12 @@
       "cmd": "wget https://raw.githubusercontent.com/popking159/ipaudio/main/installer-ipaudio.sh -O - | /bin/sh"
     },
     {
-      "name": "IpAudioPro",
+      "name": "IpAudioPro_1.5",
       "cmd": "wget https://github.com/emilnabil/ipaudiopro/raw/refs/heads/main/ipaudiopro.sh -O - | /bin/sh"
+    },
+    {
+      "name": "IpAudioPro Latest Version",
+      "cmd": "wget https://github.com/zKhadiri/IPAudioPro-Releases-/raw/refs/heads/main/installer.sh -O - | /bin/sh"
     },
     {
       "name": "IpStreamer By-Mohamed Nasr (Py3)",
@@ -2805,6 +2817,10 @@
     {
       "name": "OpenBlackHole 5.6",
       "cmd": "wget https://dreambox4u.com/emilnabil237/images/openblackhole-5.6.sh -O - | /bin/sh"
+    },
+    {
+      "name": "OpenBlackHole 6.0",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openblackhole-6.0.sh -O - | /bin/sh"
     },
     {
       "name": "OpenDroid",
