@@ -827,6 +827,10 @@
       "cmd": "wget https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "SilentRunner",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SilentRunner/SilentRunner.sh -O - | /bin/sh"
+    },
+    {
       "name": "SimplySports",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SimplySports/SimplySports.sh -O - | /bin/sh"
     },
