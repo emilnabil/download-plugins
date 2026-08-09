@@ -1,4 +1,6 @@
 #!/bin/sh
+##command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/PluginBrowser-Grid/pluginbrowser-grid.sh -O - | /bin/sh
+#####################
 
 cd /usr/lib/enigma2/python/Screens || exit 1
 
