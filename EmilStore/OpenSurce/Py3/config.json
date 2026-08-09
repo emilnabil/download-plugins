@@ -755,6 +755,10 @@
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/PiconsRename/PiconsRename.sh -O - | /bin/sh"
     },
     {
+      "name": "PluginBrowser-Grid  OpenBH-Vix-Pli",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/PluginBrowser-Grid/pluginbrowser-grid.sh -O - | /bin/sh"
+    },
+    {
       "name": "PluginMover",
       "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/pluginmover/installer.sh -O - | /bin/sh"
     },
