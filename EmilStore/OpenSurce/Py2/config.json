@@ -442,531 +442,546 @@
   ],
   "plugins": [
     {
-      "name": "ArabicSavior",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh -O - | /bin/sh"
+        "name": "ArabicSavior",
+        "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "AdenChManager",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AdenChManager/AdenChManager.sh -O - | /bin/sh"
+        "name": "AdenChManager",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AdenChManager/AdenChManager.sh -O - | /bin/sh"
     },
     {
-      "name": "AiSubtitles",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AISubtitles/AISubtitles.sh -O - | /bin/sh"
+        "name": "AiSubtitles",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AISubtitles/AISubtitles.sh -O - | /bin/sh"
     },
     {
-      "name": "Acherone",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/acherone/installer.sh -O - | /bin/sh"
+        "name": "Acherone",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/acherone/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "AdvancedBootLogoSwapper",
-      "cmd": "wget https://raw.githubusercontent.com/popking159/abls/main/installer.sh -O - | /bin/sh"
+        "name": "AdvancedBootLogoSwapper",
+        "cmd": "wget https://raw.githubusercontent.com/popking159/abls/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Advanced-Screen-Shot",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/advancedscreenshot/advancedscreenshot.sh -O - | /bin/sh"
+        "name": "Advanced-Screen-Shot",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/advancedscreenshot/advancedscreenshot.sh -O - | /bin/sh"
     },
     {
-      "name": "Alajre",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/alajre/installer.sh -O - | /bin/sh"
+        "name": "Alajre",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/alajre/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Ansite",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/ansite/refs/heads/main/installer.sh -O - | /bin/sh"
+        "name": "Ansite",
+        "cmd": "wget https://raw.githubusercontent.com/emil237/ansite/refs/heads/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Apod",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/apod/installer.sh -O - | /bin/sh"
+        "name": "Apod",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/apod/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Apsattv",
-      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/Apsattv/main/installer.sh -O - | /bin/sh"
+        "name": "Apsattv",
+        "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/Apsattv/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Astronomy",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/astronomy/installer.sh -O - | /bin/sh"
+        "name": "Astronomy",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/astronomy/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Athan Times",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/athantimes/installer.sh -O - | /bin/sh"
+        "name": "Athan Times",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/athantimes/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Atilehd",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/atilehd/installer.sh -O - | /bin/sh"
+        "name": "Atilehd",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/atilehd/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "automatic-fullbackup",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/automatic-fullbackup/installer.sh -O - | /bin/sh"
+        "name": "automatic-fullbackup",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/automatic-fullbackup/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Auto-DCW-Key-Add",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/auto-dcw-key-add/auto-dcw-key-add.sh -O - | /bin/sh"
+        "name": "Auto-DCW-Key-Add",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/auto-dcw-key-add/auto-dcw-key-add.sh -O - | /bin/sh"
     },
     {
-      "name": "Azkar Almuslim",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/azkar-almuslim/installer.sh -O - | /bin/sh"
+        "name": "Azkar Almuslim",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/azkar-almuslim/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "BackupAndFlash-mod-Emil",
-      "cmd": "wget https://github.com/emil237/download-plugins/raw/refs/heads/main/backupflash/backupflash.sh -O - | /bin/sh"
+        "name": "BackupAndFlash-mod-Emil",
+        "cmd": "wget https://github.com/emil237/download-plugins/raw/refs/heads/main/backupflash/backupflash.sh -O - | /bin/sh"
     },
     {
-      "name": "BissFeedAutoKey",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/bissfeed-autokey/main/installer.sh -O - | /bin/sh"
+        "name": "BissFeedAutoKey",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/bissfeed-autokey/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Bitrate",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/bitrate/bitrate.sh -O - | /bin/sh"
+        "name": "Bitrate",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/bitrate/bitrate.sh -O - | /bin/sh"
     },
     {
-      "name": "Bitrate-mod-ariad",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/bitrate/bitrate-mod-ariad.sh -O - | /bin/sh"
+        "name": "Bitrate-mod-ariad",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/bitrate/bitrate-mod-ariad.sh -O - | /bin/sh"
     },
     {
-      "name": "Bundesliga-Permanent-Clock",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/bundesliga-permanent-clock/bundesliga-permanent-clock.sh -O - | /bin/sh"
+        "name": "Bundesliga-Permanent-Clock",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/bundesliga-permanent-clock/bundesliga-permanent-clock.sh -O - | /bin/sh"
     },
     {
-      "name": "CacheFlush",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cacheflush/cacheflush.sh -O - | /bin/sh"
+        "name": "CacheFlush",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cacheflush/cacheflush.sh -O - | /bin/sh"
     },
     {
-      "name": "Calculator-E2",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/calculator-e2/calculator-e2.sh -O - | /bin/sh"
+        "name": "Calculator-E2",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/calculator-e2/calculator-e2.sh -O - | /bin/sh"
     },
     {
-      "name": "Cccaminfo-py2",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccaminfo/cccaminfo_py2.sh -O - | /bin/sh"
+        "name": "Cccaminfo-py2",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccaminfo/cccaminfo_py2.sh -O - | /bin/sh"
     },
     {
-      "name": "Cccaminfo-py3",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccaminfo/cccaminfo_py3.sh -O - | /bin/sh"
+        "name": "Cccaminfo-py3",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccaminfo/cccaminfo_py3.sh -O - | /bin/sh"
     },
     {
-      "name": "CrondManager",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/crondmanager/installer.sh -O - | /bin/sh"
+        "name": "CrondManager",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/crondmanager/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "CFG_ZOOM_FINAL",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/cfg_Zoom_Final_FIX7x/installer.sh -O - | /bin/sh"
+        "name": "CFG_ZOOM_FINAL",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/cfg_Zoom_Final_FIX7x/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "chocholousek-picons",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/chocholousek-picons.sh -O - | /bin/sh"
+        "name": "chocholousek-picons",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/chocholousek-picons.sh -O - | /bin/sh"
     },
     {
-      "name": "CHLogoChanger",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/CHLogoChanger/ChLogoChanger.sh -O - | /bin/sh"
+        "name": "CHLogoChanger",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/CHLogoChanger/ChLogoChanger.sh -O - | /bin/sh"
     },
     {
-      "name": "CrashLogoViewer_1.6",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/install-CrashLogViewer.sh -O - | /bin/sh"
+        "name": "CrashLogoViewer_1.6",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/install-CrashLogViewer.sh -O - | /bin/sh"
     },
     {
-      "name": "CrashLogoViewer_1.8",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/crashlogviewer_1.8.sh -O - | /bin/sh"
+        "name": "CrashLogoViewer_1.8",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/crashlogviewer_1.8.sh -O - | /bin/sh"
     },
     {
-      "name": "CrashLogoViewer_1.9",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/crashlogviewer_1.9.sh -O - | /bin/sh"
+        "name": "CrashLogoViewer_1.9",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/crashlogviewer_1.9.sh -O - | /bin/sh"
     },
     {
-      "name": "CutsClear",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/cutsclear/cutsclear.sh -O - | /bin/sh"
+        "name": "CutsClear",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/cutsclear/cutsclear.sh -O - | /bin/sh"
     },
     {
-      "name": "Disk_And_CPU_Temperature",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/dreambox/refs/heads/main/disk_and_cpu_temperature.sh -O - | /bin/sh"
+        "name": "Disk_And_CPU_Temperature",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/dreambox/refs/heads/main/disk_and_cpu_temperature.sh -O - | /bin/sh"
     },
     {
-      "name": "DreamExplorer",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/dreamexplorer/dreamexplorer.sh -O - | /bin/sh"
+        "name": "DreamExplorer",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/dreamexplorer/dreamexplorer.sh -O - | /bin/sh"
     },
     {
-      "name": "Easy-Cccam",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/easy-cccam/easy-cccam.sh -O - | /bin/sh"
+        "name": "Easy-Cccam",
+        "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/easy-cccam/easy-cccam.sh -O - | /bin/sh"
     },
     {
-      "name": "E2BissKeysEditor",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/E2BissKeysEditor/E2BissKeysEditor.sh -O - | /bin/sh"
+        "name": "E2BissKeysEditor",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/E2BissKeysEditor/E2BissKeysEditor.sh -O - | /bin/sh"
     },
     {
-      "name": "E2-Duplicate-Channels-Manager",
-      "cmd": "wget https://raw.githubusercontent.com/Saiedf/E2DuplicateChannelsManager/main/installer_duplicatechannelsmanager_auto.sh -O - | /bin/sh"
+        "name": "E2-Duplicate-Channels-Manager",
+        "cmd": "wget https://raw.githubusercontent.com/Saiedf/E2DuplicateChannelsManager/main/installer_duplicatechannelsmanager_auto.sh -O - | /bin/sh"
     },
-    { "name": "Emil Channels", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilChannels/emilchannels.sh | /bin/sh" },
     {
-      "name": "EmilRemovePackage",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilRemovePackage/EmilRemovePackage.sh -O - | /bin/sh"
+        "name": "Emil Channels",
+        "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilChannels/emilchannels.sh | /bin/sh"
     },
     {
-      "name": "enigma2readeradder",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/enigma2readeradder/enigma2readeradder.sh -O - | /bin/sh"
+        "name": "EmilRemovePackage",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilRemovePackage/EmilRemovePackage.sh -O - | /bin/sh"
     },
     {
-      "name": "Epg Grabber",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/Epg-Grabber/installer.sh -O - | /bin/sh"
+        "name": "enigma2readeradder",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/enigma2readeradder/enigma2readeradder.sh -O - | /bin/sh"
     },
     {
-      "name": "EPGImport",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/epgimport.sh -O - | /bin/sh"
+        "name": "Epg Grabber",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/Epg-Grabber/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "EPGImport-auto - iet5",
-      "cmd": "wget https://raw.githubusercontent.com/Saiedf/EPGImport/main/installer_epgimportiet5_auto.sh -O - | /bin/sh"
+        "name": "EPGImport",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/epgimport.sh -O - | /bin/sh"
     },
     {
-      "name": "EPGImport-99",
-      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/EPGImport-99/main/installer.sh -O - | /bin/sh"
+        "name": "EPGImport-auto - iet5",
+        "cmd": "wget https://raw.githubusercontent.com/Saiedf/EPGImport/main/installer_epgimportiet5_auto.sh -O - | /bin/sh"
     },
     {
-      "name": "EPGTranslator",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/epgtranslator.sh -O - | /bin/sh"
+        "name": "EPGImport-99",
+        "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/EPGImport-99/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "EvgQuickSignal",
-      "cmd": "wget https://raw.githubusercontent.com/biko-73/EvgQuickSignal/main/installer.sh -O - | /bin/sh"
+        "name": "EPGTranslator",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/epgtranslator.sh -O - | /bin/sh"
     },
     {
-      "name": "Feeds-Finder",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/feeds-finder/installer.sh -O - | /bin/sh"
+        "name": "EvgQuickSignal",
+        "cmd": "wget https://raw.githubusercontent.com/biko-73/EvgQuickSignal/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Footonsat",
-      "cmd": "wget https://raw.githubusercontent.com/fairbird/FootOnsat/main/Download/install.sh -O - | /bin/sh"
+        "name": "Feeds-Finder",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/feeds-finder/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "FreeCCcamServer",
-      "cmd": "wget https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh -O - | /bin/sh"
+        "name": "Footonsat",
+        "cmd": "wget https://raw.githubusercontent.com/fairbird/FootOnsat/main/Download/install.sh -O - | /bin/sh"
     },
     {
-      "name": "FuryBissPro",
-      "cmd": "wget https://raw.githubusercontent.com/islam-2412/FuryBiss/refs/heads/main/fury/installer.sh -O - | /bin/sh"
+        "name": "FreeCCcamServer",
+        "cmd": "wget https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "GeminiPatcher",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/GeminiPatcher/geminipatcher.sh -O - | /bin/sh"
+        "name": "FuryBissPro",
+        "cmd": "wget https://raw.githubusercontent.com/islam-2412/FuryBiss/refs/heads/main/fury/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "gioppygio",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/gioppygio/gioppygio.sh -O - | /bin/sh"
+        "name": "GeminiPatcher",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/GeminiPatcher/geminipatcher.sh -O - | /bin/sh"
     },
     {
-      "name": "hardwareinfo",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/hardwareinfo/installer.sh -O - | /bin/sh"
+        "name": "gioppygio",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/gioppygio/gioppygio.sh -O - | /bin/sh"
     },
     {
-      "name": "HistoryZapSelector",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/historyzap/installer1.sh -O - | /bin/sh"
+        "name": "hardwareinfo",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/hardwareinfo/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "horoscope",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/horoscope/refs/heads/main/horoscope.sh -O - | /bin/sh"
+        "name": "HistoryZapSelector",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/historyzap/installer1.sh -O - | /bin/sh"
     },
     {
-      "name": "HolidayCountdown",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/HolidayCountdown/installer.sh -O - | /bin/sh"
+        "name": "horoscope",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/horoscope/refs/heads/main/horoscope.sh -O - | /bin/sh"
     },
     {
-      "name": "ImagesDownloader - Mod Emil Nabil",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/ImagesDownloader/ImagesDownloader.sh -O - | /bin/sh"
+        "name": "HolidayCountdown",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/HolidayCountdown/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Internet-SpeedTest",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/internet-speedtest.sh -O - | /bin/sh"
+        "name": "ImagesDownloader - Mod Emil Nabil",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/ImagesDownloader/ImagesDownloader.sh -O - | /bin/sh"
     },
     {
-      "name": "IP_Checker",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/IP_Checker.sh -O - | /bin/sh"
+        "name": "Internet-SpeedTest",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/internet-speedtest.sh -O - | /bin/sh"
     },
     {
-      "name": "KeyAdder",
-      "cmd": "wget https://raw.githubusercontent.com/fairbird/KeyAdder/main/installer.sh -O - | /bin/sh"
+        "name": "IP_Checker",
+        "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/IP_Checker.sh -O - | /bin/sh"
     },
     {
-      "name": "LiveFeed",
-      "cmd": "wget https://live-feed.net/enigma2/installer.sh -O - | /bin/sh"
+        "name": "KeyAdder",
+        "cmd": "wget https://raw.githubusercontent.com/fairbird/KeyAdder/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "levi45-freeserver",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/levi45-freeserver/levi45-freeserver.sh -O - | /bin/sh"
+        "name": "LiveFeed",
+        "cmd": "wget https://live-feed.net/enigma2/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "levi45-free-iptv",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/levi45-free-iptv/levi45-freeiptv.sh -O - | /bin/sh"
+        "name": "levi45-freeserver",
+        "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/levi45-freeserver/levi45-freeserver.sh -O - | /bin/sh"
     },
     {
-      "name": "levi45-settings",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/levi45-settings/levi45-settings.sh -O - | /bin/sh"
+        "name": "levi45-free-iptv",
+        "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/levi45-free-iptv/levi45-freeiptv.sh -O - | /bin/sh"
     },
     {
-      "name": "Mawaqit",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Mawaqit/Mawaqit.sh -O - | /bin/sh"
+        "name": "levi45-settings",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/levi45-settings/levi45-settings.sh -O - | /bin/sh"
     },
     {
-      "name": "MmPicons",
-      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/mmPicons/main/installer.sh -O - | /bin/sh"
+        "name": "Mawaqit",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Mawaqit/Mawaqit.sh -O - | /bin/sh"
     },
     {
-      "name": "MyCam-Plugin",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/mycam/installer.sh -O - | /bin/sh"
+        "name": "MenuSort",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/menusort.sh -O - | /bin/sh"
     },
     {
-      "name": "MultiCamAdder_by-Emil",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiCamAdder/installer.sh -O - | /bin/sh"
+        "name": "MmPicons",
+        "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/mmPicons/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Multi-Iptv-Adder_by-Emil",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiIptvAdder/installer.sh -O - | /bin/sh"
+        "name": "MyCam-Plugin",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/mycam/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "my translator_by Ismail elkhooly",
-      "cmd": "wget https://raw.githubusercontent.com/islam-2412/mytrans/main/fury/installer.sh -O - | /bin/sh"
+        "name": "MultiCamAdder_by-Emil",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiCamAdder/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Net Usage Pro",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/netusagepro/netusagepro.sh -O - | /bin/sh"
+        "name": "Multi-Iptv-Adder_by-Emil",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiIptvAdder/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "NewVirtualkeyBoard",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/NewVirtualKeyBoard/installer.sh -O - | /bin/sh"
+        "name": "my translator_by Ismail elkhooly",
+        "cmd": "wget https://raw.githubusercontent.com/islam-2412/mytrans/main/fury/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "NumberZapExt",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/NumberZapExt/NumberZapExt.sh -O - | /bin/sh"
+        "name": "Net Usage Pro",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/netusagepro/netusagepro.sh -O - | /bin/sh"
     },
     {
-      "name": "ONEupdater",
-      "cmd": "wget https://raw.githubusercontent.com/Sat-Club/ONEupdaterE2/main/installer.sh -O - | /bin/sh"
+        "name": "NewVirtualkeyBoard",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/NewVirtualKeyBoard/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Oaweather by iet5",
-      "cmd": "wget https://raw.githubusercontent.com/Saiedf/OAWeatheriet5/main/installer_oaweatheriet5_auto.sh -O - | /bin/sh"
+        "name": "NumberZapExt",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/NumberZapExt/NumberZapExt.sh -O - | /bin/sh"
     },
     {
-      "name": "Ozeta-Skins-Setup",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/PLUGIN_Skin-ozeta.sh -O - | /bin/sh"
+        "name": "ONEupdater",
+        "cmd": "wget https://raw.githubusercontent.com/Sat-Club/ONEupdaterE2/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "PiconMaker",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/piconmaker/piconmaker.sh -O - | /bin/sh"
+        "name": "Oaweather by iet5",
+        "cmd": "wget https://raw.githubusercontent.com/Saiedf/OAWeatheriet5/main/installer_oaweatheriet5_auto.sh -O - | /bin/sh"
     },
     {
-      "name": "PiconsRename",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/PiconsRename/PiconsRename.sh -O - | /bin/sh"
+        "name": "Ozeta-Skins-Setup",
+        "cmd": "wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/PLUGIN_Skin-ozeta.sh -O - | /bin/sh"
     },
     {
-      "name": "PluginMover",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/pluginmover/installer.sh -O - | /bin/sh"
+        "name": "PiconMaker",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/piconmaker/piconmaker.sh -O - | /bin/sh"
     },
     {
-      "name": "PluginSkinMover",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/pluginskinmover/installer.sh -O - | /bin/sh"
+        "name": "PiconsRename",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/PiconsRename/PiconsRename.sh -O - | /bin/sh"
     },
     {
-      "name": "QuadPip",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/QuadPip/QuadPip.sh -O - | /bin/sh"
+        "name": "PluginBrowser-Grid_All-Py3  ( OpenBH-Vix-Pli )",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/PluginBrowser-Grid/pluginbrowser-grid.sh -O - | /bin/sh"
     },
     {
-      "name": "Quran-karem",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/quran/installer.sh -O - | /bin/sh"
+        "name": "PluginBrowser-Grid-Pli_8.3",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/PluginBrowser-Grid/pluginbrowser-grid-pli_8.3.sh -O - | /bin/sh"
     },
     {
-      "name": "Quran-karem_v2.2",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/quran/main/installer.sh -O - | /bin/sh"
+        "name": "PluginMover",
+        "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/pluginmover/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "QuickSignal - iet5",
-      "cmd": "wget https://raw.githubusercontent.com/Saiedf/QuickSignalIet5/main/installer_quicksignaliet5_auto.sh -O - | /bin/sh"
+        "name": "PluginSkinMover",
+        "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/pluginskinmover/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "RaedQuickSignal",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/RaedQuickSignal/installer.sh -O - | /bin/sh"
+        "name": "QuadPip",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/QuadPip/QuadPip.sh -O - | /bin/sh"
     },
     {
-      "name": "SatelliWebLiveFeeds_py3.12",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/satelliweblivefeeds/satelliweblivefeeds-py3.12.sh -O - | /bin/sh"
+        "name": "Quran-karem",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/quran/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "SatelliWebLiveFeeds_py3.13",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/satelliweblivefeeds/satelliweblivefeeds-py3.13.sh -O - | /bin/sh"
+        "name": "Quran-karem_v2.2",
+        "cmd": "wget https://raw.githubusercontent.com/emil237/quran/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "ScreenNames",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screennames/screennames.sh -O - | /bin/sh"
+        "name": "QuickSignal - iet5",
+        "cmd": "wget https://raw.githubusercontent.com/Saiedf/QuickSignalIet5/main/installer_quicksignaliet5_auto.sh -O - | /bin/sh"
     },
     {
-      "name": "Screen-Recorder",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screenrecorder/installer.sh -O - | /bin/sh"
+        "name": "RaedQuickSignal",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/RaedQuickSignal/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "ServerColoring",
-      "cmd": "wget https://github.com/islam-2412/ServerColoring/raw/refs/heads/main/fury/installer.sh -O - | /bin/sh"
+        "name": "SatelliWebLiveFeeds_py3.12",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/satelliweblivefeeds/satelliweblivefeeds-py3.12.sh -O - | /bin/sh"
     },
     {
-      "name": "ServiceScanUpdates",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/servicescanupdates/servicescanupdates.sh -O - | /bin/sh"
+        "name": "SatelliWebLiveFeeds_py3.13",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/satelliweblivefeeds/satelliweblivefeeds-py3.13.sh -O - | /bin/sh"
     },
     {
-      "name": "ServiceScanUpdates - iet5",
-      "cmd": "wget https://raw.githubusercontent.com/Saiedf/ServiceScanUpdatesIet5/main/installer_servicescanupdatesiet5_auto.sh -O - | /bin/sh"
+        "name": "ScreenNames",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screennames/screennames.sh -O - | /bin/sh"
     },
     {
-      "name": "SetPicon - modded by Emil",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/setpicon/installer.sh -O - | /bin/sh"
+        "name": "Screen-Recorder",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screenrecorder/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "scriptexecuter",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/scriptexecuter/installer.sh -O - | /bin/sh"
+        "name": "ServerColoring",
+        "cmd": "wget https://github.com/islam-2412/ServerColoring/raw/refs/heads/main/fury/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "showclock",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/showclock/showclock.sh -O - | /bin/sh"
+        "name": "ServiceScanUpdates",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/servicescanupdates/servicescanupdates.sh -O - | /bin/sh"
     },
     {
-      "name": "Sherlockmod",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh -O - | /bin/sh"
+        "name": "ServiceScanUpdates - iet5",
+        "cmd": "wget https://raw.githubusercontent.com/Saiedf/ServiceScanUpdatesIet5/main/installer_servicescanupdatesiet5_auto.sh -O - | /bin/sh"
     },
     {
-      "name": "SilentRunner",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SilentRunner/SilentRunner.sh -O - | /bin/sh"
+        "name": "SetPicon - modded by Emil",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/setpicon/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "SimplySports",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SimplySports/SimplySports.sh -O - | /bin/sh"
+        "name": "scriptexecuter",
+        "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/scriptexecuter/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "SuperBackupImages_by Emil Nabil",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SuperBackupImages/SuperBackupImages.sh -O - | /bin/sh"
+        "name": "showclock",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/showclock/showclock.sh -O - | /bin/sh"
     },
     {
-      "name": "Simple-Zoom-Panel",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/simple-zoom-panel/installer.sh -O - | /bin/sh"
+        "name": "Sherlockmod",
+        "cmd": "wget https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Spinner-Selector-All-Pythin",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SpinnerSelector/spinner-selector.sh -O - | /bin/sh"
+        "name": "SilentRunner",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SilentRunner/SilentRunner.sh -O - | /bin/sh"
     },
     {
-      "name": "SubsSupport_1.5.8-r9",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer1.sh -O - | /bin/sh"
+        "name": "SimplySports",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SimplySports/SimplySports.sh -O - | /bin/sh"
     },
     {
-      "name": "SubsSupport_by-m.nasr",
-      "cmd": "wget https://github.com/popking159/ssupport/raw/main/subssupport-install.sh -O - | /bin/sh"
+        "name": "SuperBackupImages_by Emil Nabil",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SuperBackupImages/SuperBackupImages.sh -O - | /bin/sh"
     },
     {
-      "name": "SubsSupport_2.1",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/subssupport_2.1.sh -O - | /bin/sh"
+        "name": "Simple-Zoom-Panel",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/simple-zoom-panel/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "SubsSupportPro",
-      "cmd": "wget https://github.com/popking159/SubsSupportPro/raw/main/subssupportpro-install.sh -O - | /bin/sh"
+        "name": "Spinner-Selector-All-Pythin",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SpinnerSelector/spinner-selector.sh -O - | /bin/sh"
     },
     {
-      "name": "TMBD",
-      "cmd": "wget https://raw.githubusercontent.com/biko-73/TMBD/main/installer.sh -O - | /bin/sh"
+        "name": "SubsSupport_1.5.8-r9",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer1.sh -O - | /bin/sh"
     },
     {
-      "name": "Tmdb",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/tmdb.sh -O - | /bin/sh"
+        "name": "SubsSupport_by-m.nasr",
+        "cmd": "wget https://github.com/popking159/ssupport/raw/main/subssupport-install.sh -O - | /bin/sh"
     },
     {
-      "name": "TheWeather-iet5",
-      "cmd": "wget https://raw.githubusercontent.com/Saiedf/TheWeatherIet5/main/installer_theweatheriet5_auto.sh -O - | /bin/sh"
+        "name": "SubsSupport_2.1",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/subssupport_2.1.sh -O - | /bin/sh"
     },
     {
-      "name": "TvManager",
-      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/tvManager/main/installer.sh -O - | /bin/sh"
+        "name": "SubsSupportPro",
+        "cmd": "wget https://github.com/popking159/SubsSupportPro/raw/main/subssupportpro-install.sh -O - | /bin/sh"
     },
     {
-      "name": "TvSettings",
-      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/tvSettings/main/installer.sh -O - | /bin/sh"
+        "name": "TMBD",
+        "cmd": "wget https://raw.githubusercontent.com/biko-73/TMBD/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "uninstaller-Plugins",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/unstaller-plugins/installer.sh -O - | /bin/sh"
+        "name": "Tmdb",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/tmdb.sh -O - | /bin/sh"
     },
     {
-      "name": "Wireguard-Vpn",
-      "cmd": "wget https://github.com/m4dhouse/Wireguard-Vpn/raw/refs/heads/python-3.13/WireGuard.sh -O - | /bin/sh"
+        "name": "TheWeather-iet5",
+        "cmd": "wget https://raw.githubusercontent.com/Saiedf/TheWeatherIet5/main/installer_theweatheriet5_auto.sh -O - | /bin/sh"
     },
     {
-      "name": "Wifi-Manager",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/wifimanager/wifimanager.sh -O - | /bin/sh"
+        "name": "TvManager",
+        "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/tvManager/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "WeatherMsn",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/weathermsn/installer.sh -O - | /bin/sh"
+        "name": "TvSettings",
+        "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/tvSettings/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "WeatherPlugin",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/weatherplugin/installer.sh -O - | /bin/sh"
+        "name": "uninstaller-Plugins",
+        "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/unstaller-plugins/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "WeatherPlugin-Icons",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/weatherplugin-icons/installer.sh -O - | /bin/sh"
+        "name": "Wireguard-Vpn",
+        "cmd": "wget https://github.com/m4dhouse/Wireguard-Vpn/raw/refs/heads/python-3.13/WireGuard.sh -O - | /bin/sh"
     },
     {
-      "name": "WorldCam",
-      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/WorldCam/main/installer.sh -O - | /bin/sh"
+        "name": "Wifi-Manager",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/wifimanager/wifimanager.sh -O - | /bin/sh"
     },
     {
-      "name": "XmlUpdate by iet5",
-      "cmd": "wget https://raw.githubusercontent.com/Saiedf/XMLUpdateByIet5/main/installer_xmlupdatebyiet5_auto.sh -O - | /bin/sh"
+        "name": "WeatherMsn",
+        "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/weathermsn/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "xtraevent_3.3",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/download-plugins/main/xtraevent_3.3.sh -O - | /bin/sh"
+        "name": "WeatherPlugin",
+        "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/weatherplugin/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "xtraevent_4.2",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_4.2.sh -O - | /bin/sh"
+        "name": "WeatherPlugin-Icons",
+        "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/weatherplugin-icons/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "xtraevent_4.5",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_4.5.sh -O - | /bin/sh"
+        "name": "WorldCam",
+        "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/WorldCam/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Xtraevent_4.6",
-      "cmd": "wget https://github.com/emil237/download-plugins/raw/main/Xtraevent-v4.6.sh -O - | /bin/sh"
+        "name": "XmlUpdate by iet5",
+        "cmd": "wget https://raw.githubusercontent.com/Saiedf/XMLUpdateByIet5/main/installer_xmlupdatebyiet5_auto.sh -O - | /bin/sh"
     },
     {
-      "name": "xtraevent_6.798",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent_6.798.sh -O - | /bin/sh"
+        "name": "xtraevent_3.3",
+        "cmd": "wget https://raw.githubusercontent.com/emil237/download-plugins/main/xtraevent_3.3.sh -O - | /bin/sh"
     },
     {
-      "name": "xtraevent_6.805",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent-6.805.sh -O - | /bin/sh"
+        "name": "xtraevent_4.2",
+        "cmd": "wget https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_4.2.sh -O - | /bin/sh"
     },
     {
-      "name": "xtraevent_6.820_All-Python",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent-6.820.sh -O - | /bin/sh"
+        "name": "xtraevent_4.5",
+        "cmd": "wget https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_4.5.sh -O - | /bin/sh"
     },
     {
-      "name": "xtraevent_6.840_PY3",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/xtraevent/xtraevent-6.840.sh -O - | /bin/sh"
+        "name": "Xtraevent_4.6",
+        "cmd": "wget https://github.com/emil237/download-plugins/raw/main/Xtraevent-v4.6.sh -O - | /bin/sh"
     },
     {
-      "name": "xtraevent_6.890_All-Python",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/xtraevent-6.890.sh -O - | /bin/sh"
+        "name": "xtraevent_6.798",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent_6.798.sh -O - | /bin/sh"
     },
     {
-      "name": "xtraevent_by-m.nasr",
-      "cmd": "wget https://github.com/popking159/xtraeventplugin/raw/main/xtraevent-install.sh -O - | /bin/sh"
+        "name": "xtraevent_6.805",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent-6.805.sh -O - | /bin/sh"
     },
     {
-      "name": "YoureWatching",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/YoureWatching/YoureWatching.sh -O - | /bin/sh"
+        "name": "xtraevent_6.820_All-Python",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent-6.820.sh -O - | /bin/sh"
     },
     {
-      "name": "Zip2Pkg-Converter",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Zip2Pkg/installer.sh -O - | /bin/sh"
+        "name": "xtraevent_6.840_PY3",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/xtraevent/xtraevent-6.840.sh -O - | /bin/sh"
     },
     {
-      "name": "Zoom_1.1.2-Py3",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/zoom/installer.sh -O - | /bin/sh"
+        "name": "xtraevent_6.890_All-Python",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/xtraevent-6.890.sh -O - | /bin/sh"
+    },
+    {
+        "name": "xtraevent_by-m.nasr",
+        "cmd": "wget https://github.com/popking159/xtraeventplugin/raw/main/xtraevent-install.sh -O - | /bin/sh"
+    },
+    {
+        "name": "YoureWatching",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/YoureWatching/YoureWatching.sh -O - | /bin/sh"
+    },
+    {
+        "name": "Zip2Pkg-Converter",
+        "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Zip2Pkg/installer.sh -O - | /bin/sh"
+    },
+    {
+        "name": "Zoom_1.1.2-Py3",
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/zoom/installer.sh -O - | /bin/sh"
     }
-  ],
+],
   "novaler": [
     {
       "name": "novalerStore",
