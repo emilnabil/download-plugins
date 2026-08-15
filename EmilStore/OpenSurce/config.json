@@ -658,6 +658,10 @@
         "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/hardwareinfo/installer.sh -O - | /bin/sh"
     },
     {
+        "name": "HisnMuslim",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/hisnmuslim/hisnmuslim.sh -O - | /bin/sh"
+    },
+    {
         "name": "HistoryZapSelector",
         "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/historyzap/installer1.sh -O - | /bin/sh"
     },
