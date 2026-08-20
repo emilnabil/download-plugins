@@ -594,6 +594,10 @@
         "cmd": "wget https://raw.githubusercontent.com/Saiedf/E2DuplicateChannelsManager/main/installer_duplicatechannelsmanager_auto.sh -O - | /bin/sh"
     },
     {
+        "name": "Emil BootLogos",
+        "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/emilbootlogos/emilbootlogos.sh | /bin/sh"
+    },
+    {
         "name": "Emil Channels",
         "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilChannels/emilchannels.sh | /bin/sh"
     },
@@ -1446,24 +1450,8 @@
   ],
   "ciefp": [
     {
-      "name": "CiefpPlugins",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpPlugins/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "CiefpSettingsPanel",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpsettingsPanel/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "CiefpSettingsDownloader",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpSettingsDownloader/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "CiefpsettingsMotor",
-      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpsettingsMotor/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "CiefpSelectSatellite",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpSelectSatellite/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpBootlogo",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpBootlogo/main/installer.sh -O - | /bin/sh"
     },
     {
       "name": "CiefpBouquetUpdater",
@@ -1478,24 +1466,92 @@
       "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpE2Converter/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "CiefpSatellitesXmlEditor",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpSatelliteXmlEditor/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpE2editor",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/Ciefpe2editor/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CiefpEasySetup",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpEasySetup/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CiefpEPGshare",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpEPGshare/main/installer.sh -O - | /bin/sh"
     },
     {
       "name": "CiefpIPTVBouquets",
       "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpIPTVBouquets/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "CiefpWhitelistStreamrelay",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpWhitelistStreamrelay/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpKingSat",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpKingSat/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "CiefpSettingsStreamrelay PY3",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpSettingsStreamrelay/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpMojTvEPG",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpMojTvEPG/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CiefpOpenDirectories",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpOpenDirectories/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CiefpOpenSubtitles",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpOpenSubtitles/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CiefpOscamEditor",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpOscamEditor/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CiefpParabolaCZ",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpParabolaCZ/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CiefpPiconManager",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpPiconManager/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CiefpPicturePlayer",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpPicturePlayer/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CiefpPlugins",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpPlugins/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CiefpRottenTomatoes",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpRottenTomatoes/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CiefpSatelliteAnalyzer",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpSatelliteAnalyzer/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CiefpSatellitesXmlEditor",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpSatelliteXmlEditor/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CiefpScreenGrab",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpScreenGrab/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CiefpSelectSatellite",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpSelectSatellite/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CiefpSettingsDownloader",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpSettingsDownloader/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CiefpSettingsPanel",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpsettingsPanel/main/installer.sh -O - | /bin/sh"
     },
     {
       "name": "CiefpSettingsStreamrelay PY2",
       "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpSettingsStreamrelayPY2/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CiefpSettingsStreamrelay PY3",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpSettingsStreamrelay/main/installer.sh -O - | /bin/sh"
     },
     {
       "name": "CiefpSettingsT2miAbertis",
@@ -1506,76 +1562,52 @@
       "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpSettingsT2miAbertisOpenPLi/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "CiefpScreenGrab",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpScreenGrab/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpsettingsMotor",
+      "cmd": "wget https://raw.githubusercontent.com/ciefp/CiefpsettingsMotor/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "CiefpMojTvEPG",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpMojTvEPG/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "CiefpTvProgram",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpTvProgram/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "CiefpTvProgramSK",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpTvProgramSK/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "CiefpTvProgramA1HR",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpTvProgramA1HR/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "CiefpTvTodayDE",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpTvTodayDE/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "CiefpEPGshare",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpEPGshare/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "CiefpTvProgramSBB",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpTvProgramSBB/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "CiefpOscamEditor",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpOscamEditor/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "CiefpSatelliteAnalyzer",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpSatelliteAnalyzer/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "CiefpOpenDirectories",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpOpenDirectories/main/installer.sh -O - | /bin/sh"
+      "name": "CiefSRTplayer",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefSRTplayer/main/installer.sh -O - | /bin/sh"
     },
     {
       "name": "CiefpTMDBSearch",
       "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpTMDBSearch/main/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "CiefpTvProgram",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpTvProgram/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CiefpTvProgramA1HR",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpTvProgramA1HR/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CiefpTvProgramSBB",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpTvProgramSBB/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CiefpTvProgramSK",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpTvProgramSK/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "CiefpTvTodayDE",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpTvTodayDE/main/installer.sh -O - | /bin/sh"
+    },
+    {
       "name": "CiefpVibes",
       "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpVibes/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "CiefpKingSat",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpKingSat/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpVideoPlayer",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpVideoPlayer/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "CiefpParabolaCZ",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpParabolaCZ/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpWhitelistStreamrelay",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpWhitelistStreamrelay/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "CiefpRottenTomatoes",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpRottenTomatoes/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "CiefpOpenSubtitles",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpOpenSubtitles/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "CiefSRTplayer",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefSRTplayer/main/installer.sh -O - | /bin/sh"
+      "name": "CiefpYouTube",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpYouTube/main/installer.sh -O - | /bin/sh"
     },
     {
       "name": "TitloviBrowser",
@@ -1584,22 +1616,6 @@
     {
       "name": "WebCamE2PrenjSF",
       "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/WebCamE2PrenjSF/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "CiefpEasySetup",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpEasySetup/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "CiefpPicturePlayer",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpPicturePlayer/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "CiefpVideoPlayer",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpVideoPlayer/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "CiefpYouTube",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpYouTube/main/installer.sh -O - | /bin/sh"
     }
   ],
   "tools": [
