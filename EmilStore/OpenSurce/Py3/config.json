@@ -1841,7 +1841,11 @@
     },
     {
       "name": "AudioMerge",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/BouquetMakerXtream/installer.sh -O - | /bin/sh"
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/audiomerge/audiomerge.sh -O - | /bin/sh"
+    },
+    {
+      "name": "AudioSelectionPatcher",
+      "cmd": "wget https://raw.githubusercontent.com/popking159/audioselectionpatcher/refs/heads/main/myinstaller.sh -O - | /bin/sh"
     },
     {
       "name": "BouquetMakerXtream",
