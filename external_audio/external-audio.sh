@@ -144,6 +144,23 @@ extract_and_install() {
     fi
 }
 
+download_config_file() {
+    echo -e "${YELLOW}Downloading configuration file...${RESET}"
+    
+    # إنشاء المجلد إذا لم يكن موجوداً
+    mkdir -p /etc/enigma2
+    
+    wget -q --show-progress -O /etc/enigma2/external_audio.txt "${BASE_URL}/external_audio.txt"
+    
+    if [[ $? -eq 0 ]]; then
+        echo -e "${GREEN}Configuration file downloaded successfully!${RESET}"
+        return 0
+    else
+        echo -e "${RED}Failed to download configuration file${RESET}"
+        return 1
+    fi
+}
+
 restart_box() {
     echo -e "${YELLOW}Restarting Enigma2...${RESET}"
     sleep 2
@@ -158,6 +175,7 @@ install_plugin() {
     
     if download_plugin; then
         if extract_and_install; then
+            download_config_file
             restart_box
         else
             echo -e "${RED}Installation failed. Please try again.${RESET}"
