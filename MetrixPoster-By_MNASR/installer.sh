@@ -150,7 +150,5 @@ sync
 echo "===================================================="
 echo "          $PLUGIN_NAME INSTALLATION COMPLETE        "
 echo "===================================================="
-echo "[INFO] Restart GUI to apply changes."
-echo "[INFO] You can restart with: init 4 && init 3"
 
 exit 0
