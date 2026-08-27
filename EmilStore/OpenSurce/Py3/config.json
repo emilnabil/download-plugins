@@ -2426,6 +2426,10 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/skins/openatv/SKIN-MetrixFHD-OpenATV-Extraevent-PosterX.sh -O - | /bin/sh"
     },
     {
+      "name": "MetrixPoster-By_MNASR",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/MetrixPoster-By_MNASR/installer.sh -O - | /bin/sh"
+    },
+    {
       "name": "malek-fhd",
       "cmd": "wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/ATV/skins-malek-fhd_2.2_py3.11.2-py3.12.1.sh -O - | /bin/sh"
     },
