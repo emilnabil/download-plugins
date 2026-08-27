@@ -4,16 +4,15 @@
 
 PLUGIN_NAME="MetrixPoster"
 USERNAME="emilnabil"
-REPO="MetrixPoster-By_MNASR"
+REPO="download-plugins"
+SUBPATH="MetrixPoster-By_MNASR"
+ARCHIVE_FILE="MetrixPoster-By_MNASR.tar.gz"
 
-PY_DEPENDS="requests urllib3 chardet idna certifi"
-SYS_DEPENDS=""
-
-PLUGIN_URL="https://github.com/${USERNAME}/${REPO}/raw/refs/heads/main/MetrixPoster-By_MNASR.tar.gz"
+PLUGIN_URL="https://github.com/${USERNAME}/${REPO}/raw/refs/heads/main/${SUBPATH}/${ARCHIVE_FILE}"
 
 TMP_DIR="/var/volatile/tmp"
 [ -d "$TMP_DIR" ] || TMP_DIR="/tmp"
-TMP_FILE="$TMP_DIR/MetrixPoster-By_MNASR.tar.gz"
+TMP_FILE="$TMP_DIR/${ARCHIVE_FILE}"
 PLUGIN_DIR="/usr/lib/enigma2/python/Plugins/Extensions/$PLUGIN_NAME"
 
 PKG_MANAGER=""
@@ -81,6 +80,9 @@ else
 fi
 log "[INFO] Python version: $PYTHON_VERSION"
 
+PY_DEPENDS="requests urllib3 chardet idna certifi"
+SYS_DEPENDS=""
+
 for dep in $PY_DEPENDS; do
     FINAL_DEPENDS="$FINAL_DEPENDS ${PY_PREFIX}${dep}"
 done
@@ -122,9 +124,10 @@ else
     log "[INFO] No dependencies required."
 fi
 
-log "[INFO] Downloading plugin..."
+log "[INFO] Downloading plugin from: $PLUGIN_URL"
 rm -f "$TMP_FILE"
-wget -q --no-check-certificate "$PLUGIN_URL" -O "$TMP_FILE" || {
+
+wget -q --no-check-certificate --timeout=10 --tries=3 "$PLUGIN_URL" -O "$TMP_FILE" || {
     log "[ERROR] Download failed!"
     exit 1
 }
