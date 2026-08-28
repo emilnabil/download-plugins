@@ -1,6 +1,7 @@
 #!/bin/bash
 
-##setup command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/PiconMaker/PiconMaker.sh -O - | /bin/sh
+##setup command=wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/PiconMaker/PiconMaker.sh | /bin/sh
+
 
 TMPPATH="/tmp/EmilPanelPro"
 PLUGIN_ARCHIVE="PiconMaker.tar.gz"
