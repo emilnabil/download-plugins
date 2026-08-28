@@ -88,15 +88,14 @@ echo "========================================"
 echo "✅ PiconMaker Installed Successfully!"
 echo "📁 Location: /usr/lib/enigma2/python/Plugins/Extensions/PiconMaker"
 echo "========================================"
+
 echo "Restarting Enigma2 in 3 seconds..."
 sleep 3
 
-if [ "$SYSTEM" = "DreamOS" ]; then
-    if command -v systemctl &>/dev/null; then
-        systemctl restart enigma2
-    else
-        killall -9 enigma2
-    fi
+if command -v systemctl &>/dev/null; then
+    systemctl restart enigma2
+else
+    killall -9 enigma2 2>/dev/null || init 4 && sleep 2 && init 3
 fi
 
 exit 0
