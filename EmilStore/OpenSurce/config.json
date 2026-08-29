@@ -1076,11 +1076,11 @@
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-romeh/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Hazem-Wahba-02-06-2026",
+      "name": "Hazem-Wahba",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-hazem-wahba/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Khaled Ali-27-01-2026",
+      "name": "Khaled Ali",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-khaled/main/installer.sh -O - | /bin/sh"
     },
     {
@@ -1088,11 +1088,11 @@
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-mohamed-goda/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Mohamed-Nasr-04-05-2026",
+      "name": "Mohamed-Nasr",
       "cmd": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/emilnabil/channel-mnasr/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Sayed Refaey-05-04-2026",
+      "name": "Sayed Refaey",
       "cmd": "wget -q \"--no-check-certificate\" https://github.com/emilnabil/channels-sayed-refaey/raw/refs/heads/main/sayed-refaey.sh -O - | /bin/sh"
     },
     {
