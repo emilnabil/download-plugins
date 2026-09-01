@@ -774,6 +774,10 @@
         "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/PluginBrowser-Grid/pluginbrowser-grid.sh -O - | /bin/sh"
     },
     {
+        "name": "PluginBrowser-Grid-V2_All-Py3  ( OpenBH-Vix-Pli )",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/PluginBrowser-Grid/pluginbrowser-grid-v2.sh -O - | /bin/sh"
+    },
+    {
         "name": "PluginBrowser-Grid-Pli_8.3",
         "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/PluginBrowser-Grid/pluginbrowser-grid-pli_8.3.sh -O - | /bin/sh"
     },
