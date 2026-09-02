@@ -826,6 +826,10 @@
         "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screenrecorder/installer.sh -O - | /bin/sh"
     },
     {
+        "name": "ScSearch",
+        "cmd": "wget https://raw.githubusercontent.com/OwnerPlugins/scsearch/main/installer.sh -O - | /bin/sh"
+    },
+    {
         "name": "ServerColoring",
         "cmd": "wget https://github.com/islam-2412/ServerColoring/raw/refs/heads/main/fury/installer.sh -O - | /bin/sh"
     },
