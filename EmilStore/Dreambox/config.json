@@ -6,41 +6,25 @@
     { "title": "Channels", "section": "channels", "icon": "channels.png" },
     { "title": "Feeds", "section": "feeds", "icon": "feeds.png" },
     { "title": "Tools", "section": "tools", "icon": "tools.png" },
-    {
-      "title": "Bootlogos",
-      "section": "bootlogos",
-      "icon": "bootlogo.png"
-    },
+    { "title": "Bootlogos", "section": "bootlogos", "icon": "bootlogo.png" },
     { "title": "Spinners", "section": "spinners", "icon": "spinner.png" },
     { "title": "System", "section": "system", "icon": "system.png" },
     { "title": "Media", "section": "media", "icon": "media.png" },
     { "title": "Multiboot", "section": "multiboot", "icon": "multiboot.png" },
-    {
-      "title": "Images",
-      "section": "images",
-      "icon": "images.png"
-    },
+    { "title": "Images", "section": "images", "icon": "images.png" },
     { "title": "Softcams", "section": "softcams", "icon": "emu.png" },
     { "title": "Backup", "section": "backup", "icon": "backup.png" },
     { "title": "Restore", "section": "restore", "icon": "restore.png" },
     { "title": "Skins", "section": "skins", "icon": "skins.png" },
-    {
-      "title": "Picons",
-      "section": "picons",
-      "icon": "picon.png"
-    },
+    { "title": "Picons", "section": "picons", "icon": "picon.png" },
     { "title": "Remove", "section": "remove", "icon": "remove.png" }
-  
   ],
   "backupimages": [
     { "name": "Backup-Dream-Elite", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/backup-images/backup-dream-elite.sh | /bin/sh" },
     { "name": "Backup-Dreambox-Image", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/backup-images/backup-dreambox-images.sh | /bin/sh" },
     { "name": "Backup-Gemini", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/backup-images/backup-gemini.sh | /bin/sh" },
     { "name": "Backup-Merlin", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/backup-images/backup-merlin.sh | /bin/sh" },
-    {
-      "name": "Backup-Newnigma2",
-      "cmd": "wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/backup-images/backup-newnigma2.sh -O - | /bin/sh"
-    },
+    { "name": "Backup-Newnigma2", "cmd": "wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/backup-images/backup-newnigma2.sh -O - | /bin/sh" },
     { "name": "Backup-Tsimage", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/backup-images/backup-gemini.sh | /bin/sh" }
   ],
   "panels": [
@@ -48,10 +32,7 @@
     { "name": "AjPanel Custom Menu All Panels", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/ajpanel/emil-panel-all.sh | /bin/sh" },
     { "name": "Panel Lite By Emil Nabil", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/emil-panel-lite.sh | /bin/sh" },
     { "name": "dreamosat-downloader", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/dreamosat-downloader/installer.sh | /bin/sh" },
-    {
-      "name": "EmilPanel",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilPanel/emilpanel.sh -O - | /bin/sh"
-    },
+    { "name": "EmilPanel", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilPanel/emilpanel.sh -O - | /bin/sh" },
     { "name": "EmilPanelpro", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/EmilPanelPro/emilpanelpro.sh | /bin/sh" },
     { "name": "Epanel", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/epanel/installer.sh | /bin/sh" },
     { "name": "linuxsat-panel", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/Belfagor2005/LinuxsatPanel/main/installer.sh | /bin/sh" },
@@ -62,7 +43,6 @@
     { "name": "Tspanel", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/tspanel/installer.sh | /bin/sh" },
     { "name": "TvAddon-Panel", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/tvaddon/installer.sh | /bin/sh" }
   ],
-  
   "plugins": [
     { "name": "ArabicSavior", "cmd": "wget --no-check-certificate -O - http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh | /bin/sh" },
     { "name": "Astronomy", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/astronomy/installer.sh | /bin/sh" },
@@ -76,10 +56,7 @@
     { "name": "CrashLogoViewer_1.6", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/install-CrashLogViewer.sh | /bin/sh" },
     { "name": "CrashLogoViewer_1.9 Modded By Emil", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/crashlogviewer_1.9.sh | /bin/sh" },
     { "name": "CrondManger", "cmd": "wget --no-check-certificate -O - https://github.com/emil237/download-plugins/raw/main/cronmanager.sh | /bin/sh" },
-    {
-      "name": "CutsClear",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/cutsclear/cutsclear.sh -O - | /bin/sh"
-    },
+    { "name": "CutsClear", "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/cutsclear/cutsclear.sh -O - | /bin/sh" },
     { "name": "DisplaySkin", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/displayskin.sh | /bin/sh" },
     { "name": "Emil BootLogos", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/emilbootlogos/emilbootlogos.sh | /bin/sh" },
     { "name": "Emil Channels", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilChannels/emilchannels.sh | /bin/sh" },
@@ -108,15 +85,8 @@
     { "name": "IptvPlayer", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emil237/iptvplayer/main/iptvinstaller.sh | /bin/sh" },
     { "name": "Iptvupdater", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/iptvupdater.sh | /bin/sh" },
     { "name": "KeyAdder", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/fairbird/KeyAdder/main/installer.sh | /bin/sh" },
-    {
-      "name": "levi45-freeserver",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/levi45-freeserver/levi45-freeserver.sh -O - | /bin/sh"
-    },
-    {
-      "name": "levi45-free-iptv",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/levi45-free-iptv/levi45-freeiptv.sh -O - | /bin/sh"
-    },
     { "name": "levi45-freeserver", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/levi45-freeserver/levi45-freeserver.sh | /bin/sh" },
+    { "name": "levi45-free-iptv", "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/levi45-free-iptv/levi45-freeiptv.sh -O - | /bin/sh" },
     { "name": "levi45-settings", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/levi45-settings/levi45-settings.sh | /bin/sh" },
     { "name": "MerlinSkinThemes", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/merlinskinthemes.sh | /bin/sh" },
     { "name": "Memorganizeiet5_auto", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/Saiedf/MemOrganizeiet5/main/installer_memorganizeiet5_auto.sh | /bin/sh" },
@@ -160,14 +130,12 @@
     { "name": "WorldCam", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/Belfagor2005/WorldCam/main/installer.sh | /bin/sh" },
     { "name": "xmlupdate-by-iet5", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/Saiedf/XMLUpdateByIet5/main/installer_xmlupdatebyiet5_auto.sh | /bin/sh" }
   ],
-  
   "channels": [
     { "title": "Other", "section": "other_channels", "icon": "channels.png" },
     { "title": "Ciefp", "section": "ciefp_channels", "icon": "ciefp.png" },
     { "title": "morph883", "section": "morph883_channels", "icon": "morpheus883.png" },
     { "title": "vaninbal", "section": "vaninbal_channels", "icon": "vhannibal.png" }
   ],
-  
   "other_channels": [
     { "name": "Ahmed Romeh", "cmd": "wget --no-check-certificate -q https://raw.githubusercontent.com/emilnabil/channel-romeh/main/installer.sh -O - | /bin/sh" },
     { "name": "Modded By Emil Nabil", "cmd": "wget --no-check-certificate -q https://raw.githubusercontent.com/emilnabil/channel-emil-nabil/main/installer.sh -O - | /bin/sh" },
@@ -180,7 +148,6 @@
     { "name": "Tuner_Backup_By-Emil-Nabil", "cmd": "wget --no-check-certificate -q https://github.com/emilnabil/download-plugins/raw/refs/heads/main/restore-tuner-emil.sh -O - | /bin/sh" },
     { "name": "Tuner_Backup_By-M-Goda", "cmd": "wget --no-check-certificate -q https://github.com/emilnabil/download-plugins/raw/refs/heads/main/restore-tuner-goda.sh -O - | /bin/sh" }
   ],
-  
   "ciefp_channels": [
     { "name": "ciefp-channels-e2-75e-34w", "cmd": "wget --no-check-certificate -q https://raw.githubusercontent.com/emilnabil/download-plugins/main/ciefp-channels-e2/ciefp-channels-e2-75e-34w.sh -O - | /bin/sh" },
     { "name": "1sat-19E", "cmd": "wget --no-check-certificate -q https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-1sat-19E.sh -O - | /bin/sh" },
@@ -200,7 +167,6 @@
     { "name": "16sat-42E-39E-28E-26E-23E-19E-16E-13E-10E-9E-7E-4.8E-1.9E-0.8w-4W-5w", "cmd": "wget --no-check-certificate -q https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-16sat.sh -O - | /bin/sh" },
     { "name": "18sat-42E-39E-36E-33E-28E-26E-23E-19E-16E-13E-10E-9E-7E-4.8E-1.9E-0.8w-4w-5w", "cmd": "wget --no-check-certificate -q https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ciefp-channels-e2/ciefp-E2-18sat.sh -O - | /bin/sh" }
   ],
-  
   "morph883_channels": [
     { "name": "Morph883_0.8W-4.8E-13E", "cmd": "wget --no-check-certificate -q https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_0.8W-4.8E-13E.sh -O - | /bin/sh" },
     { "name": "Morph883_0.8W-13E-19.2E-28.2E", "cmd": "wget --no-check-certificate -q https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_0.8W-13E-19.2E-28.2E.sh -O - | /bin/sh" },
@@ -226,7 +192,6 @@
     { "name": "Morph883_Motor", "cmd": "wget --no-check-certificate -q https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_Motor.sh -O - | /bin/sh" },
     { "name": "Morph883_Settings", "cmd": "wget --no-check-certificate -q https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/morpheus883-channels/E2_Morph883_Settings.sh -O - | /bin/sh" }
   ],
-  
   "vaninbal_channels": [
     { "name": "Vhaninbal-Dual-13-19E", "cmd": "wget --no-check-certificate -q https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Dual-13-19E.sh -O - | /bin/sh" },
     { "name": "Vhaninbal-Dual-DTT-Campania", "cmd": "wget --no-check-certificate -q https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Dual-DTT-Campania.sh -O - | /bin/sh" },
@@ -256,7 +221,6 @@
     { "name": "Vhaninbal-Trial-13-19E-5W", "cmd": "wget --no-check-certificate -q https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Trial-13-19E-5W.sh -O - | /bin/sh" },
     { "name": "Vhaninbal-Trial-13-19E-30W", "cmd": "wget --no-check-certificate -q https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/vanenbal-channels/Vhannibal-Trial-13-19E-30W.sh -O - | /bin/sh" }
   ],
-  
   "feeds": [
     { "name": "Feed-elite-extra_arm64", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/feed-elite-extra_arm64.sh | /bin/sh" },
     { "name": "Feed-elite-extra_armhf", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/feed-elite-extra_armhf.sh | /bin/sh" },
@@ -267,7 +231,6 @@
     { "name": "feed-gutemine", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/feed-gutemine.sh | /bin/sh" },
     { "name": "Feed-Merlin", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/dream/main/feed-merlin-dreambox.sh | /bin/sh" }
   ],
-  
   "bootlogos": [
     { "name": "BootlogoSwap-Dreambox", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/bootlogoswaper-dreambox.sh | /bin/sh" },
     { "name": "BootlogoSwap-Gemini", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/bootlogoswaper-gemini.sh | /bin/sh" },
@@ -275,7 +238,6 @@
     { "name": "BootlogoSwap-TS", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/bootlogoswaper-ts.sh | /bin/sh" },
     { "name": "Bootvideo", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/Bootvideo.sh | /bin/sh" }
   ],
-  
   "tools": [
     { "name": "Wget", "cmd": "apt-get update -y && apt-get install -y wget" },
     { "name": "Curl", "cmd": "apt-get install -y curl" },
@@ -293,7 +255,6 @@
     { "name": "UpdateSatellitesOealliance", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Satellites-Oealliance.sh | /bin/sh" },
     { "name": "UpdateSatellitesOpenPli", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/satellites-openpli.sh | /bin/sh" }
   ],
-  
   "spinners": [
     { "name": "Spinner-Circle", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-circle.sh | /bin/sh" },
     { "name": "Spinner-MadMax", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-MadMax.sh | /bin/sh" },
@@ -327,13 +288,13 @@
     { "name": "Spinner-Vu+", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-vu+.sh | /bin/sh" },
     { "name": "Spinner-Window", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-window.sh | /bin/sh" }
   ],
-  
   "system": [
     { "name": "AutomaticCleanup", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/AutomaticCleanup.sh | /bin/sh" },
     { "name": "autoresolution_armhf", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/autoresolution_armhf.sh | /bin/sh" },
     { "name": "automaticvolumeadjustment_armhf", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/automaticvolumeadjustment_armhf.sh | /bin/sh" },
     { "name": "Disk_and_CPU_Temperature", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/dreambox/refs/heads/main/disk_and_cpu_temperature.sh | /bin/sh" },
     { "name": "DreamTimeSync", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/Saiedf/DreamTimeSync/main/installer_dreamtimesync_auto.sh | /bin/sh" },
+    { "name": "Dreambox-Ntp-Sync", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/Saiedf/DreamboxNTP/main/installer_dreambox_ntp_sync_auto.sh | /bin/sh" },
     { "name": "extnumberzap", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/extnumberzap/extnumberzap.sh | /bin/sh" },
     { "name": "CrashlogAutoSubmit", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/CrashlogAutoSubmit.sh | /bin/sh" },
     { "name": "DynamicDisplay", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/dynamicdisplay.sh | /bin/sh" },
@@ -351,9 +312,9 @@
     { "name": "SoftwareManager", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/SoftwareManager.sh | /bin/sh" },
     { "name": "StartUpService", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/StartUpService.sh | /bin/sh" }
   ],
-  
   "media": [
     { "name": "AudioMerge By Mosad", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/audiomerge/dreamos/audiomerge.sh | /bin/sh" },
+    { "name": "AudioPlus_V2", "cmd": "wget --no-check-certificate -O - http://dreambox4u.com/emilnabil237/plugins/AudioPlus/AudioPlus.sh | /bin/sh" },
     { "name": "BouquetMakerXtream", "cmd": "wget --no-check-certificate -O - http://dreambox4u.com/emilnabil237/plugins/BouquetMakerXtream/installer.sh | /bin/sh" },
     { "name": "dreamxtream-dm-900-920", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/dreamxtream-dm-900-920.sh | /bin/sh" },
     { "name": "dreamxtream-dm-1-2", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/dreamxtream-dm-2.sh | /bin/sh" },
@@ -362,10 +323,7 @@
     { "name": "E2Player-ZADMARIO", "cmd": "wget --no-check-certificate -O - https://gitlab.com/zadmario/e2iplayer/-/raw/master/install-e2iplayer.sh | /bin/sh" },
     { "name": "E2m3ubouquet", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/e2m3u2bouquet/installer.sh | /bin/sh" },
     { "name": "ipaudio", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/ipaudio-6.6.sh | /bin/sh" },
-    {
-      "name": "IpAudio 8.02 All python",
-      "cmd": "wget https://github.com/emil237/ipaudio/raw/refs/heads/main/ipaudio_8.0.sh -O - | /bin/sh"
-    },
+    { "name": "IpAudio 8.02 All python", "cmd": "wget https://github.com/emil237/ipaudio/raw/refs/heads/main/ipaudio_8.0.sh -O - | /bin/sh" },
     { "name": "iptosat", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/iptosat/installer.sh | /bin/sh" },
     { "name": "ip2Sat By Mosad", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/ip2sat/dreamos/ip2sat.sh | /bin/sh" },
     { "name": "JediEpgExtream", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/jediepgextream/installer.sh | /bin/sh" },
@@ -375,23 +333,18 @@
     { "name": "RadioGit", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/radiogit/radiogit.sh | /bin/sh" },
     { "name": "Radiom", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/radiom/radiom.sh | /bin/sh" },
     { "name": "Rakutentv", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/rakutentv/rakutentv.sh | /bin/sh" },
-    {
-      "name": "Timeshift Delay",
-      "cmd": "wget http://dreambox4u.com/mosadpro/scripts/timeshift-delay-dreambox.sh -O - | /bin/sh"
-    },
+    { "name": "Timeshift Delay", "cmd": "wget http://dreambox4u.com/mosadpro/scripts/timeshift-delay-dreambox.sh -O - | /bin/sh" },
     { "name": "Tsmedia", "cmd": "wget -O /tmp/tsmedia.deb https://github.com/emilnabil/dreambox/raw/refs/heads/main/tsmedia.deb && dpkg -i /tmp/tsmedia.deb && sleep 2 && apt-get -f -y install" },
     { "name": "Youtube", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/fairbird/Youtube-Opensource-DreamOS/master/installer.sh | /bin/sh" },
     { "name": "xklass-iptv", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/xklass/installer.sh | /bin/sh" },
     { "name": "Xtream2Audio", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Xtream2Audio/Xtream2Audio-dreamos.sh | /bin/sh" },
     { "name": "Xtreamty", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh | /bin/sh" }
   ],
-  
   "multiboot": [
     { "name": "Alanturing", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/alanturing.sh | /bin/sh" },
     { "name": "Barryallen_12.91-r2-MOD-RAED", "cmd": "wget --no-check-certificate -q https://dreambox4u.com/emilnabil237/dream/barryallen.sh -O - | /bin/sh" },
     { "name": "Multiboot-Selector", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/installer-multiboot-selector.sh | /bin/sh" }
   ],
-  
   "softcams": [
     { "name": "Cccam", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/emu/installer-cccam.sh | /bin/sh" },
     { "name": "gosatplus-ncam", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-ncam.sh | /bin/sh" },
@@ -419,7 +372,6 @@
     { "name": "Ultracam-Oscam", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/emu/installer-ultracam-oscam.sh | /bin/sh" },
     { "name": "Ultracam", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/emu/installer-ultracam.sh | /bin/sh" }
   ],
-  
   "backup": [
     { "name": "Backup-my-Channels", "cmd": "wget --no-check-certificate -O - http://dreambox4u.com/emilnabil237/script/Create-My-backup-shannels.sh | /bin/sh" },
     { "name": "Backup-hotkey", "cmd": "wget --no-check-certificate -O - http://dreambox4u.com/emilnabil237/script/backup-hotkey.sh | /bin/sh" },
@@ -436,7 +388,6 @@
     { "name": "Backup-my-xstreamity-servers", "cmd": "wget --no-check-certificate -O - http://dreambox4u.com/emilnabil237/script/backup-my-xstreamity-servers.sh | /bin/sh" },
     { "name": "Backup-sittings-xtraevent", "cmd": "wget --no-check-certificate -O - http://dreambox4u.com/emilnabil237/script/backup-sittings-xtraevent.sh | /bin/sh" }
   ],
-  
   "restore": [
     { "name": "Restore-my-Channels", "cmd": "wget --no-check-certificate -O - http://dreambox4u.com/emilnabil237/script/Restore-My-backup-shannels.sh | /bin/sh" },
     { "name": "Restore-hotkey", "cmd": "wget --no-check-certificate -O - http://dreambox4u.com/emilnabil237/script/resore-hotkey.sh | /bin/sh" },
@@ -453,11 +404,9 @@
     { "name": "Restore-my-xstreamity-servers", "cmd": "wget --no-check-certificate -O - http://dreambox4u.com/emilnabil237/script/restore-my-xstreamity-servers.sh | /bin/sh" },
     { "name": "Restore-sittings-xtraevent", "cmd": "wget --no-check-certificate -O - http://dreambox4u.com/emilnabil237/script/restore-sittings-xtraevent.sh | /bin/sh" }
   ],
-  
   "skins": [
     { "title": "Skins-Dreambox", "section": "Dreambox_skins", "icon": "menug.png" }
   ],
-  
   "Dreambox_skins": [
     { "name": "metrix-HD-oe2.2", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/metrix-hd-oe2.2.sh | /bin/sh" },
     { "name": "Brushedalu-HD", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/Brushedalu-HD.sh | /bin/sh" },
@@ -474,270 +423,74 @@
     { "name": "ZSkin-FHD", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/ZSkin-FHD.sh | /bin/sh" }
   ],
   "images": [
-    {
-      "name": "Dreambox-Unstable",
-      "cmd": "wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/dreambox-unstable.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Gemini 4.2",
-      "cmd": "wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/gemini-4.2.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Merlin",
-      "cmd": "wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/merlin.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Newnigma2",
-      "cmd": "wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/newnigma2.sh -O - | /bin/sh"
-    },
-    {
-      "name": "OpenATV 6.4",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-6.4.sh -O - | /bin/sh"
-    },
-    {
-      "name": "OpenATV 7.0",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.0.sh -O - | /bin/sh"
-    },
-    {
-      "name": "OpenATV 7.1",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.1.sh -O - | /bin/sh"
-    },
-    {
-      "name": "OpenATV 7.2",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.2.sh -O - | /bin/sh"
-    },
-    {
-      "name": "OpenATV 7.3",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.3.sh -O - | /bin/sh"
-    },
-    {
-      "name": "OpenATV 7.4",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.4.sh -O - | /bin/sh"
-    },
-    {
-      "name": "OpenATV 7.5",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.5.sh -O - | /bin/sh"
-    },
-    {
-      "name": "OpenATV 7.5.1",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.5.1.sh -O - | /bin/sh"
-    },
-    {
-      "name": "OpenATV 7.6",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.6.sh -O - | /bin/sh"
-    },
-    {
-      "name": "OpenHdf 7.3",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openhdf-7.3.sh -O - | /bin/sh"
-    },
-    {
-      "name": "OpenVIX Latest Version",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/images/openvix_latest-version.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Pure2 7.4",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/images/pure2-7.4.sh -O - | /bin/sh"
-    }
+    { "name": "Dreambox-Unstable", "cmd": "wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/dreambox-unstable.sh -O - | /bin/sh" },
+    { "name": "Gemini 4.2", "cmd": "wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/gemini-4.2.sh -O - | /bin/sh" },
+    { "name": "Merlin", "cmd": "wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/merlin.sh -O - | /bin/sh" },
+    { "name": "Newnigma2", "cmd": "wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/newnigma2.sh -O - | /bin/sh" },
+    { "name": "OpenATV 6.4", "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-6.4.sh -O - | /bin/sh" },
+    { "name": "OpenATV 7.0", "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.0.sh -O - | /bin/sh" },
+    { "name": "OpenATV 7.1", "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.1.sh -O - | /bin/sh" },
+    { "name": "OpenATV 7.2", "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.2.sh -O - | /bin/sh" },
+    { "name": "OpenATV 7.3", "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.3.sh -O - | /bin/sh" },
+    { "name": "OpenATV 7.4", "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.4.sh -O - | /bin/sh" },
+    { "name": "OpenATV 7.5", "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.5.sh -O - | /bin/sh" },
+    { "name": "OpenATV 7.5.1", "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.5.1.sh -O - | /bin/sh" },
+    { "name": "OpenATV 7.6", "cmd": "wget https://dreambox4u.com/emilnabil237/images/openatv-7.6.sh -O - | /bin/sh" },
+    { "name": "OpenHdf 7.3", "cmd": "wget https://dreambox4u.com/emilnabil237/images/openhdf-7.3.sh -O - | /bin/sh" },
+    { "name": "OpenVIX Latest Version", "cmd": "wget https://dreambox4u.com/emilnabil237/images/openvix_latest-version.sh -O - | /bin/sh" },
+    { "name": "Pure2 7.4", "cmd": "wget https://dreambox4u.com/emilnabil237/images/pure2-7.4.sh -O - | /bin/sh" }
   ],
   "picons": [
-    {
-      "name": "Intelsat 31.5W",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/intelsat_31.5w/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Hispasat 30.0W",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/hispasat_30.0w/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Intelsat 27.5W",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/intelsat_27.5w/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Intelsat 24.5W",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/intelsat_24.5w/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "SES 4 22.0W",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/ses4_22.0w/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "NSS 7 20.0W",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/nss7_20.0w/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Telstar 15.0W",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/telstar_15.0w/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Express 14W",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/express_14w/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Express 11.0W-14.0W",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/express_11.0w-14.0w/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Nilesat 7W-8W",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/nilesat/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Eutelsat 5.0W",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_5.0w/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Amos 4.0W",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/amos_4.0w/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "ABS 3.0W",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/abs_3.0w/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Thor 0.8W",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/thor_0.8w/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "BulgariaSat 1.9E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/bulgariasat_1.9e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Eutelsat 3.0E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_3.0e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Astra 4.8E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/astra_4.8e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Eutelsat 7.0E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_7.0e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Eutelsat 9.0E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_9.0e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Eutelsat 10.0E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_10.0e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Hotbird 13.0E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/hotbird_13.0e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Eutelsat 16.0E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_16.0e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Astra 19.2E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/astra_19.2e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Eutelsat 21.6E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_21.6e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Astra 23.5E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/astra_23.5e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Eshail 25.5E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eshail_25.5e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Badr 26.0E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/badr_26.0e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Astra 28.2E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/astra_28.2e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Arabsat 30.5E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/arabsat_30.5e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Astra 31.5E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/astra_31.5e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Intelsat 33.0E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat-intelsat_33.0e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Eutelsat 36.0E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_36.0e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Hellas-Sat 39.0E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/hellas-sat_39.0e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Turksat 42.0E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/turksat_42.0e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "AzerSpace 45.0E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/azerspace_45.0e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "AzerSpace 46.0E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/azerspace_46.0e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Turksat 50.0E-57E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/turksat_50.0e_56.0e_57e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Belintersat 51.5E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/belintersat_51.5e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "TurkmenAlem 52.0E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/turkmenalem_52.0e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Yahsat 52.5E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/alyahsat_52.5e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Express 53.0E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/express_53.0e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Yamal 54.9E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/gsat-yamal_54.9e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Intelsat 60.0E-68.0E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/intelsat_60.0e_66.0e_68.0e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Intelsat 62.0E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/intelsat_62.0e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Eutelsat 70.0E-75.0E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_70.0e_74.9e_75.0e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Intelsat 72.1E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/Intelsat_72.1e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "ABS 75.0E",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/picons/abs_75.0e/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Picons Other",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/picon-other/main/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Chocholousek Picons",
-      "cmd": "wget https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup -O - | /bin/sh"
-    }
+    { "name": "Intelsat 31.5W", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/intelsat_31.5w/installer.sh -O - | /bin/sh" },
+    { "name": "Hispasat 30.0W", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/hispasat_30.0w/installer.sh -O - | /bin/sh" },
+    { "name": "Intelsat 27.5W", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/intelsat_27.5w/installer.sh -O - | /bin/sh" },
+    { "name": "Intelsat 24.5W", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/intelsat_24.5w/installer.sh -O - | /bin/sh" },
+    { "name": "SES 4 22.0W", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/ses4_22.0w/installer.sh -O - | /bin/sh" },
+    { "name": "NSS 7 20.0W", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/nss7_20.0w/installer.sh -O - | /bin/sh" },
+    { "name": "Telstar 15.0W", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/telstar_15.0w/installer.sh -O - | /bin/sh" },
+    { "name": "Express 14W", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/express_14w/installer.sh -O - | /bin/sh" },
+    { "name": "Express 11.0W-14.0W", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/express_11.0w-14.0w/installer.sh -O - | /bin/sh" },
+    { "name": "Nilesat 7W-8W", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/nilesat/installer.sh -O - | /bin/sh" },
+    { "name": "Eutelsat 5.0W", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_5.0w/installer.sh -O - | /bin/sh" },
+    { "name": "Amos 4.0W", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/amos_4.0w/installer.sh -O - | /bin/sh" },
+    { "name": "ABS 3.0W", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/abs_3.0w/installer.sh -O - | /bin/sh" },
+    { "name": "Thor 0.8W", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/thor_0.8w/installer.sh -O - | /bin/sh" },
+    { "name": "BulgariaSat 1.9E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/bulgariasat_1.9e/installer.sh -O - | /bin/sh" },
+    { "name": "Eutelsat 3.0E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_3.0e/installer.sh -O - | /bin/sh" },
+    { "name": "Astra 4.8E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/astra_4.8e/installer.sh -O - | /bin/sh" },
+    { "name": "Eutelsat 7.0E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_7.0e/installer.sh -O - | /bin/sh" },
+    { "name": "Eutelsat 9.0E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_9.0e/installer.sh -O - | /bin/sh" },
+    { "name": "Eutelsat 10.0E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_10.0e/installer.sh -O - | /bin/sh" },
+    { "name": "Hotbird 13.0E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/hotbird_13.0e/installer.sh -O - | /bin/sh" },
+    { "name": "Eutelsat 16.0E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_16.0e/installer.sh -O - | /bin/sh" },
+    { "name": "Astra 19.2E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/astra_19.2e/installer.sh -O - | /bin/sh" },
+    { "name": "Eutelsat 21.6E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_21.6e/installer.sh -O - | /bin/sh" },
+    { "name": "Astra 23.5E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/astra_23.5e/installer.sh -O - | /bin/sh" },
+    { "name": "Eshail 25.5E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eshail_25.5e/installer.sh -O - | /bin/sh" },
+    { "name": "Badr 26.0E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/badr_26.0e/installer.sh -O - | /bin/sh" },
+    { "name": "Astra 28.2E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/astra_28.2e/installer.sh -O - | /bin/sh" },
+    { "name": "Arabsat 30.5E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/arabsat_30.5e/installer.sh -O - | /bin/sh" },
+    { "name": "Astra 31.5E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/astra_31.5e/installer.sh -O - | /bin/sh" },
+    { "name": "Intelsat 33.0E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat-intelsat_33.0e/installer.sh -O - | /bin/sh" },
+    { "name": "Eutelsat 36.0E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_36.0e/installer.sh -O - | /bin/sh" },
+    { "name": "Hellas-Sat 39.0E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/hellas-sat_39.0e/installer.sh -O - | /bin/sh" },
+    { "name": "Turksat 42.0E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/turksat_42.0e/installer.sh -O - | /bin/sh" },
+    { "name": "AzerSpace 45.0E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/azerspace_45.0e/installer.sh -O - | /bin/sh" },
+    { "name": "AzerSpace 46.0E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/azerspace_46.0e/installer.sh -O - | /bin/sh" },
+    { "name": "Turksat 50.0E-57E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/turksat_50.0e_56.0e_57e/installer.sh -O - | /bin/sh" },
+    { "name": "Belintersat 51.5E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/belintersat_51.5e/installer.sh -O - | /bin/sh" },
+    { "name": "TurkmenAlem 52.0E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/turkmenalem_52.0e/installer.sh -O - | /bin/sh" },
+    { "name": "Yahsat 52.5E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/alyahsat_52.5e/installer.sh -O - | /bin/sh" },
+    { "name": "Express 53.0E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/express_53.0e/installer.sh -O - | /bin/sh" },
+    { "name": "Yamal 54.9E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/gsat-yamal_54.9e/installer.sh -O - | /bin/sh" },
+    { "name": "Intelsat 60.0E-68.0E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/intelsat_60.0e_66.0e_68.0e/installer.sh -O - | /bin/sh" },
+    { "name": "Intelsat 62.0E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/intelsat_62.0e/installer.sh -O - | /bin/sh" },
+    { "name": "Eutelsat 70.0E-75.0E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_70.0e_74.9e_75.0e/installer.sh -O - | /bin/sh" },
+    { "name": "Intelsat 72.1E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/Intelsat_72.1e/installer.sh -O - | /bin/sh" },
+    { "name": "ABS 75.0E", "cmd": "wget https://dreambox4u.com/emilnabil237/picons/abs_75.0e/installer.sh -O - | /bin/sh" },
+    { "name": "Picons Other", "cmd": "wget https://raw.githubusercontent.com/emil237/picon-other/main/installer.sh -O - | /bin/sh" },
+    { "name": "Chocholousek Picons", "cmd": "wget https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup -O - | /bin/sh" }
   ],
-  
   "remove": [
     { "name": "Remove all_Crashlogs", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/script/remove/DEL_all_Crashlogs.sh | /bin/sh" },
     { "name": "Remove-Ajpanel", "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/script/remove/remove-ajpanel.sh | /bin/sh" },
