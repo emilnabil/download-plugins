@@ -735,7 +735,7 @@
     },
     {
         "name": "my translator_by Ismail elkhooly",
-        "cmd": "wget https://raw.githubusercontent.com/islam-2412/mytrans/main/fury/installer.sh -O - | /bin/sh"
+        "cmd": "wget https://github.com/emilnabil/mytranslator/raw/refs/heads/main/mytranslator.sh -O - | /bin/sh"
     },
     {
         "name": "Net Usage Pro",
@@ -2444,6 +2444,10 @@
     {
       "name": "Nacht_1.7.3",
       "cmd": "wget http://dreambox4u.com/emilnabil237/script/SKIN-ATV-nacht_1.7.3.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Nacht_7.1",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/skins/openatv/nacht_7.1.sh -O - | /bin/sh"
     },
     {
       "name": "Op-Artkoala-FHD",
