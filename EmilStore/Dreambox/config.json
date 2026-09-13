@@ -45,8 +45,9 @@
   ],
   "plugins": [
     { "name": "ArabicSavior", "cmd": "wget --no-check-certificate -O - http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh | /bin/sh" },
+    { "name": "AIO-Image-RTLFixer", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/zavyka/AIO-Image-RTLFixer/main/installer.sh | /bin/sh" },
     { "name": "Astronomy", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/astronomy/installer.sh | /bin/sh" },
-    { "name": "BackUpFlash", "cmd": "wget --no-check-certificate -O - https://github.com/emil237/download-plugins/raw/refs/heads/main/backupflash/backupflash.sh | /bin/sh" },
+    { "name": "BackUpFlash", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/fairbird/BackUpFlash/main/installer.sh | /bin/sh" },
     { "name": "BissFeedAutoKey", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/bissfeed-autokey/main/installer.sh | /bin/sh" },
     { "name": "CacheFlush", "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cacheflush/cacheflush.sh | /bin/sh" },
     { "name": "CCcaminfo", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/cccaminfo.sh | /bin/sh" },
