@@ -570,6 +570,10 @@
         "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/crashlogviewer_1.9.sh -O - | /bin/sh"
     },
     {
+        "name": "Custom Channel Selection",
+        "cmd": "wget https://raw.githubusercontent.com/popking159/customchannelselection/refs/heads/main/myinstaller.sh -O - | /bin/sh"
+    },
+    {
         "name": "CutsClear",
         "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/cutsclear/cutsclear.sh -O - | /bin/sh"
     },
@@ -1974,6 +1978,10 @@
     {
       "name": "multistalker",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/multistalker/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "MyHits",
+      "cmd": "wget https://raw.githubusercontent.com/popking159/myhits/refs/heads/main/myinstaller.sh -O - | /bin/sh"
     },
     {
       "name": "OrangeAudioPlugin",
