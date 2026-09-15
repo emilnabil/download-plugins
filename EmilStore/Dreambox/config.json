@@ -315,7 +315,7 @@
   ],
   "media": [
     { "name": "AudioMerge By Mosad", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/audiomerge/dreamos/audiomerge.sh | /bin/sh" },
-    { "name": "AudioPlus_V2", "cmd": "wget --no-check-certificate -O - http://dreambox4u.com/emilnabil237/plugins/AudioPlus/AudioPlus.sh | /bin/sh" },
+    { "name": "AudioShift", "cmd": "wget --no-check-certificate -O - https://xfayez95.github.io/audioshift/installer.sh | /bin/sh" },
     { "name": "BouquetMakerXtream", "cmd": "wget --no-check-certificate -O - http://dreambox4u.com/emilnabil237/plugins/BouquetMakerXtream/installer.sh | /bin/sh" },
     { "name": "dreamxtream-dm-900-920", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/dreamxtream-dm-900-920.sh | /bin/sh" },
     { "name": "dreamxtream-dm-1-2", "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/dreambox/raw/refs/heads/main/dreamxtream-dm-2.sh | /bin/sh" },
