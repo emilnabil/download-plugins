@@ -1855,6 +1855,8 @@
       "name": "AudioMerge",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/audiomerge/audiomerge.sh -O - | /bin/sh"
     },
+    { "name": "AudioShift", "cmd": "wget --no-check-certificate -O - https://xfayez95.github.io/audioshift/installer.sh | /bin/sh"
+    },
     {
       "name": "AudioSelectionPatcher",
       "cmd": "wget https://raw.githubusercontent.com/popking159/audioselectionpatcher/refs/heads/main/myinstaller.sh -O - | /bin/sh"
