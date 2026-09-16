@@ -392,10 +392,6 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/dreamosat-downloader/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "EmilPanel",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilPanel/emilpanel.sh -O - | /bin/sh"
-    },
-    {
       "name": "EmilPanelPro",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/EmilPanelPro/emilpanelpro.sh -O - | /bin/sh"
     },
@@ -426,10 +422,6 @@
     {
       "name": "SatVenusPanel",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/satvenuspanel/installer.sh -O - | /bin/sh"
-    },
-    {
-      "name": "SmartAddonspanel",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SmartAddonspanel/smart-Panel.sh -O - | /bin/sh"
     },
     {
       "name": "Tspanel",
