@@ -798,6 +798,10 @@
         "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/RaedQuickSignal/installer.sh -O - | /bin/sh"
     },
     {
+        "name": "ReaderManager",
+        "cmd": "wget https://raw.githubusercontent.com/ismail9875/ReaderManager/main/installer.sh -O - | /bin/sh"
+    },
+    {
         "name": "SatelliWebLiveFeeds_py3.12",
         "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/satelliweblivefeeds/satelliweblivefeeds-py3.12.sh -O - | /bin/sh"
     },
