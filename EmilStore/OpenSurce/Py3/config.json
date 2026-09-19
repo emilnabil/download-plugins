@@ -380,14 +380,6 @@
       "cmd": "wget -q \"--no-check-certificate\" http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "AjPanel Custom Menu All Panels",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ajpanel/emil-panel-all.sh -O - | /bin/sh"
-    },
-    {
-      "name": "Panel Lite By Emil Nabil",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/emil-panel-lite.sh -O - | /bin/sh"
-    },
-    {
       "name": "dreamosat-downloader",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/dreamosat-downloader/installer.sh -O - | /bin/sh"
     },
@@ -759,7 +751,7 @@
     },
     {
         "name": "PiconMaker",
-        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/piconmaker/piconmaker.sh -O - | /bin/sh"
+        "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/PiconMaker/PiconMaker.sh -O - | /bin/sh"
     },
     {
         "name": "PiconsRename",
@@ -1846,6 +1838,10 @@
     {
       "name": "AudioMerge",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/audiomerge/audiomerge.sh -O - | /bin/sh"
+    },
+    {
+      "name": "AudioPlus",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/AudioPlus/AudioPlus.sh -O - | /bin/sh"
     },
     { "name": "AudioShift", "cmd": "wget --no-check-certificate -O - https://xfayez95.github.io/audioshift/installer.sh | /bin/sh"
     },
