@@ -185,6 +185,10 @@
       "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/astronomy/installer.sh | /bin/sh"
     },
     {
+      "name": "AutoZap Recovery",
+      "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AutoZapRecovery/autozap-recovery.sh | /bin/sh"
+    },
+    {
       "name": "BackUpFlash",
       "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/fairbird/BackUpFlash/main/installer.sh | /bin/sh"
     },
