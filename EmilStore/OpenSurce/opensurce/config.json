@@ -454,7 +454,7 @@
         "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/alajre/installer.sh -O - | /bin/sh"
     },
     {
-        "name": "AlMoadden",
+        "name": "AlMoaddin",
         "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AlMuaddhin/almoaddhin.sh -O - | /bin/sh"
     },
     {
@@ -2380,6 +2380,11 @@
       "icon": "openpli.png"
     },
     {
+      "title": "Puere2",
+      "section": "pure2_skins",
+      "icon": "pure2.png"
+    },
+    {
       "title": "Display Skins",
       "section": "display_skins",
       "icon": "display.png"
@@ -2698,6 +2703,32 @@
     {
       "name": "Youchie-OpenVix-FHD",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/skins-obh/refs/heads/main/skin-Youchie-OBH-FHD.sh -O - | /bin/sh"
+    }
+  ],
+  "pure2_skins": [
+    {
+      "name": "Aglare-FHD",
+      "cmd": "wget https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglareatv/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Fury-FHD",
+      "cmd": "wget https://raw.githubusercontent.com/islam-2412/IPKS/refs/heads/main/fury/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Premium-Magenta-Fhd",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium-fhd-py3.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Premium-Black-Fhd",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--black-fhd-py3.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Premium-Blue-Fhd",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--blue-fhd-py3.sh -O - | /bin/sh"
+    },
+    {
+      "name": "XDreamy-FHD",
+      "cmd": "wget https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh"
     }
   ],
   "openpli_py2_skins": [
