@@ -123,14 +123,6 @@
       "cmd": "wget --no-check-certificate -O - http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer1.sh | /bin/sh"
     },
     {
-      "name": "AjPanel Custom Menu All Panels",
-      "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/ajpanel/emil-panel-all.sh | /bin/sh"
-    },
-    {
-      "name": "Panel Lite By Emil Nabil",
-      "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/emil-panel-lite.sh | /bin/sh"
-    },
-    {
       "name": "dreamosat-downloader",
       "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/dreamosat-downloader/installer.sh | /bin/sh"
     },
@@ -179,6 +171,10 @@
     {
       "name": "AIO-Image-RTLFixer",
       "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/zavyka/AIO-Image-RTLFixer/main/installer.sh | /bin/sh"
+    },
+    {
+        "name": "AlMoaddin",
+        "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AlMuaddhin/almoaddhin.sh -O - | /bin/sh"
     },
     {
       "name": "Astronomy",
