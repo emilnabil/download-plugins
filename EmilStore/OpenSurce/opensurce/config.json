@@ -1848,6 +1848,10 @@
       "cmd": "wget https://raw.githubusercontent.com/asdrere123-alt/ArabicPlayer/main/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "Alkuds-IpAudio",
+      "cmd": "wget https://raw.githubusercontent.com/xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player/main/installer.sh -O - | /bin/sh"
+    },
+    {
       "name": "AudioMerge",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/audiomerge/audiomerge.sh -O - | /bin/sh"
     },
