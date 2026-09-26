@@ -758,16 +758,8 @@
       "cmd": "wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/PLUGIN_Skin-ozeta.sh -O - | /bin/sh"
     },
     {
-      "name": "PiconMaker (صانع البيكونات)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/PiconMaker/PiconMaker.sh -O - | /bin/sh"
-    },
-    {
       "name": "PiconsRename (تحويل البيكونات بالاسم)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/PiconsRename/PiconsRename.sh -O - | /bin/sh"
-    },
-    {
-      "name": "PluginBrowser-Grid_All-Py3 (OpenBH-Vix-Pli)",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/PluginBrowser-Grid/pluginbrowser-grid.sh -O - | /bin/sh"
     },
     {
       "name": "PluginBrowser-Grid-V2_All-Py3 (OpenBH-Vix-Pli)",
@@ -1854,10 +1846,6 @@
     {
       "name": "AudioMerge",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/audiomerge/audiomerge.sh -O - | /bin/sh"
-    },
-    {
-      "name": "AudioPlus",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/AudioPlus/AudioPlus.sh -O - | /bin/sh"
     },
     {
       "name": "AudioShift",
