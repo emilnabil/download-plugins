@@ -442,7 +442,7 @@
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/acherone/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "AdvancedBootLogoSwapper-By-Mohammed-Nasr (صانع بوت لوجو)",
+      "name": "AdvancedBootLogoSwapper-By-M-Nasr (صانع بوت لوجو)",
       "cmd": "wget https://raw.githubusercontent.com/popking159/abls/main/installer.sh -O - | /bin/sh"
     },
     {
@@ -562,7 +562,7 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/crashlogviewer_1.9.sh -O - | /bin/sh"
     },
     {
-      "name": "Custom Channel Selection-By-Mohammed-Nasr (قائمة للقنوات)",
+      "name": "Custom Channel Selection-By-M-Nasr (قائمة للقنوات)",
       "cmd": "wget https://raw.githubusercontent.com/popking159/customchannelselection/refs/heads/main/myinstaller.sh -O - | /bin/sh"
     },
     {
@@ -946,7 +946,7 @@
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/xtraevent-6.890.sh -O - | /bin/sh"
     },
     {
-      "name": "xtraevent_by-m.nasr (لوجو البرامج)",
+      "name": "xtraevent_By-M-Nasr (لوجو البرامج)",
       "cmd": "wget https://github.com/popking159/xtraeventplugin/raw/main/xtraevent-install.sh -O - | /bin/sh"
     },
     {
@@ -1824,7 +1824,7 @@
       "cmd": "wget --no-check-certificate -O - https://xfayez95.github.io/audioshift/installer.sh | /bin/sh"
     },
     {
-      "name": "AudioSelectionPatcher-By-Mohammed-Nasr",
+      "name": "AudioSelectionPatcher-By-M-Nasr",
       "cmd": "wget https://raw.githubusercontent.com/popking159/audioselectionpatcher/refs/heads/main/myinstaller.sh -O - | /bin/sh"
     },
     {
@@ -1884,11 +1884,11 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh"
     },
     {
-      "name": "IpAudio 8.02 By-Mohamed Nasr (All python)",
+      "name": "IpAudio 8.02 By-M-Nasr (All python)",
       "cmd": "wget https://github.com/emil237/ipaudio/raw/refs/heads/main/ipaudio_8.0.sh -O - | /bin/sh"
     },
     {
-      "name": "IpAudio By-Mohamed Nasr (Py3)",
+      "name": "IpAudio By-M-Nasr (Py3)",
       "cmd": "wget https://raw.githubusercontent.com/popking159/ipaudio/main/installer-ipaudio.sh -O - | /bin/sh"
     },
     {
@@ -1900,7 +1900,7 @@
       "cmd": "wget https://github.com/zKhadiri/IPAudioPro-Releases-/raw/refs/heads/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "IpStreamer By-Mohamed Nasr (Py3)",
+      "name": "IpStreamer By-M-Nasr (Py3)",
       "cmd": "wget https://raw.githubusercontent.com/popking159/ipstreamer/main/installer-ipstreamer.sh -O - | /bin/sh"
     },
     {
@@ -1948,7 +1948,7 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/multistalker/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "MyHits-By-Mohammed-Nasr",
+      "name": "MyHits-By-M-Nasr",
       "cmd": "wget https://raw.githubusercontent.com/popking159/myhits/refs/heads/main/myinstaller.sh -O - | /bin/sh"
     },
     {
