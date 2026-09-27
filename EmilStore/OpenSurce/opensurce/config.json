@@ -483,7 +483,7 @@
     },
     {
       "name": "AutoZap Recovery (تصحيح بث القنوات)",
-      "cmd": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AutoZapRecovery/autozap-recovery.sh | /bin/sh"
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/HBK2010/-AutoZap-Recovery-by-Ahmad-Alamri/main/installer.sh -O - | /bin/sh"
     },
     {
       "name": "automatic-fullbackup (نسخ احتياطي للصورة)",
