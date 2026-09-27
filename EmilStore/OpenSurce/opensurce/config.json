@@ -442,7 +442,7 @@
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/acherone/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "AdvancedBootLogoSwapper (صانع بوت لوجو)",
+      "name": "AdvancedBootLogoSwapper-By-Mohammed-Nasr (صانع بوت لوجو)",
       "cmd": "wget https://raw.githubusercontent.com/popking159/abls/main/installer.sh -O - | /bin/sh"
     },
     {
@@ -562,7 +562,7 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/crashlogviewer_1.9.sh -O - | /bin/sh"
     },
     {
-      "name": "Custom Channel Selection (قائمة للقنوات)",
+      "name": "Custom Channel Selection-By-Mohammed-Nasr (قائمة للقنوات)",
       "cmd": "wget https://raw.githubusercontent.com/popking159/customchannelselection/refs/heads/main/myinstaller.sh -O - | /bin/sh"
     },
     {
@@ -722,15 +722,15 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/mycam/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "MultiCamAdder_by-Emil (كتابة سيرفر CCCam)",
+      "name": "MultiCamAdder_By-Emil (كتابة سيرفر CCCam)",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiCamAdder/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Multi-Iptv-Adder_by-Emil (إدخال IPTV)",
+      "name": "Multi-Iptv-Adder_By-Emil (إدخال IPTV)",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiIptvAdder/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "my translator_by Ismail elkhooly (مترجم)",
+      "name": "my translator_By Ismail elkhooly (مترجم)",
       "cmd": "wget https://github.com/emilnabil/mytranslator/raw/refs/heads/main/mytranslator.sh -O - | /bin/sh"
     },
     {
@@ -814,7 +814,7 @@
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screennames/screennames.sh -O - | /bin/sh"
     },
     {
-      "name": "Screen-Recorder (تسجيل الشاشة)",
+      "name": "Screen-Recorder-By-Emil (تسجيل الشاشة)",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screenrecorder/installer.sh -O - | /bin/sh"
     },
     {
@@ -866,7 +866,7 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/simple-zoom-panel/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Spinner-Selector-All-Pythin (تحميل الدوار)",
+      "name": "Spinner-Selector-All-Python (تحميل الدوار)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SpinnerSelector/spinner-selector.sh -O - | /bin/sh"
     },
     {
@@ -882,7 +882,7 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/subssupport_2.1.sh -O - | /bin/sh"
     },
     {
-      "name": "SubsSupportPro (ترجمة الأفلام)",
+      "name": "SubsSupportPro-By-Mohammed-Nasr (ترجمة الأفلام)",
       "cmd": "wget https://github.com/popking159/SubsSupportPro/raw/main/subssupportpro-install.sh -O - | /bin/sh"
     },
     {
@@ -938,36 +938,8 @@
       "cmd": "wget https://raw.githubusercontent.com/Saiedf/XMLUpdateByIet5/main/installer_xmlupdatebyiet5_auto.sh -O - | /bin/sh"
     },
     {
-      "name": "xtraevent_3.3 (لوجو البرامج)",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/download-plugins/main/xtraevent_3.3.sh -O - | /bin/sh"
-    },
-    {
-      "name": "xtraevent_4.2 (لوجو البرامج)",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_4.2.sh -O - | /bin/sh"
-    },
-    {
-      "name": "xtraevent_4.5 (لوجو البرامج)",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_4.5.sh -O - | /bin/sh"
-    },
-    {
       "name": "Xtraevent_4.6 (لوجو البرامج)",
       "cmd": "wget https://github.com/emil237/download-plugins/raw/main/Xtraevent-v4.6.sh -O - | /bin/sh"
-    },
-    {
-      "name": "xtraevent_6.798 (لوجو البرامج)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent_6.798.sh -O - | /bin/sh"
-    },
-    {
-      "name": "xtraevent_6.805 (لوجو البرامج)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent-6.805.sh -O - | /bin/sh"
-    },
-    {
-      "name": "xtraevent_6.820_All-Python (لوجو البرامج)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent-6.820.sh -O - | /bin/sh"
-    },
-    {
-      "name": "xtraevent_6.840_PY3 (لوجو البرامج)",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/xtraevent/xtraevent-6.840.sh -O - | /bin/sh"
     },
     {
       "name": "xtraevent_6.890_All-Python (لوجو البرامج)",
@@ -1852,7 +1824,7 @@
       "cmd": "wget --no-check-certificate -O - https://xfayez95.github.io/audioshift/installer.sh | /bin/sh"
     },
     {
-      "name": "AudioSelectionPatcher",
+      "name": "AudioSelectionPatcher-By-Mohammed-Nasr",
       "cmd": "wget https://raw.githubusercontent.com/popking159/audioselectionpatcher/refs/heads/main/myinstaller.sh -O - | /bin/sh"
     },
     {
@@ -1900,7 +1872,7 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/HasBahCa/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Ip2sat",
+      "name": "Ip2sat-By-Mosaad",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/ip2sat/ip2sat.sh -O - | /bin/sh"
     },
     {
@@ -1936,7 +1908,7 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/iptosat/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Iptosat_v1.9",
+      "name": "Iptosat_v1.9-Modded-by-Emil",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/iptosat/iptosat_1.9.sh -O - | /bin/sh"
     },
     {
@@ -1976,11 +1948,11 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/multistalker/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "MyHits",
+      "name": "MyHits-By-Mohammed-Nasr",
       "cmd": "wget https://raw.githubusercontent.com/popking159/myhits/refs/heads/main/myinstaller.sh -O - | /bin/sh"
     },
     {
-      "name": "OrangeAudioPlugin",
+      "name": "OrangeAudioPlugin-By-M-Nasr",
       "cmd": "wget https://raw.githubusercontent.com/popking159/OrangeAudio/refs/heads/main/installer.sh -O - | /bin/sh"
     },
     {
@@ -2056,7 +2028,7 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Xtream2Audio",
+      "name": "Xtream2Audio-By-Emil",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Xtream2Audio/Xtream2Audio.sh -O - | /bin/sh"
     },
     {
