@@ -790,6 +790,10 @@
       "cmd": "wget https://raw.githubusercontent.com/emil237/quran/main/installer.sh -O - | /bin/sh"
     },
     {
+      "name": "Quran Kareem-By-M-Nasr (القرآن الكريم)",
+      "cmd": "wget https://raw.githubusercontent.com/emil237/quran/main/installer.sh -O - | /bin/sh"
+    },
+    {
       "name": "QuickSignal - iet5 (بيان إشارة للقنوات)",
       "cmd": "wget https://raw.githubusercontent.com/Saiedf/QuickSignalIet5/main/installer_quicksignaliet5_auto.sh -O - | /bin/sh"
     },
@@ -1592,67 +1596,67 @@
   ],
   "tools": [
     {
-      "name": "Wget",
+      "name": "Wget (أداة تحميل مهمة)",
       "cmd": "opkg install wget"
     },
     {
-      "name": "Curl",
+      "name": "Curl (أداة تحميل مهمة)",
       "cmd": "opkg install curl"
     },
     {
-      "name": "Update Enigma2 All Python",
+      "name": "Update Enigma2 All Python (تحميل الحزم المهمة)",
       "cmd": "wget https://raw.githubusercontent.com/emil237/updates-enigma/main/update-all-python.sh -O - | /bin/sh"
     },
     {
-      "name": "Opkg Tools_1.4",
+      "name": "Opkg Tools_1.4 (حزمة مهمة للصورة)",
       "cmd": "wget https://github.com/emil237/plugins/raw/refs/heads/main/opkg.sh -O - | /bin/sh"
     },
     {
-      "name": "Opkg Tools_1.5",
+      "name": "Opkg Tools_1.5 (حزمة مهمة للصورة)",
       "cmd": "wget https://github.com/emil237/plugins/raw/refs/heads/main/opkg-tools_1.5.sh -O - | /bin/sh"
     },
     {
-      "name": "EPG-khaled",
+      "name": "EPG-khaled (دليل للقنوات)",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/epg-khaled/main/EPG-khaled.sh -O - | /bin/sh"
     },
     {
-      "name": "Free Server Cccam",
+      "name": "Free Server Cccam (سيرفرات cccam مجانية)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Free_Server.sh -O - | /bin/sh"
     },
     {
-      "name": "arabic-language_for-egami-image",
+      "name": "arabic-language_for-egami-image (ملف تعريب للصورة)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-egami-image.sh -O - | /bin/sh"
     },
     {
-      "name": "arabic-language_for-openatv-image",
+      "name": "arabic-language_for-openatv-image (ملف تعريب للصورة)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openatv-image.sh -O - | /bin/sh"
     },
     {
-      "name": "arabic-language_for-openbh-image",
+      "name": "arabic-language_for-openbh-image (ملف تعريب للصورة)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openbh-image.sh -O - | /bin/sh"
     },
     {
-      "name": "arabic-language_for-openhdf-image",
+      "name": "arabic-language_for-openhdf-image (ملف تعريب للصورة)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openhdf-image.sh -O - | /bin/sh"
     },
     {
-      "name": "arabic-language_for-openpli-image",
+      "name": "arabic-language_for-openpli-image (ملف تعريب للصورة)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openpli-image.sh -O - | /bin/sh"
     },
     {
-      "name": "arabic-language_for-openvix-image",
+      "name": "arabic-language_for-openvix-image (ملف تعريب للصورة)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-openvix-image.sh -O - | /bin/sh"
     },
     {
-      "name": "Installer plugin from-tmp",
+      "name": "Installer plugin from-tmp (تحميل البلجنات من tmp)",
       "cmd": "opkg install /tmp/*.ipk"
     },
     {
-      "name": "Script package",
+      "name": "Script package (تحميل حزمة السكريبتات)",
       "cmd": "wget https://raw.githubusercontent.com/emil237/ajpanel/refs/heads/main/script.sh -O - | /bin/sh"
     },
     {
-      "name": "Super Script",
+      "name": "Super Script (تحديث الصورة وتحميل بلجنات مهمة)",
       "cmd": "wget https://dreambox4u.com/emilnabil237/script/Super_Script.sh -O - | /bin/sh"
     },
     {
@@ -2026,6 +2030,10 @@
     {
       "name": "Xtreamty",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "XtreamNew",
+      "cmd": "wget https://raw.githubusercontent.com/ahmedhussein4342-lgtm/XtreamNew/main/install_xtreamnew.sh -O - | /bin/sh"
     },
     {
       "name": "Xtream2Audio-By-Emil",
