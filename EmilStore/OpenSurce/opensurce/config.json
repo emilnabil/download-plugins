@@ -454,7 +454,7 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/alajre/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "AlMoaddin (المؤذن)",
+      "name": "AlMoaddin Modded by Emil (المؤذن)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AlMuaddhin/almoaddhin.sh -O - | /bin/sh"
     },
     {
@@ -822,10 +822,6 @@
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screenrecorder/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "ScSearch",
-      "cmd": "wget https://raw.githubusercontent.com/OwnerPlugins/scsearch/main/installer.sh -O - | /bin/sh"
-    },
-    {
       "name": "ServerColoring (تلوين القنوات المشفرة)",
       "cmd": "wget https://github.com/islam-2412/ServerColoring/raw/refs/heads/main/fury/installer.sh -O - | /bin/sh"
     },
@@ -850,7 +846,7 @@
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/showclock/showclock.sh -O - | /bin/sh"
     },
     {
-      "name": "Sherlockmod",
+      "name": "Sherlockmod (أضافة انفوبار 2 به معلومات)",
       "cmd": "wget https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh -O - | /bin/sh"
     },
     {
@@ -1364,15 +1360,15 @@
   ],
   "feeds": [
     {
-      "name": "Eliesat",
+      "name": "Eliesat (فيد اضافي للصورة)",
       "cmd": "wget https://gitlab.com/eliesat/scripts/-/raw/main/feed/eliesat-feed.sh -O - | /bin/sh"
     },
     {
-      "name": "Emil",
+      "name": "Emil (فيد أضافي للصورة)",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/FEED-emil-feed.sh -O - | /bin/sh"
     },
     {
-      "name": "Jungle",
+      "name": "Jungle (فيد أضافي للصورة)",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/FEED-jungle-feed.sh -O - | /bin/sh"
     },
     {
@@ -1384,43 +1380,43 @@
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/FEED-libraries-3.12.sh -O - | /bin/sh"
     },
     {
-      "name": "Oe-alliance-Picons",
+      "name": "Oe-alliance-Picons (فيد به بايكونات)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/FEED-oe-picons.sh -O - | /bin/sh"
     },
     {
-      "name": "Oe-alliance-Settings",
+      "name": "Oe-alliance-Settings (فيد به ملفات قنوات)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/FEED-oe-settings.sh -O - | /bin/sh"
     },
     {
-      "name": "Openatv-Deval",
+      "name": "Openatv-Deval فيد صورة openatv للمطورين)",
       "cmd": "wget -O - -q https://feeds2.mynonpublic.com/devel-feed | bash"
     },
     {
-      "name": "OpenPicons",
+      "name": "OpenPicons (فيد بايكونات)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/FEED-openpicons.sh -O - | /bin/sh"
     },
     {
-      "name": "Softcams-Feed-Openatv",
+      "name": "Softcams-Feed-Openatv (اضافة سوفتكام لفيد الصورة)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/FEED-OpenAtv-softcam-ALL-Python.sh -O - | /bin/sh"
     },
     {
-      "name": "OpenDroid-softcam",
+      "name": "OpenDroid-softcam اضافة سوفتكام لفيد الصورة)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/FEED-OpenDroid-softcam.sh -O - | /bin/sh"
     },
     {
-      "name": "OpenEight-softcam",
+      "name": "OpenEight-softcam (اضافة سوفتكام لفيد الصورة)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/FEED-OpenEight-softcam.sh -O - | /bin/sh"
     },
     {
-      "name": "TeamBlue-softcam",
+      "name": "TeamBlue-softcam اضافة سوتكام لفيد الصورة)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/FEED-TeamBlue-softcam.sh -O - | /bin/sh"
     },
     {
-      "name": "Softcams-Feed-Pure2",
+      "name": "Softcams-Feed-Pure2 (اضافة سوفتكام لفيد الصورة)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/FEED-pure2-softcam.sh -O - | /bin/sh"
     },
     {
-      "name": "Tarek-Hanfy",
+      "name": "Tarek-Hanfy (فيد اضافي للصورة)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/FEED-Tarek.sh -O - | /bin/sh"
     }
   ],
@@ -1812,55 +1808,55 @@
   ],
   "media": [
     {
-      "name": "ArabicPlayer",
+      "name": "ArabicPlayer (تشغيل ال iptv)",
       "cmd": "wget https://raw.githubusercontent.com/asdrere123-alt/ArabicPlayer/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Alkuds-IpAudio",
+      "name": "Alkuds-IpAudio (أضافة صوتيات علي قنوات السات)",
       "cmd": "wget https://raw.githubusercontent.com/xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "AudioMerge",
+      "name": "AudioMerge (دمح صوتيات قناتين)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/audiomerge/audiomerge.sh -O - | /bin/sh"
     },
     {
-      "name": "AudioShift",
+      "name": "AudioShift (أضافة صوتيات علي قنوات السات)",
       "cmd": "wget --no-check-certificate -O - https://xfayez95.github.io/audioshift/installer.sh | /bin/sh"
     },
     {
-      "name": "AudioSelectionPatcher-By-M-Nasr",
+      "name": "AudioSelectionPatcher-By-M-Nasr (صوتيات فوكس مع تايم شفت)",
       "cmd": "wget https://raw.githubusercontent.com/popking159/audioselectionpatcher/refs/heads/main/myinstaller.sh -O - | /bin/sh"
     },
     {
-      "name": "BouquetMakerXtream",
+      "name": "BouquetMakerXtream (تحويل iptv الي المفضلات)",
       "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/BouquetMakerXtream/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "E2m3ubouquet",
+      "name": "E2m3ubouquet (تحويل iptv m3u الي المفضلات)",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/e2m3u2bouquet/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "E2Player-Angel_Heart",
+      "name": "E2Player-Angel_Heart (برنامج مشاهدة)",
       "cmd": "wget https://github.com/angelheart150/My_e2iplayer_hosts/raw/main/install-e2iplayer-update-hosts.sh -O - | /bin/sh"
     },
     {
-      "name": "E2Player-Biko",
+      "name": "E2Player-Biko (برنامج مشاهدة)",
       "cmd": "wget https://raw.githubusercontent.com/biko-73/E2IPlayer/main/installer_E2.sh -O - | /bin/sh"
     },
     {
-      "name": "E2Player-MAXBAMBY",
+      "name": "E2Player-MAXBAMBY (برنامج مشاهدة)",
       "cmd": "wget https://gitlab.com/maxbambi/e2iplayer/-/raw/master/install-e2iplayer.sh -O - | /bin/sh"
     },
     {
-      "name": "E2Player-ZADMARIO",
+      "name": "E2Player-ZADMARIO (برنامج مشاهدة)",
       "cmd": "wget https://gitlab.com/zadmario/e2iplayer/-/raw/master/install-e2iplayer.sh -O - | /bin/sh"
     },
     {
-      "name": "Estalker",
+      "name": "Estalker (مشغل بورتلات)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EStalker/EStalker.sh -O - | /bin/sh"
     },
     {
-      "name": "EstalkerWebControl",
+      "name": "EstalkerWebControl (التحكم في اضافة بورتلات والحذف)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EstalkerWebControl/estalkerwebcontrol.sh -O - | /bin/sh"
     },
     {
@@ -1872,47 +1868,51 @@
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/freearhey/freearhey.sh -O - | /bin/sh"
     },
     {
-      "name": "HasBahCa",
+      "name": "GT IPTV Player Pro (مشغل اكستريم iptv و بورتلات)",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/GT-IPTV-PlayerPro/GT-IPTV-PlayerPro.sh -O - | /bin/sh"
+    },
+    {
+      "name": "HasBahCa (iptv مجاني)",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/HasBahCa/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Ip2sat-By-Mosaad",
+      "name": "Ip2sat-By-Mosaad (مشاهدة iptv علي قنوات السات)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/ip2sat/ip2sat.sh -O - | /bin/sh"
     },
     {
-      "name": "IpAudio 6.7 (py2)",
+      "name": "IpAudio 6.7 (py2) (مشغل صوتيات)",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "IpAudio 7.4 (py3)",
+      "name": "IpAudio 7.4 (py3) (مشغل صوتيات)",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh"
     },
     {
-      "name": "IpAudio 8.02 By-M-Nasr (All python)",
+      "name": "IpAudio 8.02 By-M-Nasr (All python) ( مشغل صوتيات)",
       "cmd": "wget https://github.com/emil237/ipaudio/raw/refs/heads/main/ipaudio_8.0.sh -O - | /bin/sh"
     },
     {
-      "name": "IpAudio By-M-Nasr (Py3)",
+      "name": "IpAudio By-M-Nasr (Py3) (مشغل صوتيات)",
       "cmd": "wget https://raw.githubusercontent.com/popking159/ipaudio/main/installer-ipaudio.sh -O - | /bin/sh"
     },
     {
-      "name": "IpAudioPro_1.5",
+      "name": "IpAudioPro_1.5 (،مشغل صوتيات)",
       "cmd": "wget https://github.com/emilnabil/ipaudiopro/raw/refs/heads/main/ipaudiopro.sh -O - | /bin/sh"
     },
     {
-      "name": "IpAudioPro Latest Version",
+      "name": "IpAudioPro Latest Version (مشغل صوتيات)",
       "cmd": "wget https://github.com/zKhadiri/IPAudioPro-Releases-/raw/refs/heads/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "IpStreamer By-M-Nasr (Py3)",
+      "name": "IpStreamer By-M-Nasr (Py3) (مشغل صوتيات)",
       "cmd": "wget https://raw.githubusercontent.com/popking159/ipstreamer/main/installer-ipstreamer.sh -O - | /bin/sh"
     },
     {
-      "name": "Iptosat_v1.8",
+      "name": "Iptosat_v1.8 (مشاهدة iptv علي قنوات السات)",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/iptosat/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Iptosat_v1.9-Modded-by-Emil",
+      "name": "Iptosat_v1.9-Modded-by-Emil (مشاهدة iptv علي قنوات السات)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/iptosat/iptosat_1.9.sh -O - | /bin/sh"
     },
     {
@@ -1920,43 +1920,43 @@
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/iptv-org-playlists/iptv-org-playlists.sh -O - | /bin/sh"
     },
     {
-      "name": "iptvdream",
+      "name": "iptvdream (مشغل m3u)",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/iptvdream/iptvdream.sh -O - | /bin/sh"
     },
     {
-      "name": "IptvPlayer",
+      "name": "IptvPlayer (مشغل ،iptv)",
       "cmd": "wget https://raw.githubusercontent.com/emil237/iptvplayer/main/iptvinstaller.sh -O - | /bin/sh"
     },
     {
-      "name": "JediEpgExtream",
+      "name": "JediEpgExtream (نقل الدليل الي ال iptv)",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/jediepgextream/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "jedimakerxtream",
+      "name": "jedimakerxtream (تحويل ال iptv الي مفضلات السات)",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/jedimakerxtream/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "m3uconverter",
+      "name": "m3uconverter (تحويل m3u الي مفضلات)",
       "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/Archimede-M3UConverter/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "MoviesManager",
+      "name": "MoviesManager (مدير افلام)",
       "cmd": "wget http://dreambox4u.com/dreamarabia/Transmission_e2/MoviesManager.sh -O - | /bin/sh"
     },
     {
-      "name": "MultiStalkerPro",
+      "name": "MultiStalkerPro (مشغل بورتلات)",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/multi-stalkerpro/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "multistalker",
+      "name": "multistalker (مشغل بورتلات)",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/multistalker/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "MyHits-By-M-Nasr",
+      "name": "MyHits-By-M-Nasr (مشغل اغاني)",
       "cmd": "wget https://raw.githubusercontent.com/popking159/myhits/refs/heads/main/myinstaller.sh -O - | /bin/sh"
     },
     {
-      "name": "OrangeAudioPlugin-By-M-Nasr",
+      "name": "OrangeAudioPlugin-By-M-Nasr اضافة صوتيات اورانج و فاميلي)",
       "cmd": "wget https://raw.githubusercontent.com/popking159/OrangeAudio/refs/heads/main/installer.sh -O - | /bin/sh"
     },
     {
@@ -1964,23 +1964,23 @@
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/plutotv/plutotv.sh -O - | /bin/sh"
     },
     {
-      "name": "Quarter pounder",
+      "name": "Quarter pounder (تنشيط قنوات ال iptv)",
       "cmd": "wget http://dreambox4u.com/emilnabil237/script/quarterpounder.sh -O - | /bin/sh"
     },
     {
-      "name": "Radio-80-s",
+      "name": "Radio-80-s (راديو)",
       "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/Radio-80-s/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Radio-Stream-Relay",
+      "name": "Radio-Stream-Relay (راديو و استريم)",
       "cmd": "wget https://raw.githubusercontent.com/angelheart150/RadioRelay/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "RadioGit",
+      "name": "RadioGit (ستريم محطات راديو)",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/radiogit/radiogit.sh -O - | /bin/sh"
     },
     {
-      "name": "Radiom",
+      "name": "Radiom (ستريم محطات راديو)",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/radiom/radiom.sh -O - | /bin/sh"
     },
     {
@@ -1988,7 +1988,11 @@
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/rakutentv/rakutentv.sh -O - | /bin/sh"
     },
     {
-      "name": "StalkerPortalConverter",
+      "name": "ScSearch (مشاهدة الافلام)",
+      "cmd": "wget https://raw.githubusercontent.com/OwnerPlugins/scsearch/main/installer.sh -O - | /bin/sh"
+    },
+    {
+      "name": "StalkerPortalConverter (تحويل بورتلات لمفضلات)",
       "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/StalkerPortalConverter/main/installer.sh -O - | /bin/sh"
     },
     {
@@ -1996,7 +2000,7 @@
       "cmd": "wget https://raw.githubusercontent.com/emil237/suptv/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Timeshift Delay",
+      "name": "Timeshift Delay (تايم شفت)",
       "cmd": "wget http://dreambox4u.com/mosadpro/scripts/timeshift-delay.sh -O - | /bin/sh"
     },
     {
@@ -2016,31 +2020,31 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/vavoo/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "Xc_Plugin_Forever",
+      "name": "Xc_Plugin_Forever (مشغل iptv)",
       "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/xc_plugin_forever/main/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "xklass-iptv",
+      "name": "xklass-iptv (مشغل iptv)",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xklass/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "XPortal",
+      "name": "XPortal (مشغل iptv)",
       "cmd": "wget https://raw.githubusercontent.com/azroukarim/XPortal/refs/heads/main/install_xportal.sh -O - | /bin/sh"
     },
     {
-      "name": "Xtreamty",
+      "name": "Xtreamty (مشغل iptv)",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh -O - | /bin/sh"
     },
     {
-      "name": "XtreamNew",
+      "name": "XtreamNew (مشغل اكستريم iptv و بورتلات)",
       "cmd": "wget https://raw.githubusercontent.com/ahmedhussein4342-lgtm/XtreamNew/main/install_xtreamnew.sh -O - | /bin/sh"
     },
     {
-      "name": "Xtream2Audio-By-Emil",
+      "name": "Xtream2Audio-By-Emil (أضافة صوتيات من iptv)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Xtream2Audio/Xtream2Audio.sh -O - | /bin/sh"
     },
     {
-      "name": "Youtube",
+      "name": "Youtube (مشاهدة اليوتيوب)",
       "cmd": "wget https://raw.githubusercontent.com/fairbird/Youtube-Opensource-DreamOS/master/installer.sh -O - | /bin/sh"
     }
   ],
@@ -2120,7 +2124,11 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/script/Hold-flag-Oscam.sh -O - | /bin/sh"
     },
     {
-      "name": "Ncam",
+      "name": "Ncam_15.7",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-ncam_v15.7.sh -O - | /bin/sh"
+    },
+    {
+      "name": "Ncam_15.8",
       "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-ncam.sh -O - | /bin/sh"
     },
     {
