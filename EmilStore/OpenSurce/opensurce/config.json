@@ -2769,7 +2769,7 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/XCplugin'"
     },
     {
-      "name": "xklass-iptv (مشغل iptv)",
+      "name": "Xklass-iptv (مشغل iptv)",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xklass/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/XKlass",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/XKlass'"
@@ -2781,7 +2781,7 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/XPortal'"
     },
     {
-      "name": "Xtreamty (مشغل iptv)",
+      "name": "Xstreamity (مشغل iptv)",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/XStreamity",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/XStreamity'"
