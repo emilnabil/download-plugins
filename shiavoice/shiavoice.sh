@@ -1,34 +1,35 @@
 #!/bin/sh
- # 
-echo "install skin"
-sleep 2;
+###wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/shiavoice/shiavoice.sh | /bin/sh
+###################
+
+echo "install shiavoice"
+sleep 2
+
 cd /tmp
-curl  -k -Lbk -m 55532 -m 555104 "https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/shiavoice.tar.gz" > /tmp/shiavoice.tar.gz
+
+curl -k -L -o /tmp/shiavoice.tar.gz "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/shiavoice/shiavoice.tar.gz"
+
 sleep 1
 echo "installing ...."
+
 cd /tmp
-tar -xzf shiavoice.tar.gz -C /
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
+
+if [ -f /tmp/shiavoice.tar.gz ]; then
+    tar -xzf shiavoice.tar.gz -C /
+    echo ""
+    echo "OK"
+else
+    echo "ERROR: Download failed!"
+    exit 1
+fi
+
 sleep 1
 cd
 rm -f /tmp/shiavoice.tar.gz
-echo "OK"
+
 echo " UPLOADED BY EMIL_NABIL"
 sleep 4
 echo ""
 echo ""
 exit
-
-
-
-
-
-
 
