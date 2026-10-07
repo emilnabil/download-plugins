@@ -890,6 +890,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/ScriptExecuter'"
     },
     {
+      "name": "ShiaVoice (اصوات قرأن وادعية)",
+      "cmd": "wget https://raw.githubusercontent.com/kongon13/Shiavoice-enigma2/main/install.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/Shiavoice",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/Shiavoice'"
+    },
+    {
       "name": "showclock (ساعة)",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/showclock/showclock.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/ShowClock",
