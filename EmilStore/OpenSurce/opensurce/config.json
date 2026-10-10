@@ -146,7 +146,7 @@
   "backupimages": [
     {
       "name": "EGAMI (تحديث الحزم وتحميل إضافات مهمة)",
-      "cmd": "wget -q \"--no-check-certificate\" https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-egami/backup-egami.sh -O - | /bin/sh",
+      "cmd": "wget -q \"--no-check-certificate\" https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-egami/backup-egami.sh - - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensionss/AutomaticFullBackup"
     },
     {
@@ -348,6 +348,12 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/atilehd/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/AtileHD",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/AtileHD'"
+    },
+    {
+      "name": "AutoSub (مترجم البث المباشر للقنوات)",
+      "cmd": "wget -q --no-check-certificate https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AutoSub/AutoSub.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/AutoSub",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/AutoSub'"
     },
     {
       "name": "AutoZap Recovery (تصحيح بث القنوات)",
