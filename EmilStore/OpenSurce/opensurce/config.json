@@ -146,7 +146,7 @@
   "backupimages": [
     {
       "name": "EGAMI (تحديث الحزم وتحميل إضافات مهمة)",
-      "cmd": "wget -q \"--no-check-certificate\" https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-egami/backup-egami.sh - - | /bin/sh",
+      "cmd": "wget https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-egami/backup-egami.sh - - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensionss/AutomaticFullBackup"
     },
     {
@@ -2755,6 +2755,12 @@
       "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/tvDream/main/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/tvDream",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/tvDream'"
+    },
+    {
+      "name": "TvGarden",
+      "cmd": "wget https://raw.githubusercontent.com/OwnerPlugins/TVGarden/main/installer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/TVGarden",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/TVGarden'"
     },
     {
       "name": "TvParsa",
