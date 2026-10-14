@@ -1,5 +1,5 @@
 #!/bin/sh
-###wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AlternativeSoftcamManager.tar.gz/AlternativeSoftcamManager.sh | /bin/sh
+###wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AlternativeSoftcamManager/AlternativeSoftcamManager.sh | /bin/sh
 ###################
 
 echo "install AlternativeSoftcamManager"
@@ -32,6 +32,8 @@ sleep 4
 echo ""
 echo ""
 exit
+
+
 
 
 
