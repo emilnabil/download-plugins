@@ -3400,6 +3400,12 @@
       "remove_cmd": "rm -rf '/usr/share/enigma2/Maxy-FHD'"
     },
     {
+      "name": "Mohammed Skin",
+      "cmd": "wget https://raw.githubusercontent.com/mido00020/MohammedSkin/main/installer.sh -O - | /bin/sh",
+      "path": "/usr/share/enigma2/MohammedSkin",
+      "remove_cmd": "rm -rf '/usr/share/enigma2/MohammedSkin'"
+    },
+    {
       "name": "Full HD Glass17",
       "cmd": "wget http://dreambox4u.com/emilnabil237/skins/skin-fullhdglass17/installer.sh -O - | /bin/sh",
       "path": "/usr/share/enigma2/hd_glass17",
