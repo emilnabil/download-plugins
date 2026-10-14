@@ -210,6 +210,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/EmilStore'"
     },
     {
+      "name": "EnigmaPlay (متجر اضافات)",
+      "cmd": "wget https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/install.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/EnigmaPlay",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/EnigmaPlay'"
+    },
+    {
       "name": "Epanel (لوحة تحميل الإضافات)",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/epanel/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/epanel",
@@ -240,10 +246,28 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/Levi45MulticamManager'"
     },
     {
+      "name": "MohamedStore (لوحة تحميل الإضافات)",
+      "cmd": "wget https://raw.githubusercontent.com/wwwgoper77-wq/MohamedStore/main/install.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/MohamedStore",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/MohamedStore'"
+    },
+    {
       "name": "Novaler-Store (لوحة تحميل الإضافات)",
       "cmd": "wget http://ipk.ath.cx/pg/novalerstor/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/NovalerStore",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/NovalerStore'"
+    },
+    {
+      "name": "Panelaio (لوحة تحميل أضافات)",
+      "cmd": "wget https://raw.githubusercontent.com/OliOli2013/PanelAIO-Plugin/main/installer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/SystemPlugins/PanelAIO",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/SystemPlugins/PanelAIO'"
+    },
+    {
+      "name": "S4a Updater (لوحة تحميل الإضافات)",
+      "cmd": "wget http://s4aupdater.one.pl/instalujs4aupdater.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/SatVenusPanel",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SatVenusPanel'"
     },
     {
       "name": "SatVenusPanel (لوحة تحميل الإضافات)",
@@ -306,6 +330,12 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/alajre/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/ALAJRE",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/ALAJRE'"
+    },
+    {
+      "name": "AlternativeSoftcamManager (ادارة الايميوهات)",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AlternativeSoftcamManager/AlternativeSoftcamManager.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/AlternativeSoftCamManager",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/AlternativeSoftCamManager'"
     },
     {
       "name": "AlMoaddin Modded by Emil (المؤذن)",
@@ -386,6 +416,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/backupflashe'"
     },
     {
+      "name": "BackupSuite (نسخ احتياطي للصورة)",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/backupsuite/backupsuite.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/BackupSuite",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BackupSuite'"
+    },
+    {
       "name": "BissFeedAutoKey (مفاتيح بيس)",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/bissfeed-autokey/main/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/BissFeedAutoKey",
@@ -422,6 +458,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/calculatorE2'"
     },
     {
+      "name": "Calendar (التقويم)",
+      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/Calendar/main/installer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/Calendar",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/Calendar'"
+    },
+    {
       "name": "Cccaminfo-py2 (بيانات الـ CCCam)",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccaminfo/cccaminfo_py2.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/CCcamInfo",
@@ -432,6 +474,18 @@
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccaminfo/cccaminfo_py3.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/CCcamInfo",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/CCcamInfo'"
+    },
+    {
+      "name": "Ciplushelper (تشغيل الكامات الرسمية)",
+      "cmd": "wget https://raw.githubusercontent.com/OwnerPlugins/Ciplushelper/main/installer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper'"
+    },
+    {
+      "name": "CommandCenter",
+      "cmd": "wget https://raw.githubusercontent.com/OwnerPlugins/CommandCenter/main/installer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/CommandCenter",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/CommandCenter'"
     },
     {
       "name": "CrondManager (تحديد وقت للسكريبت)",
@@ -500,6 +554,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/DreamExplorer'"
     },
     {
+      "name": "DreamOSatCamManager (تحميل الايميوهات)",
+      "cmd": "wget https://raw.githubusercontent.com/biko-73/DreamOSat_cam_Manager/main/installer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/DreamOSatcamManager",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/DreamOSatcamManager'"
+    },
+    {
       "name": "Easy-Cccam (إدخال CCCam)",
       "cmd": "wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/easy-cccam/easy-cccam.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/ECCcam",
@@ -542,6 +602,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/Enigma2ReaderAdder'"
     },
     {
+      "name": "Enigma2uninstaller (حذف البلجنات)",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/unstaller-plugins/installer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/Uninstaller",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/Uninstaller'"
+    },
+    {
       "name": "Epg Grabber (دليل القنوات)",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/Epg-Grabber/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/EPGGrabber",
@@ -582,6 +648,18 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/feeds-finder/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/FeedsFinder",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/FeedsFinder'"
+    },
+    {
+      "name": "Filmon",
+      "cmd": "wget https://github.com/OwnerPlugins/Filmon/raw/refs/heads/main/installer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/Filmon",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/Filmon'"
+    },
+    {
+      "name": "Foreca1",
+      "cmd": "wget https://github.com/OwnerPlugins/ForecaOne/raw/refs/heads/main/installer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/Foreca1",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/Foreca1'"
     },
     {
       "name": "Footonsat (مواعيد مباريات الكرة)",
@@ -692,6 +770,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/Levi45FreeIPTV'"
     },
     {
+      "name": "LiveMatch (عرض نتائج الرياضة)",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/livematch/livematch.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/Levi45Setting",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/Levi45Setting'"
+    },
+    {
       "name": "levi45-settings (ملف القنوات)",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/levi45-settings/levi45-settings.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/Levi45Setting",
@@ -762,6 +846,12 @@
       "cmd": "wget https://raw.githubusercontent.com/Sat-Club/ONEupdaterE2/main/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/ONEupdater",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/ONEupdater'"
+    },
+    {
+      "name": "Oaweather (معلومات الطقس)",
+      "cmd": "wget https://raw.githubusercontent.com/biko-73/OAWeather/main/installer.sh -O - | /bin/sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/OAWeather",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/OAWeather'"
     },
     {
       "name": "Ozeta-Skins-Setup (إعدادات الثيم)",
@@ -926,6 +1016,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SimplySports'"
     },
     {
+      "name": "SLwebcams",
+      "cmd": "wget https://raw.githubusercontent.com/OwnerPlugins/SLwebcams/main/installer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/SLwebcams",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SLwebcams'"
+    },
+    {
       "name": "SuperBackupImages_by Emil Nabil (تحميل الإضافات)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SuperBackupImages/SuperBackupImages.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/SuperBackupImages",
@@ -942,6 +1038,12 @@
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SpinnerSelector/spinner-selector.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/SpinnerSelector",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SpinnerSelector'"
+    },
+    {
+      "name": "SubExtractorLite (ترجمة الأفلام)",
+      "cmd": "wget https://raw.githubusercontent.com/Arian7s/SubExtractorLite/main/installer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/SubExtractorLite",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SubExtractorLite'"
     },
     {
       "name": "SubsSupport_1.5.8-r9 (ترجمة الأفلام)",
@@ -2650,6 +2752,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/M3UConverter'"
     },
     {
+      "name": "Moviebrowser",
+      "cmd": "wget https://github.com/OwnerPlugins/MovieBrowser/raw/refs/heads/main/installer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser'"
+    },
+    {
       "name": "MoviesManager (مدير افلام)",
       "cmd": "wget http://dreambox4u.com/dreamarabia/Transmission_e2/MoviesManager.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/MoviesManager",
@@ -2722,6 +2830,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/RakutenTV'"
     },
     {
+      "name": "SamsungTvPlus (iptv مجاني)",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/samsungtvplus/samsungtvplus.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/SamsungTVPlus",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SamsungTVPlus'"
+    },
+    {
       "name": "ScSearch (مشاهدة الافلام)",
       "cmd": "wget https://raw.githubusercontent.com/OwnerPlugins/scsearch/main/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/scsearch",
@@ -2751,13 +2865,19 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/TiviMateE2'"
     },
     {
+      "name": "Transmission_E2 (iptv مجاني)",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/Transmission/Transmission_e2.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/Transmission",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/Transmission'"
+    },
+    {
       "name": "TvDream",
       "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/tvDream/main/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/tvDream",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/tvDream'"
     },
     {
-      "name": "TvGarden",
+      "name": "TvGarden (iptv مجاني)",
       "cmd": "wget https://raw.githubusercontent.com/OwnerPlugins/TVGarden/main/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/TVGarden",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/TVGarden'"
@@ -4182,7 +4302,7 @@
     {
       "name": "Eutelsat 10.0E",
       "cmd": "wget https://dreambox4u.com/emilnabil237/picons/eutelsat_10.0e/installer.sh -O - | /bin/sh",
-      "path": "/usr/share/enigma2/piconn/picons"
+      "path": "/usr/share/enigma2/picons/picons"
     },
     {
       "name": "Hotbird 13.0E",
