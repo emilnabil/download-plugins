@@ -7,7 +7,7 @@ sleep 2
 
 cd /tmp
 
-curl -k -L -o /tmp/shiavoice.tar.gz "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/livematch/livematch.tar.gz"
+curl -k -L -o /tmp/livematch.tar.gz "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/livematch/livematch.tar.gz"
 
 sleep 1
 echo "installing ...."
@@ -32,6 +32,7 @@ sleep 4
 echo ""
 echo ""
 exit
+
 
 
 
