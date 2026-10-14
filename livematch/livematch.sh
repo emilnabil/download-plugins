@@ -2,7 +2,7 @@
 ###wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/livematch/livematch.sh | /bin/sh
 ###################
 
-echo "install shiavoice"
+echo "install livematch"
 sleep 2
 
 cd /tmp
@@ -32,6 +32,7 @@ sleep 4
 echo ""
 echo ""
 exit
+
 
 
 
