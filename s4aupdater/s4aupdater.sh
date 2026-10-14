@@ -2,7 +2,7 @@
 ###wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/s4aupdater/s4aupdater.sh | /bin/sh
 ###################
 
-echo "install shiavoice"
+echo "install s4aupdater"
 sleep 2
 
 cd /tmp
@@ -32,6 +32,7 @@ sleep 4
 echo ""
 echo ""
 exit
+
 
 
 
