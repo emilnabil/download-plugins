@@ -566,6 +566,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/ECCcam'"
     },
     {
+      "name": "E2-Tube (يوتيوب)",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/E2Tube/e2tube.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/E2Tube",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/E2Tube'"
+    },
+    {
       "name": "E2BissKeysEditor (تعديل الشفرات)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/E2BissKeysEditor/E2BissKeysEditor.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/E2BissKeyEditor",
@@ -2895,7 +2901,7 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/RaiPlay'"
     },
     {
-      "name": "vavoo_1.15",
+      "name": "vavoo",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/vavoo/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/vavoo",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/vavoo'"
