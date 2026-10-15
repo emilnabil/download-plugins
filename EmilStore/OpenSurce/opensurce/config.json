@@ -566,12 +566,6 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/ECCcam'"
     },
     {
-      "name": "E2-Tube (يوتيوب)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/E2Tube/e2tube.sh -O - | /bin/sh",
-      "path": "/usr/lib/enigma2/python/Plugins/Extensions/E2Tube",
-      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/E2Tube'"
-    },
-    {
       "name": "E2BissKeysEditor (تعديل الشفرات)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/E2BissKeysEditor/E2BissKeysEditor.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/E2BissKeyEditor",
@@ -2568,8 +2562,8 @@
     {
       "name": "Alkuds-IpAudio (أضافة صوتيات علي قنوات السات)",
       "cmd": "wget https://raw.githubusercontent.com/xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player/main/installer.sh -O - | /bin/sh",
-      "path": "/usr/lib/enigma2/python/Plugins/Extensions/XKlass",
-      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/XKlass' '/usr/lib/enigma2/python/Plugins/Extensions/AlkudsIPAudio'"
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/Alkuds",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/XKlass' '/usr/lib/enigma2/python/Plugins/Extensions/Alkuds'"
     },
     {
       "name": "AudioMerge (دمح صوتيات قناتين)",
@@ -2594,6 +2588,12 @@
       "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/BouquetMakerXtream/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/BouquetMakerXtream",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BouquetMakerXtream' /etc/enigma2/bouquetmakerxtream"
+    },
+    {
+      "name": "E2-Tube (يوتيوب)",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/E2Tube/e2tube.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/E2Tube",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/E2Tube'"
     },
     {
       "name": "E2m3ubouquet (تحويل iptv m3u الي المفضلات)",
