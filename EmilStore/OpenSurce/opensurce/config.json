@@ -596,6 +596,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/EmilRemovePackage'"
     },
     {
+      "name": "EnigmaPrayer (مواقيت الصلاة بدون انترنت)",
+      "cmd": "wget --no-check-certificate -O - https://dreambox4u.com/emilnabil237/plugins/EnigmaPrayer/EnigmaPrayer.sh | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/EnigmaPrayer",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/EnigmaPrayer'"
+    },
+    {
       "name": "enigma2readeradder (إدخال CCCam)",
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/enigma2readeradder/enigma2readeradder.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/Enigma2ReaderAdder",
@@ -1202,6 +1208,12 @@
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/novaler/ipsat.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/IPSAT",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/IPSAT'"
+    },
+    {
+      "name": "Novaler Downloader",
+      "cmd": "wget https://raw.githubusercontent.com/popking159/novalerdownloader/refs/heads/main/myinstaller.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/NovalerDownloader",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/NovalerDownloader'"
     },
     {
       "name": "NovaCamPro",
