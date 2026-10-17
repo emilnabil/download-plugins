@@ -2100,6 +2100,12 @@
       "cmd": "wget http://dreambox4u.com/emilnabil237/script/BootlogoSwapper_v2.3.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapper",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapper'"
+    },
+    {
+      "name": "BootlogoSwapper V2.4 (بوت لوجو متعدد)",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/script/BootlogoSwapper_v2.4.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapper",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapper'"
     }
   ],
   "spinners": [
@@ -2600,6 +2606,12 @@
       "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/BouquetMakerXtream/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/BouquetMakerXtream",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BouquetMakerXtream' /etc/enigma2/bouquetmakerxtream"
+    },
+    {
+      "name": "CustomIptvArchiveMakerpro (أضافة اشتراكات iptv)",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/CustomIptvArchiveMakerpro/CustomIptvArchiveMakerpro.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/CustomIPTVArchiveMakerPro",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/CustomIPTVArchiveMakerPro'"
     },
     {
       "name": "E2-Tube (يوتيوب)",
