@@ -338,6 +338,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/AlternativeSoftCamManager'"
     },
     {
+      "name": "AlternativeSoftCamManager_iet5 (ادارة الايميوهات)",
+      "cmd": "wget https://raw.githubusercontent.com/Saiedf/AlternativeSoftCamManager/main/installer_alternativesoftcammanager_auto.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/AlternativeSoftCamManager",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/AlternativeSoftCamManager'"
+    },
+    {
       "name": "AlMoaddin Modded by Emil (المؤذن)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AlMuaddhin/almoaddhin.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/AlMuaddhin",
@@ -645,7 +651,7 @@
     },
     {
       "name": "EvgQuickSignal (بيان إشارة الترددات)",
-      "cmd": "wget https://raw.githubusercontent.com/biko-73/EvgQuickSignal/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/EvgQuickSignal/EvgQuickSignal.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/EvgQuickSignal",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/EvgQuickSignal'"
     },
