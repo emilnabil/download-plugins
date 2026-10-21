@@ -1,4 +1,139 @@
-z="
-";vEz=' in ';VNz='LLED';Yz='PYTH';LIz=' "$a';mIz=' $pk';IJz='empl';bHz='_cod';YLz='aw/r';QGz='0';VGz='l in';qEz='ld v';uNz='cond';jHz='on3-';nKz='l re';lEz='alle';hIz='   F';fDz='mino';JFz='enig';UNz='NSTA';gFz='ns r';oJz='requ';JOz='eep ';FOz='nit.';lMz='C / ';dJz='n3-h';YBz='base';DHz='tatu';dBz='tc/o';DBz=' -d ';kCz='er"';qKz='d su';qIz='ng a';FDz='3 >/';XKz=''\'' mo';KJz='s-gr';Zz='ON_C';UCz='age ';qDz=' $PY';WCz='ger"';GLz='r -p';dKz='plug';jz=' Emi';AOz='emct';rNz='star';uHz=''\'') ;';CBz='mbox';LHz='lled';pFz='$INS';uGz=' && ';cKz='The ';GFz='ons/';UMz='cd /';mJz='_EXT';SCz=' as ';lFz='ng p';HBz='hen';DOz=' usi';aJz='3-da';wLz='milP';pJz='ests';rFz='ER u';DEz=' 2>/';oBz='pkg"';sKz='sful';UBz='ed: ';GGz=') {';JLz='TH"';Jz='RCHI';MLz='t 1';IDz=' 2>&';KGz='1"';YCz='mand';gHz='0 ];';HNz='Exte';qNz='--"';SFz='Stor';hz='=="';bBz=' [ -';eNz='E"';uJz='pars';BLz='rm -';Xz='R=""';eCz='ll 2';MCz='/nul';AHz='g" 2';hJz='e py';xHz=') al';NMz='"$UR';OFz='xten';aEz='jor}';TFz='e" \';BHz='ll |';xz='t ] ';tKz='ly!"';Az='TMPP';yFz=' "Pa';KNz='cp -';FCz='k...';VCz='mana';fEz=') us';DGz='ted"';iHz='in';SJz='json';lGz='Stat';Sz='"';Hz='PLUG';uDz=')"';yHz='t_pk';MBz='atus';XEz='.ver';BJz='_SYS';kIz=' ins';vMz='ins"';fMz='tar ';rBz='a2"';lIz='tall';dMz='es..';rLz='2" ]';VHz='l ex';tNz='3 se';qBz='nigm';ZLz='efs/';lHz='lt_p';QBz='pt-g';UHz='ling';GHz='ser ';pCz='er f';tDz='SION';cJz='me p';QDz='"imp';tIz='}';tGz='led"';iGz='ry -';GNz='ins/';YDz='fo.m';ILz='MPPA';sz='/etc';OGz=' ret';sGz='k in';KHz='[ $i';PBz='R="a';FBz='f.d ';REz='impo';rDz='THON';hHz='case';RNz='sync';gMz='-xzf';yLz='Pro.';RDz='ort ';INz='nsio';XNz='CESS';gDz='r}'\'')';IHz='& in';PCz='then';cHz='e=$?';JEz='L" |';FEz='if e';TMz='d!"';Dz='p/Em';LEz='p -q';gNz='N_CM';yBz='e sy';uCz='fi';JIz='esac';YNz='FULL';ZJz='g py';IKz='S_CO';OCz='&1; ';fIz=' ech';HEz='"$PY';jBz='/opk';kDz=' "Py';ZDz='ajor';sBz='else';OIz='LER ';vJz='3-si';pKz='ges ';Uz='PE="';IBz='/var';MGz='kg" ';RLz='hub.';xLz='anel';rMz='/eni';VFz='ore"';dFz='done';JJz='ugin';gBz='f ];';vBz='orte';ZBz='d)"';QJz='n3-c';CKz='arde';iFz='ed"';QLz='/git';TGz=': $p';IGz='l pk';xKz='d in';pLz='N" =';HHz='d" &';mz='o Fu';iMz='N_AR';OHz='  Al';yDz='ULL=';SIz='_pkg';dNz=': $O';ADz='n ve';jMz='CHIV';TBz='tect';Cz='"/tm';IMz='$URL';ZEz='o.ma';pDz='sion';JDz='1; t';qLz=' "py';AMz='tar.';WMz='m -r';jEz='not ';TCz='pack';sNz=' Eni';DCz=' fal';uLz='ce/P';cIz='essf';uFz=' >/d';sFz='pdat';POz='a2';NDz='(pyt';DJz='"eni';EFz='/Ext';YJz='adin';JBz='/lib';YGz=' "$O';iDz='l)';nFz='ists';PHz='read';HKz='KAGE';LKz='do';gCz='as p';cz='ON_V';kFz='dati';xIz='s...';ez='echo';YMz='ATH"';aLz='head';qMz='ib64';NNz='lib/';qGz='q "i';YFz=' "$p';gz='====';ABz='t.d/';eDz='nfo.';qHz='ed '\''';lDz=' 3 d';wNz='p 3';wz='.lis';PIz='all ';bz='ON="';az='MD="';CGz='upda';iLz='ro.t';FNz='th..';mFz='ge l';oEz='movi';yEz='b/en';BOz='t en';nEz=' "Re';JMz=' -q ';SEz='rt s';nCz='port';oGz='| gr';uIz=' "In';mNz='/usr';TIz='" >/';fHz='-ne ';NKz=' "Ve';wDz='on"';cBz='f /e';CLz='rf "';yJz='llib';OJz='_COR';PFz='s/Em';dLz='milS';gEz=''\''pyt';cLz='in/E';SBz=' "De';bGz=' "Dr';OMz='L" -';FMz='n 3 ';QNz='rue';THz='  In';ZHz='ll -';XBz='ian ';eFz=' "Ol';wCz='ecki';xFz='2>&1';IIz='" ;;';lKz='ity.';FLz='mkdi';iz=' "  ';TKz='l; t';BFz='2/py';jDz='py3"';IFz='b64/';sJz='rser';COz='2';ODz='hon3';EHz='s: i';EEz=')';MFz='lugi';WFz='; do';JNz='ns"';HCz='omma';OKz='rify';JHz='1';HGz='loca';oLz='YTHO';LFz='on/P';eIz='" ||';tEz='for ';hKz='mite';iEz=' is ';VDz=''\''{sy';GDz='dev/';bLz='s/ma';WEz='{sys';gLz='ambo';DIz='/^py';HJz='syst';uz='/sou';SKz='_CMD';QFz='ro" ';NGz='] &&';EJz='gma2';PGz='urn ';mGz='us}'\''';BDz='rsio';sLz='/Ope';RGz='Chec';EBz='.con';pNz='----';eEz=' 2 d';ZMz=' "Ex';ANz='g fi';jLz='ar.g';cFz=' -rf';bMz='ting';qz='if [';VJz='proc';jCz='anag';BKz='3-ch';XJz='thre';kNz='N"';bKz='nd. ';jNz='RSIO';lz='elPr';NJz='wget';aMz='trac';oCz='ed p';ENz='t pa';kGz='='\''${';VLz='l/do';dIz='ully';aIz='led ';WBz='(Deb';AEz='$(py';hLz='x/Em';BCz='. Tr';LCz='/dev';pGz='ep -';WIz='[ $e';vz='rces';EIz='-/py';Ez='ilPa';XDz='n_in';MEz=' "2\';nHz='(ech';bEz='.{sy';hEz='hon'\''';kMz='E" -';dGz='S" ]';iBz='n';NCz='l 2>';sCz='exit';KOz='2 &&';YHz='ER i';oIz='cont';HFz='" \';hNz='D $P';MOz='t 3';fz=' "==';vNz='slee';XHz='ode=';CCz='ying';NEz='."; ';kEz='inst';sHz='n3-/';RFz='\';SGz='king';jJz='n3-s';nMz='led!';PEz='hon ';AKz='3 py';RCz='ing ';eJz='ashl';KFz='ma2/';TNz='ro I';Oz='.tar';FKz='TEM ';CHz=' "^S';uBz='supp';XCz=' com';xBz='ckag';MHz=' -eq';LBz='g/st';HMz='om: ';eKz='in m';Rz='US="';SNz=' "Em';bNz=': Em';kKz='onal';PNz='|| t';SMz='ad f';lJz='t"';kBz='Open';nIz='g - ';QKz='tion';iJz='3-ti';CDz='n...';PJz='E="p';mKz=' "Al';aGz='E" =';VKz='rnin';mMz=' fai';vDz='on >';WNz=' SUC';JCz='v op';RIz='$alt';gGz='dpkg';uKz=' "Do';UJz='-sub';vGz='d=1';tJz='-arg';QHz='y in';Gz='ro"';FGz='age(';pHz=' | s';gJz='n3-r';TEz='ys; ';OOz='-9 e';AFz='igma';CFz='/Plu';qJz='-htm';eGz='; th';pMz='sr/l';MKz='g"';NHz=' 1 ]';LJz='ab c';kHz='*) a';UKz=' "Wa';yMz='pyin';KIz='[ -n';wIz='kage';ONz='s/" ';hDz='" 2>';xEz='r/li';NLz='URL=';vCz=' "Ch';TJz=' pyt';GKz='$PAC';KDz='pyth';WGz='stal';sMz='/pyt';xMz=' "Co';Qz='STAT';yCz='ytho';AJz='AGES';vLz='y2/E';MDz='ON=$';QIz='-y "';mEz='d."';RHz='retu';uMz='Plug';HLz=' "$T';Vz='INST';GJz='gin-';vIz=' pac';sEz='.."';FJz='-plu';bDz='ys.v';ACz='stem';VMz=' ; r';aKz=' fou';XLz='ns/r';EOz='ng i';EDz='thon';fFz='d ve';UDz='nt(f';aBz='elif';BEz='nt(s';ZFz='ath"';tBz=' "Un';eBz='pkg/';yNz='ctl ';FHz='ll u';bJz='teti';sIz='y"';VIz='$pkg';MMz='rogr';fGz='en';OLz='"htt';wEz='"/us';mCz=' sup';oNz=' "--';FIz='3-/'\''';oFz='..."';cNz=' "Sy';XGz='led=';eHz='ode ';UGz='kg"';VEz='t(f'\''';hCz='acka';EGz='all_';LLz=' exi';GMz='g fr';cCz='>/de';aNz=' "Pl';DKz='pkg ';DNz='4-bi';LMz='ow-p';eLz='tore';lNz='th: ';nJz='RA="';dz='ERSI';wBz='d pa';kz='lPan';hBz=' the';wFz='ull ';AIz='g=$(';KCz='kg >';XIz='xit_';VBz='mOS ';DMz='n 2 ';tCz=' 1';Tz='OSTY';rGz='ll o';hMz='LUGI';KLz='cd "';ULz='nabi';WLz='ad-p';rIz='nywa';WKz='g: '\''';HOz=' 4 &';ICz='nd -';nLz=' "$P';bIz='succ';rz=' -f ';DFz='gins';xCz='ng P';mHz='kg=$';BGz='sts ';yGz='"$pk';HIz='kg="';hGz='-que';yIz='PACK';SHz='rn 0';wKz='g an';XMz='f "$';fLz='/Dre';OEz='py2"';ELz='PATH';lCz=' "No';OBz='mOS"';lLz='vers';KKz='RA; ';iCz='ge m';DLz='$TMP';qCz='ound';PDz=' -c ';RKz='if !';EMz='y3/E';HDz='null';jIz='d to';NBz='Drea';Fz='nelP';IOz='& sl';dCz='v/nu';ZGz='STYP';KMz='--sh';QEz='-c "';PLz='ps:/';oHz='o "$';LOz=' ini';CMz='ce P';aDz='}.{s';BMz='gz"';QOz=' 0';lBz='Sour';QMz='VE" ';kLz='z"';ALz='gin.';xJz='3-ur';fCz='>&1;';rJz='l-pa';pIz='inui';cGz='eamO';tFz='e -q';MJz='url ';Iz='IN_A';tz='/apt';ECz='lbac';pBz='ce E';FFz='ensi';xNz='v sy';gKz=' hav';NOz='kill';rKz='cces';tMz='hon/';fNz=': $P';xDz='ON_F';tLz='nSur';GEz='cho ';BBz='drea';Bz='ATH=';cEz='inor';MNz='usr/';JGz='g="$';PKz='alla';iIz='aile';dDz='on_i';ZKz=' not';Lz='Emil';nz='ll I';dHz=' $ex';aCz='apt-';gIz='o " ';wHz='on-*';IEz='_FUL';oDz='(ver';UEz='prin';CIz='d '\''s';nGz='2>/d';rHz='s/^p';cMz=' fil';Kz='VE="';CNz='to 6';YEz='_inf';XFz='[ -d';SDz='sys;';LDz='on3"';EKz='in $';vKz='wnlo';oz='nsta';qFz='TALL';pEz='ng o';eMz='."';AGz='e li';uEz='path';dEz='}'\'')"';bCz='get ';JKz='RE $';wGz=' sta';fJz='ib p';hFz='emov';UFz='ilSt';rEz='ons.';wMz=' ]; ';nNz='Pro"';yz='|| [';fBz='opkg';iKz='d fu';RBz='et"';BIz='| se';yKz=' plu';sDz='_VER';KBz='/dpk';CJz='TEM=';CEz='on)"';GIz=') ;;';xGz='tus ';aHz='y "$';GCz='if c';YKz='dule';cDz='ersi';TLz='emil';jKz='ncti';ZCz=' -v ';WDz='s.ve';wJz='x py';MIz=' $IN';UIz='ll "';oKz='quir';BNz='les ';GBz=']; t';mLz='ion"';NFz='ns/E';GOz='init';Pz='.gz"';bFz='& rm';SLz='com/';Nz='lPro';QCz=' "Us';KEz=' gre';PMz='O "$';YIz='code';jFz=' "Up';iNz='N_VE';aFz=' ] &';ZNz='Y!"';oMz=' "/u';TDz=' pri';LGz='[ -z';nBz='R="o';Mz='Pane';WHz='it_c';WJz='ess ';RMz='|| {';RJz='ore ';nDz='ted ';jGz='W -f';Wz='ALLE';LNz='r "/';NIz='STAL';mBz='ce"';rCz='!"';mDz='etec';ZIz=' 0 ]';tHz='on-/';fKz='ight';vHz=';';vFz='ev/n';pz='ller';kJz='ocke';DDz='v py';
-eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$z$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Oz$Pz$z$Qz$Rz$Sz$z$Tz$Uz$Sz$z$Vz$Wz$Xz$z$Yz$Zz$az$Sz$z$Yz$bz$Sz$z$Yz$cz$dz$bz$Sz$z$ez$fz$gz$gz$gz$gz$gz$gz$gz$gz$gz$hz$z$ez$iz$jz$kz$lz$mz$nz$oz$pz$Sz$z$ez$fz$gz$gz$gz$gz$gz$gz$gz$gz$gz$hz$z$qz$rz$sz$tz$uz$vz$wz$xz$yz$rz$sz$tz$uz$vz$wz$ABz$BBz$CBz$wz$xz$yz$DBz$sz$tz$tz$EBz$FBz$GBz$HBz$z$Qz$Rz$IBz$JBz$KBz$LBz$MBz$Sz$z$Tz$Uz$NBz$OBz$z$Vz$Wz$PBz$QBz$RBz$z$ez$SBz$TBz$UBz$NBz$VBz$WBz$XBz$YBz$ZBz$z$aBz$bBz$cBz$dBz$eBz$fBz$EBz$gBz$hBz$iBz$z$Qz$Rz$IBz$JBz$jBz$LBz$MBz$Sz$z$Tz$Uz$kBz$lBz$mBz$z$Vz$Wz$nBz$oBz$z$ez$SBz$TBz$UBz$kBz$lBz$pBz$qBz$rBz$z$sBz$z$ez$tBz$uBz$vBz$wBz$xBz$yBz$ACz$BCz$CCz$DCz$ECz$FCz$Sz$z$GCz$HCz$ICz$JCz$KCz$LCz$MCz$NCz$OCz$PCz$z$Qz$Rz$IBz$JBz$jBz$LBz$MBz$Sz$z$Tz$Uz$kBz$lBz$mBz$z$Vz$Wz$nBz$oBz$z$ez$QCz$RCz$fBz$SCz$TCz$UCz$VCz$WCz$z$aBz$XCz$YCz$ZCz$aCz$bCz$cCz$dCz$eCz$fCz$hBz$iBz$z$Qz$Rz$IBz$JBz$KBz$LBz$MBz$Sz$z$Tz$Uz$NBz$OBz$z$Vz$Wz$PBz$QBz$RBz$z$ez$QCz$RCz$aCz$bCz$gCz$hCz$iCz$jCz$kCz$z$sBz$z$ez$lCz$mCz$nCz$oCz$hCz$iCz$jCz$pCz$qCz$rCz$z$sCz$tCz$z$uCz$z$uCz$z$ez$vCz$wCz$xCz$yCz$ADz$BDz$CDz$Sz$z$GCz$HCz$ICz$DDz$EDz$FDz$GDz$HDz$IDz$JDz$HBz$z$Yz$Zz$az$KDz$LDz$z$Yz$cz$dz$MDz$NDz$ODz$PDz$QDz$RDz$SDz$TDz$UDz$VDz$WDz$BDz$XDz$YDz$ZDz$aDz$bDz$cDz$dDz$eDz$fDz$gDz$hDz$LCz$MCz$iDz$z$Yz$bz$jDz$z$ez$kDz$EDz$lDz$mDz$nDz$oDz$pDz$qDz$rDz$sDz$tDz$uDz$z$aBz$XCz$YCz$ZCz$KDz$vDz$LCz$MCz$NCz$OCz$PCz$z$Yz$Zz$az$KDz$wDz$z$Yz$cz$dz$xDz$yDz$AEz$EDz$PDz$QDz$RDz$SDz$TDz$BEz$bDz$cDz$CEz$DEz$GDz$HDz$EEz$z$FEz$GEz$HEz$rDz$sDz$tDz$IEz$JEz$KEz$LEz$MEz$NEz$PCz$z$Yz$bz$OEz$z$Yz$cz$dz$MDz$NDz$PEz$QEz$REz$SEz$TEz$UEz$VEz$WEz$XEz$pDz$YEz$ZEz$aEz$bEz$WDz$BDz$XDz$YDz$cEz$dEz$DEz$GDz$HDz$EEz$z$ez$kDz$EDz$eEz$mDz$nDz$oDz$pDz$qDz$rDz$sDz$tDz$uDz$z$sBz$z$Yz$bz$jDz$z$Yz$cz$dz$MDz$NDz$PEz$QEz$REz$SEz$TEz$UEz$VEz$WEz$XEz$pDz$YEz$ZEz$aEz$bEz$WDz$BDz$XDz$YDz$cEz$dEz$DEz$GDz$HDz$EEz$z$ez$kDz$EDz$lDz$mDz$nDz$oDz$pDz$qDz$rDz$sDz$tDz$fEz$RCz$gEz$hEz$XCz$YCz$Sz$z$uCz$z$sBz$z$ez$kDz$EDz$iEz$jEz$kEz$lEz$mEz$z$sCz$tCz$z$uCz$z$ez$nEz$oEz$pEz$qEz$cDz$rEz$sEz$z$tEz$uEz$vEz$wEz$xEz$yEz$AFz$BFz$EDz$CFz$DFz$EFz$FFz$GFz$Lz$Mz$Nz$HFz$z$wEz$xEz$IFz$JFz$KFz$KDz$LFz$MFz$NFz$OFz$pDz$PFz$Ez$Fz$QFz$RFz$z$wEz$xEz$yEz$AFz$BFz$EDz$CFz$DFz$EFz$FFz$GFz$Lz$SFz$TFz$z$wEz$xEz$IFz$JFz$KFz$KDz$LFz$MFz$NFz$OFz$pDz$PFz$UFz$VFz$WFz$z$XFz$YFz$ZFz$aFz$bFz$cFz$YFz$ZFz$z$dFz$z$ez$eFz$fFz$BDz$gFz$hFz$iFz$z$ez$jFz$kFz$lFz$hCz$mFz$nFz$oFz$z$pFz$qFz$rFz$sFz$tFz$uFz$vFz$wFz$xFz$z$ez$yFz$xBz$AGz$BGz$CGz$DGz$z$kEz$EGz$TCz$FGz$GGz$z$HGz$IGz$JGz$KGz$z$LGz$YFz$MGz$NGz$OGz$PGz$QGz$z$ez$iz$RGz$SGz$TGz$UGz$z$HGz$VGz$WGz$XGz$QGz$z$qz$YGz$ZGz$aGz$bGz$cGz$dGz$eGz$fGz$z$gGz$hGz$iGz$jGz$kGz$lGz$mGz$YFz$MGz$nGz$vFz$wFz$oGz$pGz$qGz$oz$rGz$sGz$WGz$tGz$uGz$kEz$lEz$vGz$z$sBz$z$fBz$wGz$xGz$yGz$AHz$cCz$dCz$BHz$KEz$LEz$CHz$DHz$EHz$oz$FHz$GHz$kEz$lEz$HHz$IHz$WGz$XGz$JHz$z$uCz$z$KHz$oz$LHz$MHz$NHz$uGz$ez$iz$OHz$PHz$QHz$WGz$tGz$uGz$RHz$SHz$z$ez$iz$THz$WGz$UHz$oFz$z$HGz$VHz$WHz$XHz$QGz$z$qz$YGz$ZGz$aGz$bGz$cGz$dGz$eGz$fGz$z$pFz$qFz$YHz$oz$ZHz$aHz$oBz$uFz$vFz$wFz$xFz$z$sCz$bHz$cHz$z$qz$dHz$WHz$eHz$fHz$gHz$hBz$iBz$z$hHz$YFz$MGz$iHz$z$KDz$jHz$kHz$lHz$mHz$nHz$oHz$oBz$pHz$qHz$rHz$yCz$sHz$KDz$tHz$uHz$vHz$z$KDz$wHz$xHz$yHz$AIz$ez$YFz$MGz$BIz$CIz$DIz$EDz$EIz$EDz$FIz$GIz$z$kHz$lHz$HIz$IIz$z$JIz$z$KIz$LIz$lHz$MGz$NGz$MIz$NIz$OIz$kEz$PIz$QIz$RIz$SIz$TIz$GDz$HDz$IDz$JHz$z$sCz$bHz$cHz$z$uCz$z$sBz$z$pFz$qFz$YHz$oz$UIz$VIz$TIz$GDz$HDz$IDz$JHz$z$sCz$bHz$cHz$z$uCz$z$WIz$XIz$YIz$MHz$ZIz$uGz$ez$iz$THz$WGz$aIz$bIz$cIz$dIz$eIz$fIz$gIz$hIz$iIz$jIz$kIz$lIz$mIz$nIz$oIz$pIz$qIz$rIz$sIz$z$tIz$z$ez$uIz$WGz$UHz$vIz$wIz$xIz$Sz$z$yIz$AJz$BJz$CJz$DJz$EJz$FJz$GJz$HJz$IJz$JJz$KJz$LJz$MJz$NJz$Sz$z$yIz$AJz$OJz$PJz$yCz$QJz$RJz$KDz$jHz$SJz$TJz$ODz$UJz$VJz$WJz$KDz$jHz$XJz$YJz$ZJz$EDz$aJz$bJz$cJz$yCz$dJz$eJz$fJz$yCz$gJz$hJz$EDz$iJz$cJz$yCz$jJz$kJz$lJz$z$yIz$AJz$mJz$nJz$KDz$jHz$oJz$pJz$TJz$ODz$qJz$rJz$sJz$TJz$ODz$tJz$uJz$hJz$EDz$vJz$wJz$EDz$xJz$yJz$AKz$EDz$BKz$CKz$lJz$z$tEz$DKz$EKz$yIz$AJz$BJz$FKz$GKz$HKz$IKz$JKz$yIz$AJz$mJz$KKz$LKz$z$kEz$EGz$TCz$UCz$yGz$MKz$z$dFz$z$ez$NKz$OKz$RCz$kEz$PKz$QKz$oFz$z$RKz$qDz$rDz$SKz$PDz$QDz$RDz$oJz$pJz$hDz$LCz$MCz$TKz$HBz$z$ez$UKz$VKz$WKz$oJz$pJz$XKz$YKz$ZKz$aKz$bKz$cKz$dKz$eKz$fKz$gKz$AGz$hKz$iKz$jKz$kKz$lKz$Sz$z$sBz$z$ez$mKz$nKz$oKz$oCz$hCz$pKz$kEz$lEz$qKz$rKz$sKz$tKz$z$uCz$z$ez$uKz$vKz$YJz$wKz$xKz$WGz$UHz$yKz$ALz$sEz$z$BLz$CLz$DLz$ELz$Sz$z$FLz$GLz$HLz$ILz$JLz$z$KLz$DLz$ELz$eIz$LLz$MLz$z$qz$YGz$ZGz$aGz$bGz$cGz$dGz$eGz$fGz$z$NLz$OLz$PLz$QLz$RLz$SLz$TLz$ULz$VLz$vKz$WLz$MFz$XLz$YLz$ZLz$aLz$bLz$cLz$dLz$eLz$fLz$gLz$hLz$Ez$Fz$iLz$jLz$kLz$z$ez$QCz$RCz$NBz$VBz$lLz$mLz$z$sBz$z$qz$nLz$oLz$pLz$qLz$rLz$eGz$fGz$z$NLz$OLz$PLz$QLz$RLz$SLz$TLz$ULz$VLz$vKz$WLz$MFz$XLz$YLz$ZLz$aLz$bLz$cLz$dLz$eLz$sLz$tLz$uLz$vLz$wLz$xLz$yLz$AMz$BMz$z$ez$QCz$RCz$kBz$lBz$CMz$yCz$DMz$lLz$mLz$z$sBz$z$NLz$OLz$PLz$QLz$RLz$SLz$TLz$ULz$VLz$vKz$WLz$MFz$XLz$YLz$ZLz$aLz$bLz$cLz$dLz$eLz$sLz$tLz$uLz$EMz$wLz$xLz$yLz$AMz$BMz$z$ez$QCz$RCz$kBz$lBz$CMz$yCz$FMz$lLz$mLz$z$uCz$z$uCz$z$ez$uKz$vKz$YJz$GMz$HMz$IMz$Sz$z$NJz$JMz$KMz$LMz$MMz$WJz$NMz$OMz$PMz$Hz$Iz$Jz$QMz$RMz$z$ez$uKz$vKz$SMz$iIz$TMz$z$UMz$VMz$WMz$XMz$Az$YMz$z$sCz$tCz$z$tIz$z$ez$ZMz$aMz$bMz$cMz$dMz$eMz$z$fMz$gMz$nLz$hMz$iMz$jMz$kMz$lMz$RMz$z$ez$ZMz$aMz$QKz$mMz$nMz$Sz$z$UMz$VMz$WMz$XMz$Az$YMz$z$sCz$tCz$z$tIz$z$qz$YGz$ZGz$aGz$bGz$cGz$dGz$uGz$XFz$oMz$pMz$qMz$rMz$EJz$sMz$tMz$uMz$vMz$wMz$PCz$z$ez$xMz$yMz$ANz$BNz$CNz$DNz$ENz$FNz$eMz$z$FLz$GLz$oMz$pMz$qMz$rMz$EJz$sMz$tMz$uMz$GNz$HNz$INz$JNz$z$KNz$LNz$MNz$NNz$JFz$KFz$KDz$LFz$MFz$NFz$OFz$pDz$PFz$Ez$Fz$QFz$wEz$xEz$IFz$JFz$KFz$KDz$LFz$MFz$NFz$OFz$pDz$ONz$nGz$vFz$wFz$PNz$QNz$z$uCz$z$UMz$z$BLz$CLz$DLz$ELz$Sz$z$RNz$z$ez$fz$gz$gz$gz$gz$gz$gz$gz$gz$gz$hz$z$ez$SNz$Ez$Fz$TNz$UNz$VNz$WNz$XNz$YNz$ZNz$z$ez$fz$gz$gz$gz$gz$gz$gz$gz$gz$gz$hz$z$ez$aNz$JJz$bNz$Ez$Fz$Gz$z$ez$cNz$ACz$dNz$ZGz$eNz$z$ez$kDz$EDz$fNz$oLz$gNz$hNz$oLz$iNz$jNz$kNz$z$ez$yFz$lNz$mNz$JBz$rMz$EJz$sMz$tMz$uMz$GNz$HNz$INz$NFz$wLz$xLz$nNz$z$ez$oNz$pNz$pNz$pNz$pNz$pNz$pNz$pNz$pNz$pNz$qNz$z$ez$nEz$rNz$bMz$sNz$EJz$vEz$tNz$uNz$xIz$Sz$z$vNz$wNz$z$qz$YGz$ZGz$aGz$bGz$cGz$dGz$eGz$fGz$z$GCz$HCz$ICz$xNz$ACz$yNz$cCz$dCz$eCz$fCz$hBz$iBz$z$HJz$AOz$nKz$rNz$BOz$AFz$COz$z$sBz$z$ez$nEz$rNz$bMz$DOz$EOz$FOz$sEz$z$GOz$HOz$IOz$JOz$KOz$LOz$MOz$z$uCz$z$sBz$z$ez$nEz$rNz$bMz$sNz$EJz$oFz$z$NOz$PIz$OOz$qBz$POz$z$uCz$z$sCz$QOz"
+#!/bin/bash
 
+TMPPATH="/tmp/EmilPanelPro"
+PLUGIN_ARCHIVE="EmilPanelPro.tar.gz"
+STATUS=""
+OSTYPE=""
+INSTALLER=""
+PYTHON_CMD=""
+PYTHON=""
+PYTHON_VERSION=""
+
+echo "========================================"
+echo "   EmilPanelPro Full Installer"
+echo "========================================"
+
+if [ -f /etc/apt/sources.list ] || [ -f /etc/apt/sources.list.d/dreambox.list ] || [ -d /etc/apt/apt.conf.d ]; then
+    STATUS="/var/lib/dpkg/status"
+    OSTYPE="DreamOS"
+    INSTALLER="apt-get"
+    echo "Detected: DreamOS (Debian based)"
+elif [ -f /etc/opkg/opkg.conf ]; then
+    STATUS="/var/lib/opkg/status"
+    OSTYPE="OpenSource"
+    INSTALLER="opkg"
+    echo "Detected: OpenSource Enigma2"
+else
+    echo "Unsupported package system. Trying fallback..."
+    if command -v opkg >/dev/null 2>&1; then
+        STATUS="/var/lib/opkg/status"
+        OSTYPE="OpenSource"
+        INSTALLER="opkg"
+        echo "Using opkg as package manager"
+    elif command -v apt-get >/dev/null 2>&1; then
+        STATUS="/var/lib/dpkg/status"
+        OSTYPE="DreamOS"
+        INSTALLER="apt-get"
+        echo "Using apt-get as package manager"
+    else
+        echo "No supported package manager found!"
+        exit 1
+    fi
+fi
+
+echo "Checking Python version..."
+if command -v python3 >/dev/null 2>&1; then
+    PYTHON_CMD="python3"
+    PYTHON_VERSION=$(python3 -c "import sys; print(f'{sys.version_info.major}.{sys.version_info.minor}')" 2>/dev/null)
+    PYTHON="py3"
+    echo "Python 3 detected (version $PYTHON_VERSION)"
+elif command -v python >/dev/null 2>&1; then
+    PYTHON_CMD="python"
+    PYTHON_VERSION_FULL=$(python -c "import sys; print(sys.version)" 2>/dev/null)
+    if echo "$PYTHON_VERSION_FULL" | grep -q "2\."; then
+        PYTHON="py2"
+        PYTHON_VERSION=$(python -c "import sys; print(f'{sys.version_info.major}.{sys.version_info.minor}')" 2>/dev/null)
+        echo "Python 2 detected (version $PYTHON_VERSION)"
+    else
+        PYTHON="py3"
+        PYTHON_VERSION=$(python -c "import sys; print(f'{sys.version_info.major}.{sys.version_info.minor}')" 2>/dev/null)
+        echo "Python 3 detected (version $PYTHON_VERSION) using 'python' command"
+    fi
+else
+    echo "Python is not installed."
+    exit 1
+fi
+
+echo "Removing old versions..."
+for path in "/usr/lib/enigma2/python/Plugins/Extensions/EmilStore" \
+            "/usr/lib64/enigma2/python/Plugins/Extensions/EmilStore"; do
+    [ -d "$path" ] && rm -rf "$path"
+done
+echo "Old versions removed"
+
+echo "Downloading and installing plugin..."
+rm -rf "$TMPPATH"
+mkdir -p "$TMPPATH"
+cd "$TMPPATH" || exit 1
+
+if [ "$OSTYPE" = "DreamOS" ]; then
+    URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilStore/Dreambox/EmilPanelPro.tar.gz"
+    echo "Using DreamOS version"
+else
+    if [ "$PYTHON" = "py2" ]; then
+        URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilStore/OpenSurce/Py2/EmilPanelPro.tar.gz"
+        echo "Using OpenSource Python 2 version"
+    else
+        URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilStore/OpenSurce/Py3/EmilPanelPro.tar.gz"
+        echo "Using OpenSource Python 3 version"
+    fi
+fi
+
+echo "Downloading from: $URL"
+wget -q --show-progress "$URL" -O "$PLUGIN_ARCHIVE" || {
+    echo "Download failed!"
+    cd / ; rm -rf "$TMPPATH"
+    exit 1
+}
+
+echo "Extracting files..."
+tar -xzf "$PLUGIN_ARCHIVE" -C / || {
+    echo "Extraction failed!"
+    cd / ; rm -rf "$TMPPATH"
+    exit 1
+}
+
+if [ "$OSTYPE" = "DreamOS" ] && [ -d "/usr/lib64/enigma2/python/Plugins" ]; then
+    echo "Copying files to 64-bit path..."
+    mkdir -p "/usr/lib64/enigma2/python/Plugins/Extensions"
+    cp -r "/usr/lib/enigma2/python/Plugins/Extensions/EmilStore" "/usr/lib64/enigma2/python/Plugins/Extensions/" 2>/dev/null || true
+fi
+
+cd /
+rm -rf "$TMPPATH"
+sync
+
+echo "========================================"
+echo "EmilPanelPro INSTALLED SUCCESSFULLY!"
+echo "========================================"
+echo "Plugin: EmilPanelPro"
+echo "System: $OSTYPE"
+echo "Python: $PYTHON_CMD $PYTHON_VERSION"
+echo "Path: /usr/lib/enigma2/python/Plugins/Extensions/EmilStore"
+echo "----------------------------------------"
+echo "Restarting Enigma2 in 3 seconds..."
+sleep 3
+
+if [ "$OSTYPE" = "DreamOS" ]; then
+    if command -v systemctl >/dev/null 2>&1; then
+        systemctl restart enigma2
+    else
+        echo "Restarting using init..."
+        init 4 && sleep 2 && init 3
+    fi
+else
+    echo "Restarting Enigma2..."
+    killall -9 enigma2
+fi
+
+exit 0
