@@ -3418,6 +3418,12 @@
       "remove_cmd": "rm -rf '/usr/share/enigma2/BLACKNEON-XP-FHD'"
     },
     {
+      "name": "CineView-FHD",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skin-cineview/CineView.sh -O - | /bin/sh",
+      "path": "/usr/share/enigma2/CineView_FHD_MLA",
+      "remove_cmd": "rm -rf '/usr/share/enigma2/CineView_FHD_MLA'"
+    },
+    {
       "name": "Fury-FHD",
       "cmd": "wget https://raw.githubusercontent.com/islam-2412/IPKS/refs/heads/main/fury/installer.sh -O - | /bin/sh",
       "path": "/usr/share/enigma2/Fury-FHD",
@@ -3578,6 +3584,12 @@
       "remove_cmd": "rm -rf '/usr/share/enigma2/BlackShadow_X2P'"
     },
     {
+      "name": "CineView-FHD",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skin-cineview/CineView.sh -O - | /bin/sh",
+      "path": "/usr/share/enigma2/CineView_FHD_MLA",
+      "remove_cmd": "rm -rf '/usr/share/enigma2/CineView_FHD_MLA'"
+    },
+    {
       "name": "EclipseFHD_OBH",
       "cmd": "wget https://github.com/emilnabil/skins-obh/raw/refs/heads/main/EclipseFHD_OBH_5.0.sh -O - | /bin/sh",
       "path": "/usr/share/enigma2/EclipseFHD",
@@ -3694,6 +3706,12 @@
       "remove_cmd": "rm -rf '/usr/share/enigma2/Aglare-FHD'"
     },
     {
+      "name": "CineView-FHD",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skin-cineview/CineView.sh -O - | /bin/sh",
+      "path": "/usr/share/enigma2/CineView_FHD_MLA",
+      "remove_cmd": "rm -rf '/usr/share/enigma2/CineView_FHD_MLA'"
+    },
+    {
       "name": "Fury-FHD",
       "cmd": "wget https://raw.githubusercontent.com/islam-2412/IPKS/refs/heads/main/fury/installer.sh -O - | /bin/sh",
       "path": "/usr/share/enigma2/Fury-FHD",
@@ -3742,6 +3760,12 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/skins/pli9x/Skin-BLACKNEON-XP_mod_mnasr-pli9x.sh -O - | /bin/sh",
       "path": "/usr/share/enigma2/BLACKNEON-XP-FHD",
       "remove_cmd": "rm -rf '/usr/share/enigma2/BLACKNEON-XP-FHD'"
+    },
+    {
+      "name": "CineView-FHD",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skin-cineview/CineView.sh -O - | /bin/sh",
+      "path": "/usr/share/enigma2/CineView_FHD_MLA",
+      "remove_cmd": "rm -rf '/usr/share/enigma2/CineView_FHD_MLA'"
     },
     {
       "name": "malek-fhd",
@@ -3802,6 +3826,12 @@
       "remove_cmd": "rm -rf '/usr/share/enigma2/Aglare-FHD-PLI'"
     },
     {
+      "name": "CineView-FHD",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skin-cineview/CineView.sh -O - | /bin/sh",
+      "path": "/usr/share/enigma2/CineView_FHD_MLA",
+      "remove_cmd": "rm -rf '/usr/share/enigma2/CineView_FHD_MLA'"
+    },
+    {
       "name": "E2-darkos-FHD",
       "cmd": "wget https://dreambox4u.com/emilnabil237/skins/openvix/skins-e2-darkos.sh -O - | /bin/sh",
       "path": "/usr/share/enigma2/E2-E2-DarkOS",
@@ -3844,6 +3874,12 @@
       "cmd": "wget https://github.com/emilnabil/aglare/raw/refs/heads/main/skins-aglare-fhd.sh -O - | /bin/sh",
       "path": "/usr/share/enigma2/Aglare-FHD",
       "remove_cmd": "rm -rf '/usr/share/enigma2/Aglare-FHD'"
+    },
+    {
+      "name": "CineView-FHD",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skin-cineview/CineView.sh -O - | /bin/sh",
+      "path": "/usr/share/enigma2/CineView_FHD_MLA",
+      "remove_cmd": "rm -rf '/usr/share/enigma2/CineView_FHD_MLA'"
     },
     {
       "name": "Fury-FHD",
