@@ -3,7 +3,7 @@
 # Installs CineView MLA 1.1.3 on Enigma2 images with Python 3.
 #
 # Usage (telnet/ssh on the receiver):
-#   wget -qO /tmp/cineview-install.sh https://raw.githubusercontent.com/habeb-s/CineView-MLA-Install/main/cineview-install.sh && sh /tmp/cineview-install.sh
+#   wget -qO /tmp/cineview-install.sh https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skin-cineview/CineView.sh && sh /tmp/cineview-install.sh
 #
 # Options (put them in front of sh):
 #   DRYRUN=1   check only: verify everything and download+check SHA256, then stop. Nothing is installed.
@@ -12,7 +12,7 @@ INSTALLER_VERSION="2.1-simple"
 PKG="enigma2-plugin-skins-cineview-fhd-mla"
 
 # Distribution point: GitHub releases of habeb-s/CineView-MLA-Install
-BASE="https://github.com/habeb-s/CineView-MLA-Install/releases/download"
+BASE="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skin-cineview"
 TAG="packages-1.1.3"
 
 # Family packages (pinned by SHA256)
