@@ -1,21 +1,13 @@
 #!/bin/sh
-# CineView MLA Smart Installer (simplified) - Design & Development by habeb-s (c) 2026
-# Installs CineView MLA 1.1.3 on Enigma2 images with Python 3.
-#
 # Usage (telnet/ssh on the receiver):
-#   wget -qO /tmp/cineview-install.sh https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skin-cineview/CineView.sh && sh /tmp/cineview-install.sh
-#
-# Options (put them in front of sh):
-#   DRYRUN=1   check only: verify everything and download+check SHA256, then stop. Nothing is installed.
+###wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skin-cineview/CineView.sh | /bin/sh
+###################
 
 INSTALLER_VERSION="2.1-simple"
 PKG="enigma2-plugin-skins-cineview-fhd-mla"
 
-# Distribution point: GitHub releases of habeb-s/CineView-MLA-Install
 BASE="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skin-cineview"
-TAG="packages-1.1.3"
 
-# Family packages (pinned by SHA256)
 F_openatv_FILE="enigma2-plugin-skins-cineview-fhd-mla_1.1.3+openatv_all.ipk"
 F_openatv_SHA="3ee218d5603e49542be1eaddc9dede24a9bef06f8672fd81412838d11a1293f8"
 F_openatv_PY="3.10 3.11 3.12 3.13 3.14"
@@ -31,7 +23,6 @@ F_openpli_PY="3.9 3.10 3.11 3.12 3.13 3.14"
 SKIN_NAME="CineView_FHD_MLA"
 SKIN_DIR="/usr/share/enigma2/$SKIN_NAME"
 
-# ---------- helpers ----------
 say()  { printf ' [..] %s\n' "$1"; }
 ok()   { printf ' [OK] %s\n' "$1"; }
 die()  { printf ' [XX] %s\n\n CineView MLA was not installed.\n\n' "$1"; exit 1; }
@@ -43,7 +34,6 @@ IPK="$TMPD/cineview.ipk"
 
 printf '\n CineView MLA Smart Installer %s\n Design & Development by habeb-s (c) 2026\n\n' "$INSTALLER_VERSION"
 
-# ---------- image ----------
 [ -r /usr/lib/enigma.info ] || die "Cannot identify the image: /usr/lib/enigma.info is missing."
 DISTRO=$(sed -n "s/^distro='\{0,1\}\([^']*\)'\{0,1\}$/\1/p" /usr/lib/enigma.info | head -n 1)
 IVER=$(sed -n "s/^imageversion='\{0,1\}\([^']*\)'\{0,1\}$/\1/p" /usr/lib/enigma.info | head -n 1)
@@ -59,7 +49,6 @@ case "$DISTRO" in
 esac
 ok "Image: $IMG ${IVER:-(version not stated)}"
 
-# ---------- python ----------
 PYV=$(python3 -c 'import sys; print("%d.%d" % sys.version_info[:2])' 2>/dev/null)
 [ -n "$PYV" ] || die "Python 3 was not found."
 
@@ -72,9 +61,8 @@ case " $FPY_LIST " in
 	*) die "This image has Python $PYV. The $FAM package supports: $FPY_LIST." ;;
 esac
 
-ASSET=$(printf '%s' "$PKG_FILE" | tr '~' '.')
+ASSET=$(printf '%s' "$PKG_FILE" | sed 's/+/%2B/g')
 
-# ---------- existing installation ----------
 CUR=$(opkg status "$PKG" 2>/dev/null | sed -n 's/^Version: //p')
 if [ -n "$CUR" ]; then
 	if [ "$CUR" = "1.1.3+$FAM" ]; then
@@ -89,9 +77,8 @@ else
 	say "No previous CineView MLA installation"
 fi
 
-# ---------- download + verify ----------
-URL="$BASE/$TAG/$ASSET"
-say "Downloading $ASSET ..."
+URL="$BASE/$ASSET"
+say "Downloading $PKG_FILE ..."
 wget -q -O "$IPK" "$URL" || { rm -f "$IPK"; die "Download failed: $URL"; }
 
 GOT=$(sha256sum "$IPK" 2>/dev/null | cut -d' ' -f1)
@@ -103,7 +90,6 @@ if [ "${DRYRUN:-0}" = "1" ]; then
 	exit 0
 fi
 
-# ---------- install ----------
 say "Installing CineView MLA ..."
 if ! opkg install "$IPK" >"$TMPD/opkg.log" 2>&1; then
 	if ! opkg status "$PKG" 2>/dev/null | grep -q "^Status:.* installed$"; then
@@ -113,13 +99,11 @@ if ! opkg install "$IPK" >"$TMPD/opkg.log" 2>&1; then
 	printf ' [!!] opkg reported an error but CineView MLA is installed.\n'
 fi
 
-# ---------- verify ----------
 V=$(opkg status "$PKG" 2>/dev/null | sed -n 's/^Version: //p')
 [ -n "$V" ] || die "Installation check failed: package not registered."
 [ -f "$SKIN_DIR/skin.xml" ] || die "Installation check failed: skin files missing."
 ok "CineView MLA $V installed and verified"
 
-# ---------- result ----------
 printf '\n CineView MLA %s installed successfully.\n\n' "$V"
 printf ' Next steps:\n'
 printf '  1. Menu > Setup > User Interface > Skin > %s\n' "$SKIN_NAME"
