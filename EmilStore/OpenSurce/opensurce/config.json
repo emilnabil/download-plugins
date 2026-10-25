@@ -2818,6 +2818,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/MultiStalker'"
     },
     {
+      "name": "MyStreamer (برنامج مشاهدة اونلاين)",
+      "cmd": "wget https://raw.githubusercontent.com/popking159/MyStreamer/refs/heads/main/myinstaller.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/MyStreamer",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/MyStreamer'"
+    },
+    {
       "name": "MyHits-By-M-Nasr (مشغل اغاني)",
       "cmd": "wget https://raw.githubusercontent.com/popking159/myhits/refs/heads/main/myinstaller.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/MyHits",
