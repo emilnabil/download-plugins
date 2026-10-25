@@ -169,6 +169,10 @@
       "cmd": "wget --no-check-certificate -O - http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh | /bin/sh"
     },
     {
+      "name": "Abertis-Auto-Switcher",
+      "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/prof-abdo/Abertis-Auto-Switcher-PRO/main/installer.sh | /bin/sh"
+    },
+    {
       "name": "AIO-Image-RTLFixer",
       "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/zavyka/AIO-Image-RTLFixer/main/installer.sh | /bin/sh"
     },
@@ -1277,6 +1281,10 @@
     {
       "name": "Tsmedia",
       "cmd": "wget -O /tmp/tsmedia.deb https://github.com/emilnabil/dreambox/raw/refs/heads/main/tsmedia.deb && dpkg -i /tmp/tsmedia.deb && apt-get -f -y install"
+    },
+    {
+      "name": "TiviMateE2",
+      "cmd": "wget --no-check-certificate -O - https://raw.githubusercontent.com/opesboy/TiviMateE2/main/install.sh | /bin/sh"
     },
     {
       "name": "Youtube",
