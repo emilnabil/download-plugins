@@ -33,13 +33,6 @@ if ! wget -q "$MY_URL/$IPK" -O "/tmp/$IPK"; then
     exit 1
 fi
 
-# --- sanity check ---
-if [ "$(head -c 2 "/tmp/$IPK" | od -An -tx1 | tr -d ' \n')" != "1f8b" ]; then
-    echo ">>>>  INVALID IPK FILE — aborting <<<<"
-    rm -f "/tmp/$IPK"
-    exit 1
-fi
-
 # --- remove old + install ---
 echo "   Download OK, removing old plugin ..."
 rm -rf "$PLUGIN_DIR"
@@ -69,5 +62,4 @@ else
 fi
 
 exit $RESULT
-
 
