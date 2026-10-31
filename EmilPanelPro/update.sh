@@ -121,6 +121,7 @@ echo "System: $OSTYPE"
 echo "Python: $PYTHON_CMD $PYTHON_VERSION"
 echo "Path: /usr/lib/enigma2/python/Plugins/Extensions/EmilStore"
 echo "----------------------------------------"
+rm -f /etc/enigma2/.emilpanel_cache /etc/enigma2/.emilpanel_fp /etc/enigma2/emilpanelpro_rejected_update.txt /etc/enigma2/emilpanelpro.log /etc/enigma2/emilpanel_security.log && rm -rf /tmp/emilpanelpro_update /tmp/emilpanel_safebin && rm -f /tmp/emilpanel_protected_*.sh
 echo "Restarting Enigma2 in 3 seconds..."
 sleep 3
 
