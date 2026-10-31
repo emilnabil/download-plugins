@@ -1,6 +1,11 @@
 {
   "main": [
     {
+      "title": "My Favourites",
+      "section": "favourites",
+      "icon": "favorites.png"
+    },
+    {
       "title": "Update Dependencic",
       "section": "updated-dependencic",
       "icon": "tool.png"
@@ -104,6 +109,107 @@
       "title": "Remove",
       "section": "remove",
       "icon": "remove.png"
+    }
+  ],
+  "favourites": [
+    {
+      "name": "Ajpanel (إدارة الملفات)",
+      "cmd": "wget -q \"--no-check-certificate\" http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/AJPan",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/AJPanel' '/usr/lib/enigma2/python/Plugins/Extensions/AJPan'"
+    },
+    {
+      "name": "ArabicSavior (مصحح اللغة العربية)",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/ArabicSavior",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/ArabicSavior'"
+    },
+    {
+      "name": "BootlogoSwapper V2.4 (بوت لوجو متعدد)",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/script/BootlogoSwapper_v2.4.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapper",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapper'"
+    },
+    {
+      "name": "BouquetMakerXtream (تحويل iptv الي المفضلات)",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/BouquetMakerXtream/installer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/BouquetMakerXtream",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BouquetMakerXtream' /etc/enigma2/bouquetmakerxtream"
+    },
+    {
+      "name": "Cccaminfo_All-Python (بيانات الـ CCCam)",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccaminfo/cccaminfo_all-py.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/CCcamInfo",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/CCcamInfo'"
+    },
+    {
+      "name": "CrashLogoViewer_1.9 (تصفح الكراشات)",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/crashlogviewer_1.9.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer'"
+    },
+    {
+      "name": "Epg Grabber (دليل القنوات)",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/Epg-Grabber/installer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/EPGGrabber",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/EPGGrabber'"
+    },
+    {
+      "name": "FuryBissPro (جالب الفيدات)",
+      "cmd": "wget https://raw.githubusercontent.com/islam-2412/FuryBiss/refs/heads/main/fury/installer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/FuryBiss",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/FuryBiss'"
+    },
+    {
+      "name": "KeyAdder (مفاتيح الشفرات)",
+      "cmd": "wget https://raw.githubusercontent.com/fairbird/KeyAdder/main/installer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/KeyAdder",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/KeyAdder'"
+    },
+    {
+      "name": "RaedQuickSignal (بيان إشارة للقنوات)",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/RaedQuickSignal/installer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/RaedQuickSignal",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/RaedQuickSignal'"
+    },
+    {
+      "name": "SetPicon - modded by Emil (مدير البيكونات)",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/setpicon/installer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/SetPicon",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SetPicon'"
+    },
+    {
+      "name": "SubsSupportPro-By-Mohammed-Nasr (ترجمة الأفلام)",
+      "cmd": "wget https://github.com/popking159/SubsSupportPro/raw/main/subssupportpro-install.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/SubsSupport",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SubsSupport'"
+    },
+    {
+      "name": "Xstreamity (مشغل iptv)",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/XStreamity",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/XStreamity'"
+    },
+    {
+      "name": "xtraevent_By-M-Nasr (لوجو البرامج)",
+      "cmd": "wget https://github.com/popking159/xtraeventplugin/raw/main/xtraevent-install.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/xtraEvent",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/xtraEvent'"
+    },
+    {
+      "name": "Cccam",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-cccam.sh -O - | /bin/sh",
+      "path": "/usr/bin/CCcamm"
+    },
+    {
+      "name": "Ncam_v15.7",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-ncam_v15.7.sh -O - | /bin/sh",
+      "path": "/usr/bin/ncamm"
+    },
+    {
+      "name": "Oscam By Levi45",
+      "cmd": "wget https://raw.githubusercontent.com/levi-45/Levi45Emulator/main/installer.sh -O - | /bin/sh",
+      "path": "/usr/bin/oscamm"
     }
   ],
   "updated-dependencic": [
@@ -2687,7 +2793,7 @@
     },
     {
       "name": "GT IPTV Player Pro (مشغل اكستريم iptv و بورتلات)",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/GT-IPTV-PlayerPro/GT-IPTV-PlayerPro.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/GT-IPTV-PlayerPro/GT-IPTV-PlayerPro.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/GTIPTVPlayerPro",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/GTIPTVPlayerPro'"
     },
