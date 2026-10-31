@@ -498,6 +498,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/AtileHD'"
     },
     {
+      "name": "AutoBiss (جلب شفرات بيس اوتوماتيك)",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AutoBiss/AutoBiss.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/AutoBiss",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/AutoBiss'"
+    },
+    {
       "name": "AutoSub (مترجم البث المباشر للقنوات)",
       "cmd": "wget -q --no-check-certificate https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AutoSub/AutoSub.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/AutoSub",
