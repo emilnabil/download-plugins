@@ -180,7 +180,7 @@
     },
     {
       "name": "SubsSupportPro-By-Mohammed-Nasr (ترجمة الأفلام)",
-      "cmd": "wget https://github.com/popking159/SubsSupportPro/raw/main/subssupportpro-install.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/popking159/SubsSupportPro/raw/refs/heads/main/myinstaller.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/SubsSupport",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SubsSupport'"
     },
@@ -1195,7 +1195,7 @@
     },
     {
       "name": "SubsSupportPro-By-Mohammed-Nasr (ترجمة الأفلام)",
-      "cmd": "wget https://github.com/popking159/SubsSupportPro/raw/main/subssupportpro-install.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/popking159/SubsSupportPro/raw/refs/heads/main/myinstaller.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/SubsSupport",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SubsSupport'"
     },
