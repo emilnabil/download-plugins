@@ -2756,6 +2756,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/IPTVPlayer'"
     },
     {
+      "name": "E2IplayerUpdater-Angel_Heart (تحديث السبرفرات)",
+      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/E2IplayerUpdater/E2IplayerUpdater.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/E2iPlayerUpdater",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/E2iPlayerUpdater'"
+    },
+    {
       "name": "E2Player-Biko (برنامج مشاهدة)",
       "cmd": "wget https://raw.githubusercontent.com/biko-73/E2IPlayer/main/installer_E2.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/IPTVPlayer",
