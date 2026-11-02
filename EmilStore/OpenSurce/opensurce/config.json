@@ -185,7 +185,7 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SkyBlueScan'"
     },
     {
-      "name": "Sky Blue Sharing (بلجن شيرنج متقدم جدا مع الصوتيات)",
+      "name": "SkyBlue-Sharing (بلجن شيرنج متقدم جدا مع الصوتيات)",
       "cmd": "wget https://updates.skyblue1.us/e2/install-skyblue.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/SkyBlue",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SkyBlue'"
@@ -1168,6 +1168,12 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/SkyBlueScan/SkyBlueScan.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/SkyBlueScan",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SkyBlueScan'"
+    },
+    {
+      "name": "SkyBlue-Sharing (بلجن شيرنج متقدم جدا مع الصوتيات)",
+      "cmd": "wget https://updates.skyblue1.us/e2/install-skyblue.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/SkyBlue",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SkyBlue'"
     },
     {
       "name": "SLwebcams",
