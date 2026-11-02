@@ -185,6 +185,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SkyBlueScan'"
     },
     {
+      "name": "Sky Blue Sharing (بلجن شيرنج متقدم جدا مع الصوتيات)",
+      "cmd": "wget https://updates.skyblue1.us/e2/install-skyblue.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/SkyBlue",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SkyBlue'"
+    },
+    {
       "name": "SubsSupportPro-By-Mohammed-Nasr (ترجمة الأفلام)",
       "cmd": "wget https://github.com/popking159/SubsSupportPro/raw/refs/heads/main/myinstaller.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/SubsSupport",
