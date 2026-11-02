@@ -179,6 +179,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SetPicon'"
     },
     {
+      "name": "SkyBlueScan (تنظيم احترافي لقوائم الاقمار والمفضلات)",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/SkyBlueScan/SkyBlueScan.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/SkyBlueScan",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SkyBlueScan'"
+    },
+    {
       "name": "SubsSupportPro-By-Mohammed-Nasr (ترجمة الأفلام)",
       "cmd": "wget https://github.com/popking159/SubsSupportPro/raw/refs/heads/main/myinstaller.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/SubsSupport",
@@ -1062,6 +1068,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/ReaderManager'"
     },
     {
+      "name": "SaadQuranHub (تلاوات القران الكريم)",
+      "cmd": "wget https://raw.githubusercontent.com/Saadmelshepiny/SaadQuranHub/main/install.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/SaadQuranHub",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SaadQuranHub'"
+    },
+    {
       "name": "SatelliWebLiveFeeds_py3.12 (فيدات)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/satelliweblivefeeds/satelliweblivefeeds-py3.12.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/Fatima",
@@ -1144,6 +1156,12 @@
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SimplySports/SimplySports.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/SimplySports",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SimplySports'"
+    },
+    {
+      "name": "SkyBlueScan (تنظيم احترافي لقوائم الاقمار والمفضلات)",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/SkyBlueScan/SkyBlueScan.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/SkyBlueScan",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SkyBlueScan'"
     },
     {
       "name": "SLwebcams",
