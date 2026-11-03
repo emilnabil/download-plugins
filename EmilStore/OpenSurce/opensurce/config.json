@@ -1176,6 +1176,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SkyBlue'"
     },
     {
+      "name": "SkyBlueSubtitle (الترجمة الفورية)",
+      "cmd": "wget https://updates.skyblue1.us/e2/update-subtitles.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/SkyBlueSubtitles",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SkyBlueSubtitles'"
+    },
+    {
       "name": "SLwebcams",
       "cmd": "wget https://raw.githubusercontent.com/OwnerPlugins/SLwebcams/main/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/SLwebcams",
