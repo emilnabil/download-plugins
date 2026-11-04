@@ -113,12 +113,6 @@
   ],
   "favourites": [
     {
-      "name": "Ajpanel (إدارة الملفات)",
-      "cmd": "wget -q \"--no-check-certificate\" http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh -O - | /bin/sh",
-      "path": "/usr/lib/enigma2/python/Plugins/Extensions/AJPan",
-      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/AJPanel' '/usr/lib/enigma2/python/Plugins/Extensions/AJPan'"
-    },
-    {
       "name": "ArabicSavior (مصحح اللغة العربية)",
       "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/ArabicSavior",
