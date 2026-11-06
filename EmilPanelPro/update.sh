@@ -138,14 +138,6 @@ echo "Path:    /usr/lib/enigma2/python/Plugins/Extensions/EmilStore"
     echo "         /usr/lib64/enigma2/python/Plugins/Extensions/EmilStore (64-bit copy)"
 echo "----------------------------------------"
 
-rm -f /etc/enigma2/.emilpanel_cache \
-      /etc/enigma2/.emilpanel_fp \
-      /etc/enigma2/emilpanelpro_rejected_update.txt \
-      /etc/enigma2/emilpanelpro.log \
-      /etc/enigma2/emilpanel_security.log 2>/dev/null
-rm -rf /tmp/emilpanelpro_update /tmp/emilpanel_safebin 2>/dev/null
-rm -f  /tmp/emilpanel_protected_*.sh 2>/dev/null
-
 echo "Restarting Enigma2 in 3 seconds..."
 sleep 3
 
