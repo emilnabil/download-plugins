@@ -2739,414 +2739,414 @@
   "media": [
     {
       "name": "ArabicPlayer (تشغيل ال iptv)",
-      "cmd": "wget https://raw.githubusercontent.com/asdrere123-alt/ArabicPlayer/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/asdrere122-alt/ArabicPlayer/main/install.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/ArabicPlayer",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/ArabicPlayer'"
     },
     {
       "name": "Alkuds-IpAudio (أضافة صوتيات علي قنوات السات)",
-      "cmd": "wget https://raw.githubusercontent.com/xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/ximhx/Alkuds-ipaudio-MAC-Xtreme-Player/main/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/Alkuds",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/XKlass' '/usr/lib/enigma2/python/Plugins/Extensions/Alkuds'"
     },
     {
       "name": "AudioMerge (دمح صوتيات قناتين)",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/audiomerge/audiomerge.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/emilnabil32/download-plugins/raw/refs/heads/main/audiomerge/audiomerge.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/AudioMerge",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/AudioMerge'"
     },
     {
       "name": "AudioShift (أضافة صوتيات علي قنوات السات)",
-      "cmd": "wget --no-check-certificate -O - https://xfayez95.github.io/audioshift/installer.sh | /bin/sh",
+      "cmd": "wget --no-check-certificate -O - https://xfayez5.github.io/audioshift/installer.sh | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/AudioShift",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/AudioShift'"
     },
     {
       "name": "AudioSelectionPatcher-By-M-Nasr (صوتيات فوكس مع تايم شفت)",
-      "cmd": "wget https://raw.githubusercontent.com/popking159/audioselectionpatcher/refs/heads/main/myinstaller.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/popking59/audioselectionpatcher/refs/heads/main/myinstaller.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/AudioSelectionPatcher",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/AudioSelectionPatcher'"
     },
     {
       "name": "BouquetMakerXtream (تحويل iptv الي المفضلات)",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/BouquetMakerXtream/installer.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil23/plugins/BouquetMakerXtream/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/BouquetMakerXtream",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BouquetMakerXtream' /etc/enigma2/bouquetmakerxtream"
     },
     {
       "name": "CustomIptvArchiveMakerpro (أضافة اشتراكات iptv)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/CustomIptvArchiveMakerpro/CustomIptvArchiveMakerpro.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/plugins/CustomIptvArchiveMakerpro/CustomIptvArchiveMakerpro.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/CustomIPTVArchiveMakerPro",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/CustomIPTVArchiveMakerPro'"
     },
     {
       "name": "E2-Tube (يوتيوب)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/E2Tube/e2tube.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/plugins/E2Tube/e2tube.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/E2Tube",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/E2Tube'"
     },
     {
       "name": "E2m3ubouquet (تحويل iptv m3u الي المفضلات)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/e2m3u2bouquet/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/plugins/E2m3u2Bouquet/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/E2m3u2bouquet",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/E2m3u2bouquet'"
     },
     {
       "name": "E2Player-Angel_Heart (برنامج مشاهدة)",
-      "cmd": "wget https://github.com/angelheart150/My_e2iplayer_hosts/raw/main/install-e2iplayer-update-hosts.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/angelheart15/My_e2iplayer_hosts/raw/main/install-e2iplayer-update.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/IPTVPlayer",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/IPTVPlayer'"
     },
     {
       "name": "E2IplayerUpdater-Angel_Heart (تحديث السبرفرات)",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/E2IplayerUpdater/E2IplayerUpdater.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/emilnabil32/download-plugin/raw/refs/heads/main/E2IplayerUpdater/E2IplayerUpdater.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/E2iPlayerUpdater",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/E2iPlayerUpdater'"
     },
     {
       "name": "E2Player-Biko (برنامج مشاهدة)",
-      "cmd": "wget https://raw.githubusercontent.com/biko-73/E2IPlayer/main/installer_E2.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/biko/E2IPlayer/main/installer_E2.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/IPTVPlayer",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/IPTVPlayer'"
     },
     {
       "name": "E2Player-MAXBAMBY (برنامج مشاهدة)",
-      "cmd": "wget https://gitlab.com/maxbambi/e2iplayer/-/raw/master/install-e2iplayer.sh -O - | /bin/sh",
+      "cmd": "wget https://gitlab.com/maxbambe/e2iplayer/-/raw/master/install-e2iplayer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/IPTVPlayer",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/IPTVPlayer'"
     },
     {
       "name": "E2Player-ZADMARIO (برنامج مشاهدة)",
-      "cmd": "wget https://gitlab.com/zadmario/e2iplayer/-/raw/master/install-e2iplayer.sh -O - | /bin/sh",
+      "cmd": "wget https://gitlab.com/zadmaro/e2player/-/raw/master/install-e2iplayer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/IPTVPlayer",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/IPTVPlayer'"
     },
     {
       "name": "Estalker (مشغل بورتلات)",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EStalker/EStalker.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/emilnabil32/plugins/raw/refs/heads/main/EStalker/EStalker.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/EStalker",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/EStalker'"
     },
     {
       "name": "EstalkerWebControl (التحكم في اضافة بورتلات والحذف)",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EstalkerWebControl/estalkerwebcontrol.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/emilnabil33/plugins/raw/refs/heads/main/EstalkerWebControl/estalkerwebcontrol.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/EStalkerWebControl",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/EStalkerWebControl'"
     },
     {
       "name": "Filmxy",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/filmxy/filmxy.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil32/download/refs/heads/main/filmxy/filmxy.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/filmxy",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/filmxy'"
     },
     {
       "name": "Freearhey",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/freearhey/freearhey.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil32/download/refs/heads/main/freearhey/freearhey.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/freearhey",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/freearhey'"
     },
     {
       "name": "GT IPTV Player Pro (مشغل اكستريم iptv و بورتلات)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/GT-IPTV-PlayerPro/GT-IPTV-PlayerPro.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/plugins/GT-IPTV-PlayerPro/GT-IPTV-PlayerPro.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/GTIPTVPlayerPro",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/GTIPTVPlayerPro'"
     },
     {
       "name": "HasBahCa (iptv مجاني)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/HasBahCa/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/plugins/HasBahCa/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/HasBahCa",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/HasBahCa'"
     },
     {
       "name": "Ip2sat-By-Mosaad (مشاهدة iptv علي قنوات السات)",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/ip2sat/ip2sat.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/emilnabil32/plugins/raw/refs/heads/main/ip2sat/ip2sat.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/IP2SAT",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/IP2SAT'"
     },
     {
       "name": "IpAudio 6.7 (py2) (مشغل صوتيات)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/plugins/ipaudio/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/IPAudio",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/IPAudio'"
     },
     {
       "name": "IpAudio 7.4 (py3) (مشغل صوتيات)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/plugin/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/IPAudio",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/IPAudio'"
     },
     {
       "name": "IpAudio 8.02 By-M-Nasr (All python) ( مشغل صوتيات)",
-      "cmd": "wget https://github.com/emil237/ipaudio/raw/refs/heads/main/ipaudio_8.0.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/emil23/ipaudio/raw/refs/heads/main/ipaudio_8.1.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/IPAudio",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/IPAudio'"
     },
     {
       "name": "IpAudio By-M-Nasr (Py3) (مشغل صوتيات)",
-      "cmd": "wget https://raw.githubusercontent.com/popking159/ipaudio/main/installer-ipaudio.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/popking59/ipaudio/main/installer-ipaudio.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/IPAudio",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/IPAudio'"
     },
     {
       "name": "IpAudioPro_1.5 (مشغل صوتيات)",
-      "cmd": "wget https://github.com/emilnabil/ipaudiopro/raw/refs/heads/main/ipaudiopro.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/emilnabil32/ipaudiopro/raw/refs/heads/main/ipaudiopro.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/IPaudioPro",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/IPaudioPro'"
     },
     {
       "name": "IpAudioPro Latest Version (مشغل صوتيات)",
-      "cmd": "wget https://github.com/zKhadiri/IPAudioPro-Releases-/raw/refs/heads/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/zKhadirie/IPaudioPro-Releases-/raw/refs/heads/main/install.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/IPaudioPro",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/IPaudioPro'"
     },
     {
       "name": "IpStreamer By-M-Nasr (Py3) (مشغل صوتيات)",
-      "cmd": "wget https://raw.githubusercontent.com/popking159/ipstreamer/main/installer-ipstreamer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/popking59/ipstreamer/main/ipstreamer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/IPStreamer",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/IPStreamer'"
     },
     {
       "name": "Iptosat_v1.8 (مشاهدة iptv علي قنوات السات)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/iptosat/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/plugins/iptosat/install.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/IPtoSAT",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/IPtoSAT'"
     },
     {
       "name": "Iptosat_v1.9-Modded-by-Emil (مشاهدة iptv علي قنوات السات)",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/iptosat/iptosat_1.9.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/emilnabil32/download/raw/refs/heads/main/iptosat/iptosat_1.9.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/IPtoSAT",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/IPtoSAT'"
     },
     {
       "name": "Iptv-Org-Playlists",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/iptv-org-playlists/iptv-org-playlists.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil32/plugins/refs/heads/main/iptv-org-playlists/iptv-org-playlists.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/iptv-org-playlists",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/iptv-org-playlists'"
     },
     {
       "name": "iptvdream (مشغل m3u)",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/iptvdream/iptvdream.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil32/plugin/main/iptvdream/iptvdream.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/iptvdream",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/iptvdream'"
     },
     {
       "name": "IptvPlayer (مشغل ،iptv)",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/iptvplayer/main/iptvinstaller.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/emil23/iptvplayer/main/iptvinstaller.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/IPTVPlayer",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/IPTVPlayer'"
     },
     {
       "name": "JediEpgExtream (نقل الدليل الي ال iptv)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/jediepgextream/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/plugins/jediepgextream/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream'"
     },
     {
       "name": "jedimakerxtream (تحويل ال iptv الي مفضلات السات)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/jedimakerxtream/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/plugins/jedimakerxtream/install.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/JediMakerXtream",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/JediMakerXtream' /etc/enigma2/jedimakerxtream"
     },
     {
       "name": "m3uconverter (تحويل m3u الي مفضلات)",
-      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/Archimede-M3UConverter/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/Belfagor2000/Archimede-M3UConverter/main/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/M3UConverter",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/M3UConverter'"
     },
     {
       "name": "Moviebrowser",
-      "cmd": "wget https://github.com/OwnerPlugins/MovieBrowser/raw/refs/heads/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/Ownerplugins/MovieBrowser/raw/refs/heads/main/install.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser'"
     },
     {
       "name": "MoviesManager (مدير افلام)",
-      "cmd": "wget http://dreambox4u.com/dreamarabia/Transmission_e2/MoviesManager.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/dreamarabia/transmission/MoviesManager.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/MoviesManager",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/MoviesManager'"
     },
     {
       "name": "MultiStalkerPro (مشغل بورتلات)",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/multi-stalkerpro/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil32/multi-stalkerpro/main/install.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/MultiStalkerPro",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/MultiStalkerPro'"
     },
     {
       "name": "multistalker (مشغل بورتلات)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/multistalker/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/plugins/multistalker/install.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/MultiStalker",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/MultiStalker'"
     },
     {
       "name": "MyStreamer (برنامج مشاهدة اونلاين)",
-      "cmd": "wget https://raw.githubusercontent.com/popking159/MyStreamer/refs/heads/main/myinstaller.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/popking59/MyStreamer/refs/heads/main/myinstall.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/MyStreamer",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/MyStreamer'"
     },
     {
       "name": "MyHits-By-M-Nasr (مشغل اغاني)",
-      "cmd": "wget https://raw.githubusercontent.com/popking159/myhits/refs/heads/main/myinstaller.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/popking59/myhits/refs/heads/main/myinstall.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/MyHits",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/MyHits'"
     },
     {
       "name": "OrangeAudioPlugin-By-M-Nasr (اضافة صوتيات اورانج و فاميلي)",
-      "cmd": "wget https://raw.githubusercontent.com/popking159/OrangeAudio/refs/heads/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/popking59/OrangeAudio/refs/heads/main/install.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/OrangeAudio",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/OrangeAudio'"
     },
     {
       "name": "Plutotv",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/plutotv/plutotv.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil32/plugin/main/plutotv/plutotv.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/PlutoTV",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/PlutoTV'"
     },
     {
       "name": "Quarter pounder (تنشيط قنوات ال iptv)",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/quarterpounder.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil23/script/quarterpounder.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/QuarterPounder",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/QuarterPounder'"
     },
     {
       "name": "Radio-80-s (راديو)",
-      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/Radio-80-s/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/Belfagor2000/Radio-80-s/main/install.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/RadioM",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/RadioM'"
     },
     {
       "name": "Radio-Stream-Relay (راديو و استريم)",
-      "cmd": "wget https://raw.githubusercontent.com/angelheart150/RadioRelay/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/angelheart50/RadioRelay/main/install.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/radiorelay",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/radiorelay'"
     },
     {
       "name": "RadioGit (ستريم محطات راديو)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/radiogit/radiogit.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/plugins/radiogit/radiogit.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/RadioGit",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/RadioGit'"
     },
     {
       "name": "Radiom (ستريم محطات راديو)",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/radiom/radiom.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil32/download-plugins/main/radiom/radiom.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/RadioM",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/RadioM'"
     },
     {
       "name": "Rakutentv",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/rakutentv/rakutentv.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil32/download-plugins/main/rakutentv/rakutentv.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/RakutenTV",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/RakutenTV'"
     },
     {
       "name": "SamsungTvPlus (iptv مجاني)",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/samsungtvplus/samsungtvplus.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil23/plugin/samsungtvplus/samsungtvplus.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/SamsungTVPlus",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SamsungTVPlus'"
     },
     {
       "name": "ScSearch (مشاهدة الافلام)",
-      "cmd": "wget https://raw.githubusercontent.com/OwnerPlugins/scsearch/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/Owner/scsearch/main/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/scsearch",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/scsearch'"
     },
     {
       "name": "StalkerPortalConverter (تحويل بورتلات لمفضلات)",
-      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/StalkerPortalConverter/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/Belfagor2000/StalkerPortalConverter/main/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/StalkerPortalConverter",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/StalkerPortalConverter'"
     },
     {
       "name": "Suptv",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/suptv/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/emil23/suptv/main/install.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/suptv",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/suptv'"
     },
     {
       "name": "Timeshift Delay (تايم شفت)",
-      "cmd": "wget http://dreambox4u.com/mosadpro/scripts/timeshift-delay.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/mosad/scripts/timeshift-delay.sh -O - | /bin/sh",
       "path": "/etc/enigma2/time"
     },
     {
       "name": "TiviMateE2 (مشغل اشتراكات iptv)",
-      "cmd": "wget https://raw.githubusercontent.com/opesboy/TiviMateE2/main/install.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/opes/TiviMateE2/main/install.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/TiviMateE2",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/TiviMateE2'"
     },
     {
       "name": "Transmission_E2 (iptv مجاني)",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/Transmission/Transmission_e2.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil23/plugins/Transmission/Transmissione2.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/Transmission",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/Transmission'"
     },
     {
       "name": "TvDream",
-      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/tvDream/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/Belfagor2000/tvDream/main/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/tvDream",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/tvDream'"
     },
     {
       "name": "TvGarden (iptv مجاني)",
-      "cmd": "wget https://raw.githubusercontent.com/OwnerPlugins/TVGarden/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/Owner/TVGarden/main/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/TVGarden",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/TVGarden'"
     },
     {
       "name": "TvParsa",
-      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/tvParsa/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/Belfagor2000/tvParsa/main/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/parsatv",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/parsatv'"
     },
     {
       "name": "TvRaiPreview",
-      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/tvRaiPreview/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/Belfagor2000/tvRaiPreview/main/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/RaiPlay",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/RaiPlay'"
     },
     {
       "name": "vavoo",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/vavoo/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/plugins/vavoo/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/vavoo",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/vavoo'"
     },
     {
       "name": "Xc_Plugin_Forever (مشغل iptv)",
-      "cmd": "wget https://raw.githubusercontent.com/Belfagor2005/xc_plugin_forever/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/Belfagor2000/xc_plugin_forever/main/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/XCplugin",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/XCplugin'"
     },
     {
       "name": "Xklass-iptv (مشغل iptv)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xklass/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/plugins/xklass/install.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/XKlass",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/XKlass'"
     },
     {
       "name": "XPortal (مشغل iptv)",
-      "cmd": "wget https://raw.githubusercontent.com/azroukarim/XPortal/refs/heads/main/install_xportal.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/azrouk/XPortal/refs/heads/main/install_xportal.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/XPortal",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/XPortal'"
     },
     {
       "name": "Xstreamity (مشغل iptv)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/plugins/Xtreamity/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/XStreamity",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/XStreamity'"
     },
     {
       "name": "XtreamNew (مشغل اكستريم iptv و بورتلات)",
-      "cmd": "wget https://raw.githubusercontent.com/ahmedhussein4342-lgtm/XtreamNew/main/install_xtreamnew.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/ahmedhussein42-lgtm/XtreamNew/main/install_xtreamnew.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/XtreamNew",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/XtreamNew'"
     },
     {
       "name": "Xtream2Audio-By-Emil (أضافة صوتيات من iptv)",
-      "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Xtream2Audio/Xtream2Audio.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/emilnabil32/plugins/raw/refs/heads/main/Xtream2Audio/Xtream2Audio.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/Xtream2Audio",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/Xtream2Audio'"
     },
     {
       "name": "Youtube (مشاهدة اليوتيوب)",
-      "cmd": "wget https://raw.githubusercontent.com/fairbird/Youtube-Opensource-DreamOS/master/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/fairberd/Youtube-OpensourceDreamOS/master/install.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/YouTube",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/YouTube'"
     }
@@ -3154,201 +3154,201 @@
   "multiboot": [
     {
       "name": "EgamiBoot 10.5",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/egamiboot/refs/heads/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/emil23/egamiboot/refs/heads/main/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/EgamiBoot"
     },
     {
       "name": "EgamiBoot 10.6",
-      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/emil237/egamiboot/refs/heads/main/egamiboot-10.6.sh -O - | /bin/sh",
+      "cmd": "wget -q --no-check-certificate https://raw.githubusercontent.com/emil23/egamiboot/refs/heads/main/egamiboot-10.6.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/EgamiBoot"
     },
     {
       "name": "Neoboot 9.65 VIP",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.65/iNB.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/plugins/neoboot-v9.65/iNB.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/NeoBoot"
     },
     {
       "name": "Neoboot 9.65 Mod-ElSafty VIP",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/neoboot_v9.65/main/iNB_9.65_mod-elsafty.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/emil23/neoboot_v9.65/main/iNB_9.65_mod-elsafty.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/NeoBoot"
     },
     {
       "name": "Neoboot 9.60 VIP",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.60/iNB.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/plugins/neoboot-v9.60/iNB.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/NeoBoot"
     },
     {
       "name": "Neoboot 9.58 VIP",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.58/iNB.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/plugins/neoboot-v9.58/iNB.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/NeoBoot"
     },
     {
       "name": "Neoboot 9.54 VIP",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/neoboot_9.54/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/emil23/neoboot_9.54/main/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/NeoBoot"
     },
     {
       "name": "OpenMultiboot 1.3",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/openmultiboot/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/emil23/openmultiboot/main/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/OpenMultiboot"
     },
     {
       "name": "OpenMultiboot-E2turk",
-      "cmd": "wget https://raw.githubusercontent.com/e2TURK/omb-enhanced/main/install.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/e2TURK/enhanced/main/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/OpenMultiboot"
     },
     {
       "name": "Multiboot-FlashOnline",
-      "cmd": "wget https://raw.githubusercontent.com/emil237/download-plugins/main/multiboot-flashonline.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/emil23/plugins/main/multiboot-flashonline.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/MultibootFlashOnline"
     }
   ],
   "softcams": [
     {
       "name": "Cccam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-cccam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/emu/install-cccam.sh -O - | /bin/sh",
       "path": "/usr/bin/CCcamm"
     },
     {
       "name": "gosatplus-ncam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-ncam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/emu/installer-gosatplus-ncam.sh -O - | /bin/sh",
       "path": "/usr/bin/goncam"
     },
     {
       "name": "gosatplus-oscam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-oscam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/emu/installer-gosatplus-oscam.sh -O - | /bin/sh",
       "path": "/usr/bin/gooscam"
     },
     {
       "name": "gosatplus_v3_arm",
-      "cmd": "wget http://e2.gosatplus.com/Plugin/V3/arm-openpli-installer_py3_v3.sh -O - | /bin/sh",
+      "cmd": "wget http://gosatplus.com/Plugin/V3/arm-openpli-installer_py3_v3.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/Gosatplus"
     },
     {
       "name": "gosatplus_v3_mips",
-      "cmd": "wget http://e2.gosatplus.com/Plugin/V3/mips-openpli-installer_py3_v3.sh -O - | /bin/sh",
+      "cmd": "wget http://gosatplus.com/Plugin/V3/mips-openpli-installer_py3_v3.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/Gosatplus"
     },
     {
       "name": "gosatplus_v3_Fix",
-      "cmd": "wget http://e2.gosatplus.com/Plugin/V3/GosatPlusPluginFixPy.sh -O - | /bin/sh",
+      "cmd": "wget http://gosatplus.com/Plugin/V3/GosatPlusPluginFixPy.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/Gosatplus"
     },
     {
       "name": "Hold-flag-ncam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/script/Hold-flag-ncam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/script/Hold-flag-ncam.sh -O - | /bin/sh",
       "path": "/usr/bin/ncamm"
     },
     {
       "name": "Hold-flag-Oscam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/script/Hold-flag-Oscam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/script/Hold-flag-Oscam.sh -O - | /bin/sh",
       "path": "/usr/bin/oscamm"
     },
     {
       "name": "Ncam_v15.7",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-ncam_v15.7.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/emu/install-ncam_v15.7.sh -O - | /bin/sh",
       "path": "/usr/bin/ncamm"
     },
     {
       "name": "Ncam_v15.8",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-ncam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/emu/install-ncam.sh -O - | /bin/sh",
       "path": "/usr/bin/ncamm"
     },
     {
       "name": "Oscam_By-Mohamed-Os",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-oscam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/emu/installer-oscam.sh -O - | /bin/sh",
       "path": "/usr/bin/oscamm"
     },
     {
       "name": "Oscam-11.726-By-lenuxsat",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/oscam-by-lenuxsat/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/emu/oscam-by-lenuxsat/install.sh -O - | /bin/sh",
       "path": "/usr/bin/oscamm"
     },
     {
       "name": "Oscam By Levi45",
-      "cmd": "wget https://raw.githubusercontent.com/levi-45/Levi45Emulator/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/levi45/Levi45Emulator/main/install.sh -O - | /bin/sh",
       "path": "/usr/bin/oscamm"
     },
     {
       "name": "oscamicam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-oscamicam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/emu/installer-oscamicam.sh -O - | /bin/sh",
       "path": "/usr/bin/oscamicamm"
     },
     {
-      "name": "powercam_v2-icam-arm",
+      "name": "powercam_v2icam-arm",
       "cmd": "wget https://dreambox4u.com/emilnabil237/emu/powercam/installer.sh -O - | /bin/sh",
       "path": "/usr/bin/powercamm"
     },
     {
       "name": "powercam-Ncam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-ncam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/emu/install-powercam-ncam.sh -O - | /bin/sh",
       "path": "/usr/bin/powercamm"
     },
     {
       "name": "powercam-Oscam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-oscam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/emu/installer-powercam-oscam.sh -O - | /bin/sh",
       "path": "/usr/bin/powercamm"
     },
     {
       "name": "Restore-flag-ncam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/script/Restore-flag-ncam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/script/Restore-flag-ncam.sh -O - | /bin/sh",
       "path": "/usr/bin/ncamm"
     },
     {
       "name": "Restore-flag-oscam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/script/Restore-flag-Oscam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/script/Restore-flag-Oscam.sh -O - | /bin/sh",
       "path": "/usr/bin/oscamm"
     },
     {
       "name": "Revcam-Ncam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-revcam-ncam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/emu/installer-revcam-ncam.sh -O - | /bin/sh",
       "path": "/usr/bin/revcamm"
     },
     {
       "name": "Revcam-Oscam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-revcam-oscam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/emu/installer-revcam-oscam.sh -O - | /bin/sh",
       "path": "/usr/bin/revcamm"
     },
     {
       "name": "Revcam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-revcam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/emu/installer-revcam.sh -O - | /bin/sh",
       "path": "/usr/bin/revcamm"
     },
     {
       "name": "Supcam-Ncam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-supcam-ncam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/emu/installer-supcam-ncam.sh -O - | /bin/sh",
       "path": "/usr/bin/supcamm"
     },
     {
       "name": "Supcam-Oscam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-supcam-oscam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/emu/installer-supcam-oscam.sh -O - | /bin/sh",
       "path": "/usr/bin/supcamm"
     },
     {
       "name": "Ultracam-Ncam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-ncam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/emu/installer-ultracam-ncam.sh -O - | /bin/sh",
       "path": "/usr/bin/ultracamm"
     },
     {
       "name": "Ultracam-Oscam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-oscam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/emu/installer-ultracam-oscam.sh -O - | /bin/sh",
       "path": "/usr/bin/ultracamm"
     },
     {
       "name": "Ultracam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil23/emu/installer-ultracam.sh -O - | /bin/sh",
       "path": "/usr/bin/ultracamm"
     }
   ],
   "backup": [
     {
       "name": "Backup-my-Channels",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/Create-My-backup-shannels.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil23/script/Create-My-backup-shannels.sh -O - | /bin/sh",
       "path": "/media/hdd/backup/backup"
     },
     {
       "name": "Full-Backup-Image",
-      "cmd": "wget https://raw.githubusercontent.com/emilnabil/fullbackup/main/fullbackup-vu4k-encrypt.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/emilnabil32/fullbackup/main/fullbackup-vu4k-encrypt.sh -O - | /bin/sh",
       "path": "/media/hdd/backup/backup"
     },
     {
@@ -3358,32 +3358,32 @@
     },
     {
       "name": "Backup-network",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/backup-network.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil23/script/backup-network.sh -O - | /bin/sh",
       "path": "/media/hdd/backup/backup"
     },
     {
       "name": "Backup-softcams",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/backup-softcams.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil23/script/backup-softcams.sh -O - | /bin/sh",
       "path": "/media/hdd/backup/backup"
     },
     {
       "name": "Backup-tuner",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/backup-tuner.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil23/script/backup-tuner.sh -O - | /bin/sh",
       "path": "/media/hdd/backup/backup"
     },
     {
       "name": "Backup-my-bouquetmakerxtream",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/backup-my-bouquetmakerxtream.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil23/script/backup-my-bouquetmakerxtream.sh -O - | /bin/sh",
       "path": "/media/hdd/backup/backup"
     },
     {
       "name": "Backup-my-ip2sat-server",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/backup-my-ip2sat-server.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil23/script/backup-my-ip2sat-server.sh -O - | /bin/sh",
       "path": "/media/hdd/backup/backup"
     },
     {
       "name": "Backup-my-ipaudio-server",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/backup-my-ipaudio-server.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil23/script/backup-my-ipaudio-server.sh -O - | /bin/sh",
       "path": "/media/hdd/backup/backup"
     },
     {
